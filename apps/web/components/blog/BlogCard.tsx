@@ -8,9 +8,11 @@ import { cn } from "@/lib/utils";
 export function BlogCard({
   post,
   featured = false,
+  eager = false,
 }: {
   post: BlogPost;
   featured?: boolean;
+  eager?: boolean;
 }) {
   return (
     <article
@@ -31,8 +33,9 @@ export function BlogCard({
             src={post.featuredImage}
             alt={post.title}
             fill
-            unoptimized
-            loading="eager"
+            {...(featured
+              ? { preload: true }
+              : { loading: eager ? ("eager" as const) : ("lazy" as const) })}
             className="object-cover transition duration-500 group-hover:scale-105"
             sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
           />

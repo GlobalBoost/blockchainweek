@@ -61,8 +61,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
                 src={post.featuredImage}
                 alt={post.title}
                 fill
-                priority
-                unoptimized
+                preload
                 className="object-cover"
                 sizes="(max-width: 896px) 100vw, 896px"
               />
@@ -97,8 +96,6 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
                 src="/icon.png"
                 alt={author}
                 fill
-                priority
-                unoptimized
                 className="object-cover"
                 sizes="48px"
               />
@@ -166,7 +163,6 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
                   src="/icon.png"
                   alt={author}
                   fill
-                  unoptimized
                   className="object-cover"
                   sizes="64px"
                 />

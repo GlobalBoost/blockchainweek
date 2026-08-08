@@ -32,7 +32,12 @@ export default function BlogPage() {
               </p>
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {posts.map((post, index) => (
-                  <BlogCard key={post.slug} post={post} featured={index === 0} />
+                  <BlogCard
+                    key={post.slug}
+                    post={post}
+                    featured={index === 0}
+                    eager={index < 6}
+                  />
                 ))}
               </div>
             </>
