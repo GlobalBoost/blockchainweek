@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import {
   BRAND_NAME,
   BRAND_DESCRIPTION,
+  BRAND_SEO_TITLE,
   BRAND_URL,
   SOCIAL_PREVIEW_HEIGHT,
   SOCIAL_PREVIEW_IMAGE,
@@ -26,12 +27,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(BRAND_URL),
   title: {
-    default: `${BRAND_NAME} 2026 | UNGA + NYFW`,
+    default: BRAND_SEO_TITLE,
     template: `%s | ${BRAND_NAME}`,
   },
   description: BRAND_DESCRIPTION,
   openGraph: {
-    title: BRAND_NAME,
+    title: BRAND_SEO_TITLE,
     description: BRAND_DESCRIPTION,
     url: BRAND_URL,
     siteName: BRAND_NAME,
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: BRAND_NAME,
+    title: BRAND_SEO_TITLE,
     description: BRAND_DESCRIPTION,
     images: [SOCIAL_PREVIEW_IMAGE],
   },

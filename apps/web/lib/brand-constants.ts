@@ -1,4 +1,5 @@
 export const BRAND_NAME = "UN Blockchain Week";
+export const BRAND_SEO_TITLE = "UN Blockchain Week 2026 · Times Square, NYC";
 export const LOGO_WHITE = "/brand/logo-white.png";
 export const LOGO_MAIN = "/brand/logo-main.png";
 export const LOGO_BLACK = "/brand/logo-black.png";
