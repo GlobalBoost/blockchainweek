@@ -64,15 +64,15 @@ function cleanArticleStructure(html: string, title: string): string {
     return match;
   });
 
-  // Turn text-only layout boxes into paragraphs, then flatten the remaining
-  // WordPress page-builder wrappers into normal article flow.
+  // Turn text-only layout boxes into paragraphs. Keep structural wrappers so
+  // standard Gutenberg blocks such as galleries and columns retain their
+  // semantics and can be styled consistently by the article template.
   for (let pass = 0; pass < 3; pass++) {
     cleaned = cleaned.replace(
-      /<div>\s*([^<>\n][^<>]*?)\s*<\/div>/gi,
+      /<div(?:\s+class="[^"]*")?>\s*([^<>\n][^<>]*?)\s*<\/div>/gi,
       (_match, text) => `<p>${text.trim()}</p>`
     );
   }
-  cleaned = cleaned.replace(/<\/?div>/gi, "");
 
   cleaned = cleaned
     .replace(/<p>\s*(?:<br\s*\/?>)?\s*<\/p>/gi, "")
@@ -164,10 +164,35 @@ export function sanitizeBlogHtml(html: string, wordpressUrl: string): string {
       "td",
       "code",
       "pre",
+      "video",
+      "audio",
+      "source",
+      "details",
+      "summary",
+      "dl",
+      "dt",
+      "dd",
+      "small",
+      "sup",
+      "sub",
+      "mark",
     ],
     allowedAttributes: {
-      a: ["href", "target", "rel", "title"],
-      img: ["src", "alt", "title", "width", "height", "loading", "decoding"],
+      a: ["href", "target", "rel", "title", "class"],
+      div: ["class"],
+      p: ["class"],
+      h2: ["class"],
+      h3: ["class"],
+      h4: ["class"],
+      h5: ["class"],
+      h6: ["class"],
+      ul: ["class"],
+      ol: ["class", "start", "reversed"],
+      li: ["class", "value"],
+      blockquote: ["class", "cite"],
+      figure: ["class"],
+      figcaption: ["class"],
+      img: ["src", "alt", "title", "width", "height", "loading", "decoding", "class"],
       iframe: [
         "src",
         "title",
@@ -177,12 +202,32 @@ export function sanitizeBlogHtml(html: string, wordpressUrl: string): string {
         "allow",
         "allowfullscreen",
         "referrerpolicy",
+        "class",
       ],
-      th: ["colspan", "rowspan", "scope"],
-      td: ["colspan", "rowspan"],
+      table: ["class"],
+      th: ["colspan", "rowspan", "scope", "class"],
+      td: ["colspan", "rowspan", "class"],
+      pre: ["class"],
+      code: ["class"],
+      video: ["src", "controls", "poster", "preload", "width", "height", "class"],
+      audio: ["src", "controls", "preload", "class"],
+      source: ["src", "type", "media"],
+      details: ["open", "class"],
+      summary: ["class"],
+      dl: ["class"],
+      dt: ["class"],
+      dd: ["class"],
+      span: ["class"],
     },
     allowedSchemes: ["http", "https", "mailto"],
-    allowedIframeHostnames: ["www.youtube.com", "youtube.com", "player.vimeo.com"],
+    allowedIframeHostnames: [
+      "www.youtube.com",
+      "youtube.com",
+      "www.youtube-nocookie.com",
+      "player.vimeo.com",
+      "open.spotify.com",
+      "w.soundcloud.com",
+    ],
     transformTags: {
       h1: "h2",
       a: (tagName, attribs) => {
