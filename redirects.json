@@ -1,0 +1,1187 @@
+[
+  {
+    "source": "/partner",
+    "destination": "/partnerships",
+    "permanent": true
+  },
+  {
+    "source": "/partnership",
+    "destination": "/partnerships",
+    "permanent": true
+  },
+  {
+    "source": "/sponsorship",
+    "destination": "/partnerships",
+    "permanent": true
+  },
+  {
+    "source": "/partners",
+    "destination": "/partnerships",
+    "permanent": true
+  },
+  {
+    "source": "/home",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/aaron-williams",
+    "destination": "/aaron-williams",
+    "permanent": true
+  },
+  {
+    "source": "/aaron-williams-2",
+    "destination": "/aaron-williams",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/abdoulaye-ndiaye",
+    "destination": "/abdoulaye-ndiaye",
+    "permanent": true
+  },
+  {
+    "source": "/abdoulaye-ndiaye-2",
+    "destination": "/abdoulaye-ndiaye",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/adam-reiser",
+    "destination": "/adam-reiser",
+    "permanent": true
+  },
+  {
+    "source": "/adam-reiser-2",
+    "destination": "/adam-reiser",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/akhil-sharma",
+    "destination": "/akhil-sharma",
+    "permanent": true
+  },
+  {
+    "source": "/akhil-sharma-2",
+    "destination": "/akhil-sharma",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/alan-avidan",
+    "destination": "/alan-avidan",
+    "permanent": true
+  },
+  {
+    "source": "/alan-avidan-2",
+    "destination": "/alan-avidan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/alex-lightman",
+    "destination": "/alex-lightman",
+    "permanent": true
+  },
+  {
+    "source": "/alex-lightman-2",
+    "destination": "/alex-lightman",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/aliya-grig",
+    "destination": "/aliya-grig",
+    "permanent": true
+  },
+  {
+    "source": "/aliya-grig-2",
+    "destination": "/aliya-grig",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/angele-doyne",
+    "destination": "/angele-doyne",
+    "permanent": true
+  },
+  {
+    "source": "/angele-doyne-2",
+    "destination": "/angele-doyne",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/anna-muheim",
+    "destination": "/anna-muheim",
+    "permanent": true
+  },
+  {
+    "source": "/anna-muheim-2",
+    "destination": "/anna-muheim",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/annelise-osborne",
+    "destination": "/annelise-osborne",
+    "permanent": true
+  },
+  {
+    "source": "/annelise-osborne-2",
+    "destination": "/annelise-osborne",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/ashley-wright",
+    "destination": "/ashley-wright",
+    "permanent": true
+  },
+  {
+    "source": "/ashley-wright-2",
+    "destination": "/ashley-wright",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/barry-mezey",
+    "destination": "/barry-mezey",
+    "permanent": true
+  },
+  {
+    "source": "/barry-mezey-2",
+    "destination": "/barry-mezey",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/benjamin-smith",
+    "destination": "/benjamin-smith",
+    "permanent": true
+  },
+  {
+    "source": "/benjamin-smith-2",
+    "destination": "/benjamin-smith",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/birjan-crispin",
+    "destination": "/birjan-crispin",
+    "permanent": true
+  },
+  {
+    "source": "/birjan-crispin-2",
+    "destination": "/birjan-crispin",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/brandon-nebeker",
+    "destination": "/brandon-nebeker",
+    "permanent": true
+  },
+  {
+    "source": "/brandon-nebeker-2",
+    "destination": "/brandon-nebeker",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/brian-j-esposito",
+    "destination": "/brian-j-esposito",
+    "permanent": true
+  },
+  {
+    "source": "/brian-j-esposito-2",
+    "destination": "/brian-j-esposito",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/brock-pierce",
+    "destination": "/brock-pierce",
+    "permanent": true
+  },
+  {
+    "source": "/brock-pierce-2",
+    "destination": "/brock-pierce",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/bruce-porter-jr",
+    "destination": "/bruce-porter-jr",
+    "permanent": true
+  },
+  {
+    "source": "/bruce-porter-jr-2",
+    "destination": "/bruce-porter-jr",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/bryan-talebi",
+    "destination": "/bryan-talebi",
+    "permanent": true
+  },
+  {
+    "source": "/bryan-talebi-2",
+    "destination": "/bryan-talebi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/bryant-nielson",
+    "destination": "/bryant-nielson",
+    "permanent": true
+  },
+  {
+    "source": "/bryant-nielson-2",
+    "destination": "/bryant-nielson",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/carsten-stocker",
+    "destination": "/carsten-stocker",
+    "permanent": true
+  },
+  {
+    "source": "/carsten-stocker-2",
+    "destination": "/carsten-stocker",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/chairman-elijah-john-bowdre",
+    "destination": "/chairman-elijah-john-bowdre",
+    "permanent": true
+  },
+  {
+    "source": "/chairman-elijah-john-bowdre-2",
+    "destination": "/chairman-elijah-john-bowdre",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/charles-brigham",
+    "destination": "/charles-brigham",
+    "permanent": true
+  },
+  {
+    "source": "/charles-brigham-2",
+    "destination": "/charles-brigham",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/christian-levan",
+    "destination": "/christian-levan",
+    "permanent": true
+  },
+  {
+    "source": "/christian-levan-2",
+    "destination": "/christian-levan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/cody-burns",
+    "destination": "/cody-burns",
+    "permanent": true
+  },
+  {
+    "source": "/cody-burns-2",
+    "destination": "/cody-burns",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/cooper-squirrell",
+    "destination": "/cooper-squirrell",
+    "permanent": true
+  },
+  {
+    "source": "/cooper-squirrell-2",
+    "destination": "/cooper-squirrell",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/cordy-joseph",
+    "destination": "/cordy-joseph",
+    "permanent": true
+  },
+  {
+    "source": "/cordy-joseph-2",
+    "destination": "/cordy-joseph",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/corey-kovnats",
+    "destination": "/corey-kovnats",
+    "permanent": true
+  },
+  {
+    "source": "/corey-kovnats-2",
+    "destination": "/corey-kovnats",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dan-saklakov",
+    "destination": "/dan-saklakov",
+    "permanent": true
+  },
+  {
+    "source": "/dan-saklakov-2",
+    "destination": "/dan-saklakov",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/daniel-garrie",
+    "destination": "/daniel-garrie",
+    "permanent": true
+  },
+  {
+    "source": "/daniel-garrie-2",
+    "destination": "/daniel-garrie",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/david-doss",
+    "destination": "/david-doss",
+    "permanent": true
+  },
+  {
+    "source": "/david-doss-2",
+    "destination": "/david-doss",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/david-porter",
+    "destination": "/david-porter",
+    "permanent": true
+  },
+  {
+    "source": "/david-porter-2",
+    "destination": "/david-porter",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dele-atanda",
+    "destination": "/dele-atanda",
+    "permanent": true
+  },
+  {
+    "source": "/dele-atanda-2",
+    "destination": "/dele-atanda",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dr-roxane-langlois",
+    "destination": "/dr-roxane-langlois",
+    "permanent": true
+  },
+  {
+    "source": "/dr-roxane-langlois-2",
+    "destination": "/dr-roxane-langlois",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dr-siegfried-isele",
+    "destination": "/dr-siegfried-isele",
+    "permanent": true
+  },
+  {
+    "source": "/dr-siegfried-isele-2",
+    "destination": "/dr-siegfried-isele",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dr-tajah-m-gross-phd",
+    "destination": "/dr-tajah-m-gross-phd",
+    "permanent": true
+  },
+  {
+    "source": "/dr-tajah-m-gross-phd-2",
+    "destination": "/dr-tajah-m-gross-phd",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/dr-vin-menon",
+    "destination": "/dr-vin-menon",
+    "permanent": true
+  },
+  {
+    "source": "/dr-vin-menon-2",
+    "destination": "/dr-vin-menon",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/elizabeth-sullivan",
+    "destination": "/elizabeth-sullivan",
+    "permanent": true
+  },
+  {
+    "source": "/elizabeth-sullivan-2",
+    "destination": "/elizabeth-sullivan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/elliot-david",
+    "destination": "/elliot-david",
+    "permanent": true
+  },
+  {
+    "source": "/elliot-david-2",
+    "destination": "/elliot-david",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/emily-lazar",
+    "destination": "/emily-lazar",
+    "permanent": true
+  },
+  {
+    "source": "/emily-lazar-2",
+    "destination": "/emily-lazar",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/enyo-sam",
+    "destination": "/enyo-sam",
+    "permanent": true
+  },
+  {
+    "source": "/enyo-sam-2",
+    "destination": "/enyo-sam",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/eric-henry",
+    "destination": "/eric-henry",
+    "permanent": true
+  },
+  {
+    "source": "/eric-henry-2",
+    "destination": "/eric-henry",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/eva-wong",
+    "destination": "/eva-wong",
+    "permanent": true
+  },
+  {
+    "source": "/eva-wong-2",
+    "destination": "/eva-wong",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/gabriela-ivancu",
+    "destination": "/gabriela-ivancu",
+    "permanent": true
+  },
+  {
+    "source": "/gabriela-ivancu-2",
+    "destination": "/gabriela-ivancu",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/gbenga-omosuyi",
+    "destination": "/gbenga-omosuyi",
+    "permanent": true
+  },
+  {
+    "source": "/gbenga-omosuyi-2",
+    "destination": "/gbenga-omosuyi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/george-benson",
+    "destination": "/george-benson",
+    "permanent": true
+  },
+  {
+    "source": "/george-benson-2",
+    "destination": "/george-benson",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/glen-sorensen",
+    "destination": "/glen-sorensen",
+    "permanent": true
+  },
+  {
+    "source": "/glen-sorensen-2",
+    "destination": "/glen-sorensen",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/greg-vosper",
+    "destination": "/greg-vosper",
+    "permanent": true
+  },
+  {
+    "source": "/greg-vosper-2",
+    "destination": "/greg-vosper",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/harshitkumar-dineshkumar-prajapati",
+    "destination": "/harshitkumar-dineshkumar-prajapati",
+    "permanent": true
+  },
+  {
+    "source": "/harshitkumar-dineshkumar-prajapati-2",
+    "destination": "/harshitkumar-dineshkumar-prajapati",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/hugh-dugan",
+    "destination": "/hugh-dugan",
+    "permanent": true
+  },
+  {
+    "source": "/hugh-dugan-2",
+    "destination": "/hugh-dugan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/hunter-rogers",
+    "destination": "/hunter-rogers",
+    "permanent": true
+  },
+  {
+    "source": "/hunter-rogers-2",
+    "destination": "/hunter-rogers",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/ibrahim-afridi",
+    "destination": "/ibrahim-afridi",
+    "permanent": true
+  },
+  {
+    "source": "/ibrahim-afridi-2",
+    "destination": "/ibrahim-afridi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/ingamar-ramirez",
+    "destination": "/ingamar-ramirez",
+    "permanent": true
+  },
+  {
+    "source": "/ingamar-ramirez-2",
+    "destination": "/ingamar-ramirez",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/irina-kanaeva",
+    "destination": "/irina-kanaeva",
+    "permanent": true
+  },
+  {
+    "source": "/irina-kanaeva-2",
+    "destination": "/irina-kanaeva",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/james-anthony-wolff",
+    "destination": "/james-anthony-wolff",
+    "permanent": true
+  },
+  {
+    "source": "/james-anthony-wolff-2",
+    "destination": "/james-anthony-wolff",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/james-wambua",
+    "destination": "/james-wambua",
+    "permanent": true
+  },
+  {
+    "source": "/james-wambua-2",
+    "destination": "/james-wambua",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/janet-adams",
+    "destination": "/janet-adams",
+    "permanent": true
+  },
+  {
+    "source": "/janet-adams-2",
+    "destination": "/janet-adams",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/jiasun-li",
+    "destination": "/jiasun-li",
+    "permanent": true
+  },
+  {
+    "source": "/jiasun-li-2",
+    "destination": "/jiasun-li",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/jimmy-nguyen",
+    "destination": "/jimmy-nguyen",
+    "permanent": true
+  },
+  {
+    "source": "/jimmy-nguyen-2",
+    "destination": "/jimmy-nguyen",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/john-randy-schwarz",
+    "destination": "/john-randy-schwarz",
+    "permanent": true
+  },
+  {
+    "source": "/john-randy-schwarz-2",
+    "destination": "/john-randy-schwarz",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/jorge-sebastiao",
+    "destination": "/jorge-sebastiao",
+    "permanent": true
+  },
+  {
+    "source": "/jorge-sebastiao-2",
+    "destination": "/jorge-sebastiao",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/joseph-caturay",
+    "destination": "/joseph-caturay",
+    "permanent": true
+  },
+  {
+    "source": "/joseph-caturay-2",
+    "destination": "/joseph-caturay",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/karla-ballard",
+    "destination": "/karla-ballard",
+    "permanent": true
+  },
+  {
+    "source": "/karla-ballard-2",
+    "destination": "/karla-ballard",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kavitha-kanaparthi",
+    "destination": "/kavitha-kanaparthi",
+    "permanent": true
+  },
+  {
+    "source": "/kavitha-kanaparthi-2",
+    "destination": "/kavitha-kanaparthi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kelly-zou",
+    "destination": "/kelly-zou",
+    "permanent": true
+  },
+  {
+    "source": "/kelly-zou-2",
+    "destination": "/kelly-zou",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kesem-frank",
+    "destination": "/kesem-frank",
+    "permanent": true
+  },
+  {
+    "source": "/kesem-frank-2",
+    "destination": "/kesem-frank",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kevin-barona",
+    "destination": "/kevin-barona",
+    "permanent": true
+  },
+  {
+    "source": "/kevin-barona-2",
+    "destination": "/kevin-barona",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/khoa-le",
+    "destination": "/khoa-le",
+    "permanent": true
+  },
+  {
+    "source": "/khoa-le-2",
+    "destination": "/khoa-le",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/lou-kerner",
+    "destination": "/lou-kerner",
+    "permanent": true
+  },
+  {
+    "source": "/lou-kerner-2",
+    "destination": "/lou-kerner",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/luciana-miranda",
+    "destination": "/luciana-miranda",
+    "permanent": true
+  },
+  {
+    "source": "/luciana-miranda-2",
+    "destination": "/luciana-miranda",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/maaz-memon",
+    "destination": "/maaz-memon",
+    "permanent": true
+  },
+  {
+    "source": "/maaz-memon-2",
+    "destination": "/maaz-memon",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/marco-kowalewski",
+    "destination": "/marco-kowalewski",
+    "permanent": true
+  },
+  {
+    "source": "/marco-kowalewski-2",
+    "destination": "/marco-kowalewski",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mariya-spartalis",
+    "destination": "/mariya-spartalis",
+    "permanent": true
+  },
+  {
+    "source": "/mariya-spartalis-2",
+    "destination": "/mariya-spartalis",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mark-elenowitz",
+    "destination": "/mark-elenowitz",
+    "permanent": true
+  },
+  {
+    "source": "/mark-elenowitz-2",
+    "destination": "/mark-elenowitz",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/michael-r-neece",
+    "destination": "/michael-r-neece",
+    "permanent": true
+  },
+  {
+    "source": "/michael-r-neece-2",
+    "destination": "/michael-r-neece",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/michael-terpin",
+    "destination": "/michael-terpin",
+    "permanent": true
+  },
+  {
+    "source": "/michael-terpin-2",
+    "destination": "/michael-terpin",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/michalina-brokos",
+    "destination": "/michalina-brokos",
+    "permanent": true
+  },
+  {
+    "source": "/michalina-brokos-2",
+    "destination": "/michalina-brokos",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/michelle-tan",
+    "destination": "/michelle-tan",
+    "permanent": true
+  },
+  {
+    "source": "/michelle-tan-2",
+    "destination": "/michelle-tan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mihaela-ulieru",
+    "destination": "/mihaela-ulieru",
+    "permanent": true
+  },
+  {
+    "source": "/mihaela-ulieru-2",
+    "destination": "/mihaela-ulieru",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mike-bass",
+    "destination": "/mike-bass",
+    "permanent": true
+  },
+  {
+    "source": "/mike-bass-2",
+    "destination": "/mike-bass",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mike-lingle",
+    "destination": "/mike-lingle",
+    "permanent": true
+  },
+  {
+    "source": "/mike-lingle-2",
+    "destination": "/mike-lingle",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/milan-cheeks",
+    "destination": "/milan-cheeks",
+    "permanent": true
+  },
+  {
+    "source": "/milan-cheeks-2",
+    "destination": "/milan-cheeks",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mir-ali-asgary",
+    "destination": "/mir-ali-asgary",
+    "permanent": true
+  },
+  {
+    "source": "/mir-ali-asgary-2",
+    "destination": "/mir-ali-asgary",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mohammad-asad-hussain",
+    "destination": "/mohammad-asad-hussain",
+    "permanent": true
+  },
+  {
+    "source": "/mohammad-asad-hussain-2",
+    "destination": "/mohammad-asad-hussain",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/monika-proffitt",
+    "destination": "/monika-proffitt",
+    "permanent": true
+  },
+  {
+    "source": "/monika-proffitt-2",
+    "destination": "/monika-proffitt",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/mr-griffin",
+    "destination": "/mr-griffin",
+    "permanent": true
+  },
+  {
+    "source": "/mr-griffin-2",
+    "destination": "/mr-griffin",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/nicole-nguyen",
+    "destination": "/nicole-nguyen",
+    "permanent": true
+  },
+  {
+    "source": "/nicole-nguyen-2",
+    "destination": "/nicole-nguyen",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/nikita-sachdev-lord",
+    "destination": "/nikita-sachdev-lord",
+    "permanent": true
+  },
+  {
+    "source": "/nikita-sachdev-lord-2",
+    "destination": "/nikita-sachdev-lord",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/nisa-amoils",
+    "destination": "/nisa-amoils",
+    "permanent": true
+  },
+  {
+    "source": "/nisa-amoils-2",
+    "destination": "/nisa-amoils",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/obinna-ukwuani",
+    "destination": "/obinna-ukwuani",
+    "permanent": true
+  },
+  {
+    "source": "/obinna-ukwuani-2",
+    "destination": "/obinna-ukwuani",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/olubunmi-fabanwo",
+    "destination": "/olubunmi-fabanwo",
+    "permanent": true
+  },
+  {
+    "source": "/olubunmi-fabanwo-2",
+    "destination": "/olubunmi-fabanwo",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/pascal-van-knijff",
+    "destination": "/pascal-van-knijff",
+    "permanent": true
+  },
+  {
+    "source": "/pascal-van-knijff-2",
+    "destination": "/pascal-van-knijff",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/peter-smulovics",
+    "destination": "/peter-smulovics",
+    "permanent": true
+  },
+  {
+    "source": "/peter-smulovics-2",
+    "destination": "/peter-smulovics",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/pratik-thantharate",
+    "destination": "/pratik-thantharate",
+    "permanent": true
+  },
+  {
+    "source": "/pratik-thantharate-2",
+    "destination": "/pratik-thantharate",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/rajiv-jadhav",
+    "destination": "/rajiv-jadhav",
+    "permanent": true
+  },
+  {
+    "source": "/rajiv-jadhav-2",
+    "destination": "/rajiv-jadhav",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/ravi-teja-reddy-mandala",
+    "destination": "/ravi-teja-reddy-mandala",
+    "permanent": true
+  },
+  {
+    "source": "/ravi-teja-reddy-mandala-2",
+    "destination": "/ravi-teja-reddy-mandala",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/rumee-singh",
+    "destination": "/rumee-singh",
+    "permanent": true
+  },
+  {
+    "source": "/rumee-singh-2",
+    "destination": "/rumee-singh",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sarah-perkins",
+    "destination": "/sarah-perkins",
+    "permanent": true
+  },
+  {
+    "source": "/sarah-perkins-2",
+    "destination": "/sarah-perkins",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sarah-wimberley",
+    "destination": "/sarah-wimberley",
+    "permanent": true
+  },
+  {
+    "source": "/sarah-wimberley-2",
+    "destination": "/sarah-wimberley",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sary-qasim",
+    "destination": "/sary-qasim",
+    "permanent": true
+  },
+  {
+    "source": "/sary-qasim-2",
+    "destination": "/sary-qasim",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/selva-ozelli",
+    "destination": "/selva-ozelli",
+    "permanent": true
+  },
+  {
+    "source": "/selva-ozelli-2",
+    "destination": "/selva-ozelli",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sonia-arenaza",
+    "destination": "/sonia-arenaza",
+    "permanent": true
+  },
+  {
+    "source": "/sonia-arenaza-2",
+    "destination": "/sonia-arenaza",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sravan-reddy-kathi",
+    "destination": "/sravan-reddy-kathi",
+    "permanent": true
+  },
+  {
+    "source": "/sravan-reddy-kathi-2",
+    "destination": "/sravan-reddy-kathi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sreejith-kaimal",
+    "destination": "/sreejith-kaimal",
+    "permanent": true
+  },
+  {
+    "source": "/sreejith-kaimal-2",
+    "destination": "/sreejith-kaimal",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sudheer-kotilingala",
+    "destination": "/sudheer-kotilingala",
+    "permanent": true
+  },
+  {
+    "source": "/sudheer-kotilingala-2",
+    "destination": "/sudheer-kotilingala",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/sunil-upadhye",
+    "destination": "/sunil-upadhye",
+    "permanent": true
+  },
+  {
+    "source": "/sunil-upadhye-2",
+    "destination": "/sunil-upadhye",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/thao-dang",
+    "destination": "/thao-dang",
+    "permanent": true
+  },
+  {
+    "source": "/thao-dang-2",
+    "destination": "/thao-dang",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/tiffany-hall",
+    "destination": "/tiffany-hall",
+    "permanent": true
+  },
+  {
+    "source": "/tiffany-hall-2",
+    "destination": "/tiffany-hall",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/todd-walls",
+    "destination": "/todd-walls",
+    "permanent": true
+  },
+  {
+    "source": "/todd-walls-2",
+    "destination": "/todd-walls",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/trish-kane",
+    "destination": "/trish-kane",
+    "permanent": true
+  },
+  {
+    "source": "/trish-kane-2",
+    "destination": "/trish-kane",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/venkata-r-vinjamuri",
+    "destination": "/venkata-r-vinjamuri",
+    "permanent": true
+  },
+  {
+    "source": "/venkata-r-vinjamuri-2",
+    "destination": "/venkata-r-vinjamuri",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/vinay-gurram",
+    "destination": "/vinay-gurram",
+    "permanent": true
+  },
+  {
+    "source": "/vinay-gurram-2",
+    "destination": "/vinay-gurram",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/viru-raparthi",
+    "destination": "/viru-raparthi",
+    "permanent": true
+  },
+  {
+    "source": "/viru-raparthi-2",
+    "destination": "/viru-raparthi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/vit-jedlicka",
+    "destination": "/vit-jedlicka",
+    "permanent": true
+  },
+  {
+    "source": "/vit-jedlicka-2",
+    "destination": "/vit-jedlicka",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/yaeunda-pou-williams",
+    "destination": "/yaeunda-pou-williams",
+    "permanent": true
+  },
+  {
+    "source": "/yaeunda-pou-williams-2",
+    "destination": "/yaeunda-pou-williams",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/yoon-auh",
+    "destination": "/yoon-auh",
+    "permanent": true
+  },
+  {
+    "source": "/yoon-auh-2",
+    "destination": "/yoon-auh",
+    "permanent": true
+  }
+]

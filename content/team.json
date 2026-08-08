@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Bruce Porter Jr.",
+    "role": "Master of Ceremonies",
+    "bio": "Expertly orchestrating top-tier events with precision and excellence. The voice and energy behind every unforgettable moment.",
+    "photo": "/team/bruce-porter-jr.jpg"
+  },
+  {
+    "name": "John \"Randy\" Schwarz",
+    "role": "Partner & Bitcoin OG",
+    "bio": "Radio broadcaster, event producer, and early Bitcoin adopter. Bringing decades of media and blockchain expertise to the stage.",
+    "photo": "/team/john-randy-schwarz.png"
+  },
+  {
+    "name": "David Porter",
+    "role": "Chief Operations Officer",
+    "bio": "Early Bitcoin adopter, KOL, and media personality. Ensures flawless execution across all UN Blockchain Week events.",
+    "photo": "/team/david-porter.jpg",
+    "photoPosition": "center 35%"
+  },
+  {
+    "name": "Robin Matthes",
+    "role": "Business Development Liaison",
+    "bio": "Possesses extensive expertise in hospitality management and creating world-class experiences for high-profile guests.",
+    "photo": "/team/robin-matthes.jpeg"
+  },
+  {
+    "name": "Sunil Upadhye",
+    "role": "Global Strategic Advisor",
+    "bio": "Global strategist and advisor with deep expertise in blockchain ecosystems, international partnerships, and high-impact initiatives. Guiding strategic vision and global outreach for UN Blockchain Week.",
+    "photo": "/team/sunil-upadhye.png"
+  },
+  {
+    "name": "Kateryna Cherniei",
+    "role": "Business Development Manager",
+    "bio": "Curates premier technology and investment events, connecting founders, investors, government leaders, and industry experts from around the world. Based in New York City, she builds strategic partnerships and drives growth in the blockchain and AI communities.",
+    "photo": "/team/kateryna-cherniei.jpeg"
+  }
+]

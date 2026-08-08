@@ -1,0 +1,401 @@
+{
+  "pricingBanner": {
+    "label": "STANDARD PRICING ACTIVE – UNTIL SEPTEMBER 9, 2026",
+    "cta": "View Standard Rates"
+  },
+  "whyPartner": [
+    {
+      "title": "Global Government Exposure",
+      "description": "Direct access to policymakers and government leaders from around the world."
+    },
+    {
+      "title": "Institutional Investor Access",
+      "description": "Connect with high-net-worth individuals and institutional capital allocators."
+    },
+    {
+      "title": "Enterprise Partnerships",
+      "description": "Build strategic relationships with Fortune 500 companies and innovators."
+    },
+    {
+      "title": "UN & Regulatory Networking",
+      "description": "Engage directly with UN agencies and regulatory bodies shaping the future."
+    },
+    {
+      "title": "International Media Visibility",
+      "description": "Amplify your brand through global media coverage and thought leadership."
+    },
+    {
+      "title": "High-Value Lead Generation",
+      "description": "Generate qualified leads from decision-makers in blockchain and emerging tech."
+    }
+  ],
+  "comparisonGroups": [
+    {
+      "label": "SPEAKING & CONTENT",
+      "rows": [
+        { "benefit": "Speaking Opportunity", "presidential": "Custom keynote / fireside", "platinum": "20-min Keynote", "gold": "Panel Speaker Seat", "silver": "–", "bronze": "–" },
+        { "benefit": "Thought Leadership", "presidential": "Full custom campaign", "platinum": "Interview + article", "gold": "Featured quote / post", "silver": "Listing mention", "bronze": "–" }
+      ]
+    },
+    {
+      "label": "EXHIBITION",
+      "rows": [
+        { "benefit": "Booth Size", "presidential": "Custom / largest available", "platinum": "25 sqm Premium", "gold": "16 sqm", "silver": "9 sqm", "bronze": "Logo presence" },
+        { "benefit": "Location Priority", "presidential": "First choice", "platinum": "Premium zone", "gold": "High-traffic", "silver": "Standard", "bronze": "–" },
+        { "benefit": "Lead Tools", "presidential": "Full + custom", "platinum": "Lead scanning", "gold": "Lead scanning", "silver": "Basic", "bronze": "–" }
+      ]
+    },
+    {
+      "label": "TICKETS & ACCESS",
+      "rows": [
+        { "benefit": "VIP Tickets", "presidential": "Custom (high)", "platinum": "12", "gold": "6", "silver": "2", "bronze": "0" },
+        { "benefit": "General Admission", "presidential": "Custom (high)", "platinum": "8", "gold": "6", "silver": "4", "bronze": "3" },
+        { "benefit": "Additional Ticket Discount", "presidential": "Priority rate", "platinum": "30%", "gold": "25%", "silver": "20%", "bronze": "15%" },
+        { "benefit": "VIP Delegate Lounge", "presidential": "Full + private area", "platinum": "Full access", "gold": "Full access", "silver": "Day passes", "bronze": "–" },
+        { "benefit": "VIP Gala / Evening Events", "presidential": "Yes + hosting", "platinum": "Yes", "gold": "Yes", "silver": "Yes", "bronze": "–" }
+      ]
+    },
+    {
+      "label": "PRIVATE & NETWORKING",
+      "rows": [
+        { "benefit": "Private Roundtable / Dinner", "presidential": "Govt + Investor (hosted)", "platinum": "Exclusive Investor Dinner", "gold": "Networking priority", "silver": "Standard access", "bronze": "Open networking" }
+      ]
+    },
+    {
+      "label": "MARKETING & VISIBILITY",
+      "rows": [
+        { "benefit": "Logo Placement Priority", "presidential": "Highest / naming rights option", "platinum": "Top tier", "gold": "Prominent", "silver": "Standard", "bronze": "Listing" },
+        { "benefit": "Dedicated Email Blasts", "presidential": "Custom series", "platinum": "2", "gold": "1", "silver": "Shared mention", "bronze": "–" },
+        { "benefit": "Social Media Posts", "presidential": "Full campaign", "platinum": "4+ dedicated", "gold": "2 dedicated", "silver": "1–2 mentions", "bronze": "Group mention" },
+        { "benefit": "Website Profile", "presidential": "Featured + custom", "platinum": "150 words + logo", "gold": "100 words + logo", "silver": "Logo + link", "bronze": "Logo listing" },
+        { "benefit": "On-site Branding", "presidential": "Stage + custom", "platinum": "Stage backdrop priority", "gold": "Banners + screens", "silver": "Program + signage", "bronze": "Program listing" },
+        { "benefit": "Global Media Campaign", "presidential": "Yes – full", "platinum": "Yes", "gold": "Press inclusion", "silver": "–", "bronze": "–" },
+        { "benefit": "Post-Event Report & Assets", "presidential": "Custom analytics", "platinum": "Full report + media", "gold": "Summary + photos", "silver": "Photos", "bronze": "–" }
+      ]
+    }
+  ],
+  "pricingPhases": [
+    { "id": "founding", "label": "FOUNDING PARTNER", "period": "Until Jul 16" },
+    { "id": "early", "label": "EARLY BIRD", "period": "Jul 17 – Aug 1" },
+    { "id": "standard", "label": "STANDARD", "period": "Aug 2 – Sept 9", "active": true },
+    { "id": "event", "label": "EVENT RATE", "period": "Sept 10–19" }
+  ],
+  "availability": [
+    { "tier": "Presidential", "count": 1 },
+    { "tier": "Platinum", "count": 3 },
+    { "tier": "Gold", "count": 5 },
+    { "tier": "Silver", "count": 10 },
+    { "tier": "Bronze", "count": 20 }
+  ],
+  "tiers": [
+    {
+      "id": "presidential",
+      "name": "Presidential",
+      "subtitle": "Custom • Tailored",
+      "price": "Custom",
+      "priceLabel": "Investment",
+      "priceNote": "tailored to your objectives",
+      "rateLabel": null,
+      "available": 1,
+      "color": "gold",
+      "ctaLabel": "Build Your Package",
+      "footnote": "Designed around your exact strategic goals and success metrics.",
+      "highlights": [
+        "Fully bespoke activation & KPIs",
+        "Private govt + investor roundtable",
+        "Custom keynote / major speaking",
+        "Largest premium booth + hospitality",
+        "Maximum tickets + full media campaign"
+      ],
+      "sections": [
+        {
+          "title": "Strategic Partnership",
+          "items": [
+            "Fully bespoke partnership designed around your specific KPIs and objectives",
+            "Dedicated sponsorship manager and custom activation planning",
+            "Legacy recognition as the visionary partner of UN Blockchain Week 2026"
+          ]
+        },
+        {
+          "title": "Speaking & Content",
+          "items": [
+            "Custom keynote, fireside chat, or major speaking engagement of your choice",
+            "Private government + institutional investor roundtable (hosted by you)",
+            "Full thought-leadership campaign (interviews, articles, media placements)"
+          ]
+        },
+        {
+          "title": "Exhibition & Hospitality",
+          "items": [
+            "Largest available premium exhibition space + private hospitality area",
+            "First-choice location and full customization of booth experience",
+            "VIP lounge access for your entire delegation + private meeting facilities"
+          ]
+        },
+        {
+          "title": "Tickets & Access",
+          "items": [
+            "High allocation of VIP + General Admission tickets (scaled to your needs)",
+            "Priority rates on additional tickets",
+            "Full access to all exclusive evening events and networking"
+          ]
+        },
+        {
+          "title": "Marketing & Media",
+          "items": [
+            "Highest logo priority with optional naming / \"Presented by\" elements",
+            "Custom email and social campaign series to the full audience",
+            "Comprehensive global media campaign and post-event analytics report"
+          ]
+        }
+      ],
+      "fullPrice": { "founding": "Custom", "early": "Custom", "standard": "Custom", "event": "Custom" },
+      "customNote": "This package is entirely customized. Our team works with you to define the ideal speaking role, visibility, access, and activation – ensuring maximum ROI and alignment with your strategic goals."
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "subtitle": "Title Sponsor",
+      "price": "$190,000",
+      "priceLabel": "Starting at",
+      "priceNote": null,
+      "rateLabel": "Standard Rate",
+      "available": 3,
+      "color": "platinum",
+      "ctaLabel": "View Full Benefits",
+      "footnote": null,
+      "highlights": [
+        "20-min Keynote Speaking Slot",
+        "Host Exclusive Investor Dinner",
+        "Premium 25 sqm Booth + VIP Lounge",
+        "12 VIP + 8 GA Tickets",
+        "2 Dedicated Emails + Global Media"
+      ],
+      "sections": [
+        {
+          "title": "Speaking & Content",
+          "items": [
+            "20-minute Keynote Speaking Slot on the main program",
+            "Featured interview + thought-leadership article",
+            "Inclusion in global media campaign"
+          ]
+        },
+        {
+          "title": "Exhibition",
+          "items": [
+            "Premium 25 sqm exhibition booth in priority location",
+            "Lead-scanning tools and high-visibility placement",
+            "Full VIP Delegate Lounge access for your team"
+          ]
+        },
+        {
+          "title": "Tickets & Access",
+          "items": [
+            "12 VIP Tickets + 8 General Admission Tickets",
+            "30% discount on additional tickets",
+            "Access to VIP Gala and exclusive evening events"
+          ]
+        },
+        {
+          "title": "Private Experiences",
+          "items": [
+            "Host the Exclusive Investor Dinner (branded, facilitated)",
+            "Priority matchmaking and networking support"
+          ]
+        },
+        {
+          "title": "Marketing & Visibility",
+          "items": [
+            "Top-tier logo placement (website, stage backdrop, program, app)",
+            "2 dedicated email blasts to the full attendee list",
+            "4+ dedicated social media posts + campaign assets",
+            "150-word company profile on the official website",
+            "Full post-event report with media assets and metrics"
+          ]
+        }
+      ],
+      "fullPrice": { "founding": "$150,000", "early": "$175,000", "standard": "$190,000", "event": "$200,000" }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "subtitle": "Strategic Partner",
+      "price": "$95,000",
+      "priceLabel": "Starting at",
+      "priceNote": null,
+      "rateLabel": "Standard Rate",
+      "available": 5,
+      "color": "amber",
+      "ctaLabel": "View Full Benefits",
+      "footnote": null,
+      "highlights": [
+        "Panel Speaker Seat",
+        "16 sqm Exhibition Booth",
+        "6 VIP + 6 GA Tickets",
+        "VIP Lounge + Gala Access",
+        "1 Dedicated Email + Strong Branding"
+      ],
+      "sections": [
+        {
+          "title": "Speaking & Content",
+          "items": [
+            "Confirmed Panel Speaker Seat",
+            "Featured quote / social content opportunity"
+          ]
+        },
+        {
+          "title": "Exhibition",
+          "items": [
+            "16 sqm exhibition booth in high-traffic area",
+            "Lead-scanning capability",
+            "Full VIP Delegate Lounge access"
+          ]
+        },
+        {
+          "title": "Tickets & Access",
+          "items": [
+            "6 VIP Tickets + 6 General Admission Tickets",
+            "25% discount on additional tickets",
+            "VIP Gala access and exclusive evening events"
+          ]
+        },
+        {
+          "title": "Networking",
+          "items": ["Priority investor and government networking access"]
+        },
+        {
+          "title": "Marketing & Visibility",
+          "items": [
+            "Prominent logo placement across website, program, and signage",
+            "1 dedicated email blast",
+            "2 dedicated social media posts",
+            "100-word company profile on the website",
+            "Summary post-event report + photo assets"
+          ]
+        }
+      ],
+      "fullPrice": { "founding": "$75,000", "early": "$85,000", "standard": "$95,000", "event": "$100,000" }
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "subtitle": "Supporting Partner",
+      "price": "$40,000",
+      "priceLabel": "Starting at",
+      "priceNote": null,
+      "rateLabel": "Standard Rate",
+      "available": 10,
+      "color": "silver",
+      "ctaLabel": "View Full Benefits",
+      "footnote": null,
+      "highlights": [
+        "9 sqm Exhibition Space",
+        "4 GA + 2 VIP Tickets",
+        "Gala + Networking Access",
+        "Logo on Website & Program",
+        "Social Mentions + Listing"
+      ],
+      "sections": [
+        {
+          "title": "Exhibition",
+          "items": ["9 sqm exhibition space", "Standard lead capture support"]
+        },
+        {
+          "title": "Tickets & Access",
+          "items": [
+            "4 General Admission + 2 VIP Tickets",
+            "20% discount on additional tickets",
+            "Gala attendance and networking access",
+            "Day-pass VIP Lounge access"
+          ]
+        },
+        {
+          "title": "Marketing & Visibility",
+          "items": [
+            "Logo on website, program, and event signage",
+            "Shared email mention + 1–2 social mentions",
+            "Logo + link company listing",
+            "Event recognition materials and photo assets"
+          ]
+        }
+      ],
+      "fullPrice": { "founding": "$25,000", "early": "$30,000", "standard": "$40,000", "event": "$50,000" }
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze",
+      "subtitle": "Community Partner",
+      "price": "$17,500",
+      "priceLabel": "Starting at",
+      "priceNote": null,
+      "rateLabel": "Standard Rate",
+      "available": 20,
+      "color": "bronze",
+      "ctaLabel": "View Full Benefits",
+      "footnote": null,
+      "highlights": [
+        "Logo & Sponsor Listing",
+        "3 GA Tickets",
+        "Full Event Access",
+        "Networking Opportunities",
+        "Recognition Materials"
+      ],
+      "sections": [
+        {
+          "title": "Brand Presence",
+          "items": [
+            "Logo and sponsor listing on website and program",
+            "Recognition materials and group social mention"
+          ]
+        },
+        {
+          "title": "Tickets & Access",
+          "items": [
+            "3 General Admission Tickets",
+            "15% discount on additional tickets",
+            "Full event access and open networking opportunities"
+          ]
+        },
+        {
+          "title": "Recognition",
+          "items": ["Official sponsor recognition throughout the event"]
+        }
+      ],
+      "fullPrice": { "founding": "$10,000", "early": "$12,500", "standard": "$17,500", "event": "$20,000" }
+    }
+  ],
+  "addons": [
+    {
+      "name": "Private Dinner Host",
+      "description": "Host an invite-only dinner with government or investor guests. Branding, photography, and facilitation included."
+    },
+    {
+      "name": "VIP Lounge Sponsor",
+      "description": "Brand the exclusive VIP lounge. Includes signage, digital screens, and hosting privileges."
+    },
+    {
+      "name": "Lanyard / Badge Sponsor",
+      "description": "Your logo on every attendee's lanyard or badge – maximum all-attendee visibility."
+    },
+    {
+      "name": "WiFi Sponsor",
+      "description": "Branded network name and splash page seen by every connected device on site."
+    },
+    {
+      "name": "Track / Session Sponsor",
+      "description": "Own a content track. Includes stage branding, speaking slot, and session promotion."
+    },
+    {
+      "name": "Coffee / Break Sponsor",
+      "description": "Brand high-traffic refreshment areas with signage, napkins, and digital displays."
+    },
+    {
+      "name": "Photo / Experience Booth",
+      "description": "Branded interactive photo or 360 experience that attendees share on social."
+    },
+    {
+      "name": "Startup / Pitch Package",
+      "description": "Dedicated pitch slot + small booth + tickets – ideal for emerging projects."
+    }
+  ]
+}

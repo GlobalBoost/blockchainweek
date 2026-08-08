@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ga",
+    "name": "General Admission",
+    "subtitle": "Full Week Access",
+    "price": 299,
+    "nextPrice": 399,
+    "checkoutUrl": "https://buy.stripe.com/8x2aEWeK9d0a66I7JBfjG0R",
+    "ctaLabel": "Buy General Admission – $299",
+    "features": [
+      "Access to all public events, panels & runways",
+      "Bitcoin, AI, Energy, Space & Fashion-Tech content",
+      "Networking with 1,000+ visionaries",
+      "Live calendar + side events",
+      "Digital pass & recordings"
+    ]
+  },
+  {
+    "id": "vip",
+    "name": "VIP Pass",
+    "subtitle": "All-Access + Gala",
+    "price": 1299,
+    "nextPrice": 1500,
+    "popular": true,
+    "checkoutUrl": "https://buy.stripe.com/fZubJ0fOd2lwdza6FxfjG0S",
+    "ctaLabel": "Buy VIP Pass – $1,299",
+    "features": [
+      "Everything in General Admission",
+      "Washington Elite Investment Summit & Gala – Sept 18, Times Square",
+      "Premium networking lounge access",
+      "VIP swag bag + photo ops",
+      "Priority seating at all key events",
+      "Private after-parties & investor dinners"
+    ]
+  }
+]

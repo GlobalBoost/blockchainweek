@@ -1,0 +1,32 @@
+{
+  "highlights": [
+    {
+      "title": "Speak to World Leaders",
+      "description": "Keynote stages and private dinners attended by UN delegates, heads of state, and C-suite executives from Fortune 500 companies."
+    },
+    {
+      "title": "High-Level Networking",
+      "description": "Exclusive access to the Washington Elite Investment Summit & Gala – where billion-dollar deals are made during UNGA week."
+    },
+    {
+      "title": "Global Policy Impact",
+      "description": "Shape conversations on AI regulation, Bitcoin adoption, space economy treaties, and sustainable blockchain frameworks with the exact people writing the rules."
+    }
+  ],
+  "stats": [
+    {
+      "value": 81,
+      "label": "UN General Assembly",
+      "description": "World leaders from 193 countries converge in NYC"
+    },
+    {
+      "value": 10,
+      "label": "Days of Global Access",
+      "description": "Speak directly to the people shaping tomorrow's policies"
+    }
+  ],
+  "images": {
+    "speakersPanel": "/about/speakers-panel.png",
+    "speakingOpportunity": "/about/speaking-opportunity.png"
+  }
+}

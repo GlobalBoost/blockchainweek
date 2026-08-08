@@ -1,0 +1,44 @@
+[
+  {
+    "id": "bitcoin",
+    "title": "The New Financial System",
+    "subtitle": "Bitcoin • Money • Investment",
+    "description": "Ordinals, Runes, Lightning, DeFi, tokenized real-world assets, and institutional adoption. How Bitcoin and blockchain are redefining money, investment, and global finance.",
+    "icon": "bitcoin"
+  },
+  {
+    "id": "ai",
+    "title": "Autonomous Agents & On-Chain Intelligence",
+    "subtitle": "AI × Blockchain",
+    "description": "AI agents that own assets, execute contracts, and operate autonomously. The fusion of artificial intelligence and decentralized systems.",
+    "icon": "cpu"
+  },
+  {
+    "id": "space",
+    "title": "SpaceDAO • Orbital Assets • Interplanetary Finance",
+    "subtitle": "Space Economy",
+    "description": "The final frontier meets blockchain. Satellite networks, space real estate, orbital data markets, and the new space economy.",
+    "icon": "rocket"
+  },
+  {
+    "id": "fashion",
+    "title": "NYFW Fusion Fashion-Tech Summit",
+    "subtitle": "Fashion × Technology",
+    "description": "Digital fashion, NFTs on the runway, tokenized couture, and the marriage of high fashion and blockchain during New York Fashion Week.",
+    "icon": "sparkles"
+  },
+  {
+    "id": "energy",
+    "title": "Green Blockchain • Renewable Energy Markets",
+    "subtitle": "Energy & Sustainability",
+    "description": "Carbon-negative blockchain, tokenized energy credits, decentralized energy grids, and climate-positive technology solutions.",
+    "icon": "zap"
+  },
+  {
+    "id": "identity",
+    "title": "Decentralized Identity • Emerging Tech",
+    "subtitle": "Technology & Identity",
+    "description": "Self-sovereign identity, DAOs, interoperability, and the next wave of blockchain infrastructure that powers the future.",
+    "icon": "fingerprint"
+  }
+]

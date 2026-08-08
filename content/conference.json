@@ -1,0 +1,22 @@
+[
+  {
+    "label": "DAY 1",
+    "date": "Wednesday, September 16 • Bitcoin, Policy & Institutional Infrastructure",
+    "sessions": [
+      { "title": "Opening Keynote: Blockchain's Role in Global Governance", "time": "9:00 – 9:45 AM" },
+      { "title": "Nation-State Bitcoin Adoption", "time": "10:00 – 11:00 AM" },
+      { "title": "Regulatory Outlook Post-UNGA Season", "time": "11:15 AM – 12:15 PM" },
+      { "title": "Tokenization of Real-World Assets", "time": "2:00 – 3:00 PM" }
+    ]
+  },
+  {
+    "label": "DAY 2",
+    "date": "Thursday, September 17 • AI, Energy, Space & Real-World Impact",
+    "sessions": [
+      { "title": "Keynote: The Convergence of AI and Blockchain", "time": "9:00 – 9:45 AM" },
+      { "title": "AI Agents & Decentralized Systems", "time": "10:00 – 11:00 AM" },
+      { "title": "Blockchain for the Energy Transition", "time": "11:15 AM – 12:15 PM" },
+      { "title": "The Space Economy & Blockchain", "time": "2:00 – 3:00 PM" }
+    ]
+  }
+]

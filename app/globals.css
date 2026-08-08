@@ -1,0 +1,242 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-navy: #0d1b2a;
+  --bg-light: #f8f9fb;
+  --un-blue: #009edb;
+  --gold: #c9a227;
+  --runway-white: #fafafa;
+  --ink: #0d1b2a;
+  --ink-muted: #64748b;
+  --muted: #94a3b8;
+  --fashion-accent: #e879f9;
+  --background: var(--bg-light);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-un-blue: var(--un-blue);
+  --color-gold: var(--gold);
+  --color-navy: var(--bg-navy);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-surface-light: var(--bg-light);
+  --color-muted: var(--muted);
+  --color-runway-white: var(--runway-white);
+  --color-fashion: var(--fashion-accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-light);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.section-dark {
+  background: var(--bg-primary);
+  color: var(--runway-white);
+}
+
+.section-light {
+  background: var(--bg-light);
+  color: var(--ink);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--un-blue) 40%, transparent);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.heading-font {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--un-blue), var(--fashion-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.blog-prose {
+  color: var(--ink);
+  line-height: 1.82;
+  font-size: 1.125rem;
+  text-wrap: pretty;
+}
+
+.blog-prose h1,
+.blog-prose h2,
+.blog-prose h3,
+.blog-prose h4 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.18;
+  text-wrap: balance;
+}
+
+.blog-prose h1 { font-size: 2rem; }
+.blog-prose h2 { font-size: 2rem; }
+.blog-prose h3 { font-size: 1.5rem; }
+.blog-prose h4 { font-size: 1.25rem; }
+
+.blog-prose p {
+  margin-bottom: 1.5rem;
+  color: #475569;
+}
+
+.blog-prose a {
+  color: var(--un-blue);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.blog-prose a:hover {
+  opacity: 0.85;
+}
+
+.blog-prose ul,
+.blog-prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  color: #475569;
+}
+
+.blog-prose li {
+  margin-bottom: 0.65rem;
+  padding-left: 0.25rem;
+}
+
+.blog-prose li::marker {
+  color: var(--un-blue);
+  font-weight: 700;
+}
+
+.blog-prose img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: 48rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 2.25rem 0;
+}
+
+.blog-prose blockquote {
+  border-left: 4px solid var(--un-blue);
+  border-radius: 0 1rem 1rem 0;
+  background: color-mix(in srgb, var(--un-blue) 7%, white);
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.blog-prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-prose strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.blog-prose iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 1rem;
+  margin: 2.25rem 0;
+}
+
+.blog-prose figure {
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+.blog-prose figure img {
+  margin: 0;
+}
+
+.blog-prose figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+  text-align: center;
+}
+
+.blog-prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.blog-prose th,
+.blog-prose td {
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.blog-prose pre {
+  overflow-x: auto;
+  border-radius: 0.75rem;
+  background: var(--bg-navy);
+  color: var(--runway-white);
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.blog-prose hr {
+  border: 0;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  margin: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .blog-prose {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+
+  .blog-prose h2 {
+    font-size: 1.65rem;
+  }
+
+  .blog-prose h3 {
+    font-size: 1.35rem;
+  }
+}
