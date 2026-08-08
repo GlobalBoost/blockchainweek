@@ -7,7 +7,7 @@ import { TICKETS_ANCHOR } from "@/lib/brand-constants";
 
 export function HeroVideo() {
   return (
-    <section className="relative isolate flex flex-col justify-center overflow-hidden py-12 sm:min-h-[calc(100svh-4rem)] sm:py-20 lg:min-h-[92vh] lg:pb-32 lg:pt-36">
+    <section className="relative isolate flex flex-col justify-center overflow-hidden py-16 sm:min-h-[calc(100svh-4rem)] sm:py-20 lg:min-h-[92vh] lg:pb-32 lg:pt-36">
       {/* Background */}
       <div className="absolute inset-0 bg-[#0a0a0f]" />
       <Image

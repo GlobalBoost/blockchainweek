@@ -5,7 +5,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { FormField, FormSubmit, FormTextarea } from "@/components/ui/FormField";
-import { CONTACT_EMAIL, EVENT_DATES, EVENT_LOCATION, UN_DISCLAIMER } from "@/lib/brand-constants";
+import { CONTACT_EMAIL, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 
 const CONTACT_ITEMS = [
   {
@@ -89,10 +89,6 @@ export default function ContactPage() {
                     </div>
                   </a>
                 ))}
-              </div>
-
-              <div className="mt-10 rounded-xl border border-white/10 bg-white/5 p-4">
-                <p className="text-xs leading-relaxed text-white/50">{UN_DISCLAIMER}</p>
               </div>
             </div>
 
