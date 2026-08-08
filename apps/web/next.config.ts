@@ -3,6 +3,7 @@ import redirects from "./redirects.json";
 import blogPosts from "./content/blog.json";
 
 const nextConfig: NextConfig = {
+  supportsImmutableAssets: false,
   images: {
     formats: ["image/avif", "image/webp"],
   },
