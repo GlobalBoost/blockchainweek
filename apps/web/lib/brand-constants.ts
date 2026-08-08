@@ -12,7 +12,7 @@ export const BRAND_TAGLINE =
 export const BRAND_DESCRIPTION =
   "UN Blockchain Week 2026 is the premier 10-day blockchain gathering during the United Nations General Assembly and New York Fashion Week in New York City.";
 export const BRAND_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://unblockchainweek.com";
 export const EVENT_DATES = "September 10–19, 2026";
 export const EVENT_LOCATION = "Time Square, NYC";
 export const CONFERENCE_DATES = "September 16–17, 2026";
