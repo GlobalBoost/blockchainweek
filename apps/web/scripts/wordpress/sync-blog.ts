@@ -121,8 +121,16 @@ export async function syncBlog(config: SyncConfig): Promise<{ ok: boolean; count
     }
 
     const posts: BlogPost[] = [];
+    const existingBySlug = new Map(existing.map((post) => [post.slug, post]));
 
     for (const wpPost of wpPosts) {
+      const existingPost = existingBySlug.get(wpPost.slug);
+      if (existingPost?.modified === wpPost.modified) {
+        posts.push(existingPost);
+        console.log(`  = ${existingPost.title} (unchanged)`);
+        continue;
+      }
+
       const mapped = mapWpPost(wpPost, config.wordpressUrl);
       let featuredImage: string | undefined;
       const firstRemoteContentImage = mapped.contentHtml.match(/<img[^>]+src="([^"]+)"/i)?.[1];

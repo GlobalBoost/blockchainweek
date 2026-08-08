@@ -3,7 +3,14 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
-import { BRAND_NAME, BRAND_DESCRIPTION, BRAND_URL, LOGO_HEIGHT, LOGO_MAIN, LOGO_WIDTH } from "@/lib/brand-constants";
+import {
+  BRAND_NAME,
+  BRAND_DESCRIPTION,
+  BRAND_URL,
+  SOCIAL_PREVIEW_HEIGHT,
+  SOCIAL_PREVIEW_IMAGE,
+  SOCIAL_PREVIEW_WIDTH,
+} from "@/lib/brand-constants";
 import { EventJsonLd } from "@/components/seo/EventJsonLd";
 
 const geistSans = Geist({
@@ -29,12 +36,20 @@ export const metadata: Metadata = {
     url: BRAND_URL,
     siteName: BRAND_NAME,
     type: "website",
-    images: [{ url: LOGO_MAIN, width: LOGO_WIDTH, height: LOGO_HEIGHT }],
+    images: [
+      {
+        url: SOCIAL_PREVIEW_IMAGE,
+        width: SOCIAL_PREVIEW_WIDTH,
+        height: SOCIAL_PREVIEW_HEIGHT,
+        alt: `${BRAND_NAME} 2026`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: BRAND_NAME,
     description: BRAND_DESCRIPTION,
+    images: [SOCIAL_PREVIEW_IMAGE],
   },
 };
 

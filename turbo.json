@@ -1,0 +1,55 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": [
+    "NEXT_PUBLIC_SITE_URL",
+    "WORDPRESS_URL",
+    "SYNC_ENABLED",
+    "SYNC_SPEAKERS",
+    "SYNC_SPONSORS",
+    "SYNC_MEDIA_PARTNERS",
+    "SYNC_BLOG",
+    "SYNC_FETCH_DELAY_MS",
+    "SYNC_FETCH_CONCURRENCY",
+    "SYNC_SECRET",
+    "CRON_SECRET",
+    "VERCEL_DEPLOY_HOOK_URL"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ],
+      "cache": false
+    },
+    "build:site": {
+      "dependsOn": [
+        "^build:site"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": [
+        "^lint"
+      ],
+      "outputs": []
+    },
+    "sync:wordpress": {
+      "cache": false
+    }
+  }
+}

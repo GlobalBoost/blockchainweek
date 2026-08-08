@@ -2,40 +2,19 @@
   "name": "unblockchainweek",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@10.9.3",
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "npm run sync:wordpress && next build",
-    "build:site": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "sync:wordpress": "tsx scripts/sync-from-wordpress.ts",
-    "migrate:assets": "tsx scripts/migrate-assets.ts",
-    "migrate:speakers": "npm run sync:wordpress -- --speakers-only",
-    "generate:redirects": "tsx scripts/generate-redirects.ts"
-  },
-  "dependencies": {
-    "@stripe/stripe-js": "^9.13.0",
-    "clsx": "^2.1.1",
-    "framer-motion": "^13.0.0",
-    "lucide-react": "^1.30.0",
-    "next": "16.3.0",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "sanitize-html": "^2.17.6",
-    "stripe": "^22.4.0",
-    "tailwind-merge": "^3.6.0",
-    "zod": "^4.4.3"
+    "dev": "turbo run dev --filter=@unblockchainweek/web",
+    "build": "turbo run build --filter=@unblockchainweek/web",
+    "build:site": "turbo run build:site --filter=@unblockchainweek/web",
+    "start": "turbo run start --filter=@unblockchainweek/web",
+    "lint": "turbo run lint",
+    "sync:wordpress": "turbo run sync:wordpress --filter=@unblockchainweek/web"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@types/sanitize-html": "^2.16.1",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.0",
-    "tailwindcss": "^4",
-    "tsx": "^4.23.11",
-    "typescript": "^5"
+    "turbo": "^2.10.9"
   }
 }

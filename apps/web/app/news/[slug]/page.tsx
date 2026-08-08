@@ -3,7 +3,13 @@ import { notFound } from "next/navigation";
 import { BlogPostContent } from "@/components/blog/BlogPostContent";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { getAllBlogSlugs, getBlogPostBySlug, getBlogPosts } from "@/lib/content";
-import { BRAND_NAME, BRAND_URL } from "@/lib/brand-constants";
+import {
+  BRAND_NAME,
+  BRAND_URL,
+  SOCIAL_PREVIEW_HEIGHT,
+  SOCIAL_PREVIEW_IMAGE,
+  SOCIAL_PREVIEW_WIDTH,
+} from "@/lib/brand-constants";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -19,6 +25,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
+  const socialImage = post.featuredImage
+    ? { url: post.featuredImage }
+    : {
+        url: SOCIAL_PREVIEW_IMAGE,
+        width: SOCIAL_PREVIEW_WIDTH,
+        height: SOCIAL_PREVIEW_HEIGHT,
+        alt: `${BRAND_NAME} 2026`,
+      };
 
   return {
     title: post.title,
@@ -32,13 +46,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       modifiedTime: post.modified,
       authors: post.author ? [post.author] : undefined,
       tags: post.categories,
-      ...(post.featuredImage ? { images: [{ url: post.featuredImage }] } : {}),
+      images: [socialImage],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      ...(post.featuredImage ? { images: [post.featuredImage] } : {}),
+      images: [post.featuredImage ?? SOCIAL_PREVIEW_IMAGE],
     },
   };
 }

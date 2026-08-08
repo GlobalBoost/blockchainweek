@@ -16,7 +16,7 @@ export function FeaturedSpeakers({ speakers }: { speakers: Speaker[] }) {
   };
 
   return (
-    <section className="section-light py-20">
+    <section id="featured-speakers" className="section-light scroll-mt-20 py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeader
           eyebrow="Our speakers"

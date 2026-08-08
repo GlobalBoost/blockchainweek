@@ -468,7 +468,9 @@ export function PartnershipsPageContent() {
                   {status === "loading" ? "Sending…" : "Submit inquiry"}
                 </FormSubmit>
                 {status === "success" && (
-                  <p className="text-center text-sm font-medium text-un-blue">Thanks – we'll be in touch shortly.</p>
+                  <p className="text-center text-sm font-medium text-un-blue">
+                    Thanks – we&apos;ll be in touch shortly.
+                  </p>
                 )}
                 {status === "error" && (
                   <p className="text-center text-sm text-red-500">

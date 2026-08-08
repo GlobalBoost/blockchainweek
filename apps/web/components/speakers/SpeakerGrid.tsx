@@ -22,14 +22,25 @@ const THEMES: Theme[] = [
 export function SpeakerGrid({ speakers }: { speakers: Speaker[] }) {
   const [query, setQuery] = useState("");
   const [activeTheme, setActiveTheme] = useState<Theme | "all">("all");
-  const [pendingScroll, setPendingScroll] = useState<number | null>(null);
 
   useEffect(() => {
-    const state = consumeSpeakersRestore();
-    if (!state || state.path !== "/speakers") return;
-    setQuery(state.query ?? "");
-    setActiveTheme((state.activeTheme as Theme | "all") ?? "all");
-    setPendingScroll(state.scrollY ?? 0);
+    let scrollFrame: number | undefined;
+    const restoreFrame = window.requestAnimationFrame(() => {
+      const state = consumeSpeakersRestore();
+      if (!state || state.path !== "/speakers") return;
+      setQuery(state.query ?? "");
+      setActiveTheme((state.activeTheme as Theme | "all") ?? "all");
+      scrollFrame = window.requestAnimationFrame(() => {
+        window.scrollTo({
+          top: state.scrollY ?? 0,
+          behavior: "instant" in window ? ("instant" as ScrollBehavior) : "auto",
+        });
+      });
+    });
+    return () => {
+      window.cancelAnimationFrame(restoreFrame);
+      if (scrollFrame !== undefined) window.cancelAnimationFrame(scrollFrame);
+    };
   }, []);
 
   const filtered = useMemo(() => {
@@ -43,15 +54,6 @@ export function SpeakerGrid({ speakers }: { speakers: Speaker[] }) {
       return matchesQuery && matchesTheme;
     });
   }, [speakers, query, activeTheme]);
-
-  useEffect(() => {
-    if (pendingScroll === null) return;
-    window.scrollTo({
-      top: pendingScroll,
-      behavior: "instant" in window ? ("instant" as ScrollBehavior) : "auto",
-    });
-    setPendingScroll(null);
-  }, [filtered, pendingScroll]);
 
   const saveReturnState = () => {
     saveSpeakersReturnState({

@@ -4,6 +4,9 @@ export const LOGO_MAIN = "/brand/logo-main.png";
 export const LOGO_BLACK = "/brand/logo-black.png";
 export const LOGO_WIDTH = 1024;
 export const LOGO_HEIGHT = 280;
+export const SOCIAL_PREVIEW_IMAGE = "/opengraph-image.png";
+export const SOCIAL_PREVIEW_WIDTH = 1200;
+export const SOCIAL_PREVIEW_HEIGHT = 630;
 export const BRAND_TAGLINE =
   "Bitcoin · AI & Energy · Space · Fashion – during UNGA + NYFW";
 export const BRAND_DESCRIPTION =
