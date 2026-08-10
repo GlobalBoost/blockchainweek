@@ -20,6 +20,7 @@ const MORE_LINKS = [
   { name: "Blog", href: "/blog" },
   { name: "Team", href: "/team" },
   { name: "Speak", href: "/speak" },
+  { name: "I'm Attending", href: "/im-attending" },
   { name: "Contact", href: "/contact" },
 ] as const;
 
