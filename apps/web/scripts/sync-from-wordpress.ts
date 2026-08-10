@@ -5,14 +5,14 @@
  * Flags: --dry-run, --speakers-only, --sponsors-only, --blog-only
  *
  * WordPress webhook setup (optional):
- * 1. Install "WP Webhooks" or add a save_post hook in WordPress
- * 2. On publish/update of speaker pages, POST to:
- *    https://unblockchainweek.com/api/sync/wordpress
+ * 1. Install "WP Webhooks" or add a save_post / before_delete_post snippet in WordPress
+ * 2. On publish/update/delete of posts or pages, POST to:
+ *    https://www.unblockchainweek.com/api/sync/wordpress
  * 3. Header: x-sync-secret: <SYNC_SECRET>
  * 4. That endpoint triggers a Vercel deploy; sync runs during build via prebuild
  *
  * Environment:
- *   WORDPRESS_URL          – default https://unblockchainweek.com (future: cms.unblockchainweek.com)
+ *   WORDPRESS_URL          – default https://cms.unblockchainweek.com
  *   SYNC_ENABLED           – set false to skip sync entirely
  *   SYNC_SPEAKERS          – default true
  *   SYNC_SPONSORS          – default true
@@ -20,6 +20,7 @@
  *   SYNC_BLOG               – default true
  *   SYNC_FETCH_DELAY_MS    – default 150
  *   SYNC_FETCH_CONCURRENCY – default 5
+ *   SYNC_SECRET / CRON_SECRET / VERCEL_DEPLOY_HOOK_URL – required for /api/sync/wordpress
  */
 import { loadSyncConfig } from "./wordpress/config";
 import { syncSpeakers } from "./wordpress/sync-speakers";

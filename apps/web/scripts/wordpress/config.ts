@@ -26,7 +26,7 @@ export function loadSyncConfig(argv: string[] = process.argv.slice(2)): SyncConf
   const blogOnly = argv.includes("--blog-only");
 
   return {
-    wordpressUrl: (process.env.WORDPRESS_URL ?? "https://unblockchainweek.com").replace(/\/$/, ""),
+    wordpressUrl: (process.env.WORDPRESS_URL ?? "https://cms.unblockchainweek.com").replace(/\/$/, ""),
     enabled: envBool("SYNC_ENABLED", true),
     syncSpeakers: speakersOnly || (!sponsorsOnly && !blogOnly && envBool("SYNC_SPEAKERS", true)),
     syncSponsors: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_SPONSORS", true)),
