@@ -5,8 +5,18 @@ import { EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 export const metadata: Metadata = {
   title: "I'm Attending",
   description:
-    "Upload your photo to create a shareable UN Blockchain Week 2026 “I'm Attending” graphic for Instagram, LinkedIn, and X.",
+    "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
   alternates: { canonical: "/im-attending" },
+  openGraph: {
+    title: "I'm Attending",
+    description:
+      "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
+  },
+  twitter: {
+    title: "I'm Attending",
+    description:
+      "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
+  },
 };
 
 export default function ImAttendingPage() {
