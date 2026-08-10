@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { Check, Download, ImagePlus, RefreshCw } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -27,7 +28,7 @@ const FRAME_RADIUS = 0.0176; // ~18px at 1024
 
 function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
-    const img = new Image();
+    const img = new window.Image();
     img.decoding = "async";
     img.onload = () => resolve(img);
     img.onerror = () => reject(new Error(`Failed to load ${src}`));
@@ -65,7 +66,7 @@ function centerCropSource(
   };
 }
 
-function roundedRectPath(
+function roundedTopRectPath(
   ctx: CanvasRenderingContext2D,
   x: number,
   y: number,
@@ -77,15 +78,15 @@ function roundedRectPath(
   ctx.beginPath();
   ctx.moveTo(x + radius, y);
   ctx.arcTo(x + w, y, x + w, y + h, radius);
-  ctx.arcTo(x + w, y + h, x, y + h, radius);
-  ctx.arcTo(x, y + h, x, y, radius);
+  ctx.lineTo(x + w, y + h);
+  ctx.lineTo(x, y + h);
   ctx.arcTo(x, y, x + w, y, radius);
   ctx.closePath();
 }
 
 function composeAttendingCard(
   template: HTMLImageElement,
-  photo: HTMLImageElement | null,
+  photo: HTMLImageElement,
   canvas: HTMLCanvasElement
 ) {
   const ctx = canvas.getContext("2d");
@@ -97,8 +98,6 @@ function composeAttendingCard(
   ctx.clearRect(0, 0, OUTPUT_SIZE, OUTPUT_SIZE);
   ctx.drawImage(template, 0, 0, OUTPUT_SIZE, OUTPUT_SIZE);
 
-  if (!photo) return;
-
   const fx = PHOTO_FRAME.x * OUTPUT_SIZE;
   const fy = PHOTO_FRAME.y * OUTPUT_SIZE;
   const fw = PHOTO_FRAME.w * OUTPUT_SIZE;
@@ -107,7 +106,7 @@ function composeAttendingCard(
   const crop = centerCropSource(photo.naturalWidth, photo.naturalHeight, fw, fh);
 
   ctx.save();
-  roundedRectPath(ctx, fx, fy, fw, fh, radius);
+  roundedTopRectPath(ctx, fx, fy, fw, fh, radius);
   ctx.clip();
   ctx.drawImage(photo, crop.sx, crop.sy, crop.sw, crop.sh, fx, fy, fw, fh);
   ctx.restore();
@@ -123,44 +122,38 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const templateRef = useRef<HTMLImageElement | null>(null);
-  const photoRef = useRef<HTMLImageElement | null>(null);
+  const templatePromiseRef = useRef<Promise<HTMLImageElement> | null>(null);
   const photoUrlRef = useRef<string | null>(null);
 
-  const [ready, setReady] = useState(false);
   const [hasPhoto, setHasPhoto] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const redraw = useCallback(() => {
-    const canvas = canvasRef.current;
-    const template = templateRef.current;
-    if (!canvas || !template) return;
-    composeAttendingCard(template, photoRef.current, canvas);
+  const ensureTemplate = useCallback(() => {
+    if (templateRef.current) return Promise.resolve(templateRef.current);
+    if (!templatePromiseRef.current) {
+      templatePromiseRef.current = loadImage(TEMPLATE_SRC)
+        .then((img) => {
+          templateRef.current = img;
+          return img;
+        })
+        .catch((err) => {
+          templatePromiseRef.current = null;
+          throw err;
+        });
+    }
+    return templatePromiseRef.current;
   }, []);
 
   useEffect(() => {
-    let cancelled = false;
-
-    loadImage(TEMPLATE_SRC)
-      .then((img) => {
-        if (cancelled) return;
-        templateRef.current = img;
-        setReady(true);
-        redraw();
-      })
-      .catch(() => {
-        if (!cancelled) setError("Could not load the template. Please refresh and try again.");
-      });
+    void ensureTemplate().catch(() => {
+      setError("Could not load the template. Please refresh and try again.");
+    });
 
     return () => {
-      cancelled = true;
       if (photoUrlRef.current) URL.revokeObjectURL(photoUrlRef.current);
     };
-  }, [redraw]);
-
-  useEffect(() => {
-    if (ready) redraw();
-  }, [ready, redraw]);
+  }, [ensureTemplate]);
 
   async function handleFileChange(file: File | null) {
     if (!file) return;
@@ -181,15 +174,15 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
     photoUrlRef.current = url;
 
     try {
-      const img = await loadImage(url);
-      photoRef.current = img;
+      const [template, img] = await Promise.all([ensureTemplate(), loadImage(url)]);
+      const canvas = canvasRef.current;
+      if (!canvas) throw new Error("Canvas missing");
+
+      composeAttendingCard(template, img, canvas);
       setHasPhoto(true);
-      redraw();
     } catch {
       setError("Could not read that image. Try another photo.");
-      photoRef.current = null;
       setHasPhoto(false);
-      redraw();
     } finally {
       setBusy(false);
     }
@@ -222,23 +215,28 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
             hasPhoto ? "ring-1 ring-un-blue/40" : "ring-0"
           )}
         >
-          <div className="relative aspect-square w-full">
-            {!ready ? (
-              <div className="absolute inset-0 animate-pulse bg-white/5" aria-hidden />
-            ) : null}
+          <div className="relative aspect-square w-full bg-[#0a1628]">
+            <Image
+              src={TEMPLATE_SRC}
+              alt="I'm Attending template"
+              fill
+              priority
+              sizes="(max-width: 1024px) 20.5rem, 36rem"
+              className={cn(
+                "object-cover transition-opacity duration-200",
+                hasPhoto ? "opacity-0" : "opacity-100"
+              )}
+            />
             <canvas
               ref={canvasRef}
               width={OUTPUT_SIZE}
               height={OUTPUT_SIZE}
               className={cn(
-                "absolute inset-0 h-full w-full transition-opacity duration-500",
-                ready ? "opacity-100" : "opacity-0"
+                "absolute inset-0 h-full w-full transition-opacity duration-200",
+                hasPhoto ? "opacity-100" : "pointer-events-none opacity-0"
               )}
-              aria-label={
-                hasPhoto
-                  ? "Preview of your I'm Attending graphic"
-                  : "I'm Attending template preview"
-              }
+              aria-hidden={!hasPhoto}
+              aria-label={hasPhoto ? "Preview of your I'm Attending graphic" : undefined}
             />
           </div>
         </div>
@@ -265,7 +263,7 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
               Photo added — ready to download
             </p>
           ) : (
-            <p className="text-sm text-white/55">
+            <p className="whitespace-nowrap text-[11px] text-white/55 sm:text-sm">
               Tip: use a clear headshot. Processed in your browser only.
             </p>
           )}
@@ -273,7 +271,7 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
           <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 lg:max-w-md">
             <button
               type="button"
-              disabled={!ready || busy}
+              disabled={busy}
               onClick={() => inputRef.current?.click()}
               className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-un-blue px-6 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-un-blue/90 disabled:cursor-not-allowed disabled:opacity-50"
             >

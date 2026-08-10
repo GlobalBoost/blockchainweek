@@ -5,7 +5,12 @@ import type { SyncConfig } from "./config";
 import { CONTENT_DIR, OVERRIDES_DIR, PUBLIC_DIR } from "./config";
 import { WordPressClient, mapWithConcurrency } from "./client";
 import { downloadAsset, publicPathFromDest } from "./download-asset";
-import { mergeSpeakers, loadSpeakerOverrides, diffSpeakerCounts } from "./merge-speakers";
+import {
+  mergeSpeakers,
+  loadSpeakerOverrides,
+  loadExcludedSpeakerSlugs,
+  diffSpeakerCounts,
+} from "./merge-speakers";
 import {
   parseSpeakersListingHtml,
   type SpeakerListing,
@@ -118,6 +123,7 @@ function buildSpeaker(listing: SpeakerListing, details: ReturnType<typeof parseS
 export async function syncSpeakers(config: SyncConfig): Promise<{ ok: boolean; count: number }> {
   const speakersPath = resolveContentPath(CONTENT_DIR, "speakers.json");
   const overridesPath = resolveContentPath(OVERRIDES_DIR, "speakers.json");
+  const excludePath = resolveContentPath(OVERRIDES_DIR, "speakers-exclude.json");
   const existing = readJsonFile<Speaker[]>(speakersPath, []);
 
   const client = new WordPressClient(config.wordpressUrl, config.fetchDelayMs);
@@ -149,7 +155,8 @@ export async function syncSpeakers(config: SyncConfig): Promise<{ ok: boolean; c
     speakers.sort((a, b) => a.name.localeCompare(b.name));
 
     const overrides = loadSpeakerOverrides(overridesPath);
-    const merged = mergeSpeakers(speakers, overrides);
+    const excluded = loadExcludedSpeakerSlugs(excludePath);
+    const merged = mergeSpeakers(speakers, overrides, excluded);
 
     console.log(`  Speakers: ${diffSpeakerCounts(existing, merged)}`);
 

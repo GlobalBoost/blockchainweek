@@ -1523,41 +1523,6 @@
     }
   },
   {
-    "slug": "gbenga-omosuyi",
-    "name": "Gbenga Omosuyi",
-    "title": "Head of",
-    "company": "Stablecoin Regulation & Emerging Markets",
-    "bio": "Gbenga Omosuyi is Head of Global Business Development at Sphere Labs, developers of SphereNet — a credibly neutral, privacy-preserving, and natively compliant blockchain built on Solana (SVM) — and SpherePay, stablecoin payments on/off-ramp infrastructure. He focuses on Stablecoin Regulation & Emerging Markets, forging partnerships with financial institutions, corporates, governments, regulators, and policymakers to accelerate the next generation of compliant stablecoin systems.\n\nWith over a decade bridging traditional finance and crypto, Gbenga previously served as Head of Strategic Partnerships at BitGo and led Enterprise & Strategic Business Development for North America at Fireblocks. His career began at Deutsche Bank, progressing through OTC Derivatives Clearing, Prime Brokerage, and Wealth Management / Family Office roles advising asset managers, hedge funds, institutions, and UHNW clients. He holds an MBA from Yale University and is a frequent voice at events such as the Nigeria Stablecoin Summit, Token2049, and Consensus, advocating for regulatory-aligned infrastructure that unlocks stablecoin utility in emerging markets and institutional finance.",
-    "expertise": [
-      "Stablecoin Regulation & Compliance",
-      "Emerging Markets Adoption",
-      "Institutional Digital Asset Strategy",
-      "On/Off-Ramp Infrastructure",
-      "TradFi–Crypto Bridge Building"
-    ],
-    "photo": "/speakers/gbenga-omosuyi.png",
-    "themes": [
-      "stablecoin",
-      "policy"
-    ],
-    "featured": false,
-    "headline": "Connecting Institutions, Regulators & Emerging Markets to Compliant Stablecoin Infrastructure",
-    "badge": "STABLECOINS",
-    "tagline": "Head of Stablecoin Regulation & Emerging Markets",
-    "subtitle": "Stablecoin Regulation & Emerging Markets\nSphere Labs",
-    "signatureMoves": [
-      "Head of Global BD – Sphere Labs",
-      "Former Head of Partnerships – BitGo",
-      "Enterprise BD – Fireblocks",
-      "Deutsche Bank Alumni",
-      "Yale MBA"
-    ],
-    "quote": "“Stablecoins succeed when they are natively compliant, privacy-preserving, and built to serve both institutions and the next billion users in emerging markets.”",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/gbengaomosuyi"
-    }
-  },
-  {
     "slug": "george-benson",
     "name": "George Benson",
     "title": "Liquidity Expert",
@@ -2387,40 +2352,6 @@
     }
   },
   {
-    "slug": "luciana-miranda",
-    "name": "Luciana Miranda",
-    "title": "Head of Institutional Growth",
-    "company": "Sphere Labs (ex-Goldman, DB, BofA)",
-    "bio": "Luciana Miranda is Head of Institutional Growth at Sphere Labs, where she leads global expansion, strategic partnerships with regulators, banks, and enterprises, and institutional adoption of regulated stablecoin payments and SphereNet — a compliant settlement infrastructure built on Solana.\n\nShe brings more than two decades of leadership experience from Goldman Sachs (Managing Director, Emerging Markets Sales and President of Goldman Sachs do Brasil), Deutsche Bank (Head of North America Clearing and Execution Sales), and Bank of America (Global Head of Sales for Futures, OTC Clearing & Prime Brokerage, and Global Head of FX and FI Prime Brokerage). With an MBA from London Business School and a BBA from Fundação Getulio Vargas, Luciana is a strategic revenue leader focused on building and scaling institutional businesses across asset classes and geographies.",
-    "expertise": [
-      "Institutional Finance & Markets",
-      "Prime Brokerage & Clearing",
-      "Stablecoin Settlement Infrastructure",
-      "Cross-Border Payments",
-      "Regulatory Partnerships"
-    ],
-    "photo": "/speakers/luciana-miranda.png",
-    "themes": [
-      "stablecoin"
-    ],
-    "featured": false,
-    "headline": "Bridging Traditional Finance and the Regulated On-Chain Economy",
-    "badge": "INSTITUTIONAL",
-    "tagline": "Head of Institutional Growth • Sphere Labs",
-    "subtitle": "Sphere Labs\nex-Goldman Sachs • Deutsche Bank • Bank of America",
-    "signatureMoves": [
-      "Head of Institutional Growth – Sphere Labs",
-      "MD – Bank of America (FX, FI, Prime)",
-      "MD – Deutsche Bank (Clearing)",
-      "MD – Goldman Sachs (Emerging Markets)",
-      "MBA – London Business School"
-    ],
-    "quote": "“After decades in traditional finance, I’m excited to help build the next generation of infrastructure for regulated finance — from stablecoin on/off-ramps to compliant settlement networks.”",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/luciana-miranda-0a20287/"
-    }
-  },
-  {
     "slug": "maaz-memon",
     "name": "Maaz Memon",
     "title": "CEO",
@@ -2625,40 +2556,6 @@
     "quote": "“Bitcoin moves in supercycles. Understanding the seasons of the market is the difference between surviving the winters and compounding through the springs.”",
     "social": {
       "linkedin": "https://www.linkedin.com/in/michaelterpin/"
-    }
-  },
-  {
-    "slug": "michalina-brokos",
-    "name": "Michalina Brokos",
-    "title": "PR Advisor",
-    "company": "Stablecoin & FX Institutional Panels",
-    "bio": "Michalina Brokos is a highly regarded PR Advisor who sits at the nexus of stablecoin issuance, foreign exchange markets, and institutional dialogue. She specializes in crafting the strategic narratives that help stablecoin projects, FX platforms, and blockchain protocols communicate their value proposition to regulators, bankers, and the global financial elite. Her work demystifies complex monetary technology and builds the trust bridges necessary for mainstream adoption.\n\nWith a background in financial journalism, media relations, and panel curation, Michalina has moderated and organized over 50 high-level institutional panels at venues including Davos, IMF side events, and central bank summits. She understands that stablecoins are not just a crypto innovation; they are a re-engineering of the global FX infrastructure. She helps firms navigate the communication tightrope between decentralization ideals and regulatory compliance, ensuring that their message resonates with both the crypto-native and the traditional financial audience. At UN Blockchain Week she shares insights on how to position stablecoin projects as the trusted backbone of the future financial system.",
-    "expertise": [
-      "Stablecoin & CBDC Narrative Strategy",
-      "Institutional Communications & Media Relations",
-      "FX Market Dynamics & Cross-Border Payments",
-      "Panel Moderation & Stakeholder Engagement",
-      "Crisis Communications & Reputation Management"
-    ],
-    "photo": "/speakers/michalina-brokos.jpg",
-    "themes": [
-      "stablecoin"
-    ],
-    "featured": false,
-    "headline": "Telling the Stablecoin Story: From Price Pegs to Public Trust",
-    "badge": "INSTITUTIONAL PR",
-    "tagline": "PR Advisor • Stablecoin & FX Institutional Panels",
-    "subtitle": "Stablecoin & FX Institutional Panels\nStrategic Communications • Panel Moderation • Market Narrative",
-    "signatureMoves": [
-      "PR Advisor – Stablecoin & FX Institutional Panels",
-      "Moderated 50+ High-Level Finance & Crypto Panels",
-      "Shaped Global Narrative for Major Stablecoin Issuers",
-      "Former Financial Journalist & Media Strategist",
-      "Trusted Connector Between Banks, Fintechs & Regulators"
-    ],
-    "quote": "“Stablecoins don’t just need deep liquidity — they need deep trust. Communication is the bridge between a perfect algorithm and a skeptical institution. I build that bridge.”",
-    "social": {
-      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michalina%20Brokos"
     }
   },
   {

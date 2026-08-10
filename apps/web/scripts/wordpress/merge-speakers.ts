@@ -8,34 +8,41 @@ export function loadSpeakerOverrides(overridesPath: string): Record<string, Spea
   return readJsonFile<Record<string, SpeakerOverride>>(overridesPath, {});
 }
 
+export function loadExcludedSpeakerSlugs(excludePath: string): Set<string> {
+  return new Set(readJsonFile<string[]>(excludePath, []));
+}
+
 export function mergeSpeakers(
   speakers: Speaker[],
-  overrides: Record<string, SpeakerOverride>
+  overrides: Record<string, SpeakerOverride>,
+  excludedSlugs: Set<string> = new Set()
 ): Speaker[] {
-  return speakers.map((speaker) => {
-    const override = overrides[speaker.slug];
-    if (!override) return speaker;
+  return speakers
+    .filter((speaker) => !excludedSlugs.has(speaker.slug))
+    .map((speaker) => {
+      const override = overrides[speaker.slug];
+      if (!override) return speaker;
 
-    const merged: Speaker = { ...speaker, ...override };
+      const merged: Speaker = { ...speaker, ...override };
 
-    if (override.featured !== undefined) {
-      merged.featured = override.featured;
-    }
+      if (override.featured !== undefined) {
+        merged.featured = override.featured;
+      }
 
-    merged.themes = inferSpeakerThemes({
-      title: merged.title,
-      company: merged.company,
-      bio: merged.bio,
-      headline: merged.headline,
-      badge: merged.badge,
-      tagline: merged.tagline,
-      subtitle: merged.subtitle,
-      expertise: merged.expertise,
-      signatureMoves: merged.signatureMoves,
+      merged.themes = inferSpeakerThemes({
+        title: merged.title,
+        company: merged.company,
+        bio: merged.bio,
+        headline: merged.headline,
+        badge: merged.badge,
+        tagline: merged.tagline,
+        subtitle: merged.subtitle,
+        expertise: merged.expertise,
+        signatureMoves: merged.signatureMoves,
+      });
+
+      return merged;
     });
-
-    return merged;
-  });
 }
 
 export function diffSpeakerCounts(before: Speaker[], after: Speaker[]): string {

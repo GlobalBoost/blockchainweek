@@ -1,5 +1,6 @@
 import speakersData from "@/content/speakers.json";
 import speakerOrderData from "@/content/speaker-order.json";
+import excludedSpeakersData from "@/content/overrides/speakers-exclude.json";
 import blogData from "@/content/blog.json";
 import teamData from "@/content/team.json";
 import themesData from "@/content/themes.json";
@@ -53,8 +54,10 @@ function normalizeSpeaker(speaker: Speaker): Speaker {
 export function getSpeakers(): Speaker[] {
   const order = speakerOrderData as string[];
   const rank = new Map(order.map((slug, index) => [slug, index]));
+  const excluded = new Set(excludedSpeakersData as string[]);
 
   return (speakersData as Speaker[])
+    .filter((speaker) => !excluded.has(speaker.slug))
     .map(normalizeSpeaker)
     .sort((a, b) => {
       const aRank = rank.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
