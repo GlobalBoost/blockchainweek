@@ -115,59 +115,30 @@ export default async function Image({ params }: ImageProps) {
         >
           <div
             style={{
-              position: "relative",
               display: "flex",
               width: 360,
               height: 360,
               flexShrink: 0,
+              borderRadius: 36,
+              border: "4px solid rgba(0, 158, 219, 0.45)",
+              overflow: "hidden",
+              background: "rgba(255,255,255,0.04)",
             }}
           >
-            <div
-              style={{
-                display: "flex",
-                width: 360,
-                height: 360,
-                borderRadius: 36,
-                border: "4px solid rgba(0, 158, 219, 0.45)",
-                overflow: "hidden",
-                background: "rgba(255,255,255,0.04)",
-              }}
-            >
-              {photoSrc ? (
-                <img
-                  src={photoSrc}
-                  alt=""
-                  width={360}
-                  height={360}
-                  style={{
-                    width: 360,
-                    height: 360,
-                    objectFit: usingPhotoFallback ? "contain" : "cover",
-                    objectPosition: "center",
-                    padding: usingPhotoFallback ? 48 : 0,
-                  }}
-                />
-              ) : null}
-            </div>
-            {speaker.badge ? (
-              <div
+            {photoSrc ? (
+              <img
+                src={photoSrc}
+                alt=""
+                width={360}
+                height={360}
                 style={{
-                  position: "absolute",
-                  top: 20,
-                  right: 20,
-                  display: "flex",
-                  borderRadius: 999,
-                  padding: "10px 18px",
-                  fontSize: 18,
-                  fontWeight: 800,
-                  letterSpacing: "0.12em",
-                  textTransform: "uppercase",
-                  color: "#000",
-                  background: "linear-gradient(90deg, #009edb, #e879f9, #009edb)",
+                  width: 360,
+                  height: 360,
+                  objectFit: usingPhotoFallback ? "contain" : "cover",
+                  objectPosition: "center",
+                  padding: usingPhotoFallback ? 48 : 0,
                 }}
-              >
-                {truncate(speaker.badge, 24)}
-              </div>
+              />
             ) : null}
           </div>
 
