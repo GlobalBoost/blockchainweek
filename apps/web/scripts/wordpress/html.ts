@@ -21,12 +21,44 @@ export function cleanSlug(raw: string): string {
   return raw.replace(/-2$/, "").replace(/-+$/, "");
 }
 
+/** Hosts that may still appear in CMS HTML after the apex → cms cutover. */
+export function wordpressContentHosts(wordpressUrl: string): string[] {
+  const primary = new URL(wordpressUrl).host.toLowerCase();
+  const hosts = new Set<string>([
+    primary,
+    "cms.unblockchainweek.com",
+    "unblockchainweek.com",
+    "www.unblockchainweek.com",
+  ]);
+  return [...hosts];
+}
+
+/** Regex fragment matching any known WordPress content host. */
+export function wordpressHostPattern(wordpressUrl: string): string {
+  return wordpressContentHosts(wordpressUrl)
+    .map((host) => host.replace(/\./g, "\\."))
+    .join("|");
+}
+
 export function normalizeAssetUrl(url: string, wordpressUrl: string): string {
-  const host = new URL(wordpressUrl).host;
-  return url
+  const hostPattern = wordpressHostPattern(wordpressUrl);
+  let normalized = url
     .replace(/&#038;/g, "&")
-    .replace("http://", "https://")
-    .replace(new RegExp(`https?://${host.replace(/\./g, "\\.")}`, "i"), wordpressUrl);
+    .replace(/^http:\/\//i, "https://")
+    .trim();
+
+  // Relative WordPress uploads / paths → absolute CMS URL
+  if (normalized.startsWith("/wp-content/") || normalized.startsWith("/wp-includes/")) {
+    return `${wordpressUrl}${normalized}`;
+  }
+
+  // Legacy apex/www (and http) hosts → current WORDPRESS_URL
+  normalized = normalized.replace(
+    new RegExp(`https?:\\/\\/(?:${hostPattern})`, "i"),
+    wordpressUrl
+  );
+
+  return normalized;
 }
 
 export function slugify(name: string): string {

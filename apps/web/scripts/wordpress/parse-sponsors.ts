@@ -1,5 +1,5 @@
 import path from "path";
-import { slugify } from "./html";
+import { normalizeAssetUrl, slugify, wordpressHostPattern } from "./html";
 import type { WordPressClient } from "./client";
 
 export interface SponsorSource {
@@ -52,16 +52,16 @@ export async function scrapeHomepageSponsorUrls(
 ): Promise<SponsorSource[]> {
   try {
     const html = await client.fetchHtml("/");
-    const host = new URL(wordpressUrl).host.replace(/\./g, "\\.");
+    const hostPattern = wordpressHostPattern(wordpressUrl);
     const pattern = new RegExp(
-      `src="(https?:\\/\\/${host}\\/wp-content\\/uploads\\/[^"]+)"`,
+      `src="(https?:\\/\\/(?:${hostPattern})\\/wp-content\\/uploads\\/[^"]+)"`,
       "gi"
     );
     const seen = new Set<string>();
     const scraped: SponsorSource[] = [];
 
     for (const match of html.matchAll(pattern)) {
-      const url = match[1].replace("http://", "https://");
+      const url = normalizeAssetUrl(match[1], wordpressUrl);
       if (seen.has(url)) continue;
       seen.add(url);
       const filename = path.basename(url).replace(/\.[^.]+$/, "");

@@ -129,6 +129,12 @@ export function sanitizeBlogHtml(html: string, wordpressUrl: string): string {
     'href="$1"'
   );
 
+  // Also strip legacy apex/www absolute links down to path
+  cleaned = cleaned.replace(
+    /href="https?:\/\/(?:www\.)?unblockchainweek\.com([^"]*)"/gi,
+    'href="$1"'
+  );
+
   cleaned = sanitizeHtml(cleaned, {
     allowedTags: [
       "p",

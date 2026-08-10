@@ -1,4 +1,5 @@
 import path from "path";
+import { normalizeAssetUrl, wordpressHostPattern } from "./html";
 import type { WordPressClient } from "./client";
 
 export interface MediaPartnerSource {
@@ -19,16 +20,16 @@ export async function scrapeMediaPartners(
   const start = html.indexOf('id="media"');
   const end = html.indexOf("<!-- TESTIMONIALS", start);
   const section = start >= 0 ? html.slice(start, end > start ? end : undefined) : html;
-  const host = new URL(wordpressUrl).host.replace(/\./g, "\\.");
+  const hostPattern = wordpressHostPattern(wordpressUrl);
   const pattern = new RegExp(
-    `src="(https?:\\/\\/${host}\\/wp-content\\/uploads\\/[^"]+)"`,
+    `src="(https?:\\/\\/(?:${hostPattern})\\/wp-content\\/uploads\\/[^"]+)"`,
     "gi"
   );
   const seen = new Set<string>();
   const partners: MediaPartnerSource[] = [];
 
   for (const match of section.matchAll(pattern)) {
-    const url = match[1].replace("http://", "https://");
+    const url = normalizeAssetUrl(match[1], wordpressUrl);
     if (seen.has(url)) continue;
     seen.add(url);
     const filename = path.basename(url).replace(/\.[^.]+$/, "");

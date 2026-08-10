@@ -1,4 +1,4 @@
-import { cleanSlug, normalizeAssetUrl, stripTags } from "./html";
+import { cleanSlug, normalizeAssetUrl, stripTags, wordpressHostPattern } from "./html";
 
 export interface SpeakerListing {
   slug: string;
@@ -9,13 +9,14 @@ export interface SpeakerListing {
 }
 
 export function parseSpeakersListingHtml(html: string, wordpressUrl: string): SpeakerListing[] {
-  const host = new URL(wordpressUrl).host.replace(/\./g, "\\.");
+  const hostPattern = wordpressHostPattern(wordpressUrl);
   const blocks = html.split(/<!--\s*\d+\.\s*/).slice(1);
   const speakers: SpeakerListing[] = [];
   const seen = new Set<string>();
 
+  // CMS HTML may still link to apex/www after the cms cutover.
   const linkPattern = new RegExp(
-    `href="(https?:\\/\\/${host}\\/([^/"']+)\\/?)"`,
+    `href="(https?:\\/\\/(?:${hostPattern})\\/([^/"']+)\\/?)"`,
     "i"
   );
 
@@ -29,7 +30,7 @@ export function parseSpeakersListingHtml(html: string, wordpressUrl: string): Sp
     if (!linkMatch || !nameMatch) continue;
 
     const slug = cleanSlug(linkMatch[2]);
-    if (seen.has(slug)) continue;
+    if (seen.has(slug) || slug === "speakers") continue;
     seen.add(slug);
 
     speakers.push({
@@ -45,8 +46,8 @@ export function parseSpeakersListingHtml(html: string, wordpressUrl: string): Sp
 }
 
 export function parseSpeakerSlugsFromRestHtml(html: string, wordpressUrl: string): string[] {
-  const host = new URL(wordpressUrl).host.replace(/\./g, "\\.");
-  const pattern = new RegExp(`https?:\\/\\/${host}\\/([a-z0-9-]+)\\/?`, "gi");
+  const hostPattern = wordpressHostPattern(wordpressUrl);
+  const pattern = new RegExp(`https?:\\/\\/(?:${hostPattern})\\/([a-z0-9-]+)\\/?`, "gi");
   const skip = new Set([
     "speakers",
     "about",
