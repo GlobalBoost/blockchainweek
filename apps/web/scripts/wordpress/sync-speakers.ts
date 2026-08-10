@@ -9,7 +9,9 @@ import {
   mergeSpeakers,
   loadSpeakerOverrides,
   loadExcludedSpeakerSlugs,
+  loadPreservedSpeakerSlugs,
   diffSpeakerCounts,
+  syncSpeakerOrder,
 } from "./merge-speakers";
 import {
   parseSpeakersListingHtml,
@@ -99,7 +101,6 @@ function buildSpeaker(listing: SpeakerListing, details: ReturnType<typeof parseS
       company,
       bio,
       headline: details.headline,
-      badge: details.badge,
       tagline: details.tagline,
       subtitle: details.subtitle,
       expertise: details.expertise,
@@ -109,7 +110,6 @@ function buildSpeaker(listing: SpeakerListing, details: ReturnType<typeof parseS
   };
 
   if (details.headline) speaker.headline = details.headline;
-  if (details.badge) speaker.badge = details.badge;
   if (details.tagline) speaker.tagline = details.tagline;
   if (details.subtitle) speaker.subtitle = details.subtitle;
   if (details.signatureMoves.length) speaker.signatureMoves = details.signatureMoves;
@@ -138,7 +138,19 @@ export async function syncSpeakers(config: SyncConfig): Promise<{ ok: boolean; c
       return { ok: false, count: existing.length };
     }
 
+    const preservePath = resolveContentPath(OVERRIDES_DIR, "speakers-preserve.json");
+    const preserved = loadPreservedSpeakerSlugs(preservePath);
+    const existingBySlug = new Map(existing.map((speaker) => [speaker.slug, speaker]));
+
     const speakers = await mapWithConcurrency(listing, config.fetchConcurrency, async (item, index) => {
+      // Skip WordPress fetch/photo overwrite for locally preserved speakers.
+      if (preserved.has(item.slug) && existingBySlug.has(item.slug)) {
+        const local = existingBySlug.get(item.slug)!;
+        console.log(`  🔒 [${index + 1}/${listing.length}] ${local.name} (preserved local)`);
+        await client.throttle();
+        return local;
+      }
+
       const details = await fetchSpeakerDetails(client, item.slug, config.wordpressUrl);
       const photo = config.dryRun
         ? item.photoUrl
@@ -156,14 +168,24 @@ export async function syncSpeakers(config: SyncConfig): Promise<{ ok: boolean; c
 
     const overrides = loadSpeakerOverrides(overridesPath);
     const excluded = loadExcludedSpeakerSlugs(excludePath);
-    const merged = mergeSpeakers(speakers, overrides, excluded);
+    const merged = mergeSpeakers(speakers, overrides, excluded, existing, preserved);
+
+    const orderPath = resolveContentPath(CONTENT_DIR, "speaker-order.json");
+    const existingOrder = readJsonFile<string[]>(orderPath, []);
+    const { order, added: orderAdded } = syncSpeakerOrder(existingOrder, merged, excluded);
 
     console.log(`  Speakers: ${diffSpeakerCounts(existing, merged)}`);
+    if (orderAdded.length) {
+      console.log(`  Order: appended ${orderAdded.length} → ${orderAdded.join(", ")}`);
+    } else {
+      console.log(`  Order: unchanged (${order.length} entries)`);
+    }
 
     if (!config.dryRun) {
       writeJsonFile(speakersPath, merged, false);
+      writeJsonFile(orderPath, order, false);
     } else {
-      console.log("  [dry-run] Skipped writing speakers.json");
+      console.log("  [dry-run] Skipped writing speakers.json / speaker-order.json");
     }
 
     return { ok: true, count: merged.length };

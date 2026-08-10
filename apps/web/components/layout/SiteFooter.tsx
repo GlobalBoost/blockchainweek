@@ -17,6 +17,7 @@ const FOOTER_LINKS = [
   { name: "Speakers", href: "/speakers" },
   { name: "Partnerships", href: "/partnerships" },
   { name: "Tickets", href: TICKETS_ANCHOR },
+  { name: "Visa Invitation", href: "/visa-invitation" },
   { name: "Contact", href: "/contact" },
 ];
 

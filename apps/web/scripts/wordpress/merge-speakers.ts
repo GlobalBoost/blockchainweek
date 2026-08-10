@@ -12,37 +12,67 @@ export function loadExcludedSpeakerSlugs(excludePath: string): Set<string> {
   return new Set(readJsonFile<string[]>(excludePath, []));
 }
 
+export function loadPreservedSpeakerSlugs(preservePath: string): Set<string> {
+  return new Set(readJsonFile<string[]>(preservePath, []));
+}
+
+function applyOverride(speaker: Speaker, override?: SpeakerOverride): Speaker {
+  if (!override) {
+    const { badge: _badge, ...rest } = speaker;
+    return rest;
+  }
+
+  const merged: Speaker = { ...speaker, ...override };
+  delete merged.badge;
+
+  if (override.featured !== undefined) {
+    merged.featured = override.featured;
+  }
+
+  merged.themes = inferSpeakerThemes({
+    title: merged.title,
+    company: merged.company,
+    bio: merged.bio,
+    headline: merged.headline,
+    tagline: merged.tagline,
+    subtitle: merged.subtitle,
+    expertise: merged.expertise,
+    signatureMoves: merged.signatureMoves,
+  });
+
+  return merged;
+}
+
 export function mergeSpeakers(
   speakers: Speaker[],
   overrides: Record<string, SpeakerOverride>,
-  excludedSlugs: Set<string> = new Set()
+  excludedSlugs: Set<string> = new Set(),
+  existingLocal: Speaker[] = [],
+  preservedSlugs: Set<string> = new Set()
 ): Speaker[] {
-  return speakers
+  const existingBySlug = new Map(existingLocal.map((speaker) => [speaker.slug, speaker]));
+
+  const fromWordpress = speakers
     .filter((speaker) => !excludedSlugs.has(speaker.slug))
     .map((speaker) => {
-      const override = overrides[speaker.slug];
-      if (!override) return speaker;
-
-      const merged: Speaker = { ...speaker, ...override };
-
-      if (override.featured !== undefined) {
-        merged.featured = override.featured;
+      // Local curated profiles always win over WordPress for preserved slugs.
+      if (preservedSlugs.has(speaker.slug)) {
+        const local = existingBySlug.get(speaker.slug);
+        if (local) {
+          return applyOverride(local, overrides[speaker.slug]);
+        }
       }
 
-      merged.themes = inferSpeakerThemes({
-        title: merged.title,
-        company: merged.company,
-        bio: merged.bio,
-        headline: merged.headline,
-        badge: merged.badge,
-        tagline: merged.tagline,
-        subtitle: merged.subtitle,
-        expertise: merged.expertise,
-        signatureMoves: merged.signatureMoves,
-      });
-
-      return merged;
+      return applyOverride(speaker, overrides[speaker.slug]);
     });
+
+  // Keep manually curated speakers that are not (yet) on the WordPress listing.
+  const syncedSlugs = new Set(fromWordpress.map((speaker) => speaker.slug));
+  const localOnly = existingLocal.filter(
+    (speaker) => !syncedSlugs.has(speaker.slug) && !excludedSlugs.has(speaker.slug)
+  );
+
+  return [...fromWordpress, ...localOnly];
 }
 
 export function diffSpeakerCounts(before: Speaker[], after: Speaker[]): string {
@@ -51,4 +81,27 @@ export function diffSpeakerCounts(before: Speaker[], after: Speaker[]): string {
   const added = after.filter((s) => !beforeSlugs.has(s.slug)).length;
   const removed = before.filter((s) => !afterSlugs.has(s.slug)).length;
   return `${before.length} → ${after.length} (${added} added, ${removed} removed)`;
+}
+
+/** Keep existing order; append newly synced speakers; drop slugs no longer present. */
+export function syncSpeakerOrder(
+  existingOrder: string[],
+  speakers: Speaker[],
+  excludedSlugs: Set<string> = new Set()
+): { order: string[]; added: string[] } {
+  const present = new Set(
+    speakers.filter((speaker) => !excludedSlugs.has(speaker.slug)).map((speaker) => speaker.slug)
+  );
+  const order = existingOrder.filter((slug) => present.has(slug));
+  const known = new Set(order);
+  const added: string[] = [];
+
+  for (const speaker of speakers) {
+    if (excludedSlugs.has(speaker.slug) || known.has(speaker.slug)) continue;
+    order.push(speaker.slug);
+    known.add(speaker.slug);
+    added.push(speaker.slug);
+  }
+
+  return { order, added };
 }

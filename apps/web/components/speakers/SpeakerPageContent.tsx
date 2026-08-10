@@ -77,30 +77,23 @@ function FeatureCard({
 
 export function SpeakerPageContent({ speaker }: { speaker: Speaker }) {
   return (
-    <section className="section-dark pb-16 pt-24 sm:pb-20 sm:pt-28">
+    <section className="section-dark pb-16 pt-6 sm:pb-20 sm:pt-8">
       <div className="mx-auto max-w-6xl px-4 lg:px-8">
         <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-6 sm:p-10 lg:p-12">
           <SpeakerBackButton />
 
           <div className="mt-6 grid gap-10 lg:grid-cols-12 lg:gap-12 lg:items-start">
               <div className="lg:col-span-5">
-                <div className="relative">
-                  <div className="relative aspect-square overflow-hidden rounded-3xl border-2 border-un-blue/30 shadow-2xl">
-                    <Image
-                      src={speaker.photo || "/logo.png"}
-                      alt={speaker.name}
-                      fill
-                      unoptimized
-                      className="object-cover"
-                      priority
-                      sizes="(max-width: 1024px) 100vw, 40vw"
-                    />
-                  </div>
-                  {speaker.badge && (
-                    <span className="absolute right-4 top-4 rounded-full bg-gradient-to-r from-un-blue via-fashion to-un-blue px-4 py-2 text-xs font-bold uppercase tracking-widest text-black shadow-lg">
-                      {speaker.badge}
-                    </span>
-                  )}
+                <div className="relative aspect-square overflow-hidden rounded-3xl border-2 border-un-blue/30 shadow-2xl">
+                  <Image
+                    src={speaker.photo || "/logo.png"}
+                    alt={speaker.name}
+                    fill
+                    unoptimized
+                    className="object-cover"
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                  />
                 </div>
               </div>
 
