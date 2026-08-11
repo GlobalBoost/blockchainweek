@@ -2,7 +2,7 @@ export function EventJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
-    name: "UN Blockchain Week 2026",
+    name: "Blockchain Week - UNGA Edition 2026",
     description:
       "The premier 10-day blockchain gathering during UNGA and New York Fashion Week in New York City.",
     startDate: "2026-09-10",
@@ -21,7 +21,7 @@ export function EventJsonLd() {
     },
     organizer: {
       "@type": "Organization",
-      name: "UN Blockchain Week",
+      name: "Blockchain Week - UNGA Edition",
       url: "https://unblockchainweek.com",
     },
     url: "https://unblockchainweek.com",

@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 function speakingTitle(name: string) {
-  return `${name} Speaking at UN Blockchain Week 2026`;
+  return `${name} Speaking at Blockchain Week - UNGA Edition 2026`;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

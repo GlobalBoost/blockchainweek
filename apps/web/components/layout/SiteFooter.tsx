@@ -60,7 +60,7 @@ export function SiteFooter() {
               alt={BRAND_NAME}
               width={LOGO_WIDTH}
               height={LOGO_HEIGHT}
-              className="h-10 w-auto"
+              className="h-16 w-auto sm:h-20"
             />
           </Link>
           <p className="mt-3 text-sm text-muted">

@@ -128,7 +128,7 @@ async function main() {
     const filename = `gallery-${i}${ext}`;
     const src = `/gallery/${filename}`;
     await download(url, path.join(root, "gallery", filename));
-    galleryJson.push({ src, alt: `UN Blockchain Week gallery ${i + 1}` });
+    galleryJson.push({ src, alt: `Blockchain Week - UNGA Edition gallery ${i + 1}` });
   }
   fs.writeFileSync(
     path.join(process.cwd(), "content", "gallery.json"),

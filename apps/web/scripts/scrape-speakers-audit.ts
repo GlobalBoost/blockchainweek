@@ -299,7 +299,7 @@ async function main() {
     const company = item.company || "";
     const bio =
       details.bio ||
-      `${item.name} is a speaker at UN Blockchain Week 2026.${company ? ` ${company}.` : ""}`;
+      `${item.name} is a speaker at Blockchain Week - UNGA Edition 2026.${company ? ` ${company}.` : ""}`;
 
     const themeSignals = {
       title,

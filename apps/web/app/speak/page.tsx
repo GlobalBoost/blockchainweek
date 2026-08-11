@@ -23,7 +23,7 @@ const PROGRAMMING = [
   { date: "September 14", title: "CryptoMondays" },
   { date: "September 15", title: "Tech Tuesdays" },
   { date: "September 16", title: "MAHA Wednesdays" },
-  { date: "September 16–17", title: "UN Blockchain Week Premiere Conference" },
+  { date: "September 16–17", title: "Blockchain Week - UNGA Edition Premiere Conference" },
   { date: "September 17", title: "BitcoinPalooza" },
   { date: "September 18", title: "Washington Elite Investment Summit & Gala" },
 ];
@@ -71,7 +71,7 @@ const BENEFITS = [
   {
     icon: Ticket,
     title: "Full Week Access",
-    desc: "Complimentary access to UN Blockchain Week programming for accepted speakers.",
+    desc: "Complimentary access to Blockchain Week - UNGA Edition programming for accepted speakers.",
   },
   {
     icon: Globe2,
@@ -91,7 +91,7 @@ export default function SpeakPage() {
       <PageHero
         eyebrow="Call for Speakers · Open Now"
         title="Shape the Future of Blockchain at the UN"
-        subtitle={`UN Blockchain Week 2026 brings together world leaders, investors, policymakers, and builders in ${CONFERENCE_LOCATION} during UNGA and New York Fashion Week.`}
+        subtitle={`Blockchain Week - UNGA Edition 2026 brings together world leaders, investors, policymakers, and builders in ${CONFERENCE_LOCATION} during UNGA and New York Fashion Week.`}
         actions={[
           { label: "Submit on Sessionize", href: SESSIONIZE_SPEAKERS_URL, variant: "gold", external: true },
           { label: "View Programming", href: "#programming", variant: "secondary" },
@@ -224,7 +224,7 @@ export default function SpeakPage() {
 
       <section className="section-light pb-16 sm:pb-20">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <SectionHeader eyebrow="Speaker Benefits" title="Why Speak at UN Blockchain Week" align="left" />
+          <SectionHeader eyebrow="Speaker Benefits" title="Why Speak at Blockchain Week - UNGA Edition" align="left" />
           <div className="grid gap-6 md:grid-cols-3">
             {BENEFITS.map(({ icon: Icon, title, desc }) => (
               <div

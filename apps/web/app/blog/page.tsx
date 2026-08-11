@@ -6,7 +6,7 @@ import { getBlogPosts } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "News, op-eds, and updates from UN Blockchain Week 2026 – speakers, UNGA 81, Bitcoin, and global blockchain policy.",
+    "News, op-eds, and updates from Blockchain Week - UNGA Edition 2026 – speakers, UNGA 81, Bitcoin, and global blockchain policy.",
   alternates: { canonical: "/blog" },
 };
 
@@ -17,7 +17,7 @@ export default function BlogPage() {
     <>
       <PageHero
         eyebrow="News & Updates"
-        title="UN Blockchain Week Blog"
+        title="Blockchain Week - UNGA Edition Blog"
         subtitle="Speaker announcements, event recaps, op-eds, and insights from the intersection of blockchain, policy, and global affairs."
       />
 

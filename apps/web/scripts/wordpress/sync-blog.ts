@@ -56,7 +56,7 @@ function mapWpPost(post: WpPostRaw, wordpressUrl: string): MappedPost {
     featuredImageUrl: featuredMedia?.source_url?.replace("http://", "https://"),
     author: author
       ? decodeHtml(author).toLowerCase() === "impactmoney"
-        ? "UN Blockchain Week"
+        ? "Blockchain Week - UNGA Edition"
         : decodeHtml(author)
       : undefined,
   };

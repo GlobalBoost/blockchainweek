@@ -10,7 +10,7 @@ export function LumaEmbed({ compact = false, className }: LumaEmbedProps) {
   return (
     <iframe
       src={LUMA_EMBED_URL}
-      title="UN Blockchain Week event calendar"
+      title="Blockchain Week - UNGA Edition event calendar"
       loading="lazy"
       className={cn(
         "w-full border-0 bg-white",
@@ -18,7 +18,7 @@ export function LumaEmbed({ compact = false, className }: LumaEmbedProps) {
         className
       )}
       allowFullScreen
-      aria-label="UN Blockchain Week event calendar"
+      aria-label="Blockchain Week - UNGA Edition event calendar"
     />
   );
 }

@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { normalizeAssetUrl } from "./html";
 
-const USER_AGENT = "UNBlockchainWeek-Sync/1.0";
+const USER_AGENT = "BlockchainWeekUNGA-Sync/1.0";
 
 export async function downloadAsset(
   sourceUrl: string,

@@ -42,7 +42,7 @@ function normalizeSpeaker(speaker: Speaker): Speaker {
     badge: speaker.badge ? decodeHtml(speaker.badge) : undefined,
     tagline: speaker.tagline ? decodeHtml(speaker.tagline) : undefined,
     subtitle: speaker.subtitle ? decodeHtml(speaker.subtitle) : undefined,
-    bio: sanitizeSpeakerText(speaker.bio) || `${decodeHtml(speaker.name)} is a speaker at UN Blockchain Week 2026.`,
+    bio: sanitizeSpeakerText(speaker.bio) || `${decodeHtml(speaker.name)} is a speaker at Blockchain Week - UNGA Edition 2026.`,
     expertise: speaker.expertise.map((e) => decodeHtml(e)).filter(Boolean),
     signatureMoves: speaker.signatureMoves?.map((e) => decodeHtml(e)).filter(Boolean),
     quote: speaker.quote

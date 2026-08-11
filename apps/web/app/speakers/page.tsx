@@ -6,7 +6,7 @@ import { getSpeakers } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Speakers",
-  description: "Meet the visionaries speaking at UN Blockchain Week 2026 during UNGA + NYFW.",
+  description: "Meet the visionaries speaking at Blockchain Week - UNGA Edition 2026 during UNGA + NYFW.",
 };
 
 export default function SpeakersPage() {
@@ -18,7 +18,7 @@ export default function SpeakersPage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeader
             eyebrow="Our speakers"
-            title="The Visionaries of UN Blockchain Week"
+            title="The Visionaries of Blockchain Week - UNGA Edition"
             subtitle="Policymakers · Builders · Investors · Founders shaping Bitcoin, AI, Energy, Space & Fashion"
           />
           <SpeakerGrid speakers={speakers} />

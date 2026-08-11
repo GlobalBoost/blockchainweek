@@ -173,7 +173,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
                 </p>
                 <h2 className="mt-1 text-xl font-bold text-ink">{author}</h2>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                  News, analysis and updates from the team behind UN Blockchain Week.
+                  News, analysis and updates from the team behind Blockchain Week - UNGA Edition.
                 </p>
               </div>
             </div>

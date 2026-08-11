@@ -32,9 +32,9 @@ export function AboutPageContent() {
             UNGA + NYFW 2026 · {EVENT_DATES} · {EVENT_LOCATION}
           </p>
           <h1 className="heading-font mt-4 text-4xl leading-tight text-runway-white sm:text-5xl lg:text-6xl">
-            About UN
+            About Blockchain Week
             <br />
-            Blockchain Week
+            UNGA Edition
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/75">
             The premier platform where corporations and visionary leaders speak directly to the world&apos;s most
@@ -64,7 +64,7 @@ export function AboutPageContent() {
           />
           <div className="space-y-5 text-left text-base leading-relaxed text-white/75 sm:text-lg">
             <p>
-              UN Blockchain Week is not just an event. It is the only blockchain gathering timed precisely with the
+              Blockchain Week - UNGA Edition is not just an event. It is the only blockchain gathering timed precisely with the
               United Nations General Assembly and New York Fashion Week.
             </p>
             <p>
@@ -99,7 +99,7 @@ export function AboutPageContent() {
             <div className="relative min-h-[320px] bg-[#0d1b2a] lg:min-h-full">
               <Image
                 src={about.images.speakersPanel}
-                alt="High-level speakers at UN Blockchain Week"
+                alt="High-level speakers at Blockchain Week - UNGA Edition"
                 fill
                 className="object-cover object-[center_28%]"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -145,7 +145,7 @@ export function AboutPageContent() {
             <div className="relative order-2 min-h-[280px] bg-[#0d1b2a] lg:order-1 lg:min-h-full">
               <Image
                 src={about.images.speakingOpportunity}
-                alt="High-level speaking opportunity at UN Blockchain Week"
+                alt="High-level speaking opportunity at Blockchain Week - UNGA Edition"
                 fill
                 className="object-cover object-[center_18%]"
                 sizes="(max-width: 1024px) 100vw, 50vw"

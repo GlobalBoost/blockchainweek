@@ -125,7 +125,7 @@ export function PartnershipsPageContent() {
             theme="dark"
             eyebrow="Why partner with us"
             title="Reach the room that matters during UNGA"
-            subtitle="UN Blockchain Week is timed with the United Nations General Assembly and New York Fashion Week – when decision-makers are already in the city."
+            subtitle="Blockchain Week - UNGA Edition is timed with the United Nations General Assembly and New York Fashion Week – when decision-makers are already in the city."
           />
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -415,7 +415,7 @@ export function PartnershipsPageContent() {
             <div className="relative min-h-[240px] bg-[#0d1b2a] lg:min-h-full">
               <Image
                 src="/hero/nyc-skyline.png"
-                alt="New York City during UN Blockchain Week"
+                alt="New York City during Blockchain Week - UNGA Edition"
                 fill
                 className="object-cover opacity-80"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -9,7 +9,7 @@ import { CONFERENCE_EYEBROW, CONFERENCE_LOCATION, TICKETS_SECTION_HASH } from "@
 
 export const metadata: Metadata = {
   title: "The Conference",
-  description: "UN Blockchain Week Conference 2026 – Sept 16–17 flagship program during UNGA week.",
+  description: "Blockchain Week - UNGA Edition Conference 2026 – Sept 16–17 flagship program during UNGA week.",
 };
 
 const HIGHLIGHTS = [
@@ -21,7 +21,7 @@ const HIGHLIGHTS = [
   {
     icon: CalendarDays,
     title: "Full Week Access Included",
-    desc: "Your ticket gives you access to the entire 10-day UN Blockchain Week (Sept 10–19), including all events, panels, and the 2-day conference.",
+    desc: "Your ticket gives you access to the entire 10-day Blockchain Week - UNGA Edition (Sept 10–19), including all events, panels, and the 2-day conference.",
   },
   {
     icon: Network,
@@ -37,8 +37,8 @@ export default function ConferencePage() {
     <>
       <PageHero
         eyebrow={CONFERENCE_EYEBROW}
-        title="UN Blockchain Week Conference 2026"
-        subtitle="The flagship two-day conference within UN Blockchain Week – high-signal content when the world's leaders are all in New York."
+        title="Blockchain Week - UNGA Edition Conference 2026"
+        subtitle="The flagship two-day conference within Blockchain Week - UNGA Edition – high-signal content when the world's leaders are all in New York."
         actions={[
           { label: "Secure Your Ticket", href: TICKETS_SECTION_HASH, variant: "gold" },
           { label: "View Agenda", href: "#agenda", variant: "secondary" },
@@ -49,7 +49,7 @@ export default function ConferencePage() {
         <div className="mx-auto max-w-4xl px-4 text-center lg:px-8">
           <SectionHeader
             title="The Most Important Two Days of the Week"
-            subtitle="The UN Blockchain Week Conference is the official two-day program within UN Blockchain Week, bringing together senior policymakers, institutional leaders, and builders for high-level discussions on Bitcoin, AI, Energy, Space, and blockchain adoption."
+            subtitle="The Blockchain Week - UNGA Edition Conference is the official two-day program within Blockchain Week - UNGA Edition, bringing together senior policymakers, institutional leaders, and builders for high-level discussions on Bitcoin, AI, Energy, Space, and blockchain adoption."
           />
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function ConferencePage() {
             theme="dark"
             eyebrow="Conference Agenda"
             title="Two Days. Four Tracks Each."
-            subtitle={`September 16–17 · ${CONFERENCE_LOCATION} · Part of the full 10-day UN Blockchain Week`}
+            subtitle={`September 16–17 · ${CONFERENCE_LOCATION} · Part of the full 10-day Blockchain Week - UNGA Edition`}
           />
 
           <div className="space-y-10">

@@ -14,11 +14,37 @@ export function SponsorMarquee() {
       </div>
       <div className="relative flex overflow-hidden">
         <div className="animate-marquee flex shrink-0 items-center gap-16 px-8">
-          {doubled.map((sponsor, i) => (
-            <div key={`${sponsor.name}-${i}`} className="flex h-16 w-40 shrink-0 items-center justify-center rounded-lg bg-white p-3">
-              <Image src={sponsor.logo} alt={sponsor.name} width={160} height={64} className="max-h-12 w-auto object-contain" />
-            </div>
-          ))}
+          {doubled.map((sponsor, i) => {
+            const logo = (
+              <Image
+                src={sponsor.logo}
+                alt={sponsor.name}
+                width={160}
+                height={64}
+                className="max-h-12 w-auto object-contain"
+              />
+            );
+            return (
+              <div
+                key={`${sponsor.name}-${i}`}
+                className="flex h-16 w-40 shrink-0 items-center justify-center rounded-lg bg-white p-3"
+              >
+                {sponsor.url ? (
+                  <a
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex h-full w-full items-center justify-center"
+                    aria-label={sponsor.name}
+                  >
+                    {logo}
+                  </a>
+                ) : (
+                  logo
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

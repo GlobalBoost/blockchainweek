@@ -7,17 +7,17 @@ const TEMPLATE_SRC = "/collateral/im-attending-template.jpg";
 export const metadata: Metadata = {
   title: "I'm Attending",
   description:
-    "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
+    "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
   alternates: { canonical: "/im-attending" },
   openGraph: {
     title: "I'm Attending",
     description:
-      "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
+      "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
   },
   twitter: {
     title: "I'm Attending",
     description:
-      "Upload your photo to create a shareable UN Blockchain Week graphic for Instagram, LinkedIn, and X.",
+      "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
   },
 };
 
@@ -39,7 +39,7 @@ export default function ImAttendingPage() {
                 I&apos;m Attending
               </h1>
               <p className="mt-3 text-base leading-relaxed text-white/70 sm:mt-5 sm:text-lg">
-                Upload your photo to create a shareable UN Blockchain Week graphic for Instagram,
+                Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram,
                 LinkedIn, and X.
               </p>
             </header>

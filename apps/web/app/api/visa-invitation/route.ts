@@ -32,7 +32,7 @@ const schema = z.object({
 function formatBody(body: z.infer<typeof schema>): string {
   return [
     "VISA INVITATION LETTER REQUEST",
-    "UN Blockchain Week 2026",
+    "Blockchain Week - UNGA Edition 2026",
     "",
     "— Primary Contact —",
     `Full Name: ${body.contactFullName}`,

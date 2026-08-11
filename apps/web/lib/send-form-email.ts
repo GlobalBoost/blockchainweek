@@ -26,7 +26,7 @@ export async function sendFormEmail({
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "UN Blockchain Week <noreply@unblockchainweek.com>",
+      from: "Blockchain Week - UNGA Edition <noreply@unblockchainweek.com>",
       to: recipient,
       subject,
       text,

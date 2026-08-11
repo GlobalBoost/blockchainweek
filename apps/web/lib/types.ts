@@ -81,6 +81,7 @@ export interface Testimonial {
 export interface Sponsor {
   name: string;
   logo: string;
+  url?: string;
 }
 
 export interface MediaPartner {

@@ -35,13 +35,18 @@ export async function syncSponsors(config: SyncConfig): Promise<{ ok: boolean; c
       return { ok: false, count: existing.length };
     }
 
+    // Keep local-only partners (e.g. Easner) that are not in the WP default list
+    const syncedNames = new Set(records.map((r) => r.name.toLowerCase()));
+    const localOnly = existing.filter((e) => !syncedNames.has(e.name.toLowerCase()));
+    const merged = [...localOnly, ...records];
+
     if (!config.dryRun) {
-      writeJsonFile(sponsorsPath, records, false);
+      writeJsonFile(sponsorsPath, merged, false);
     } else {
       console.log("  [dry-run] Skipped writing sponsors.json");
     }
 
-    return { ok: true, count: records.length };
+    return { ok: true, count: merged.length };
   } catch (error) {
     console.error("  Sponsor sync failed:", error instanceof Error ? error.message : error);
     return { ok: false, count: existing.length };

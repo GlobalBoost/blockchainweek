@@ -41,7 +41,7 @@ export function BlogCard({
           />
         ) : (
           <div className="flex h-full items-center justify-center bg-gradient-to-br from-navy to-un-blue/80">
-            <span className="heading-font px-6 text-center text-lg text-white">UN Blockchain Week</span>
+            <span className="heading-font px-6 text-center text-lg text-white">Blockchain Week - UNGA Edition</span>
           </div>
         )}
       </Link>

@@ -29,7 +29,7 @@ export function GalaSpotlight() {
               theme="dark"
               eyebrow="Black-Tie UNGA Event"
               title="Washington Elite Investment Summit & Gala"
-              subtitle="September 18 · Times Square · The most exclusive night of UN Blockchain Week 2026"
+              subtitle="September 18 · Times Square · The most exclusive night of Blockchain Week - UNGA Edition 2026"
               gold
               align="left"
               className="mb-6 sm:mb-8"

@@ -31,9 +31,9 @@ export function HeroVideo() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/hero-wordmark.svg"
-            alt="UN Blockchain Week 2026"
+            alt="Blockchain Week 2026"
             width={1024}
-            height={63}
+            height={85}
             className="mx-auto mb-5 h-auto w-[min(88vw,44rem)] sm:mb-8 lg:mb-10"
             fetchPriority="high"
           />

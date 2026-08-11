@@ -207,7 +207,7 @@ async function main() {
 
     const bio =
       details.bio ||
-      `${item.name} is a speaker at UN Blockchain Week 2026.${item.company ? ` ${item.company}.` : ""}`;
+      `${item.name} is a speaker at Blockchain Week - UNGA Edition 2026.${item.company ? ` ${item.company}.` : ""}`;
 
     const fullText = `${item.name} ${item.title} ${item.company} ${bio}`;
     const photo = await downloadPhoto(item.slug, item.photoUrl);

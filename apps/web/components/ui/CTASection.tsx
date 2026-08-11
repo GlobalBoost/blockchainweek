@@ -73,7 +73,7 @@ export function CTASection({ ticketsHref = TICKETS_ANCHOR }: { ticketsHref?: str
           theme="dark"
           eyebrow="Join the Movement"
           title="The Future Is Here. And It's Walking the Runway."
-          subtitle="Three ways to be part of UN Blockchain Week during UNGA + NYFW week."
+          subtitle="Three ways to be part of Blockchain Week - UNGA Edition during UNGA + NYFW week."
           className="mb-12"
         />
 

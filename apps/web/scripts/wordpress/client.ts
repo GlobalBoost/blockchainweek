@@ -1,6 +1,6 @@
 import { sleep } from "./html";
 
-const USER_AGENT = "UNBlockchainWeek-Sync/1.0";
+const USER_AGENT = "BlockchainWeekUNGA-Sync/1.0";
 
 export interface WpPage {
   slug: string;

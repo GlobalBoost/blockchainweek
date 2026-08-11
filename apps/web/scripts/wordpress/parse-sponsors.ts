@@ -10,6 +10,7 @@ export interface SponsorSource {
 export interface SponsorRecord {
   name: string;
   logo: string;
+  url?: string;
 }
 
 export function getDefaultSponsors(wordpressUrl: string): SponsorSource[] {

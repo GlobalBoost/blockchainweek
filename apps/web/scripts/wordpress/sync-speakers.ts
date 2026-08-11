@@ -86,7 +86,7 @@ function buildSpeaker(listing: SpeakerListing, details: ReturnType<typeof parseS
   const company = listing.company || "";
   const bio =
     details.bio ||
-    `${listing.name} is a speaker at UN Blockchain Week 2026.${company ? ` ${company}.` : ""}`;
+    `${listing.name} is a speaker at Blockchain Week - UNGA Edition 2026.${company ? ` ${company}.` : ""}`;
 
   const speaker: Speaker = {
     slug: listing.slug,
