@@ -3,10 +3,11 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { CTASection } from "@/components/ui/CTASection";
 import { SpeakerGrid } from "@/components/speakers/SpeakerGrid";
 import { getSpeakers } from "@/lib/content";
+import { BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Speakers",
-  description: "Meet the visionaries speaking at Blockchain Week - UNGA Edition 2026 during UNGA + NYFW.",
+  description: `Meet the visionaries speaking at ${BRAND_NAME} 2026 during UNGA + NYFW.`,
 };
 
 export default function SpeakersPage() {
@@ -18,7 +19,7 @@ export default function SpeakersPage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <SectionHeader
             eyebrow="Our speakers"
-            title="The Visionaries of Blockchain Week - UNGA Edition"
+            title={`The Visionaries of ${BRAND_NAME}`}
             subtitle="Policymakers · Builders · Investors · Founders shaping Bitcoin, AI, Energy, Space & Fashion"
           />
           <SpeakerGrid speakers={speakers} />

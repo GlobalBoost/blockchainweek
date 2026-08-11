@@ -12,15 +12,27 @@ export const BRAND_TAGLINE =
   "Bitcoin · AI & Energy · Space · Fashion – during UNGA + NYFW";
 export const BRAND_DESCRIPTION =
   "Blockchain Week - UNGA Edition 2026 is the premier 10-day blockchain gathering during the United Nations General Assembly and New York Fashion Week in New York City.";
+export const BRAND_KEYWORDS = [
+  "Blockchain Week - UNGA Edition",
+  "Blockchain Week UNGA Edition 2026",
+  "UNGA",
+  "UNGA 81",
+  "New York Fashion Week",
+  "NYFW",
+  "Times Square",
+  "blockchain conference",
+  "Bitcoin",
+  "New York",
+] as const;
 export const BRAND_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://unblockchainweek.com";
 export const EVENT_DATES = "September 10–19, 2026";
-export const EVENT_LOCATION = "Time Square, NYC";
+export const EVENT_LOCATION = "Times Square, NYC";
 export const CONFERENCE_DATES = "September 16–17, 2026";
 export const CONFERENCE_LOCATION = "Times Square, NYC";
 export const CONFERENCE_EYEBROW = `${CONFERENCE_DATES} · ${CONFERENCE_LOCATION}`;
 export const UN_DISCLAIMER =
-  "Blockchain Week - UNGA Edition is an independent, decentralized initiative and is not affiliated with the United Nations.";
+  "Blockchain Week 2026 (UNGA Edition) is an independent initiative and is not affiliated with the United Nations.";
 export const CONTACT_EMAIL = "contact@unblockchainweek.com";
 export const SPONSORSHIP_EMAIL = "sponsorships@unblockchainweek.com";
 

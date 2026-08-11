@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact Blockchain Week - UNGA Edition 2026 – New York City.",
+  description: `Contact ${BRAND_NAME} 2026 – New York City.`,
 };
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

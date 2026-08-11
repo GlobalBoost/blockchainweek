@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SpeakerPageContent } from "@/components/speakers/SpeakerPageContent";
 import { getAllSpeakerSlugs, getSpeakerBySlug } from "@/lib/content";
-import { SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH } from "@/lib/brand-constants";
+import { BRAND_NAME, SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH } from "@/lib/brand-constants";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 function speakingTitle(name: string) {
-  return `${name} Speaking at Blockchain Week - UNGA Edition 2026`;
+  return `${name} Speaking at ${BRAND_NAME} 2026`;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

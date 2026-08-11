@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const TEMPLATE_SRC = "/collateral/im-attending-template.jpg";
 const OUTPUT_SIZE = 1024;
-const DOWNLOAD_NAME = "un-blockchain-week-im-attending.png";
+const DOWNLOAD_NAME = "blockchain-week-unga-edition-im-attending.png";
 
 /** Normalized rects measured from the 1024×1024 empty template. */
 const PHOTO_FRAME = {

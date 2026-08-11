@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import {
   BRAND_NAME,
   BRAND_DESCRIPTION,
+  BRAND_KEYWORDS,
   BRAND_SEO_TITLE,
   BRAND_URL,
   SOCIAL_PREVIEW_HEIGHT,
@@ -24,33 +25,46 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const socialImage = {
+  url: SOCIAL_PREVIEW_IMAGE,
+  width: SOCIAL_PREVIEW_WIDTH,
+  height: SOCIAL_PREVIEW_HEIGHT,
+  alt: `${BRAND_NAME} 2026`,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(BRAND_URL),
+  applicationName: BRAND_NAME,
   title: {
     default: BRAND_SEO_TITLE,
     template: `%s | ${BRAND_NAME}`,
   },
   description: BRAND_DESCRIPTION,
+  keywords: [...BRAND_KEYWORDS],
+  authors: [{ name: BRAND_NAME, url: BRAND_URL }],
+  creator: BRAND_NAME,
+  publisher: BRAND_NAME,
+  category: "Event",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: BRAND_SEO_TITLE,
     description: BRAND_DESCRIPTION,
     url: BRAND_URL,
     siteName: BRAND_NAME,
+    locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: SOCIAL_PREVIEW_IMAGE,
-        width: SOCIAL_PREVIEW_WIDTH,
-        height: SOCIAL_PREVIEW_HEIGHT,
-        alt: `${BRAND_NAME} 2026`,
-      },
-    ],
+    images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
     title: BRAND_SEO_TITLE,
     description: BRAND_DESCRIPTION,
     images: [SOCIAL_PREVIEW_IMAGE],
+  },
+  appleWebApp: {
+    title: BRAND_NAME,
   },
 };
 

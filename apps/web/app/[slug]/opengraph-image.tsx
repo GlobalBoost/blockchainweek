@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { getSpeakerBySlug } from "@/lib/content";
-import { BRAND_SEO_TITLE } from "@/lib/brand-constants";
+import { BRAND_NAME, BRAND_SEO_TITLE } from "@/lib/brand-constants";
 
 export const size = {
   width: 1200,
@@ -10,7 +10,7 @@ export const size = {
 };
 
 export const contentType = "image/png";
-export const alt = "Speaker at Blockchain Week - UNGA Edition 2026";
+export const alt = `Speaker at ${BRAND_NAME} 2026`;
 
 interface ImageProps {
   params: Promise<{ slug: string }>;
@@ -73,7 +73,7 @@ export default async function Image({ params }: ImageProps) {
           }}
         >
           <div style={{ fontSize: 56, fontWeight: 800, letterSpacing: "-0.02em" }}>
-            Blockchain Week - UNGA Edition 2026
+            {`${BRAND_NAME} 2026`}
           </div>
           <div style={{ marginTop: 16, fontSize: 28, color: "rgba(255,255,255,0.65)" }}>
             Times Square, NYC

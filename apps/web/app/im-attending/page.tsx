@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
 import { ImAttendingGenerator } from "@/components/collateral/ImAttendingGenerator";
-import { EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
+import { BRAND_NAME, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 
 const TEMPLATE_SRC = "/collateral/im-attending-template.jpg";
 
+const pageTitle = "I'm Attending";
+const pageDescription = `Upload your photo to create a shareable ${BRAND_NAME} graphic for Instagram, LinkedIn, and X.`;
+
 export const metadata: Metadata = {
-  title: "I'm Attending",
-  description:
-    "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: "/im-attending" },
   openGraph: {
-    title: "I'm Attending",
-    description:
-      "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
+    title: `${pageTitle} | ${BRAND_NAME}`,
+    description: pageDescription,
   },
   twitter: {
-    title: "I'm Attending",
-    description:
-      "Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram, LinkedIn, and X.",
+    title: `${pageTitle} | ${BRAND_NAME}`,
+    description: pageDescription,
   },
 };
 
@@ -39,7 +39,7 @@ export default function ImAttendingPage() {
                 I&apos;m Attending
               </h1>
               <p className="mt-3 text-base leading-relaxed text-white/70 sm:mt-5 sm:text-lg">
-                Upload your photo to create a shareable Blockchain Week - UNGA Edition graphic for Instagram,
+                Upload your photo to create a shareable {BRAND_NAME} graphic for Instagram,
                 LinkedIn, and X.
               </p>
             </header>

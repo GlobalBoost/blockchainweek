@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/ui/PageHero";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { getBlogPosts } from "@/lib/content";
+import { BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description:
-    "News, op-eds, and updates from Blockchain Week - UNGA Edition 2026 – speakers, UNGA 81, Bitcoin, and global blockchain policy.",
+  description: `News, op-eds, and updates from ${BRAND_NAME} 2026 – speakers, UNGA 81, Bitcoin, and global blockchain policy.`,
   alternates: { canonical: "/blog" },
 };
 
@@ -17,7 +17,7 @@ export default function BlogPage() {
     <>
       <PageHero
         eyebrow="News & Updates"
-        title="Blockchain Week - UNGA Edition Blog"
+        title={`${BRAND_NAME} Blog`}
         subtitle="Speaker announcements, event recaps, op-eds, and insights from the intersection of blockchain, policy, and global affairs."
       />
 

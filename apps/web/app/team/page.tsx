@@ -4,11 +4,11 @@ import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TeamMemberCard } from "@/components/team/TeamMemberCard";
 import { getTeam } from "@/lib/content";
-import { EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
+import { EVENT_DATES, EVENT_LOCATION, BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Team",
-  description: "Meet the team behind Blockchain Week - UNGA Edition 2026.",
+  description: `Meet the team behind ${BRAND_NAME} 2026.`,
 };
 
 export default function TeamPage() {
