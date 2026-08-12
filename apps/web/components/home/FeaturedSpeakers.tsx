@@ -12,7 +12,6 @@ export function FeaturedSpeakers({ speakers }: { speakers: Speaker[] }) {
     saveSpeakersReturnState({
       path: "/",
       scrollY: window.scrollY,
-      listSlugs: speakers.map((speaker) => speaker.slug),
     });
   };
 

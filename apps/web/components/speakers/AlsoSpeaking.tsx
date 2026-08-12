@@ -2,10 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { SpeakerCard } from "@/components/speakers/SpeakerCard";
-import {
-  pickAlsoSpeakingSpeakers,
-  readSpeakersReturnState,
-} from "@/lib/speakers-navigation";
+import { pickAlsoSpeakingSpeakers } from "@/lib/speakers-navigation";
 import type { Speaker } from "@/lib/types";
 
 export function AlsoSpeaking({
@@ -20,9 +17,7 @@ export function AlsoSpeaking({
   const [items, setItems] = useState(fallbackSpeakers);
 
   useEffect(() => {
-    const listSlugs = readSpeakersReturnState()?.listSlugs;
-    const fromList = pickAlsoSpeakingSpeakers(speakers, currentSlug, listSlugs, 4);
-    setItems(fromList);
+    setItems(pickAlsoSpeakingSpeakers(speakers, currentSlug, 4));
   }, [currentSlug, speakers]);
 
   if (items.length === 0) return null;

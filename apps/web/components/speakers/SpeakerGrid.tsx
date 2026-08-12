@@ -61,7 +61,6 @@ export function SpeakerGrid({ speakers }: { speakers: Speaker[] }) {
       scrollY: window.scrollY,
       query,
       activeTheme,
-      listSlugs: filtered.map((speaker) => speaker.slug),
     });
   };
 

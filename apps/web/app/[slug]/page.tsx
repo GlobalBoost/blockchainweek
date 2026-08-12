@@ -57,7 +57,7 @@ export default async function SpeakerPage({ params }: PageProps) {
   if (!speaker) notFound();
 
   const speakers = getSpeakers();
-  const alsoSpeakingFallback = pickAlsoSpeakingSpeakers(speakers, speaker.slug, undefined, 4);
+  const alsoSpeakingFallback = pickAlsoSpeakingSpeakers(speakers, speaker.slug, 4);
 
   return (
     <SpeakerPageContent

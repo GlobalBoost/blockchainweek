@@ -8,56 +8,26 @@ export type SpeakersReturnState = {
   scrollY: number;
   query?: string;
   activeTheme?: string;
-  /** Ordered speaker slugs from the list the visitor opened (filtered grid, featured, etc.). */
-  listSlugs?: string[];
 };
 
-/** Prefer the next speakers in the source list; fill with theme overlap when needed. */
+/** Shuffle a copy of `items` (Fisher–Yates). */
+function shuffled<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+/** Random speakers from the full lineup (excluding the current speaker). */
 export function pickAlsoSpeakingSpeakers(
   speakers: Speaker[],
   currentSlug: string,
-  listSlugs: string[] | undefined,
   count = 4
 ): Speaker[] {
-  const bySlug = new Map(speakers.map((speaker) => [speaker.slug, speaker]));
-  const picked: Speaker[] = [];
-  const seen = new Set<string>([currentSlug]);
-
-  const pushSlug = (slug: string) => {
-    if (seen.has(slug) || picked.length >= count) return;
-    const speaker = bySlug.get(slug);
-    if (!speaker) return;
-    seen.add(slug);
-    picked.push(speaker);
-  };
-
-  if (listSlugs?.length) {
-    const idx = listSlugs.indexOf(currentSlug);
-    const ordered =
-      idx >= 0
-        ? [...listSlugs.slice(idx + 1), ...listSlugs.slice(0, idx)]
-        : listSlugs.filter((slug) => slug !== currentSlug);
-    for (const slug of ordered) {
-      pushSlug(slug);
-      if (picked.length >= count) return picked;
-    }
-  }
-
-  const current = bySlug.get(currentSlug);
-  const rest = speakers.filter((speaker) => !seen.has(speaker.slug));
-  rest.sort((a, b) => {
-    const overlap = (speaker: Speaker) =>
-      speaker.themes.filter((theme) => current?.themes.includes(theme)).length;
-    const diff = overlap(b) - overlap(a);
-    if (diff !== 0) return diff;
-    return a.name.localeCompare(b.name);
-  });
-  for (const speaker of rest) {
-    pushSlug(speaker.slug);
-    if (picked.length >= count) break;
-  }
-
-  return picked;
+  const candidates = speakers.filter((speaker) => speaker.slug !== currentSlug);
+  return shuffled(candidates).slice(0, count);
 }
 
 export function saveSpeakersReturnState(state: SpeakersReturnState) {
