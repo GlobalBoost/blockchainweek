@@ -15,7 +15,7 @@
  * Environment:
  *   WORDPRESS_URL          – default https://cms.unblockchainweek.com
  *   SYNC_ENABLED           – set false to skip sync entirely
- *   SYNC_SPEAKERS          – default true
+ *   SYNC_SPEAKERS          – default false (speakers are curated in-repo)
  *   SYNC_SPONSORS          – default true
  *   SYNC_MEDIA_PARTNERS    – default true
  *   SYNC_BLOG               – default true

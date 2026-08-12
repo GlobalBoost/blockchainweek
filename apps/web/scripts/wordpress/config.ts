@@ -28,7 +28,7 @@ export function loadSyncConfig(argv: string[] = process.argv.slice(2)): SyncConf
   return {
     wordpressUrl: (process.env.WORDPRESS_URL ?? "https://cms.unblockchainweek.com").replace(/\/$/, ""),
     enabled: envBool("SYNC_ENABLED", true),
-    syncSpeakers: speakersOnly || (!sponsorsOnly && !blogOnly && envBool("SYNC_SPEAKERS", true)),
+    syncSpeakers: speakersOnly || (!sponsorsOnly && !blogOnly && envBool("SYNC_SPEAKERS", false)),
     syncSponsors: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_SPONSORS", true)),
     syncMediaPartners: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_MEDIA_PARTNERS", true)),
     syncBlog: blogOnly || (!speakersOnly && !sponsorsOnly && envBool("SYNC_BLOG", true)),

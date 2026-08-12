@@ -13,6 +13,14 @@ export function decodeHtml(text: string): string {
     .trim();
 }
 
+/** Rewrite legacy event names so WordPress sync cannot reintroduce the old brand. */
+export function replaceLegacyBrandName(text: string): string {
+  if (!text) return text;
+  return text
+    .replace(/\bUN\s+Blockchain\s+Week\b/gi, "Blockchain Week - UNGA Edition")
+    .replace(/\bUNBlockchain\s+Week\b/gi, "Blockchain Week - UNGA Edition");
+}
+
 export function stripTags(html: string): string {
   return decodeHtml(html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim());
 }

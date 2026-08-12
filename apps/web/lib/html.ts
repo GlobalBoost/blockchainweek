@@ -1,3 +1,5 @@
+import { BRAND_NAME } from "./brand-constants";
+
 /** Decode HTML entities from migrated WordPress content */
 export function decodeHtml(text: string): string {
   if (!text) return "";
@@ -14,8 +16,16 @@ export function decodeHtml(text: string): string {
     .trim();
 }
 
+/** Rewrite legacy event names to the current brand in speaker/team copy. */
+export function replaceLegacyBrandName(text: string): string {
+  if (!text) return text;
+  return text
+    .replace(/\bUN\s+Blockchain\s+Week\b/gi, BRAND_NAME)
+    .replace(/\bUNBlockchain\s+Week\b/gi, BRAND_NAME);
+}
+
 export function sanitizeSpeakerText(text: string): string {
-  const decoded = decodeHtml(text);
+  const decoded = replaceLegacyBrandName(decodeHtml(text));
   // Strip any leftover script/css junk that may have been scraped
   if (
     decoded.includes("function updateCountdown") ||

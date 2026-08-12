@@ -1,8 +1,24 @@
 import type { Speaker } from "../../lib/types";
 import { inferSpeakerThemes } from "../../lib/speaker-themes";
 import { readJsonFile } from "./write-json";
+import { replaceLegacyBrandName } from "./html";
 
 export type SpeakerOverride = Partial<Speaker> & { featured?: boolean };
+
+function rewriteSpeakerBrand(speaker: Speaker): Speaker {
+  return {
+    ...speaker,
+    title: replaceLegacyBrandName(speaker.title),
+    company: replaceLegacyBrandName(speaker.company),
+    bio: replaceLegacyBrandName(speaker.bio),
+    headline: speaker.headline ? replaceLegacyBrandName(speaker.headline) : undefined,
+    tagline: speaker.tagline ? replaceLegacyBrandName(speaker.tagline) : undefined,
+    subtitle: speaker.subtitle ? replaceLegacyBrandName(speaker.subtitle) : undefined,
+    expertise: speaker.expertise.map(replaceLegacyBrandName),
+    signatureMoves: speaker.signatureMoves?.map(replaceLegacyBrandName),
+    quote: speaker.quote ? replaceLegacyBrandName(speaker.quote) : undefined,
+  };
+}
 
 export function loadSpeakerOverrides(overridesPath: string): Record<string, SpeakerOverride> {
   return readJsonFile<Record<string, SpeakerOverride>>(overridesPath, {});
@@ -72,7 +88,7 @@ export function mergeSpeakers(
     (speaker) => !syncedSlugs.has(speaker.slug) && !excludedSlugs.has(speaker.slug)
   );
 
-  return [...fromWordpress, ...localOnly];
+  return [...fromWordpress, ...localOnly].map(rewriteSpeakerBrand);
 }
 
 export function diffSpeakerCounts(before: Speaker[], after: Speaker[]): string {

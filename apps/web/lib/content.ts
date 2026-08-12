@@ -30,21 +30,26 @@ import type {
   ThemePillar,
   BlogPost,
 } from "@/lib/types";
-import { decodeHtml, sanitizeSpeakerText, stripSurroundingQuotes } from "@/lib/html";
+import { decodeHtml, replaceLegacyBrandName, sanitizeSpeakerText, stripSurroundingQuotes } from "@/lib/html";
+import { BRAND_NAME } from "@/lib/brand-constants";
 
 function normalizeSpeaker(speaker: Speaker): Speaker {
   return {
     ...speaker,
     name: decodeHtml(speaker.name),
     title: decodeHtml(speaker.title),
-    company: decodeHtml(speaker.company),
-    headline: speaker.headline ? decodeHtml(speaker.headline) : undefined,
+    company: replaceLegacyBrandName(decodeHtml(speaker.company)),
+    headline: speaker.headline ? replaceLegacyBrandName(decodeHtml(speaker.headline)) : undefined,
     badge: speaker.badge ? decodeHtml(speaker.badge) : undefined,
-    tagline: speaker.tagline ? decodeHtml(speaker.tagline) : undefined,
-    subtitle: speaker.subtitle ? decodeHtml(speaker.subtitle) : undefined,
-    bio: sanitizeSpeakerText(speaker.bio) || `${decodeHtml(speaker.name)} is a speaker at Blockchain Week - UNGA Edition 2026.`,
-    expertise: speaker.expertise.map((e) => decodeHtml(e)).filter(Boolean),
-    signatureMoves: speaker.signatureMoves?.map((e) => decodeHtml(e)).filter(Boolean),
+    tagline: speaker.tagline ? replaceLegacyBrandName(decodeHtml(speaker.tagline)) : undefined,
+    subtitle: speaker.subtitle ? replaceLegacyBrandName(decodeHtml(speaker.subtitle)) : undefined,
+    bio:
+      sanitizeSpeakerText(speaker.bio) ||
+      `${decodeHtml(speaker.name)} is a speaker at ${BRAND_NAME} 2026.`,
+    expertise: speaker.expertise.map((e) => replaceLegacyBrandName(decodeHtml(e))).filter(Boolean),
+    signatureMoves: speaker.signatureMoves
+      ?.map((e) => replaceLegacyBrandName(decodeHtml(e)))
+      .filter(Boolean),
     quote: speaker.quote
       ? stripSurroundingQuotes(sanitizeSpeakerText(speaker.quote))
       : undefined,
@@ -80,7 +85,11 @@ export function getAllSpeakerSlugs(): string[] {
 }
 
 export function getTeam(): TeamMember[] {
-  return teamData as TeamMember[];
+  return (teamData as TeamMember[]).map((member) => ({
+    ...member,
+    role: replaceLegacyBrandName(member.role),
+    bio: replaceLegacyBrandName(member.bio),
+  }));
 }
 
 export function getThemes(): ThemePillar[] {
