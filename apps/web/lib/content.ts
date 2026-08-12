@@ -119,6 +119,11 @@ export function getSponsorshipPricingBanner(): { label: string; cta: string } {
   return sponsorshipData.pricingBanner as { label: string; cta: string };
 }
 
+export function getSponsorshipPackagesNote(): string | null {
+  const note = (sponsorshipData as { packagesNote?: string }).packagesNote;
+  return note?.trim() ? note : null;
+}
+
 export function getAboutContent(): AboutContent {
   return aboutData as AboutContent;
 }

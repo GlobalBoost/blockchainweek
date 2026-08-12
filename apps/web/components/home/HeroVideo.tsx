@@ -38,13 +38,13 @@ export function HeroVideo() {
             fetchPriority="high"
           />
 
-          {/* Headline – two lines as specified */}
+          {/* Headline – two lines; scale down on narrow screens so nowrap never clips */}
           <h1 className="heading-font leading-[0.95] tracking-tight">
-            <span className="block whitespace-nowrap text-[clamp(1.5rem,7.3vw,5.5rem)] text-runway-white sm:text-[clamp(2.25rem,8vw,5.5rem)]">
+            <span className="block whitespace-nowrap text-[clamp(1.15rem,5.8vw,5.5rem)] text-runway-white sm:text-[clamp(2.25rem,8vw,5.5rem)]">
               BITCOIN.{" "}
               <span className="gradient-text">AI & ENERGY.</span>
             </span>
-            <span className="mt-2 block whitespace-nowrap text-[clamp(1.5rem,7.3vw,5.5rem)] sm:mt-3 sm:text-[clamp(2.25rem,8vw,5.5rem)]">
+            <span className="mt-2 block whitespace-nowrap text-[clamp(1.15rem,5.8vw,5.5rem)] sm:mt-3 sm:text-[clamp(2.25rem,8vw,5.5rem)]">
               <span className="text-fashion">SPACE.</span>{" "}
               <span className="text-runway-white">FASHION.</span>
             </span>

@@ -4,7 +4,7 @@ import { Globe2, Megaphone, Network } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TestimonialsSection } from "@/components/ui/TestimonialsSection";
 import { getAboutContent } from "@/lib/content";
-import { EVENT_DATES, EVENT_LOCATION, TICKETS_ANCHOR } from "@/lib/brand-constants";
+import { BRAND_NAME, EVENT_DATES, EVENT_LOCATION, TICKETS_ANCHOR } from "@/lib/brand-constants";
 
 const HIGHLIGHT_ICONS = [Megaphone, Network, Globe2];
 
@@ -32,9 +32,7 @@ export function AboutPageContent() {
             UNGA + NYFW 2026 · {EVENT_DATES} · {EVENT_LOCATION}
           </p>
           <h1 className="heading-font mt-4 text-4xl leading-tight text-runway-white sm:text-5xl lg:text-6xl">
-            About Blockchain Week
-            <br />
-            UNGA Edition
+            About {BRAND_NAME}
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/75">
             The premier platform where corporations and visionary leaders speak directly to the world&apos;s most

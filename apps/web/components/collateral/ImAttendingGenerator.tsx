@@ -12,16 +12,18 @@ const DOWNLOAD_NAME = "blockchain-week-unga-edition-im-attending.png";
 /** Normalized rects measured from the 1024×1024 empty template. */
 const PHOTO_FRAME = {
   x: 0.2783,
-  y: 0.2334,
+  y: 0.2598,
   w: 0.4453,
-  h: 0.458,
+  // Stop at the top of the "I'm Attending" badge so the badge stays in front.
+  h: 0.4551,
 } as const;
 
 const BADGE_OVERLAY = {
-  x: 0.2344,
-  y: 0.6885,
-  w: 0.5313,
-  h: 0.0566,
+  // Slightly padded so the pill + white stroke redraw cleanly over the photo edge.
+  x: 0.2256,
+  y: 0.7129,
+  w: 0.5488,
+  h: 0.125,
 } as const;
 
 const FRAME_RADIUS = 0.0176; // ~18px at 1024
@@ -263,7 +265,7 @@ export function ImAttendingGenerator({ copy }: { copy: ReactNode }) {
               Photo added — ready to download
             </p>
           ) : (
-            <p className="whitespace-nowrap text-[11px] text-white/55 sm:text-sm">
+            <p className="text-[11px] leading-relaxed text-white/55 sm:text-sm">
               Tip: use a clear headshot. Processed in your browser only.
             </p>
           )}

@@ -3,6 +3,7 @@
     "label": "STANDARD PRICING ACTIVE – UNTIL SEPTEMBER 9, 2026",
     "cta": "View Standard Rates"
   },
+  "packagesNote": "Times Square Billboard (Gold tier and above): Your brand will be featured in a 10-second animated creative that runs every 2.5 minutes on a premium Times Square screen, starting two weeks before the event, continuing throughout, and after.",
   "whyPartner": [
     {
       "title": "Global Government Exposure",
@@ -70,6 +71,7 @@
         { "benefit": "Website Profile", "presidential": "Featured + custom", "platinum": "150 words + logo", "gold": "100 words + logo", "silver": "Logo + link", "bronze": "Logo listing" },
         { "benefit": "On-site Branding", "presidential": "Stage + custom", "platinum": "Stage backdrop priority", "gold": "Banners + screens", "silver": "Program + signage", "bronze": "Program listing" },
         { "benefit": "Global Media Campaign", "presidential": "Yes – full", "platinum": "Yes", "gold": "Press inclusion", "silver": "–", "bronze": "–" },
+        { "benefit": "Times Square Billboard", "presidential": "Yes – priority", "platinum": "Yes", "gold": "Yes", "silver": "–", "bronze": "–" },
         { "benefit": "Post-Event Report & Assets", "presidential": "Custom analytics", "platinum": "Full report + media", "gold": "Summary + photos", "silver": "Photos", "bronze": "–" }
       ]
     }
@@ -105,6 +107,7 @@
         "Private govt + investor roundtable",
         "Custom keynote / major speaking",
         "Largest premium booth + hospitality",
+        "Times Square Billboard (priority)",
         "Maximum tickets + full media campaign"
       ],
       "sections": [
@@ -145,6 +148,7 @@
           "items": [
             "Highest logo priority with optional naming / \"Presented by\" elements",
             "Custom email and social campaign series to the full audience",
+            "Times Square Billboard – priority placement of your 10-second animated creative",
             "Comprehensive global media campaign and post-event analytics report"
           ]
         }
@@ -169,6 +173,7 @@
         "Host Exclusive Investor Dinner",
         "Premium 25 sqm Booth + VIP Lounge",
         "12 VIP + 8 GA Tickets",
+        "Times Square Billboard",
         "2 Dedicated Emails + Global Media"
       ],
       "sections": [
@@ -209,6 +214,7 @@
             "Top-tier logo placement (website, stage backdrop, program, app)",
             "2 dedicated email blasts to the full attendee list",
             "4+ dedicated social media posts + campaign assets",
+            "Times Square Billboard – 10-second animated creative every 2.5 minutes",
             "150-word company profile on the official website",
             "Full post-event report with media assets and metrics"
           ]
@@ -233,6 +239,7 @@
         "16 sqm Exhibition Booth",
         "6 VIP + 6 GA Tickets",
         "VIP Lounge + Gala Access",
+        "Times Square Billboard",
         "1 Dedicated Email + Strong Branding"
       ],
       "sections": [
@@ -269,6 +276,7 @@
             "Prominent logo placement across website, program, and signage",
             "1 dedicated email blast",
             "2 dedicated social media posts",
+            "Times Square Billboard – 10-second animated creative every 2.5 minutes",
             "100-word company profile on the website",
             "Summary post-event report + photo assets"
           ]

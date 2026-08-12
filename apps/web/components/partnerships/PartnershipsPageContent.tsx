@@ -9,6 +9,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import {
   getSponsorshipAddons,
   getSponsorshipComparison,
+  getSponsorshipPackagesNote,
   getSponsorshipPricingBanner,
   getSponsorshipPricingPhases,
   getSponsorshipTiers,
@@ -35,6 +36,7 @@ export function PartnershipsPageContent() {
   const comparison = getSponsorshipComparison();
   const pricingPhases = getSponsorshipPricingPhases();
   const pricingBanner = getSponsorshipPricingBanner();
+  const packagesNote = getSponsorshipPackagesNote();
 
   const [activeTier, setActiveTier] = useState<SponsorshipTier | null>(null);
   const [selectedTier, setSelectedTier] = useState("presidential");
@@ -161,7 +163,7 @@ export function PartnershipsPageContent() {
             className="mb-12"
           />
 
-          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-5">
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {tiers.map((tier) => {
               const isPresidential = tier.id === "presidential";
               const isPlatinum = tier.id === "platinum";
@@ -235,6 +237,12 @@ export function PartnershipsPageContent() {
               );
             })}
           </div>
+
+          {packagesNote ? (
+            <p className="mx-auto mt-8 max-w-4xl text-sm leading-relaxed text-ink-muted">
+              {packagesNote}
+            </p>
+          ) : null}
         </div>
       </section>
 
@@ -406,7 +414,7 @@ export function PartnershipsPageContent() {
                 </li>
               </ul>
               <Link
-                href="/the-conference"
+                href="/conference"
                 className="mt-6 inline-flex text-sm font-semibold text-un-blue hover:underline"
               >
                 About the 2-day conference →
@@ -453,7 +461,17 @@ export function PartnershipsPageContent() {
                   <FormField name="name" required placeholder="Your name" label="Name" />
                   <FormField name="email" type="email" required placeholder="you@company.com" label="Email" />
                 </div>
-                <FormField name="company" placeholder="Company" label="Company" />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <FormField name="company" placeholder="Company" label="Company" />
+                  <FormField
+                    name="phone"
+                    type="tel"
+                    required
+                    autoComplete="tel"
+                    placeholder="+1 202 555 0100"
+                    label="Phone Number (with country code)"
+                  />
+                </div>
                 <FormSelect name="tier" label="Interested in" defaultValue={selectedTier}>
                   {tiers.map((t) => (
                     <option key={t.id} value={t.id}>

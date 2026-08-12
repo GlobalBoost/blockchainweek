@@ -25,6 +25,11 @@
     "permanent": true
   },
   {
+    "source": "/the-conference",
+    "destination": "/conference",
+    "permanent": true
+  },
+  {
     "source": "/speakers/aaron-williams",
     "destination": "/aaron-williams",
     "permanent": true

@@ -32,7 +32,7 @@ export default function ImAttendingPage() {
         <ImAttendingGenerator
           copy={
             <header className="w-full">
-              <p className="whitespace-nowrap text-[10px] font-semibold uppercase tracking-[0.18em] text-un-blue sm:text-xs sm:tracking-[0.22em]">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-un-blue sm:whitespace-nowrap sm:text-xs sm:tracking-[0.22em]">
                 {EVENT_DATES} · {EVENT_LOCATION}
               </p>
               <h1 className="heading-font mt-3 text-[2.35rem] leading-[0.95] text-runway-white sm:mt-4 sm:text-5xl lg:text-6xl">

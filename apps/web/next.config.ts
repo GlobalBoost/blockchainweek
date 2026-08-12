@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/events", destination: "https://luma.com/unblockchainweek", permanent: true },
+      { source: "/the-conference", destination: "/conference", permanent: true },
       { source: "/gallery", destination: "/", permanent: true },
       { source: "/key-themes", destination: "/#key-themes", permanent: true },
       { source: "/tickets", destination: "/#tickets", permanent: true },

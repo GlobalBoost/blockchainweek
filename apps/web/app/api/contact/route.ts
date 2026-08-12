@@ -6,6 +6,7 @@ import { sendFormEmail } from "@/lib/send-form-email";
 const schema = z.object({
   name: z.string().min(1),
   email: z.string().email(),
+  phone: z.string().min(1),
   message: z.string().min(1),
 });
 
@@ -17,7 +18,7 @@ export async function POST(request: NextRequest) {
     await sendFormEmail({
       to: CONTACT_EMAIL,
       subject: `Contact from ${body.name}`,
-      text: `From: ${body.name} (${body.email})\n\n${body.message}`,
+      text: `From: ${body.name} (${body.email})\nPhone: ${body.phone}\n\n${body.message}`,
       replyTo: body.email,
     });
 

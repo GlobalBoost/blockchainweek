@@ -101,6 +101,14 @@ export default function ContactPage() {
                   <FormField name="name" required placeholder="Your name" label="Name" />
                   <FormField name="email" type="email" required placeholder="you@email.com" label="Email" />
                 </div>
+                <FormField
+                  name="phone"
+                  type="tel"
+                  required
+                  autoComplete="tel"
+                  placeholder="+1 202 555 0100"
+                  label="Phone Number (with country code)"
+                />
                 <FormTextarea
                   name="message"
                   required

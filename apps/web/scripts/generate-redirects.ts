@@ -30,6 +30,7 @@ const staticRedirects = [
   { source: "/sponsorship", destination: "/partnerships", permanent: true },
   { source: "/partners", destination: "/partnerships", permanent: true },
   { source: "/home", destination: "/", permanent: true },
+  { source: "/the-conference", destination: "/conference", permanent: true },
 ];
 
 const all = [...staticRedirects, ...redirects];

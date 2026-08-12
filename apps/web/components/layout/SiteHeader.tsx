@@ -11,7 +11,7 @@ import { BRAND_NAME, LOGO_HEIGHT, LOGO_MAIN, LOGO_WIDTH, TICKETS_ANCHOR, TICKETS
 const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Conference", href: "/the-conference" },
+  { name: "Conference", href: "/conference" },
   { name: "Speakers", href: "/speakers" },
   { name: "Partnerships", href: "/partnerships" },
 ] as const;
@@ -39,7 +39,7 @@ export function SiteHeader() {
   const [mobileMoreOpen, setMobileMoreOpen] = useState(false);
   const moreRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const ticketsHref = pathname === "/the-conference" ? TICKETS_SECTION_HASH : TICKETS_ANCHOR;
+  const ticketsHref = pathname === "/conference" ? TICKETS_SECTION_HASH : TICKETS_ANCHOR;
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -51,6 +51,30 @@ export function SiteHeader() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  useEffect(() => {
+    setOpen(false);
+    setMoreOpen(false);
+    setMobileMoreOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!open) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [open]);
 
   const linkClass = (href: string) =>
     cn(
@@ -138,7 +162,7 @@ export function SiteHeader() {
       </nav>
 
       {open && (
-        <div className="border-t border-black/10 bg-white px-4 py-4 lg:hidden">
+        <div className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-black/10 bg-white px-4 py-4 lg:hidden">
           <div className="flex flex-col gap-3">
             {NAV_LINKS.map((item) => (
               <Link

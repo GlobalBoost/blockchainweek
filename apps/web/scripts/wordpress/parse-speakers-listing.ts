@@ -55,6 +55,7 @@ export function parseSpeakerSlugsFromRestHtml(html: string, wordpressUrl: string
     "contact",
     "partnerships",
     "the-conference",
+    "conference",
     "gallery",
     "events",
     "tickets",

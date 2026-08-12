@@ -24,7 +24,7 @@ export function TicketPricing() {
           {tiers.map((tier) => (
             <div
               key={tier.id}
-              className={`relative flex h-full flex-col rounded-2xl border p-8 ${
+              className={`relative flex h-full flex-col rounded-2xl border p-5 sm:p-8 ${
                 tier.popular
                   ? "border-gold bg-gradient-to-b from-gold/10 to-transparent"
                   : "border-white/10 bg-white/5"
