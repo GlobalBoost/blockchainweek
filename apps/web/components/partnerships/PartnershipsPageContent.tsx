@@ -16,6 +16,7 @@ import {
   getSponsorshipWhyPartner,
 } from "@/lib/content";
 import { EVENT_DATES, EVENT_LOCATION, SPONSORSHIP_EMAIL } from "@/lib/brand-constants";
+import { BrandName } from "@/components/ui/BrandName";
 import type { SponsorshipTier } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -127,7 +128,12 @@ export function PartnershipsPageContent() {
             theme="dark"
             eyebrow="Why partner with us"
             title="Reach the room that matters during UNGA"
-            subtitle="Blockchain Week - UNGA Edition is timed with the United Nations General Assembly and New York Fashion Week – when decision-makers are already in the city."
+            subtitle={
+              <>
+                <BrandName /> is timed with the United Nations General Assembly and New York Fashion Week – when
+                decision-makers are already in the city.
+              </>
+            }
           />
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

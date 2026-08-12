@@ -4,6 +4,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TicketPricing } from "@/components/home/TicketPricing";
 import { CTASection } from "@/components/ui/CTASection";
+import { BrandName } from "@/components/ui/BrandName";
 import { getConferenceAgenda } from "@/lib/content";
 import { BRAND_NAME, CONFERENCE_EYEBROW, CONFERENCE_LOCATION, TICKETS_SECTION_HASH } from "@/lib/brand-constants";
 
@@ -21,7 +22,12 @@ const HIGHLIGHTS = [
   {
     icon: CalendarDays,
     title: "Full Week Access Included",
-    desc: `Your ticket gives you access to the entire 10-day ${BRAND_NAME} (Sept 10–19), including all events, panels, and the 2-day conference.`,
+    desc: (
+      <>
+        Your ticket gives you access to the entire 10-day <BrandName /> (Sept 10–19), including all events, panels,
+        and the 2-day conference.
+      </>
+    ),
   },
   {
     icon: Network,
@@ -38,7 +44,12 @@ export default function ConferencePage() {
       <PageHero
         eyebrow={CONFERENCE_EYEBROW}
         title={`${BRAND_NAME} Conference 2026`}
-        subtitle={`The flagship two-day conference within ${BRAND_NAME} – high-signal content when the world's leaders are all in New York.`}
+        subtitle={
+          <>
+            The flagship two-day conference within <BrandName /> – high-signal content when the world&apos;s leaders
+            are all in New York.
+          </>
+        }
         actions={[
           { label: "Secure Your Ticket", href: TICKETS_SECTION_HASH, variant: "gold" },
           { label: "View Agenda", href: "#agenda", variant: "secondary" },
@@ -49,7 +60,13 @@ export default function ConferencePage() {
         <div className="mx-auto max-w-4xl px-4 text-center lg:px-8">
           <SectionHeader
             title="The Most Important Two Days of the Week"
-            subtitle={`The ${BRAND_NAME} Conference is the official two-day program within ${BRAND_NAME}, bringing together senior policymakers, institutional leaders, and builders for high-level discussions on Bitcoin, AI, Energy, Space, and blockchain adoption.`}
+            subtitle={
+              <>
+                The <BrandName /> Conference is the official two-day program within <BrandName />, bringing together
+                senior policymakers, institutional leaders, and builders for high-level discussions on Bitcoin, AI,
+                Energy, Space, and blockchain adoption.
+              </>
+            }
           />
         </div>
       </section>
@@ -80,7 +97,11 @@ export default function ConferencePage() {
             theme="dark"
             eyebrow="Conference Agenda"
             title="Two Days. Four Tracks Each."
-            subtitle={`September 16–17 · ${CONFERENCE_LOCATION} · Part of the full 10-day ${BRAND_NAME}`}
+            subtitle={
+              <>
+                September 16–17 · {CONFERENCE_LOCATION} · Part of the full 10-day <BrandName />
+              </>
+            }
           />
 
           <div className="space-y-10">

@@ -5,6 +5,7 @@ import { Globe } from "lucide-react";
 import { TweetEmbed } from "@/components/speakers/TweetEmbed";
 import { SpeakerBackButton } from "@/components/speakers/SpeakerBackButton";
 import { AlsoSpeaking } from "@/components/speakers/AlsoSpeaking";
+import { emphasizeBrand } from "@/components/ui/BrandName";
 import type { Speaker } from "@/lib/types";
 
 function XIcon({ className }: { className?: string }) {
@@ -154,7 +155,7 @@ export function SpeakerPageContent({
               <div className="max-w-4xl space-y-6">
                 {speaker.bio.split("\n\n").filter(Boolean).map((p) => (
                   <p key={p.slice(0, 60)} className="text-base leading-relaxed text-white/80 sm:text-lg">
-                    {p}
+                    {emphasizeBrand(p)}
                   </p>
                 ))}
               </div>

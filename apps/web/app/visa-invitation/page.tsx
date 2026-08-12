@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { PageHero } from "@/components/ui/PageHero";
 import { FormField, FormSelect, FormSubmit, FormTextarea } from "@/components/ui/FormField";
+import { BrandName } from "@/components/ui/BrandName";
 import { CONTACT_EMAIL, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
@@ -219,7 +220,7 @@ export default function VisaInvitationPage() {
                   <span>
                     I confirm that all information provided is accurate and matches my official
                     documents. I understand that the invitation letter is issued solely for the
-                    purpose of attending Blockchain Week - UNGA Edition 2026 and is contingent upon valid
+                    purpose of attending <BrandName /> 2026 and is contingent upon valid
                     registration. <span className="text-red-600">*</span>
                   </span>
                 </label>

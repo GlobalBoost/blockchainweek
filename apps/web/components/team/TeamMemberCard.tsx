@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { TeamMember } from "@/lib/types";
+import { emphasizeBrand } from "@/components/ui/BrandName";
 
 export function TeamMemberCard({ member }: { member: TeamMember }) {
   return (
@@ -24,7 +25,7 @@ export function TeamMemberCard({ member }: { member: TeamMember }) {
       <div className="p-6 sm:p-7">
         <h3 className="text-xl font-bold text-ink">{member.name}</h3>
         <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-un-blue">{member.role}</p>
-        <p className="mt-3 text-sm leading-relaxed text-ink-muted">{member.bio}</p>
+        <p className="mt-3 text-sm leading-relaxed text-ink-muted">{emphasizeBrand(member.bio)}</p>
       </div>
     </article>
   );

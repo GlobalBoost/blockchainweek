@@ -11,6 +11,7 @@ import {
 import { formatBlogDate } from "@/lib/content";
 import type { BlogPost } from "@/lib/types";
 import { BRAND_NAME, BRAND_URL } from "@/lib/brand-constants";
+import { BrandName } from "@/components/ui/BrandName";
 
 function ShareLink({
   href,
@@ -173,7 +174,7 @@ export function BlogPostContent({ post }: { post: BlogPost }) {
                 </p>
                 <h2 className="mt-1 text-xl font-bold text-ink">{author}</h2>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                  News, analysis and updates from the team behind Blockchain Week - UNGA Edition.
+                  News, analysis and updates from the team behind <BrandName />.
                 </p>
               </div>
             </div>

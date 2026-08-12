@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Handshake, Mic2, Ticket, type LucideIcon } from "lucide-react";
 import { TICKETS_ANCHOR } from "@/lib/brand-constants";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { BrandName } from "@/components/ui/BrandName";
 import { cn } from "@/lib/utils";
 
 type Accent = "blue" | "gold" | "neutral";
@@ -73,7 +74,11 @@ export function CTASection({ ticketsHref = TICKETS_ANCHOR }: { ticketsHref?: str
           theme="dark"
           eyebrow="Join the Movement"
           title="The Future Is Here. And It's Walking the Runway."
-          subtitle="Three ways to be part of Blockchain Week - UNGA Edition during UNGA + NYFW week."
+          subtitle={
+            <>
+              Three ways to be part of <BrandName /> during UNGA + NYFW week.
+            </>
+          }
           className="mb-12"
         />
 

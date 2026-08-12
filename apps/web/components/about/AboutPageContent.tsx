@@ -5,6 +5,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TestimonialsSection } from "@/components/ui/TestimonialsSection";
 import { getAboutContent } from "@/lib/content";
 import { BRAND_NAME, EVENT_DATES, EVENT_LOCATION, TICKETS_ANCHOR } from "@/lib/brand-constants";
+import { BrandName } from "@/components/ui/BrandName";
 
 const HIGHLIGHT_ICONS = [Megaphone, Network, Globe2];
 
@@ -62,8 +63,8 @@ export function AboutPageContent() {
           />
           <div className="space-y-5 text-left text-base leading-relaxed text-white/75 sm:text-lg">
             <p>
-              Blockchain Week - UNGA Edition is not just an event. It is the only blockchain gathering timed precisely with the
-              United Nations General Assembly and New York Fashion Week.
+              <BrandName /> is not just an event. It is the only blockchain gathering timed precisely with the United
+              Nations General Assembly and New York Fashion Week.
             </p>
             <p>
               For high-level corporations and visionary executives, this is your unmatched opportunity to address world

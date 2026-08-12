@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TICKET_CHECKOUT } from "@/lib/brand-constants";
+import { BrandName } from "@/components/ui/BrandName";
 
 export function GalaSpotlight() {
   return (
@@ -29,7 +30,11 @@ export function GalaSpotlight() {
               theme="dark"
               eyebrow="Black-Tie UNGA Event"
               title="Washington Elite Investment Summit & Gala"
-              subtitle="September 18 · Times Square · The most exclusive night of Blockchain Week - UNGA Edition 2026"
+              subtitle={
+                <>
+                  September 18 · Times Square · The most exclusive night of <BrandName /> 2026
+                </>
+              }
               gold
               align="left"
               className="mb-6 sm:mb-8"

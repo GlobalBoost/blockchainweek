@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { ImAttendingGenerator } from "@/components/collateral/ImAttendingGenerator";
+import { BrandName } from "@/components/ui/BrandName";
 import { BRAND_NAME, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 
 const TEMPLATE_SRC = "/collateral/im-attending-template.jpg";
 
 const pageTitle = "I'm Attending";
-const pageDescription = `Upload your photo to create a shareable ${BRAND_NAME} graphic for Instagram, LinkedIn, and X.`;
+const pageDescription = `Upload your photo to create a shareable ${BRAND_NAME} graphic for Instagram, LinkedIn, and X with #BlockchainWeekUNGA.`;
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -39,8 +40,8 @@ export default function ImAttendingPage() {
                 I&apos;m Attending
               </h1>
               <p className="mt-3 text-base leading-relaxed text-white/70 sm:mt-5 sm:text-lg">
-                Upload your photo to create a shareable {BRAND_NAME} graphic for Instagram,
-                LinkedIn, and X.
+                Upload your photo to create a shareable <BrandName /> graphic for Instagram, LinkedIn, and X with{" "}
+                <span className="font-semibold text-white/90">#BlockchainWeekUNGA</span>.
               </p>
             </header>
           }

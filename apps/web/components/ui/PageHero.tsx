@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface PageHeroAction {
@@ -11,7 +12,7 @@ interface PageHeroAction {
 interface PageHeroProps {
   eyebrow?: string;
   title: string;
-  subtitle?: string;
+  subtitle?: ReactNode;
   actions?: PageHeroAction[];
   className?: string;
 }
