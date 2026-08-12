@@ -25,7 +25,7 @@ export const BRAND_KEYWORDS = [
   "New York",
 ] as const;
 export const BRAND_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://unblockchainweek.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.blockchainweek.ai";
 export const EVENT_DATES = "September 10–19, 2026";
 export const EVENT_LOCATION = "Times Square, NYC";
 export const CONFERENCE_DATES = "September 16–17, 2026";
@@ -33,8 +33,15 @@ export const CONFERENCE_LOCATION = "Times Square, NYC";
 export const CONFERENCE_EYEBROW = `${CONFERENCE_DATES} · ${CONFERENCE_LOCATION}`;
 export const UN_DISCLAIMER =
   "Blockchain Week 2026 (UNGA Edition) is an independent initiative and is not affiliated with the United Nations.";
-export const CONTACT_EMAIL = "contact@unblockchainweek.com";
-export const SPONSORSHIP_EMAIL = "sponsorships@unblockchainweek.com";
+export const CONTACT_EMAIL = "contact@blockchainweek.ai";
+export const SPONSORSHIP_EMAIL = "sponsorships@blockchainweek.ai";
+export const NOREPLY_EMAIL = "noreply@blockchainweek.ai";
+
+/** Legacy hosts that permanently redirect to BRAND_URL. */
+export const LEGACY_SITE_HOSTS = [
+  "unblockchainweek.com",
+  "www.unblockchainweek.com",
+] as const;
 
 export const TICKET_CHECKOUT = {
   ga: "https://buy.stripe.com/8x2aEWeK9d0a66I7JBfjG0R",

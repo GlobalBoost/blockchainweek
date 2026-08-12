@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL } from "@/lib/brand-constants";
+import { CONTACT_EMAIL, BRAND_NAME, NOREPLY_EMAIL } from "@/lib/brand-constants";
 
 type SendFormEmailInput = {
   to?: string;
@@ -26,7 +26,7 @@ export async function sendFormEmail({
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "Blockchain Week - UNGA Edition <noreply@unblockchainweek.com>",
+      from: `${BRAND_NAME} <${NOREPLY_EMAIL}>`,
       to: recipient,
       subject,
       text,

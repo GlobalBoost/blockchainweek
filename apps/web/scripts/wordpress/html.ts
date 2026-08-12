@@ -29,6 +29,8 @@ export function wordpressContentHosts(wordpressUrl: string): string[] {
     "cms.unblockchainweek.com",
     "unblockchainweek.com",
     "www.unblockchainweek.com",
+    "blockchainweek.ai",
+    "www.blockchainweek.ai",
   ]);
   return [...hosts];
 }

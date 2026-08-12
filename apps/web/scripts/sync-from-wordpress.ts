@@ -7,7 +7,8 @@
  * WordPress webhook setup (optional):
  * 1. Install "WP Webhooks" or add a save_post / before_delete_post snippet in WordPress
  * 2. On publish/update/delete of posts or pages, POST to:
- *    https://www.unblockchainweek.com/api/sync/wordpress
+ *    https://www.blockchainweek.ai/api/sync/wordpress
+ *    (legacy host redirects to blockchainweek.ai; point webhooks at the new domain)
  * 3. Header: x-sync-secret: <SYNC_SECRET>
  * 4. That endpoint triggers a Vercel deploy; sync runs during build via prebuild
  *
