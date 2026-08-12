@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SpeakerPageContent } from "@/components/speakers/SpeakerPageContent";
-import { getAllSpeakerSlugs, getSpeakerBySlug } from "@/lib/content";
+import { getAllSpeakerSlugs, getSpeakerBySlug, getSpeakers } from "@/lib/content";
 import { BRAND_NAME, SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH } from "@/lib/brand-constants";
+import { pickAlsoSpeakingSpeakers } from "@/lib/speakers-navigation";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -55,5 +56,14 @@ export default async function SpeakerPage({ params }: PageProps) {
   const speaker = getSpeakerBySlug(slug);
   if (!speaker) notFound();
 
-  return <SpeakerPageContent speaker={speaker} />;
+  const speakers = getSpeakers();
+  const alsoSpeakingFallback = pickAlsoSpeakingSpeakers(speakers, speaker.slug, undefined, 4);
+
+  return (
+    <SpeakerPageContent
+      speaker={speaker}
+      speakers={speakers}
+      alsoSpeakingFallback={alsoSpeakingFallback}
+    />
+  );
 }

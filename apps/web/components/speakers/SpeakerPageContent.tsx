@@ -4,6 +4,7 @@ import { TICKETS_ANCHOR } from "@/lib/brand-constants";
 import { Globe } from "lucide-react";
 import { TweetEmbed } from "@/components/speakers/TweetEmbed";
 import { SpeakerBackButton } from "@/components/speakers/SpeakerBackButton";
+import { AlsoSpeaking } from "@/components/speakers/AlsoSpeaking";
 import type { Speaker } from "@/lib/types";
 
 function XIcon({ className }: { className?: string }) {
@@ -75,7 +76,15 @@ function FeatureCard({
   );
 }
 
-export function SpeakerPageContent({ speaker }: { speaker: Speaker }) {
+export function SpeakerPageContent({
+  speaker,
+  speakers,
+  alsoSpeakingFallback,
+}: {
+  speaker: Speaker;
+  speakers: Speaker[];
+  alsoSpeakingFallback: Speaker[];
+}) {
   return (
     <section className="section-dark pb-16 pt-6 sm:pb-20 sm:pt-8">
       <div className="mx-auto max-w-6xl px-4 lg:px-8">
@@ -200,6 +209,12 @@ export function SpeakerPageContent({ speaker }: { speaker: Speaker }) {
                 </div>
               )}
             </div>
+
+          <AlsoSpeaking
+            currentSlug={speaker.slug}
+            speakers={speakers}
+            fallbackSpeakers={alsoSpeakingFallback}
+          />
 
           <div className="mt-10 flex justify-center">
             <Link

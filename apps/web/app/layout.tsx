@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
+import { ScrollToTopOnNavigate } from "@/components/layout/ScrollToTopOnNavigate";
 import {
   BRAND_NAME,
   BRAND_DESCRIPTION,
@@ -73,6 +74,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <EventJsonLd />
+        <ScrollToTopOnNavigate />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
