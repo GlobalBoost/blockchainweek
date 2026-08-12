@@ -17,7 +17,7 @@ export function TicketPricing() {
         />
 
         <p className="mx-auto -mt-6 mb-10 max-w-2xl text-center text-sm text-white/60">
-          Next price increase in ~30 days (September 1)
+          Next price increase in ~19 days (September 1)
         </p>
 
         <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2 md:items-stretch">
