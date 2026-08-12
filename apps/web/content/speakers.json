@@ -1041,6 +1041,42 @@
     }
   },
   {
+    "slug": "david-fung",
+    "name": "David Fung",
+    "title": "Head of Institutional",
+    "company": "Streamex Corp.",
+    "bio": "David Fung is Head of Institutional at Streamex Corp., an institutional commodity-tokenization platform bringing real-world assets onchain. Its first project is a fully permissioned, Regulation D tokenized-gold offering designed to provide gold exposure with yield across the Base and Solana networks.\n\nA business-development and Web3 executive, David has more than a decade of success in enterprise sales, strategic partnerships and community development across technology, blockchain and AI ecosystems. His LinkedIn profile credits him with driving more than $300 million in sales growth and building partnerships that connect founders, investors, protocols and institutions.\n\nDavid is also Founder and Chief Degen Officer of Bitcoin Palooza, Founder of BlockchainNFTCrypto Network and Web3TodayLive, and NYC Chapter Organizer for CryptoMondays. Through panels, pitch events, workshops and networking activations, he helps lead New York City’s participation in a global CryptoMondays network spanning 65 cities and more than 150,000 members.\n\nPreviously, as Vice President of Business Development and Partnerships at Xeni, David helped scale a Web3 travel-technology startup from zero to seven-figure annual recurring revenue. The platform generated more than $30 million in mainnet transactions, over $10 million in real-world bookings and more than 350,000 real-user wallets, while establishing relationships with organizations including Hedera Foundation, BitPay, Royal Caribbean, Virgin Voyages and Carnival.\n\nHis earlier career includes enterprise leadership and technical roles at Supermicro, Atlantis Computing and VMware, as well as infrastructure and financial-market experience at Goldman Sachs, Merrill Lynch and various hedge funds. David holds a Bachelor of Science in Computer Science from New York University.",
+    "expertise": [
+      "Institutional Real-World Asset Tokenization",
+      "Blockchain and AI Ecosystem Partnerships",
+      "Enterprise Sales and Business Development",
+      "Web3 Community Development",
+      "Cloud, Infrastructure and Emerging Technology"
+    ],
+    "photo": "/speakers/david-fung.jpg",
+    "themes": [
+      "bitcoin",
+      "investment",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Connecting Institutional Capital, Tokenized Commodities and the Global Web3 Community",
+    "tagline": "Head of Institutional • Streamex Corp.",
+    "subtitle": "Streamex Corp.\nInstitutional Capital • Tokenized Commodities • Web3 Community",
+    "signatureMoves": [
+      "Head of Institutional – Streamex Corp.",
+      "Founder and Chief Degen Officer – Bitcoin Palooza",
+      "NYC Chapter Organizer – CryptoMondays",
+      "Founder – Web3TodayLive",
+      "More Than $300 Million in Sales Growth"
+    ],
+    "quote": "“Tokenization becomes transformative when institutional-grade assets, trusted infrastructure and engaged communities move together. That is how real-world value comes onchain at scale.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/davidfung1/",
+      "website": "https://linktr.ee/davidfung"
+    }
+  },
+  {
     "slug": "david-porter",
     "name": "David Porter",
     "title": "Founder & COO",

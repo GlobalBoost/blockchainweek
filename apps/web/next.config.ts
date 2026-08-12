@@ -19,6 +19,7 @@ const nextConfig: NextConfig = {
       { source: "/luciana-miranda", destination: "/speakers", permanent: true },
       { source: "/gbenga-omosuyi", destination: "/speakers", permanent: true },
       { source: "/michalina-brokos", destination: "/speakers", permanent: true },
+      { source: "/greg-vosper", destination: "/speakers", permanent: true },
       ...(blogPosts as { slug: string }[]).map((post) => ({
         source: `/${post.slug}`,
         destination: `/news/${post.slug}`,

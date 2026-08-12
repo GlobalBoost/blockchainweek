@@ -340,6 +340,16 @@
     "permanent": true
   },
   {
+    "source": "/speakers/david-fung",
+    "destination": "/david-fung",
+    "permanent": true
+  },
+  {
+    "source": "/david-fung-2",
+    "destination": "/david-fung",
+    "permanent": true
+  },
+  {
     "source": "/speakers/david-porter",
     "destination": "/david-porter",
     "permanent": true
