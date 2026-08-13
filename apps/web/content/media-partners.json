@@ -1,5 +1,16 @@
 [
   {
+    "name": "CoinGape",
+    "logo": "/media/coingape.png",
+    "url": "https://coingape.com/"
+  },
+  {
+    "name": "Finbold",
+    "logo": "/media/finbold.png",
+    "url": "https://finbold.com/",
+    "logoClassName": "invert"
+  },
+  {
     "name": "Kwento",
     "logo": "/media/media-0.png"
   },

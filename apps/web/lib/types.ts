@@ -87,6 +87,8 @@ export interface Sponsor {
 export interface MediaPartner {
   name: string;
   logo: string;
+  url?: string;
+  logoClassName?: string;
 }
 
 export interface SponsorshipTierSection {
