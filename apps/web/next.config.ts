@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
       { source: "/gbenga-omosuyi", destination: "/speakers", permanent: true },
       { source: "/michalina-brokos", destination: "/speakers", permanent: true },
       { source: "/greg-vosper", destination: "/speakers", permanent: true },
+      { source: "/adam-david-reiser", destination: "/adam-reiser", permanent: true },
+      { source: "/abdoulaye-nddiaye", destination: "/abdoulaye-ndiaye", permanent: true },
+      { source: "/elijah-john-bowdre", destination: "/chairman-elijah-john-bowdre", permanent: true },
+      { source: "/dr-tajah-m-gross", destination: "/dr-tajah-m-gross-phd", permanent: true },
       ...(blogPosts as { slug: string }[]).map((post) => ({
         source: `/${post.slug}`,
         destination: `/news/${post.slug}`,
