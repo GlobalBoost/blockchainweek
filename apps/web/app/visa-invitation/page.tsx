@@ -179,9 +179,10 @@ export default function VisaInvitationPage() {
                   />
                   <FormField
                     name="registrationNumber"
+                    type="url"
                     required
-                    label="Registration / Ticket Confirmation Number"
-                    placeholder="From your Luma confirmation email"
+                    label="Ticket Link"
+                    placeholder="Paste the link to your ticket"
                   />
                   <FormSelect name="ticketType" label="Ticket Type" defaultValue="">
                     <option value="">Select...</option>

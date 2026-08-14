@@ -59,7 +59,7 @@ function formatBody(body: z.infer<typeof schema>): string {
     "— Travel & Conference —",
     `Arrival Date: ${body.arrivalDate}`,
     `Departure Date: ${body.departureDate}`,
-    `Registration / Ticket #: ${body.registrationNumber}`,
+    `Ticket Link: ${body.registrationNumber}`,
     `Ticket Type: ${body.ticketType || "—"}`,
     `Embassy / Consulate: ${body.embassy || "—"}`,
     "",
