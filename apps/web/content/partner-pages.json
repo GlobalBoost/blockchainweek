@@ -21,14 +21,13 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "coincarp",
     "name": "CoinCarp",
     "logo": "/partners/coincarp.png",
-    "logoBoxClassName": "px-4 py-2 sm:px-5 sm:py-3",
-    "logoClassName": "scale-100",
     "website": "https://www.coincarp.com",
     "intro": [
       "CoinCarp is a leading crypto data platform providing real-time market data, price tracking, analytics, and insights across thousands of cryptocurrencies and blockchain projects worldwide.",
@@ -47,7 +46,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "wide"
   },
   {
     "slug": "cryptonomads",
@@ -71,7 +71,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "wide"
   },
   {
     "slug": "cryptonewsz",
@@ -95,7 +96,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "capitalbaynews",
@@ -119,7 +121,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "compact"
   },
   {
     "slug": "cryptonewsge",
@@ -143,7 +146,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "square"
   },
   {
     "slug": "cointurk",
@@ -167,7 +171,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "wide"
   },
   {
     "slug": "timesofblockchain",
@@ -191,7 +196,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "compact"
   },
   {
     "slug": "criptonoticias",
@@ -215,7 +221,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "ninja",
@@ -262,7 +269,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "toobit",
@@ -286,7 +294,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "cryptototem",
@@ -310,7 +319,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "bitcoininsider",
@@ -334,7 +344,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "wide"
   },
   {
     "slug": "cryptonews",
@@ -358,7 +369,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   },
   {
     "slug": "coingabbar",
@@ -382,7 +394,8 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "wide"
   },
   {
     "slug": "ambcrypto",
@@ -406,6 +419,7 @@
         "partnerPrice": 1169.1,
         "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
       }
-    }
+    },
+    "logoFit": "banner"
   }
 ]

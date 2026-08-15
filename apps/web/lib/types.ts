@@ -81,6 +81,7 @@ export interface PartnerPage {
   slug: string;
   name: string;
   logo?: string;
+  logoFit?: "banner" | "wide" | "compact" | "square";
   logoBoxClassName?: string;
   logoClassName?: string;
   website?: string;

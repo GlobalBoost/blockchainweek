@@ -3,10 +3,13 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { BRAND_NAME, EVENT_DATES, EVENT_LOCATION, LOGO_MAIN, LOGO_WIDTH, LOGO_HEIGHT } from "@/lib/brand-constants";
 import { BrandName } from "@/components/ui/BrandName";
+import { getPartnerLogoStyles } from "@/lib/partner-logo-styles";
 import type { PartnerPage } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 export function PartnerHero({ partner }: { partner: PartnerPage }) {
+  const logoStyles = getPartnerLogoStyles(partner);
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-[#0d1b2a] via-[#0a1628] to-[#0a0a0f] py-16 sm:py-20 lg:py-24">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(0,158,219,0.12),_transparent_55%)]" />
@@ -22,7 +25,7 @@ export function PartnerHero({ partner }: { partner: PartnerPage }) {
             <div
               className={cn(
                 "flex h-24 w-64 items-center justify-center overflow-hidden rounded-2xl bg-white sm:h-28 sm:w-80",
-                partner.logoBoxClassName ?? "px-2 py-1"
+                logoStyles.boxClassName
               )}
             >
               <Image
@@ -30,10 +33,7 @@ export function PartnerHero({ partner }: { partner: PartnerPage }) {
                 alt={`${partner.name} logo`}
                 width={320}
                 height={88}
-                className={cn(
-                  "h-full w-full object-contain",
-                  partner.logoClassName ?? "scale-[1.35] sm:scale-[1.4]"
-                )}
+                className={cn("h-full w-full object-contain", logoStyles.imageClassName)}
               />
             </div>
           ) : (
