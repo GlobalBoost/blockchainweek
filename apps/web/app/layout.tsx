@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import { PostHogPageView } from "@/components/analytics/PostHogPageView";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -75,7 +76,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <EventJsonLd />
-        <PostHogPageView />
+        <Suspense fallback={null}>
+          <PostHogPageView />
+        </Suspense>
         <ScrollToTopOnNavigate />
         <SiteHeader />
         <main className="flex-1">{children}</main>
