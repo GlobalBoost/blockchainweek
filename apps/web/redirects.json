@@ -26,7 +26,12 @@
   },
   {
     "source": "/the-conference",
-    "destination": "/conference",
+    "destination": "/program",
+    "permanent": true
+  },
+  {
+    "source": "/conference",
+    "destination": "/program",
     "permanent": true
   },
   {

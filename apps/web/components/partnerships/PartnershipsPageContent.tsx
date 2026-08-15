@@ -420,10 +420,10 @@ export function PartnershipsPageContent() {
                 </li>
               </ul>
               <Link
-                href="/conference"
+                href="/program"
                 className="mt-6 inline-flex text-sm font-semibold text-un-blue hover:underline"
               >
-                About the 2-day conference →
+                View the full program →
               </Link>
             </div>
             <div className="relative min-h-[240px] bg-[#0d1b2a] lg:min-h-full">

@@ -1,0 +1,126 @@
+{
+  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the official listing of premiere events taking place across the 10-day program in New York City. From space-themed fashion and high-signal networking to institutional forums, the flagship two-day conference, MAHA programming, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert, the week brings together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
+  "events": [
+    {
+      "id": "orbital-runway",
+      "day": "Thu",
+      "date": "Sep 10",
+      "time": "6pm–10pm",
+      "tag": "Opening Night · Space × Fashion",
+      "title": "Orbital Runway Kickoff",
+      "description": "Hard Rock Cafe Times Square · Legends Bar + New York Room",
+      "details": "A space-themed opening night featuring a live fashion show that blends futuristic design with blockchain culture. Presented in collaboration with Hooked-App, the evening launches Blockchain Week – UNGA Edition with immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers.",
+      "featured": true
+    },
+    {
+      "id": "meetup",
+      "day": "Fri",
+      "date": "Sep 11",
+      "time": "6pm–9pm",
+      "tag": "Networking · Meetup",
+      "title": "Blockchain Week – UNGA Edition Meetup",
+      "description": "High-signal networking and community gathering · Legends Bar, Hard Rock Cafe Times Square",
+      "featured": true
+    },
+    {
+      "id": "marquee-spotlight",
+      "day": "Sat",
+      "date": "Sep 12",
+      "tag": "VVIP · Media Moment",
+      "title": "Marquee Spotlight VVIP",
+      "description": "Exclusive gathering for sponsors and media · On top of the Times Square billboard (the 3-sided marquee on the front of the Hard Rock Cafe)",
+      "details": "Private VVIP experience with direct access to the iconic 3-sided Times Square marquee for branding, photos, and media coverage.",
+      "featured": true
+    },
+    {
+      "id": "multistakeholder-forum",
+      "day": "Mon",
+      "date": "Sep 14",
+      "time": "9:30am–1pm",
+      "tag": "VVIP · United Nations",
+      "title": "Multistakeholder Forum",
+      "description": "Leveraging Digital & Climate Tech to Advance the SDGs · United Nations Headquarters",
+      "featured": true
+    },
+    {
+      "id": "cryptomondays",
+      "day": "Mon",
+      "date": "Sep 14",
+      "time": "6pm–9pm",
+      "tag": "AI × Crypto · Wall Street",
+      "title": "CryptoMondays Wall Street",
+      "description": "AI Panel — autonomous agents & AI × blockchain"
+    },
+    {
+      "id": "tech-tuesdays",
+      "day": "Tue",
+      "date": "Sep 15",
+      "time": "6pm–9pm",
+      "tag": "Networking · Emerging Tech",
+      "title": "Tech Tuesdays",
+      "description": "Multiple high-level panels focused on emerging technology · Legends Bar + New York Room, Hard Rock Cafe Times Square",
+      "details": "High-signal networking and panel discussions bringing together innovators, builders, and industry leaders.",
+      "featured": true
+    },
+    {
+      "id": "maha-wednesday",
+      "day": "Wed",
+      "date": "Sep 16",
+      "time": "Evening",
+      "tag": "Evening Programming",
+      "title": "MAHA Wednesday",
+      "description": "Special evening programming following Day 1 of the main conference · Hard Rock Cafe Times Square",
+      "details": "Continued discussions, networking, and curated sessions that build on the themes of the first conference day.",
+      "featured": true
+    },
+    {
+      "id": "bitcoinpalooza",
+      "day": "Thu",
+      "date": "Sep 17",
+      "time": "Evening",
+      "tag": "Official After Party",
+      "title": "BitcoinPalooza",
+      "description": "Official after party of Blockchain Week – UNGA Edition · Hard Rock Cafe Times Square",
+      "details": "Multiple live performances, select talks, and high-energy entertainment. The premier celebration closing out the second day of the flagship conference.",
+      "variant": "bitcoin"
+    },
+    {
+      "id": "washington-elite-gala",
+      "day": "Fri",
+      "date": "Sep 18",
+      "time": "from 4pm",
+      "tag": "Closing Night · Investment · Flagship",
+      "title": "Washington Elite Investment Summit & Gala",
+      "description": "Returning for the 4th year as the flagship event of Blockchain Week – UNGA Edition · Hard Rock Main Theatre",
+      "details": "The premier black-tie summit and gala bringing together investors, family offices, institutional leaders, and decision-makers. A high-caliber evening of deal-making, networking, and celebration that has become the signature closing highlight of the week.",
+      "featured": true
+    },
+    {
+      "id": "pause-the-world",
+      "day": "Sat",
+      "date": "Sep 19",
+      "time": "11am–1pm",
+      "tag": "Peace · Clean Energy",
+      "title": "Pause the World for Peace",
+      "description": "24th Annual LIVE CLEAN ENERGY International Day of Peace Concert · Times Square",
+      "details": "In collaboration with PaulSladkus. A special daytime concert celebrating peace and clean energy, closing out Blockchain Week – UNGA Edition in the heart of Times Square.",
+      "featured": true
+    }
+  ],
+  "conference": {
+    "title": "Flagship Conference · September 16–17",
+    "summary": "The two-day Blockchain Week – UNGA Edition Conference takes place in the Hard Rock Main Theatre. Programming spans Bitcoin, policy, institutional infrastructure, AI, energy, space, and real-world impact.",
+    "days": [
+      {
+        "label": "Day 1 — Wednesday, September 16 · from 9am",
+        "focusAreas": "Bitcoin foundations & adoption, regulatory & policy frameworks, institutional infrastructure, and the intersection of blockchain with energy systems.",
+        "description": "Sessions explore institutional readiness, capital markets, compliance architecture, and the evolving role of Bitcoin in global finance. The day sets the stage for deeper discussions on infrastructure and real-world deployment."
+      },
+      {
+        "label": "Day 2 — Thursday, September 17 · from 9am",
+        "focusAreas": "Artificial intelligence × blockchain, space technology, climate and energy applications, real-world assets (RWA), and measurable impact aligned with the Sustainable Development Goals.",
+        "description": "Programming highlights autonomous systems, tokenization of real-world assets, space-economy use cases, and pathways from pilot projects to scalable institutional adoption."
+      }
+    ]
+  }
+}

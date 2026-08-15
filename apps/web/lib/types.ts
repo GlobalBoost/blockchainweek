@@ -59,6 +59,39 @@ export interface AgendaDay {
   sessions: AgendaSession[];
 }
 
+export interface ProgramEvent {
+  id: string;
+  day: string;
+  date: string;
+  time?: string;
+  tag: string;
+  title: string;
+  description: string;
+  details?: string;
+  featured?: boolean;
+  variant?: "bitcoin";
+  logo?: string;
+  logoAlt?: string;
+}
+
+export interface ProgramConferenceDay {
+  label: string;
+  focusAreas: string;
+  description: string;
+}
+
+export interface ProgramConference {
+  title: string;
+  summary: string;
+  days: ProgramConferenceDay[];
+}
+
+export interface ProgramSchedule {
+  intro: string;
+  events: ProgramEvent[];
+  conference: ProgramConference;
+}
+
 export interface PricingTier {
   id: "ga" | "vip";
   name: string;

@@ -5,6 +5,7 @@ import blogData from "@/content/blog.json";
 import teamData from "@/content/team.json";
 import themesData from "@/content/themes.json";
 import conferenceData from "@/content/conference.json";
+import programData from "@/content/program.json";
 import sponsorshipData from "@/content/sponsorship.json";
 import aboutData from "@/content/about.json";
 import pricingData from "@/content/pricing.json";
@@ -31,6 +32,7 @@ import type {
   Theme,
   ThemePillar,
   BlogPost,
+  ProgramSchedule,
 } from "@/lib/types";
 import { decodeHtml, replaceLegacyBrandName, sanitizeSpeakerText, stripSurroundingQuotes } from "@/lib/html";
 import { BRAND_NAME } from "@/lib/brand-constants";
@@ -100,6 +102,10 @@ export function getThemes(): ThemePillar[] {
 
 export function getConferenceAgenda(): AgendaDay[] {
   return conferenceData as AgendaDay[];
+}
+
+export function getProgramSchedule(): ProgramSchedule {
+  return programData as ProgramSchedule;
 }
 
 export function getSponsorshipTiers(): SponsorshipTier[] {

@@ -3,7 +3,7 @@
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import posthog from "posthog-js";
-import { isPostHogEnabled } from "@/lib/analytics";
+import { isPostHogEnabled, syncAttribution } from "@/lib/analytics";
 
 export function PostHogPageView() {
   const pathname = usePathname();
@@ -12,9 +12,12 @@ export function PostHogPageView() {
   useEffect(() => {
     if (!isPostHogEnabled() || !pathname) return;
 
+    const attribution = syncAttribution();
     const search = searchParams.toString();
+
     posthog.capture("$pageview", {
       $current_url: `${window.location.origin}${pathname}${search ? `?${search}` : ""}`,
+      ...attribution,
     });
   }, [pathname, searchParams]);
 

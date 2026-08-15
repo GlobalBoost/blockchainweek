@@ -11,7 +11,7 @@ import { BRAND_NAME, LOGO_HEIGHT, LOGO_MAIN, LOGO_WIDTH, TICKETS_ANCHOR, TICKETS
 const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Conference", href: "/conference" },
+  { name: "Program", href: "/program" },
   { name: "Speakers", href: "/speakers" },
   { name: "Partnerships", href: "/partnerships" },
 ] as const;
@@ -39,7 +39,7 @@ export function SiteHeader() {
   const [mobileMoreOpen, setMobileMoreOpen] = useState(false);
   const moreRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const ticketsHref = pathname === "/conference" ? TICKETS_SECTION_HASH : TICKETS_ANCHOR;
+  const ticketsHref = pathname === "/program" ? TICKETS_SECTION_HASH : TICKETS_ANCHOR;
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {

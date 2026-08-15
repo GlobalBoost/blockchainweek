@@ -5,7 +5,7 @@ import { BRAND_URL } from "@/lib/brand-constants";
 const STATIC_ROUTES = [
   "",
   "/about",
-  "/conference",
+  "/program",
   "/speakers",
   "/partnerships",
   "/blog",

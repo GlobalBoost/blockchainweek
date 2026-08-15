@@ -73,7 +73,7 @@ export function CTASection({ ticketsHref = TICKETS_ANCHOR }: { ticketsHref?: str
         <SectionHeader
           theme="dark"
           eyebrow="Join the Movement"
-          title="The Future Is Here. And It's Walking the Runway."
+          title="The Future Is Here."
           subtitle={
             <>
               Three ways to be part of <BrandName /> during UNGA + NYFW week.

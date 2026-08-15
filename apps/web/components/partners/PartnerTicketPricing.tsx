@@ -22,6 +22,7 @@ export function PartnerTicketPricing({ partner }: { partner: PartnerPage }) {
   return (
     <TicketPricingCards
       tiers={tiers}
+      partnerSlug={partner.slug}
       eyebrow="Tickets On Sale Now – Partner Community Pricing"
       title="Secure Your Spot Before Prices Rise"
       subtitle="Exclusive community pricing for partner audiences. Current public prices end September 1, 2026."

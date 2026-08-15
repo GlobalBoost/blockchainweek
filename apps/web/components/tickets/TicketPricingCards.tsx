@@ -14,6 +14,7 @@ interface TicketPricingCardsProps {
   footerNote?: string;
   phaseLabel?: string;
   partnerPricing?: boolean;
+  partnerSlug?: string;
   sectionId?: string;
   className?: string;
 }
@@ -31,6 +32,7 @@ export function TicketPricingCards({
   footerNote = "Prices will automatically increase on September 1.\nEarly buyers save up to 80% • Limited VIP tickets available.",
   phaseLabel = "Standard Pricing",
   partnerPricing = false,
+  partnerSlug,
   sectionId = TICKETS_SECTION_ID,
   className,
 }: TicketPricingCardsProps) {
@@ -102,6 +104,7 @@ export function TicketPricingCards({
                     eventProperties={{
                       tier: tier.id,
                       placement: partnerPricing ? "partner-pricing" : "pricing",
+                      ...(partnerSlug ? { partner_slug: partnerSlug } : {}),
                     }}
                     className={cn(
                       "block rounded-full py-3 text-center text-sm font-bold uppercase tracking-wider transition",
