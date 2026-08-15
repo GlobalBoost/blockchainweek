@@ -129,7 +129,7 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              marginTop: 20,
+              marginTop: 48,
               fontSize: 64,
               fontWeight: 800,
               letterSpacing: "-0.02em",
