@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { PostHogPageView } from "@/components/analytics/PostHogPageView";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { ScrollToTopOnNavigate } from "@/components/layout/ScrollToTopOnNavigate";
@@ -74,6 +75,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <EventJsonLd />
+        <PostHogPageView />
         <ScrollToTopOnNavigate />
         <SiteHeader />
         <main className="flex-1">{children}</main>

@@ -9,6 +9,7 @@ import {
   Users,
   Zap,
 } from "lucide-react";
+import { TrackedExternalLink } from "@/components/analytics/TrackedExternalLink";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import {
@@ -104,7 +105,14 @@ export default function SpeakPage() {
           </>
         }
         actions={[
-          { label: "Submit on Sessionize", href: SESSIONIZE_SPEAKERS_URL, variant: "gold", external: true },
+          {
+            label: "Submit on Sessionize",
+            href: SESSIONIZE_SPEAKERS_URL,
+            variant: "gold",
+            external: true,
+            event: "speaker_apply_click",
+            eventProperties: { placement: "speak-hero" },
+          },
           { label: "View Programming", href: "#programming", variant: "secondary" },
         ]}
       />
@@ -119,14 +127,14 @@ export default function SpeakPage() {
           <p className="mx-auto max-w-3xl text-base leading-relaxed text-ink-muted">
             We welcome proposals from founders, executives, researchers, policymakers, and builders.
             Submit your session or panel through our official{" "}
-            <a
+            <TrackedExternalLink
               href={SESSIONIZE_SPEAKERS_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              event="speaker_apply_click"
+              eventProperties={{ placement: "speak-intro" }}
               className="font-semibold text-un-blue hover:underline"
             >
               Sessionize call for speakers
-            </a>
+            </TrackedExternalLink>
             .
           </p>
         </div>
@@ -265,15 +273,15 @@ export default function SpeakPage() {
               Speaking is free and includes Washington Elite Investment Summit & Gala access for accepted speakers.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <a
+              <TrackedExternalLink
                 href={SESSIONIZE_SPEAKERS_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                event="speaker_apply_click"
+                eventProperties={{ placement: "speak-apply" }}
                 className="inline-flex items-center gap-2 rounded-full bg-gold px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-gold/90"
               >
                 Submit a Session
                 <ArrowUpRight className="h-4 w-4" />
-              </a>
+              </TrackedExternalLink>
               <Link
                 href="/speakers"
                 className="inline-flex items-center justify-center rounded-full border border-white/25 px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition hover:border-un-blue hover:text-un-blue"
@@ -289,14 +297,14 @@ export default function SpeakPage() {
 
           <p className="mt-8 text-center text-sm text-white/50">
             Explore the full event calendar on{" "}
-            <a
+            <TrackedExternalLink
               href={LUMA_PUBLIC_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              event="calendar_click"
+              eventProperties={{ placement: "speak-footer" }}
               className="font-semibold text-un-blue hover:underline"
             >
               Luma
-            </a>
+            </TrackedExternalLink>
             .
           </p>
         </div>

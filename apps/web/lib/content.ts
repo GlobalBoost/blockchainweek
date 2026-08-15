@@ -11,10 +11,12 @@ import pricingData from "@/content/pricing.json";
 import testimonialsData from "@/content/testimonials.json";
 import sponsorsData from "@/content/sponsors.json";
 import mediaPartnersData from "@/content/media-partners.json";
+import partnerPagesData from "@/content/partner-pages.json";
 import type {
   AboutContent,
   AgendaDay,
   MediaPartner,
+  PartnerPage,
   PricingTier,
   Speaker,
   Sponsor,
@@ -151,6 +153,18 @@ export function getSponsors(): Sponsor[] {
 
 export function getMediaPartners(): MediaPartner[] {
   return mediaPartnersData as MediaPartner[];
+}
+
+export function getPartnerPages(): PartnerPage[] {
+  return partnerPagesData as PartnerPage[];
+}
+
+export function getAllPartnerSlugs(): string[] {
+  return getPartnerPages().map((partner) => partner.slug);
+}
+
+export function getPartnerPageBySlug(slug: string): PartnerPage | undefined {
+  return getPartnerPages().find((partner) => partner.slug === slug);
 }
 
 export function getBlogPosts(): BlogPost[] {

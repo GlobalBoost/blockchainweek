@@ -71,6 +71,33 @@ export interface PricingTier {
   ctaLabel: string;
 }
 
+export interface PartnerPagePricingTier {
+  publicPrice: number;
+  partnerPrice: number;
+  checkoutUrl: string;
+}
+
+export interface PartnerPage {
+  slug: string;
+  name: string;
+  logo?: string;
+  logoBoxClassName?: string;
+  logoClassName?: string;
+  website?: string;
+  intro: string[];
+  attribution?: string;
+  discountLabel: string;
+  pricing: {
+    ga: PartnerPagePricingTier;
+    vip: PartnerPagePricingTier;
+  };
+}
+
+export interface PartnerPricingTier extends PricingTier {
+  publicPrice: number;
+  discountLabel: string;
+}
+
 export interface Testimonial {
   quote: string;
   name: string;

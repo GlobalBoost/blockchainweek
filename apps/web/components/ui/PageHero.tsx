@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { TrackedExternalLink } from "@/components/analytics/TrackedExternalLink";
 import { cn } from "@/lib/utils";
 
 interface PageHeroAction {
@@ -7,6 +8,8 @@ interface PageHeroAction {
   href: string;
   variant?: "primary" | "secondary" | "gold";
   external?: boolean;
+  event?: string;
+  eventProperties?: Record<string, unknown>;
 }
 
 interface PageHeroProps {
@@ -55,15 +58,15 @@ export function PageHero({ eyebrow, title, subtitle, actions, className }: PageH
 
               if (isExternal) {
                 return (
-                  <a
+                  <TrackedExternalLink
                     key={action.href}
                     href={action.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    event={action.event}
+                    eventProperties={action.eventProperties}
                     className={className}
                   >
                     {action.label}
-                  </a>
+                  </TrackedExternalLink>
                 );
               }
 

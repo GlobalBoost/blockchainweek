@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllBlogSlugs, getAllSpeakerSlugs, getBlogPosts } from "@/lib/content";
+import { getAllBlogSlugs, getAllPartnerSlugs, getAllSpeakerSlugs, getBlogPosts } from "@/lib/content";
 import { BRAND_URL } from "@/lib/brand-constants";
 
 const STATIC_ROUTES = [
@@ -42,5 +42,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticPages, ...speakerPages, ...blogPages];
+  const partnerPages = getAllPartnerSlugs().map((slug) => ({
+    url: `${base}/partners/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...speakerPages, ...blogPages, ...partnerPages];
 }

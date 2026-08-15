@@ -30,6 +30,6 @@ export const config = {
   // Preserve path + query for every public page (including /karla-ballard).
   // Skip Next internals, static assets, and API so CMS/cron webhooks keep working.
   matcher: [
-    "/((?!api/|_next/static|_next/image|favicon.ico|icon.png|apple-icon.png|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt|xml)$).*)",
+    "/((?!api/|bwq/|_next/static|_next/image|favicon.ico|icon.png|apple-icon.png|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt|xml)$).*)",
   ],
 };

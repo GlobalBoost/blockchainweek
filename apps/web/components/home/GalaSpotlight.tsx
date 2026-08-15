@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TrackedExternalLink } from "@/components/analytics/TrackedExternalLink";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TICKET_CHECKOUT } from "@/lib/brand-constants";
 import { BrandName } from "@/components/ui/BrandName";
@@ -55,14 +56,14 @@ export function GalaSpotlight() {
                 </li>
               ))}
             </ul>
-            <a
+            <TrackedExternalLink
               href={TICKET_CHECKOUT.vip}
-              target="_blank"
-              rel="noopener noreferrer"
+              event="checkout_click"
+              eventProperties={{ tier: "vip", placement: "gala" }}
               className="mt-8 inline-flex w-fit items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-gold/90"
             >
               Get Gala Tickets (VIP Only)
-            </a>
+            </TrackedExternalLink>
           </div>
         </div>
       </div>

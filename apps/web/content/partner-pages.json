@@ -1,0 +1,411 @@
+[
+  {
+    "slug": "cryptoevents",
+    "name": "CryptoEvents",
+    "logo": "/partners/cryptoevents.png",
+    "website": "https://cryptoevents.global",
+    "intro": [
+      "CryptoEvents is your carefully curated guide to the global Bitcoin and Web3 event ecosystem.",
+      "We were built around a simple conviction: that the best ideas in this industry spread through people gathering in the same room.",
+      "During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place. We've partnered with Blockchain Week - UNGA Edition to give our community access to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala."
+    ],
+    "discountLabel": "Special rate for CryptoEvents community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "coincarp",
+    "name": "CoinCarp",
+    "logo": "/partners/coincarp.png",
+    "logoBoxClassName": "px-4 py-2 sm:px-5 sm:py-3",
+    "logoClassName": "scale-100",
+    "website": "https://www.coincarp.com",
+    "intro": [
+      "CoinCarp is a leading crypto data platform providing real-time market data, price tracking, analytics, and insights across thousands of cryptocurrencies and blockchain projects worldwide.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CoinCarp will deliver comprehensive coverage of the event, offering data-driven insights on blockchain innovation, market trends, and regulatory developments during United Nations General Assembly week in New York.",
+      "In an industry driven by data and transparency, staying informed about global blockchain developments and regulatory shifts is essential. This week provides a valuable platform to explore the intersection of technology, markets, and policy on an international stage."
+    ],
+    "discountLabel": "Special rate for CoinCarp community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cryptonomads",
+    "name": "CryptoNomads",
+    "logo": "/partners/cryptonomads.png",
+    "website": "https://cryptonomads.org",
+    "intro": [
+      "CryptoNomads is a global community connecting crypto enthusiasts, digital nomads, and remote workers who live life on their own terms. The platform brings together people who combine blockchain technology with location-independent lifestyles.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CryptoNomads will provide coverage of the event, highlighting how blockchain technology enables freedom, financial sovereignty, and new ways of living and working around the world.",
+      "As more people embrace decentralized technology and location-independent living, events like this play an important role in shaping the future of both finance and freedom. We're proud to be part of this global conversation."
+    ],
+    "discountLabel": "Special rate for CryptoNomads community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cryptonewsz",
+    "name": "CryptoNewsZ",
+    "logo": "/partners/cryptonewsz.png",
+    "website": "https://www.cryptonewsz.com",
+    "intro": [
+      "CryptoNewsZ is a leading crypto news platform delivering the latest updates, in-depth analysis, and insights on Bitcoin, blockchain technology, DeFi, and the broader digital asset ecosystem.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CryptoNewsZ will provide comprehensive coverage of the event, bringing key discussions on blockchain innovation, regulation, and global developments from New York during United Nations General Assembly week to its audience.",
+      "As the blockchain industry continues to evolve rapidly, staying connected with global developments and policy discussions is more important than ever. This week serves as a valuable platform to explore the future of decentralized technology on an international stage."
+    ],
+    "discountLabel": "Special rate for CryptoNewsZ community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "capitalbaynews",
+    "name": "CapitalBay News",
+    "logo": "/partners/capitalbaynews.png",
+    "website": "https://capitalbaynews.com",
+    "intro": [
+      "CapitalBay News is a trusted source for news and analysis covering finance, business, technology, and cryptocurrency. The platform delivers timely insights and in-depth reporting to help readers stay informed about global markets and emerging trends.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CapitalBay News will provide comprehensive coverage of the event, bringing key discussions on blockchain, finance, policy, and innovation from New York during United Nations General Assembly week to its global audience.",
+      "In today's rapidly evolving financial and technological landscape, staying connected to global developments is essential. This week offers a unique opportunity to explore the intersection of policy, innovation, and finance on an international stage."
+    ],
+    "discountLabel": "Special rate for CapitalBay News community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cryptonewsge",
+    "name": "CryptoNews.ge",
+    "logo": "/partners/cryptonewsge.jpg",
+    "website": "https://cryptonews.ge",
+    "intro": [
+      "CryptoNews.ge is Georgia's leading source for cryptocurrency and blockchain news. The platform provides timely coverage and expert analysis on digital assets, regulation, DeFi, Web3, and emerging technologies to readers across Georgia and the wider Caucasus region.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CryptoNews.ge will deliver in-depth coverage of the event, bringing key discussions on blockchain policy, innovation, and global trends from New York during United Nations General Assembly week to the Georgian audience.",
+      "As blockchain continues to move into mainstream policy and institutional discussions, platforms like this play a vital role in shaping the future of the industry both globally and in our region."
+    ],
+    "discountLabel": "Special rate for CryptoNews.ge community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cointurk",
+    "name": "CoinTurk",
+    "logo": "/partners/cointurk.png",
+    "website": "https://www.cointurk.com",
+    "intro": [
+      "CoinTurk is one of Turkey's largest and most established crypto news platforms. Founded in 2014, it has grown into a trusted source of news, analysis, and educational content for the Turkish-speaking crypto community across Turkey and the broader region.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, CoinTurk will deliver in-depth coverage of the event, helping the Turkish crypto community stay connected with global policy developments, institutional adoption trends, and technological innovation taking place during United Nations General Assembly week in New York.",
+      "As Turkey's crypto ecosystem continues to expand, staying connected with global developments and policy discussions becomes increasingly important. This week serves as a valuable platform to bridge these international conversations with the Turkish crypto community."
+    ],
+    "discountLabel": "Special rate for CoinTurk community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "timesofblockchain",
+    "name": "Times of Blockchain",
+    "logo": "/partners/timesofblockchain.png",
+    "website": "https://timesofblockchain.com",
+    "intro": [
+      "Times of Blockchain is a leading global media platform delivering actionable crypto and blockchain insights. With deep coverage of market analysis, regulation, DeFi, Web3, and emerging technologies, they serve investors, builders, and decision-makers worldwide.",
+      "As an Official Media Partner of Blockchain Week - UNGA Edition, Times of Blockchain will deliver in-depth coverage of the conversations happening during UN General Assembly week in New York, connecting global policy with blockchain innovation.",
+      "This week stands at the intersection of global policy and technological innovation. We are proud to help amplify these important conversations to our global audience."
+    ],
+    "discountLabel": "Special rate for Times of Blockchain community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "criptonoticias",
+    "name": "CriptoNoticias",
+    "logo": "/partners/criptonoticias.png",
+    "website": "https://www.criptonoticias.com",
+    "intro": [
+      "CriptoNoticias is one of the most influential and trusted crypto media outlets in the Spanish-speaking world. With a strong focus on Bitcoin, blockchain regulation, DeFi, and emerging technologies, they deliver high-quality journalism to a rapidly growing audience across Latin America and Spain.",
+      "As Official Media Partner of Blockchain Week - UNGA Edition, CriptoNoticias will provide comprehensive coverage of the event, bringing global conversations happening in New York directly to the vibrant Latin American crypto community.",
+      "This week represents the perfect meeting point between global policy, innovation, and real-world adoption. We are proud to help tell these stories to our community across Latin America."
+    ],
+    "discountLabel": "Special rate for CriptoNoticias community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "ninja",
+    "name": "Blockchain Ninja",
+    "website": "https://blockchainmarketing.ninja",
+    "intro": [
+      "We are proud to partner with two leading specialized agencies in the blockchain space — Blockchain Marketing Ninja and Blockchain Staffing Ninja — to support the growth and success of Blockchain Week - UNGA Edition.",
+      "Blockchain Marketing Ninja delivers expert blockchain marketing strategies, community building, and campaign execution to maximize visibility and engagement for projects and events.",
+      "Blockchain Staffing Ninja provides specialized recruitment solutions connecting top blockchain talent with leading projects and companies in the ecosystem."
+    ],
+    "discountLabel": "Special rate for Blockchain Ninja community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "coinscapture",
+    "name": "CoinsCapture",
+    "logo": "/partners/coinscapture.png",
+    "website": "https://coinscapture.com",
+    "intro": [
+      "CoinsCapture is excited to support one of the most important gatherings of blockchain leaders, innovators, and visionaries during UNGA and New York Fashion Week.",
+      "As an Official Partner of Blockchain Week - UNGA Edition, CoinsCapture brings premium media coverage, strong community reach, and global visibility to amplify the event's message across the international crypto and blockchain community.",
+      "We're proud to connect with a highly engaged audience of crypto enthusiasts, traders, and builders at the highest-signal moments of the week."
+    ],
+    "discountLabel": "Special rate for CoinsCapture community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "toobit",
+    "name": "Toobit",
+    "logo": "/partners/toobit.webp",
+    "website": "https://www.toobit.com",
+    "intro": [
+      "Toobit is proud to power the future of finance at one of the most important gatherings of blockchain leaders, innovators, and visionaries during UNGA and New York Fashion Week.",
+      "As an Official Exchange Partner of Blockchain Week - UNGA Edition, Toobit connects traders and projects from over 100 countries at the heart of New York, offering real trading opportunities and a trusted platform for high-signal events.",
+      "We're excited to support the builders, investors, and founders shaping the next chapter of decentralized finance."
+    ],
+    "discountLabel": "Special rate for Toobit community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cryptototem",
+    "name": "CryptoTotem",
+    "logo": "/partners/cryptototem.png",
+    "website": "https://cryptototem.com",
+    "intro": [
+      "This isn't just another conference. During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place.",
+      "As your trusted source for systematic research and analysis of blockchain startups and crypto ventures, CryptoTotem has secured access for our community to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala.",
+      "We've partnered with Blockchain Week - UNGA Edition to give our community a front-row seat to the conversations that matter most."
+    ],
+    "discountLabel": "Special rate for CryptoTotem community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "bitcoininsider",
+    "name": "Bitcoin Insider",
+    "logo": "/partners/bitcoininsider.webp",
+    "website": "https://www.bitcoininsider.org",
+    "intro": [
+      "This isn't just another conference. During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place.",
+      "As your trusted daily source for Bitcoin and cryptocurrency news, Bitcoin Insider has secured access for our community to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala.",
+      "We've partnered with Blockchain Week - UNGA Edition to bring our readers directly into the rooms where the future is being shaped."
+    ],
+    "discountLabel": "Special rate for Bitcoin Insider community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "cryptonews",
+    "name": "Crypto.News",
+    "logo": "/partners/cryptonews.png",
+    "website": "https://crypto.news",
+    "intro": [
+      "This isn't just another conference. During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place.",
+      "As your trusted source for timely and accurate cryptocurrency news and analysis, Crypto.News has secured access for our community to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala.",
+      "We've partnered with Blockchain Week - UNGA Edition to connect our global audience with the policy conversations and innovation happening in New York."
+    ],
+    "discountLabel": "Special rate for Crypto.News community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "coingabbar",
+    "name": "Coin Gabbar",
+    "logo": "/partners/coingabbar.png",
+    "website": "https://www.coingabbar.com",
+    "intro": [
+      "This isn't just another conference. During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place.",
+      "As your trusted source for crypto news, airdrops, presales, and events, Coin Gabbar has secured access for our community to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala.",
+      "We've partnered with Blockchain Week - UNGA Edition to give our community exclusive access to the most important week in blockchain."
+    ],
+    "discountLabel": "Special rate for Coin Gabbar community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  },
+  {
+    "slug": "ambcrypto",
+    "name": "AMBCrypto",
+    "logo": "/partners/ambcrypto.png",
+    "website": "https://ambcrypto.com",
+    "intro": [
+      "This isn't just another conference. During UNGA month in New York, the people shaping the future of blockchain, AI, energy, and global policy will be in one place.",
+      "As your trusted source for cryptocurrency news and analysis, AMBCrypto has secured access for our community to the highest-signal moments of the week — including the flagship conference and the exclusive Washington Elite Gala.",
+      "We've partnered with Blockchain Week - UNGA Edition to bring our readers into the rooms where global policy meets blockchain innovation."
+    ],
+    "discountLabel": "Special rate for AMBCrypto community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    }
+  }
+]
