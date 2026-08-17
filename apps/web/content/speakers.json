@@ -1143,6 +1143,42 @@
     }
   },
   {
+    "slug": "dorian-stern-vukotic",
+    "name": "Dorian Jakov Štern Vukotić",
+    "title": "Congressman & Blockchain Developer",
+    "company": "Free Republic of Liberland",
+    "bio": "Dorian Jakov Štern Vukotić, also known as DJStern, is a Congressman of the Free Republic of Liberland and a blockchain developer who has contributed to much of Liberland’s blockchain infrastructure since joining the project in 2021.\n\nAs a member of Liberland’s first Congress, Dorian helped establish the institution’s operating infrastructure as it began assuming greater responsibility for budgets and advising the provisional government. His work combines hands-on technology development with a focus on government accountability, organizational discipline and practical state-building.\n\nDorian advocates transparent budgeting and planning across income, contributions, spending and future commitments. His broader Consolidate–Grow Capability–Action framework calls for Liberland to inventory its assets and responsibilities, strengthen the programs it can reliably deliver, expand its membership and operational capacity, and pursue larger strategic objectives only after building a lean and functional foundation.\n\nHaving lived in Liberland for approximately a year, Dorian brings both technical experience and direct knowledge of life in the settlement to his work in Congress.",
+    "expertise": [
+      "Blockchain Infrastructure Development",
+      "On-Chain Governance",
+      "Digital-State Institution Building",
+      "Public Budgeting and Transparency",
+      "Operational Strategy and Organizational Design"
+    ],
+    "photo": "/speakers/dorian-stern-vukotic.jpg",
+    "themes": [
+      "bitcoin",
+      "policy",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Engineering the Blockchain and Institutional Foundations of Liberland",
+    "tagline": "Congressman & Blockchain Developer • Free Republic of Liberland",
+    "subtitle": "Free Republic of Liberland\nBlockchain Infrastructure • On-Chain Governance • Institutional State-Building",
+    "signatureMoves": [
+      "Congressman – Free Republic of Liberland",
+      "Contributor to Liberland’s Blockchain Since 2021",
+      "Member of Liberland’s First Congress",
+      "Advocate for Transparent Budgeting and Planning",
+      "Architect of the Consolidate–Grow Capability–Action Framework"
+    ],
+    "quote": "“What we will have after this will be less impressive on paper, but will be stronger, and most importantly, real.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/djstern/",
+      "website": "https://liberland.org/elections/2026-06-28/candidates/dorian-stern-vukotic"
+    }
+  },
+  {
     "slug": "dr-roxane-langlois",
     "name": "Dr. Roxane Langlois",
     "title": "Physician & Executive Coach",
@@ -1944,6 +1980,42 @@
     "quote": "“Flexible computing loads — from Bitcoin mining to AI data centers — can transform from grid stress into a powerful tool for reliability, renewable integration, and even lower emissions.”",
     "social": {
       "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jiasun%20Li"
+    }
+  },
+  {
+    "slug": "jessica-de-paiva",
+    "name": "Jessica De Paiva",
+    "title": "Licensed Strategy Advisor & Enterprise Systems Architect",
+    "company": "Regulation, Governance & Systems Architecture",
+    "bio": "Jessica De Paiva is a Licensed Strategy Advisor and Enterprise Systems Architect working at the intersection of regulation, governance, systems architecture, organisational flow, and operational resilience. Her practice focuses on helping enterprise, government, and public-sector leadership integrate complex technology environments without unnecessary disruption or full-scale system replacement.\n\nHer work is built around non-invasive systems integration: connecting legacy infrastructure, modern cloud environments, AI capabilities, physical workflows, and human operators into coherent, auditable systems. She develops deterministic boundary frameworks designed to reduce organisational complexity, unify fragmented operational silos, and preserve system continuity under demanding conditions.\n\nJessica's advisory and implementation work spans critical infrastructure, manufacturing, logistics, finance, defence, healthcare, and enterprise technology. Her approach combines regulatory policy, systems architecture, risk management, failure-mode planning, algorithmic interfaces, secure infrastructure, and human-in-the-loop operating models.\n\nA defining focus of her work is ensuring that organisations remain operationally resilient whether AI capabilities are fully available, degraded, or offline. She develops dual-mode operating frameworks, adversarial data-validation boundaries, auditable telemetry, and ambiguity-free procedures that help teams respond to complex anomalies without sacrificing human judgement or operational continuity.\n\nHer work also emphasizes sustainable capital and workforce integrity: using technology to optimise time, protect organisational knowledge, preserve jobs where possible, and enable human-AI collaboration without creating new layers of operational fragility.",
+    "expertise": [
+      "Strategic Governance & Regulatory Compliance",
+      "Enterprise Systems Architecture",
+      "Non-Invasive Systems Integration",
+      "Operational Resilience & Failure-Mode Planning",
+      "Human-in-the-Loop AI Systems"
+    ],
+    "photo": "/speakers/jessica-de-paiva.jpg",
+    "themes": [
+      "ai",
+      "policy",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Engineering Resilient Systems Across Regulation, Technology & Human Operations",
+    "tagline": "Licensed Strategy Advisor • Enterprise Systems Architect",
+    "subtitle": "Regulation, Governance & Systems Architecture\nSecure Cloud, AI & Legacy Systems • Operational Resilience",
+    "signatureMoves": [
+      "Architecting legacy integration without rip-and-replace disruption",
+      "Designing governance frameworks for multi-jurisdiction environments",
+      "Bridging human workflows with ERP, cloud, AI, and air-gapped infrastructure",
+      "Engineering dual-mode operations resilient when AI is unavailable",
+      "Designing human-AI collaboration around workforce stability"
+    ],
+    "quote": "“The future of AI is not simply about making systems more intelligent. It is about building the boundaries, governance and human operating frameworks that allow intelligence to work safely across the systems we already depend on.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/jessicadepaiva_/",
+      "website": "https://jessicadepaiva.net/"
     }
   },
   {
