@@ -421,5 +421,30 @@
       }
     },
     "logoFit": "banner"
+  },
+  {
+    "slug": "liberland",
+    "name": "Liberland",
+    "logo": "/partners/liberland.png",
+    "website": "https://liberland.org/",
+    "intro": [
+      "The Free Republic of Liberland is a pioneering blockchain-powered nation — the first to embrace Bitcoin as a reserve currency and conduct national elections entirely on-chain.",
+      "During UNGA week in New York, Liberland's Congress and leadership are partnering with Blockchain Week - UNGA Edition to bring their global community to the highest-signal moments of the week — from institutional forums at the United Nations to the flagship conference and the Washington Elite Investment Summit & Gala.",
+      "Whether you're a Liberland citizen, blockchain governance advocate, or builder shaping on-chain institutions, this is your exclusive access to ten days of programming at the intersection of policy, Bitcoin, and real-world statecraft in Times Square."
+    ],
+    "discountLabel": "Special rate for Liberland community",
+    "pricing": {
+      "ga": {
+        "publicPrice": 299,
+        "partnerPrice": 269.1,
+        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+      },
+      "vip": {
+        "publicPrice": 1299,
+        "partnerPrice": 1169.1,
+        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+      }
+    },
+    "logoFit": "wide"
   }
 ]

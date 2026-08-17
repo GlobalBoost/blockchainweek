@@ -54,6 +54,7 @@ const nextConfig: NextConfig = {
       { source: "/cryptonews", destination: "/partners/cryptonews", permanent: true },
       { source: "/coingabbar", destination: "/partners/coingabbar", permanent: true },
       { source: "/ambcrypto", destination: "/partners/ambcrypto", permanent: true },
+      { source: "/liberland", destination: "/partners/liberland", permanent: true },
       { source: "/blog/:slug", destination: "/news/:slug", permanent: true },
       { source: "/news", destination: "/blog", permanent: true },
       { source: "/luciana-miranda", destination: "/speakers", permanent: true },
