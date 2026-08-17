@@ -3,10 +3,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "crons": [
-    {
-      "path": "/api/sync/wordpress",
-      "schedule": "0 6 * * *"
-    }
-  ]
+  "crons": []
 }

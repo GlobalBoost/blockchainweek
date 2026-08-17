@@ -14,11 +14,11 @@
  *
  * Environment:
  *   WORDPRESS_URL          – default https://cms.unblockchainweek.com
- *   SYNC_ENABLED           – set false to skip sync entirely
+ *   SYNC_ENABLED           – default false (sync paused; run manually when needed)
  *   SYNC_SPEAKERS          – default false (speakers are curated in-repo)
- *   SYNC_SPONSORS          – default true
- *   SYNC_MEDIA_PARTNERS    – default true
- *   SYNC_BLOG               – default true
+ *   SYNC_SPONSORS          – default false (sponsors are curated in-repo)
+ *   SYNC_MEDIA_PARTNERS    – default false (media partners are curated in-repo)
+ *   SYNC_BLOG              – default false
  *   SYNC_FETCH_DELAY_MS    – default 150
  *   SYNC_FETCH_CONCURRENCY – default 5
  *   SYNC_SECRET / CRON_SECRET / VERCEL_DEPLOY_HOOK_URL – required for /api/sync/wordpress

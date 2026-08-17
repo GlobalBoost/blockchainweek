@@ -27,11 +27,11 @@ export function loadSyncConfig(argv: string[] = process.argv.slice(2)): SyncConf
 
   return {
     wordpressUrl: (process.env.WORDPRESS_URL ?? "https://cms.unblockchainweek.com").replace(/\/$/, ""),
-    enabled: envBool("SYNC_ENABLED", true),
+    enabled: envBool("SYNC_ENABLED", false),
     syncSpeakers: speakersOnly || (!sponsorsOnly && !blogOnly && envBool("SYNC_SPEAKERS", false)),
-    syncSponsors: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_SPONSORS", true)),
-    syncMediaPartners: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_MEDIA_PARTNERS", true)),
-    syncBlog: blogOnly || (!speakersOnly && !sponsorsOnly && envBool("SYNC_BLOG", true)),
+    syncSponsors: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_SPONSORS", false)),
+    syncMediaPartners: sponsorsOnly || (!speakersOnly && !blogOnly && envBool("SYNC_MEDIA_PARTNERS", false)),
+    syncBlog: blogOnly || (!speakersOnly && !sponsorsOnly && envBool("SYNC_BLOG", false)),
     fetchDelayMs: Number(process.env.SYNC_FETCH_DELAY_MS ?? 150),
     fetchConcurrency: Number(process.env.SYNC_FETCH_CONCURRENCY ?? 5),
     dryRun,
