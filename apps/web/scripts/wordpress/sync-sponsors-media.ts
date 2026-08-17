@@ -80,13 +80,18 @@ export async function syncMediaPartners(config: SyncConfig): Promise<{ ok: boole
       return { ok: false, count: existing.length };
     }
 
+    // Keep local-only media partners (e.g. De Bacci Capital) that are not in the WP scrape
+    const syncedNames = new Set(records.map((r) => r.name.toLowerCase()));
+    const localOnly = existing.filter((e) => !syncedNames.has(e.name.toLowerCase()));
+    const merged = [...records, ...localOnly];
+
     if (!config.dryRun) {
-      writeJsonFile(mediaPath, records, false);
+      writeJsonFile(mediaPath, merged, false);
     } else {
       console.log("  [dry-run] Skipped writing media-partners.json");
     }
 
-    return { ok: true, count: records.length };
+    return { ok: true, count: merged.length };
   } catch (error) {
     console.error("  Media partner sync failed:", error instanceof Error ? error.message : error);
     return { ok: false, count: existing.length };
