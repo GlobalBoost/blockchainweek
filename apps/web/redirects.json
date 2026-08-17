@@ -1323,5 +1323,15 @@
     "source": "/anisha-salunkhe-2",
     "destination": "/anisha-salunkhe",
     "permanent": true
+  },
+  {
+    "source": "/speakers/anna-l-de-bacci",
+    "destination": "/anna-l-de-bacci",
+    "permanent": true
+  },
+  {
+    "source": "/anna-l-de-bacci-2",
+    "destination": "/anna-l-de-bacci",
+    "permanent": true
   }
 ]

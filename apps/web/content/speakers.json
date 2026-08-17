@@ -4336,5 +4336,44 @@
     "themes": [
       "ai"
     ]
+  },
+  {
+    "slug": "anna-l-de-bacci",
+    "name": "Anna L De Bacci",
+    "title": "Co-Founder & Managing Partner",
+    "company": "De Bacci Capital",
+    "bio": "Anna L De Bacci is Co-Founder and Managing Partner of De Bacci Capital and a representative of The De Bacci Noble Family, building one of the world's most relationship-driven private investment networks connecting visionary founders with family offices, venture capital firms, and strategic allocators across Dubai, London, New York, and beyond.\n\nThrough De Bacci Capital, she curates warm introductions, private investor gatherings, and deal-flow platforms that bridge legacy capital stewardship with emerging technologies — including Web3, blockchain infrastructure, artificial intelligence, and fintech. Her work emphasizes ethical governance, long-term partnership, and capital deployed with integrity and global impact.\n\nA frequent speaker and moderator at forums including the Global Blockchain Show, Wiki Finance Expo Dubai, The Capital Circle, and the Ethical Leadership & Investments Summit, Anna brings a family-first approach to venture ecosystem building — reminding markets that trust, principled leadership, and cross-border collaboration remain the foundation of enduring investment success.",
+    "expertise": [
+      "Venture Capital & Private Equity",
+      "Family Office & Investor Relations",
+      "Startup Fundraising & Deal Flow",
+      "Web3, Blockchain & Digital Assets",
+      "Ethical Leadership in Global Markets",
+      "Cross-Border Investment Strategy"
+    ],
+    "photo": "/speakers/anna-l-de-bacci.jpg",
+    "themes": [
+      "investment",
+      "policy",
+      "bitcoin",
+      "ai"
+    ],
+    "featured": false,
+    "headline": "Bridging Global Capital, Ethical Leadership & the Next Generation of Web3 Innovation",
+    "tagline": "Co-Founder & Managing Partner • De Bacci Capital",
+    "subtitle": "De Bacci Capital\nVenture Capital • Family Offices • Web3, AI & Cross-Border Investment",
+    "signatureMoves": [
+      "Co-Founder & Managing Partner — De Bacci Capital",
+      "Representative of The De Bacci Noble Family",
+      "Curator of global investor networks spanning 50,000+ members",
+      "Speaker at Global Blockchain Show, Wiki Finance Expo & Capital Circle",
+      "Host of private investor dinners at TOKEN2049, Blockchain Life & ADFW",
+      "Advocate for ethical, relationship-driven capital allocation"
+    ],
+    "quote": "“At De Bacci Capital, we firmly believe that capital is not only a tool for returns, but a responsibility toward future generations.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/anna-l-de-bacci-18ab4125a/",
+      "website": "https://debacciofficial.org/"
+    }
   }
 ]
