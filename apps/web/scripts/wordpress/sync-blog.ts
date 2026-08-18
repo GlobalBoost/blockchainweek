@@ -7,6 +7,7 @@ import { downloadAsset, publicPathFromDest } from "./download-asset";
 import { decodeHtml } from "./html";
 import { readJsonFile, resolveContentPath, writeJsonFile } from "./write-json";
 import type { BlogPost } from "../../lib/types";
+import { buildBlogExcerpt } from "../../lib/blog-excerpt";
 import path from "path";
 
 type MappedPost = Omit<BlogPost, "featuredImage" | "readingMinutes"> & {
@@ -164,6 +165,11 @@ export async function syncBlog(config: SyncConfig): Promise<{ ok: boolean; count
       delete rest.featuredImageUrl;
       posts.push({
         ...rest,
+        excerpt: buildBlogExcerpt({
+          excerpt: rest.excerpt,
+          contentHtml,
+          title: rest.title,
+        }),
         contentHtml,
         featuredImage,
         readingMinutes: readingMinutes(contentHtml),

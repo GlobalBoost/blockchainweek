@@ -35,6 +35,7 @@ import type {
   ProgramSchedule,
 } from "@/lib/types";
 import { decodeHtml, replaceLegacyBrandName, sanitizeSpeakerText, stripSurroundingQuotes } from "@/lib/html";
+import { buildBlogExcerpt } from "@/lib/blog-excerpt";
 import { BRAND_NAME } from "@/lib/brand-constants";
 
 function normalizeSpeaker(speaker: Speaker): Speaker {
@@ -174,9 +175,18 @@ export function getPartnerPageBySlug(slug: string): PartnerPage | undefined {
 }
 
 export function getBlogPosts(): BlogPost[] {
-  return (blogData as BlogPost[]).sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return (blogData as BlogPost[])
+    .map((post) => ({
+      ...post,
+      excerpt: buildBlogExcerpt({
+        excerpt: post.excerpt,
+        contentHtml: post.contentHtml,
+        title: post.title,
+      }),
+    }))
+    .sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
 }
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
