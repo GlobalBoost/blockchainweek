@@ -4375,5 +4375,757 @@
       "linkedin": "https://www.linkedin.com/in/anna-l-de-bacci-18ab4125a/",
       "website": "https://debacciofficial.org/"
     }
+  },
+  {
+    "slug": "b-dweik",
+    "name": "B. Dweik",
+    "title": "Co-Founder & CIO",
+    "company": "Bluestone Flagship Investors",
+    "bio": "B. Dweik is Co-Founder and Chief Investment Officer of Bluestone Flagship Investors, a fractional family office he co-founded in Silicon Valley alongside four other technology entrepreneurs. With a background spanning technology, engineering, and passive real estate investing, he brings a distinctive lens to wealth building — one grounded in the same rigor and precision he applied over 24+ years as a microchip design engineer, collaborating with IBM and ARM on chips powering products from iPhones and iPads to Teslas and spacecraft.\n\nHis mission is to help busy professionals engineer wealth through meticulously vetted, cash-flowing real estate opportunities that safeguard assets amid economic uncertainty while building long-term value. His path into real estate began unexpectedly at age 20, when he became a landlord almost by accident after renting out rooms in his first property — a passion that deepened over decades as he balanced a demanding technology career, including a startup exit via Cisco's acquisition in 2015, with hands-on real estate investing on the side.\n\nBeyond investing, B is passionate about youth education — particularly bringing financial literacy and essential life skills to children ages 8–12 in developing countries — extending his belief in engineered wealth to the next generation so they can build strong financial foundations early in life.",
+    "expertise": [
+      "Fractional Family Office Strategy",
+      "Passive Real Estate Investing",
+      "Technology & Engineering Leadership",
+      "Wealth Engineering for Professionals",
+      "Startup Exit & Capital Allocation",
+      "Youth Financial Literacy"
+    ],
+    "photo": "/speakers/b-dweik.jpg",
+    "themes": [
+      "investment",
+      "policy",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Engineering Wealth With the Same Discipline He Once Applied to Microchip Design",
+    "tagline": "Co-Founder & CIO • Bluestone Flagship Investors",
+    "subtitle": "Bluestone Flagship Investors\nFractional Family Office • Real Estate • Technology-Driven Wealth Building",
+    "signatureMoves": [
+      "Co-Founder & CIO — Bluestone Flagship Investors",
+      "24+ Years as a Microchip Design Engineer (IBM, ARM)",
+      "Startup Exit via Cisco Acquisition (2015)",
+      "Fractional Family Office Built in Silicon Valley",
+      "Vetted, Cash-Flowing Real Estate Portfolio Strategy",
+      "Advocate for Youth Financial Literacy (Ages 8–12)"
+    ],
+    "quote": "“I help busy professionals engineer wealth with the same discipline applied to designing high-performance systems.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/bdweik",
+      "website": "https://bfi-fund.com"
+    }
+  },
+  {
+    "slug": "doug-jordan",
+    "name": "Doug Jordan",
+    "title": "Co-Founder",
+    "company": "YieldFX",
+    "bio": "Doug Jordan is Co-Founder of YieldFX, a tokenized multicurrency deposit and FX platform built on Hedera. He brings 35 years of institutional FX experience from Deutsche Bank, Credit Agricole, Standard Chartered, and Jefferies, and serves as President of DSAM at Diamond Standard, focused on tokenized commodities.\n\nAt YieldFX, Doug is helping bring real-world currency yield on-chain — combining the depth of traditional foreign exchange markets with the efficiency and programmability of distributed ledger infrastructure. His work reflects a conviction that institutional-grade digital asset products must be built on regulatory clarity, market structure expertise, and decades of operational experience in global finance.\n\nAcross his career, Doug has operated at the intersection of capital markets, structured products, and emerging financial technology — making him a leading voice on how tokenized deposits, FX, and commodity instruments can extend TradFi rails rather than replace them overnight.",
+    "expertise": [
+      "Institutional FX Markets",
+      "Tokenized Multicurrency Deposits",
+      "Hedera-Based Financial Infrastructure",
+      "Tokenized Commodities",
+      "Cross-Border Payments",
+      "Regulated Digital Asset Products"
+    ],
+    "photo": "/speakers/doug-jordan.jpg",
+    "themes": [
+      "stablecoin",
+      "investment",
+      "policy"
+    ],
+    "featured": false,
+    "headline": "Bringing Real-World Currency Yield On-Chain",
+    "tagline": "Co-Founder • YieldFX",
+    "subtitle": "YieldFX\nTokenized Deposits • Institutional FX • Hedera",
+    "signatureMoves": [
+      "Co-Founder — YieldFX",
+      "35 Years of Institutional FX Experience",
+      "Former Roles at Deutsche Bank, Credit Agricole, Standard Chartered & Jefferies",
+      "President of DSAM at Diamond Standard",
+      "Building Tokenized FX on Hedera",
+      "Bridging Traditional Finance and On-Chain Yield"
+    ],
+    "quote": "“Real-world currency yield belongs on-chain — with the institutional rigor the market demands.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/dougcjordan/",
+      "website": "https://yieldfx.co"
+    }
+  },
+  {
+    "slug": "travis-john",
+    "name": "Travis John",
+    "title": "Co-Founder",
+    "company": "Parsera",
+    "bio": "Travis John is Co-Founder of Parsera, the token-native fund administrator and verified operating record for private funds and SPVs. He is also Founder and Managing Partner of Chayne Global Management, a private yield fund built on modern operating infrastructure, and Head of Institutional at XDC, where he leads U.S. institutional growth for the enterprise blockchain powering payments, tokenization, and trade finance.\n\nHe previously founded RWA Builders, the industry association that vetted 250+ real-world asset projects and connected allocators, issuers, and infrastructure operators as tokenization moved from theory to production. Across 25 years he has built at four inflection points of financial infrastructure: enterprise software, the 2008 workout cycle, digital commerce, and institutional tokenization.\n\nTravis brings a practitioner's view of what institutional tokenization requires at the operating layer — not just issuance and distribution, but auditable fund administration, verified records, and the connective tissue between allocators and the infrastructure that makes RWAs investable at scale.",
+    "expertise": [
+      "Token-Native Fund Administration",
+      "Real-World Asset Tokenization",
+      "Institutional Blockchain (XDC)",
+      "Private Fund & SPV Infrastructure",
+      "Financial Infrastructure at Scale",
+      "Industry Association Building (RWA Builders)"
+    ],
+    "photo": "/speakers/travis-john.jpg",
+    "themes": [
+      "investment",
+      "policy",
+      "stablecoin"
+    ],
+    "featured": false,
+    "headline": "Building the Operating Infrastructure for Institutional Tokenization",
+    "tagline": "Co-Founder • Parsera",
+    "subtitle": "Parsera\nToken-Native Fund Administration • RWA Infrastructure • Institutional Blockchain",
+    "signatureMoves": [
+      "Co-Founder — Parsera",
+      "Founder & Managing Partner — Chayne Global Management",
+      "Head of Institutional — XDC Network",
+      "Founded RWA Builders (250+ Projects Vetted)",
+      "25 Years Across Enterprise Software, 2008 Workouts, Digital Commerce & Tokenization",
+      "Connecting Allocators, Issuers & Infrastructure Operators"
+    ],
+    "quote": "“Tokenization only works at scale when the operating record is as credible as the asset itself.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/travisjohn",
+      "website": "https://parsera.io"
+    }
+  },
+  {
+    "slug": "srinivasa-rao-gunda",
+    "name": "Srinivasa Rao Gunda",
+    "title": "Lead Technical Consultant",
+    "company": "UBS Financial Services",
+    "bio": "Srinivasa Rao Gunda is an experienced software professional with over 19 years of expertise in designing, developing, and maintaining enterprise-level applications. Currently serving as Lead Technical Consultant at UBS Financial Services, he specializes in full-stack development with production-ready, scalable solutions.\n\nHis technical expertise spans Java, J2EE, Spring Boot, microservices architecture, and cloud platforms including Azure and AWS. Srinivasa has extensive experience in financial services technology, having worked on critical projects involving money movement systems, wealth management platforms, and automated investment solutions.\n\nThroughout his career at leading organizations including UBS Financial Services, Broadridge Financial Systems, and American Express, he has consistently delivered secure, high-performance applications while implementing best practices in cloud architecture, database design, and cybersecurity. He holds a Master of Computer Applications and brings deep expertise in system architecture, performance optimization, and regulatory compliance in the financial services sector.",
+    "expertise": [
+      "Full-Stack Enterprise Development",
+      "Java, Spring Boot & Microservices",
+      "Azure & AWS Cloud Architecture",
+      "Financial Services Technology",
+      "Wealth Management Platforms",
+      "Cybersecurity & Regulatory Compliance"
+    ],
+    "photo": "/speakers/srinivasa-rao-gunda.jpg",
+    "themes": [
+      "ai",
+      "investment",
+      "policy"
+    ],
+    "featured": false,
+    "headline": "Building Scalable Financial Technology for Global Institutions",
+    "tagline": "Lead Technical Consultant • UBS Financial Services",
+    "subtitle": "UBS Financial Services\nFull-Stack Engineering • Cloud Architecture • Financial Services",
+    "signatureMoves": [
+      "Lead Technical Consultant — UBS Financial Services",
+      "19+ Years in Enterprise Application Development",
+      "Experience at Broadridge & American Express",
+      "Money Movement & Automated Investment Systems",
+      "Azure Kubernetes & Microservices Architecture",
+      "MCA — Master of Computer Applications"
+    ],
+    "quote": "“Secure, scalable financial technology is built on architecture discipline — not shortcuts.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/srinivasa-rao-gunda-8787a320b/"
+    }
+  },
+  {
+    "slug": "kedar-mohile",
+    "name": "Kedar Mohile",
+    "title": "Senior Data Protection Engineer",
+    "company": "Amazon",
+    "bio": "Kedar Mohile is a seasoned cybersecurity executive with over 22 years of experience in AI-driven threat intelligence, zero-trust security, and blockchain security solutions. Currently serving as Senior Data Protection Engineer at Amazon since April 2021, he leads strategic cybersecurity initiatives that protect over 310 million users and secure more than $1.2 billion in financial transactions. His innovative AI-powered threat detection models have reduced cyber breach attempts by 35% while maintaining 99.99% uptime for mission-critical services.\n\nPrior to Amazon, Kedar served as Director and Information Security Officer at Fiserv from 2015 to 2021, where he led cybersecurity strategies for the world's largest fintech company. In this role, he secured over $200 billion in daily transactions for 140+ million users and successfully managed the security integration during the Fiserv-First Data merger, achieving zero security incidents throughout the $30 billion revenue transition.\n\nEarlier in his career, Kedar held key leadership positions at Genpact, Maersk & Unisys, Symantec, and IBM. He holds an MBA from Florida State University, a Post Graduate Diploma in Blockchain Innovation from MIT Sloan School of Management, and maintains multiple high-level certifications including CRISC, CISM, CISSP, and ISO-27001. As an award-winning speaker at major security conferences, he continues to drive innovation in cybersecurity while contributing thought leadership to the global security community.",
+    "expertise": [
+      "AI-Driven Threat Intelligence",
+      "Zero-Trust Security Architecture",
+      "Blockchain Security Solutions",
+      "Financial Services Cybersecurity",
+      "Data Loss Prevention & WAF",
+      "Enterprise Security Leadership (CRISC, CISM, CISSP)"
+    ],
+    "photo": "/speakers/kedar-mohile.jpg",
+    "themes": [
+      "ai",
+      "policy",
+      "bitcoin"
+    ],
+    "featured": false,
+    "headline": "Securing Mission-Critical Systems at Amazon Scale",
+    "tagline": "Senior Data Protection Engineer • Amazon",
+    "subtitle": "Amazon HealthSec Division\nAI-Driven Threat Intelligence • Zero Trust • Blockchain Security",
+    "signatureMoves": [
+      "Senior Data Protection Engineer — Amazon (310M+ Users Protected)",
+      "Former Director & ISO — Fiserv ($200B+ Daily Transactions)",
+      "MIT Sloan Post Graduate Diploma in Blockchain Innovation",
+      "22+ Years in Cybersecurity Leadership",
+      "Award-Winning Speaker at Major Security Conferences",
+      "Consulting for Singapore Government, Huawei, Raytheon & IBM"
+    ],
+    "quote": "“Innovation at scale requires security that is as intelligent and relentless as the threats it faces.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/kmohile/"
+    }
+  },
+  {
+    "slug": "suryasivaji-killi",
+    "name": "Suryasivaji Killi",
+    "title": "Data Engineer, GenAI",
+    "company": "GMH Holdings",
+    "bio": "Suryasivaji Killi is an AI and financial analytics professional with approximately four years of experience spanning predictive analytics, demand forecasting, credit risk modeling, financial analysis, and data engineering. He combines expertise in machine learning, business intelligence, and quantitative finance to develop data-driven solutions that improve operational efficiency, forecasting accuracy, and strategic decision-making.\n\nCurrently, Suryasivaji serves as Data Engineer, GenAI at GMH Holdings, where he architects AI-powered forecasting and analytics systems for a hospitality portfolio of more than 150 properties. His work includes developing machine learning-based demand forecasting models, real-time anomaly detection systems, and generative AI solutions that transform complex analytical outputs into actionable business insights.\n\nIn addition to his corporate role, he is Founder and CEO of Next Stock Inc., an AI-driven logistics startup focused on neighborhood-level demand forecasting and intelligent inventory optimization. He holds a Master of Science in FinTech and Analytics from Stevens Institute of Technology and a Bachelor of Technology in Mechanical Engineering from Jawaharlal Nehru Technological University.",
+    "expertise": [
+      "Machine Learning & Demand Forecasting",
+      "Generative AI for Business Analytics",
+      "Credit Risk Modeling",
+      "Financial Analysis & Monte Carlo Simulation",
+      "Data Engineering (Python, SQL, TensorFlow)",
+      "AI-Driven Logistics & Supply Chain"
+    ],
+    "photo": "/speakers/suryasivaji-killi.jpg",
+    "themes": [
+      "ai",
+      "investment",
+      "energy"
+    ],
+    "featured": false,
+    "headline": "Turning Data Into Decisions Across Hospitality, Finance & AI",
+    "tagline": "Data Engineer, GenAI • GMH Holdings",
+    "subtitle": "GMH Holdings · Next Stock Inc.\nPredictive Analytics • Demand Forecasting • AI Logistics",
+    "signatureMoves": [
+      "Data Engineer, GenAI — GMH Holdings (150+ Properties)",
+      "Founder & CEO — Next Stock Inc.",
+      "Former Financial Analyst — S4Cloud",
+      "Former Credit Risk Analyst — KT Investments",
+      "M.S. FinTech & Analytics — Stevens Institute of Technology",
+      "Real-Time Anomaly Detection & Forecasting Systems"
+    ],
+    "quote": "“The best forecasting models don't just predict the future — they give leaders the confidence to act on it.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/suryasivajikilli/"
+    }
+  },
+  {
+    "slug": "harshitha-ram",
+    "name": "Harshitha Ram",
+    "title": "International Attorney & Arbitrator",
+    "company": "Global Arbitration Mediation Academy",
+    "bio": "Harshitha Ram is an international disputes attorney, arbitrator, mediator, and educator whose practice spans complex commercial and cross-border disputes, emerging technologies, and digital assets. She serves as Co-Chair of the American Bar Association's Arbitration Committee and Chair of the Detroit Bar Association's ADR Section. Ram is President of the Global Arbitration Mediation Academy (GAMA) and serves on leading arbitration and mediation panels internationally.\n\nHer work focuses on the intersection of dispute resolution, blockchain, Web3, AI, and digital commerce, with particular emphasis on developing practical, efficient, and enforceable frameworks for resolving disputes arising from emerging technologies. She brings a rare combination of deep legal expertise and forward-looking perspective on how traditional dispute mechanisms must evolve for a digitally native economy.\n\nAs both practitioner and educator, Harshitha is helping shape how courts, institutions, and innovators think about arbitration and mediation in an era where smart contracts, tokenized assets, and AI-driven commerce create new categories of conflict — and new opportunities for resolution.",
+    "expertise": [
+      "International Arbitration & Mediation",
+      "Cross-Border Commercial Disputes",
+      "Blockchain & Web3 Dispute Resolution",
+      "AI & Digital Commerce Law",
+      "ABA Arbitration Committee Leadership",
+      "Enforceable Frameworks for Emerging Technologies"
+    ],
+    "photo": "/speakers/harshitha-ram.jpg",
+    "themes": [
+      "policy",
+      "bitcoin",
+      "ai"
+    ],
+    "featured": false,
+    "headline": "Resolving Disputes at the Intersection of Law, Blockchain & AI",
+    "tagline": "International Attorney & Arbitrator • GAMA",
+    "subtitle": "Global Arbitration Mediation Academy\nCross-Border Disputes • Web3 • Digital Assets",
+    "signatureMoves": [
+      "President — Global Arbitration Mediation Academy (GAMA)",
+      "Co-Chair — ABA Arbitration Committee",
+      "Chair — Detroit Bar Association ADR Section",
+      "International Arbitrator & Mediator (FCIArb)",
+      "Practice Spanning Blockchain, Web3, AI & Digital Assets",
+      "JAMS Fellow"
+    ],
+    "quote": "“Emerging technologies need dispute frameworks that are as practical, efficient, and enforceable as the systems they govern.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/harshitha-ram-fciarb-9b051034/",
+      "website": "https://harshitharam.com"
+    }
+  },
+  {
+    "slug": "eric-guthrie",
+    "name": "Eric Guthrie",
+    "title": "Partner",
+    "company": "The Cogent Law Group",
+    "bio": "Eric Guthrie is Partner at The Cogent Law Group in Washington, D.C., President & CEO of Better ME Better WE, and Adjunct Law Professor at Purdue Law School. He is the author of Blockchain or Die: Learn to Profit from Cryptocurrencies and Blockchains — an Amazon #1 New Release and multiple award-winning book that has helped thousands understand the legal and economic foundations of digital assets.\n\nAs Director of Training for the Government Blockchain Association, Eric has been at the forefront of blockchain education and policy training long before digital assets entered mainstream discourse. His work bridges law, regulation, and practical adoption — helping institutions, policymakers, and entrepreneurs navigate the evolving landscape of cryptocurrencies and distributed ledger technology.\n\nEric's book Blockchain or Die Harder extends his mission of making complex blockchain concepts accessible and actionable. With credentials spanning law, education, and public advocacy, he remains one of the most recognized voices connecting blockchain innovation with legal clarity and responsible adoption.",
+    "expertise": [
+      "Blockchain & Digital Asset Law",
+      "Cryptocurrency Regulation",
+      "Adjunct Law Professor (Purdue)",
+      "Author & Public Educator",
+      "Government Blockchain Association",
+      "Policy Training & Compliance"
+    ],
+    "photo": "/speakers/eric-guthrie.jpg",
+    "themes": [
+      "policy",
+      "bitcoin",
+      "investment"
+    ],
+    "featured": false,
+    "headline": "Teaching the Law and Economics of Blockchain Before the World Caught Up",
+    "tagline": "Partner • The Cogent Law Group",
+    "subtitle": "The Cogent Law Group\nBlockchain Law • Digital Assets • Policy Education",
+    "signatureMoves": [
+      "Partner — The Cogent Law Group (Washington, D.C.)",
+      "Author of Blockchain or Die (Amazon #1 New Release)",
+      "President & CEO — Better ME Better WE",
+      "Adjunct Law Professor — Purdue Law School",
+      "Director of Training — Government Blockchain Association",
+      "Multiple Book Awards (NYC Big Book, Independent Press, Indie BookFest)"
+    ],
+    "quote": "“Blockchain isn't a trend to watch from the sidelines — it's a structural shift in how value, trust, and law interact.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ericlanceguthrie/",
+      "website": "https://ericguthrie.com"
+    }
+  },
+  {
+    "slug": "nithya-ramachandran",
+    "name": "Nithya Ramachandran",
+    "title": "Software Engineer IV / Technical Lead",
+    "company": "MedImpact Healthcare Systems",
+    "bio": "Nithya Ramachandran is a seasoned Software Engineer IV, Technical Lead, and U.S. Patent Co-Inventor with more than 12 years of experience delivering enterprise applications across the Healthcare, ERP, and Financial Services sectors. Her expertise spans Spring Boot microservices, Java backend development, React.js, AWS cloud architecture, and large-scale system modernization.\n\nAt MedImpact Healthcare Systems, Nithya leads technical design and development for platforms that support the organization's pharmacy benefit management ecosystem. She has architected major components of the NGCS Smart IQ and CLCS platforms, redesigned MedImpact's Prior Authorization Appeal system using Spring Boot microservices, authored secure RESTful APIs, and contributed to enterprise-wide modernization initiatives.\n\nDuring her tenure at GE Healthcare, Nithya contributed to web-based DICOM enterprise viewing applications used by radiologists globally. She is co-inventor of U.S. Patent Application US20240212829A1, which introduces AI-driven workflow automation to enhance radiologist productivity. Earlier in her career at IBM and MCIApps, she supported critical systems for VISA's global payment infrastructure and cloud-native ERP platforms used by hundreds of organizations.",
+    "expertise": [
+      "Spring Boot Microservices Architecture",
+      "Java Backend & React.js Development",
+      "AWS Cloud Architecture",
+      "Healthcare Enterprise Systems",
+      "AI-Driven Workflow Automation",
+      "U.S. Patent Co-Inventor"
+    ],
+    "photo": "/speakers/nithya-ramachandran.jpg",
+    "themes": [
+      "ai",
+      "policy",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Modernizing Enterprise Systems From Healthcare to Global Payments",
+    "tagline": "Software Engineer IV / Technical Lead • MedImpact",
+    "subtitle": "MedImpact Healthcare Systems\nSpring Boot Microservices • AWS · AI Workflow Automation",
+    "signatureMoves": [
+      "Software Engineer IV / Technical Lead — MedImpact Healthcare Systems",
+      "U.S. Patent Co-Inventor (US20240212829A1 — AI Workflow Automation)",
+      "Former GE Healthcare — DICOM Enterprise Viewing Applications",
+      "Former IBM — VISA Global Payment Systems ETL",
+      "Former MCIApps — Cloud-Native ERP Systems",
+      "MBA in eCommerce Marketing & Management"
+    ],
+    "quote": "“The best enterprise modernization connects secure architecture with workflows that actually make clinicians and operators faster.”"
+  },
+  {
+    "slug": "akshay-pramod-roy",
+    "name": "Akshay Pramod Roy",
+    "title": "Co-Founder & CTO",
+    "company": "Flotive AI",
+    "bio": "Akshay Roy is Co-Founder and CTO of Flotive AI, where he leads engineering on AI systems that automate permitting and compliance workflows for energy projects — compressing timelines that once took months and helping critical infrastructure come online faster.\n\nBefore founding Flotive, Akshay spent nearly a decade in the physical AI and autonomy space, building robots and autonomous machines that had to make reliable decisions in the real world, where software errors have immediate physical consequences. As Team Lead at GPR, he led engineering for mapping, localization, and autonomous vehicle perception. At Vecna Robotics, he was part of the core technical autonomy team.\n\nThat foundation — shipping AI in systems that couldn't afford to be wrong — is the lens through which he now approaches deploying AI in regulated, high-consequence industries. Akshay holds a Master's in Electrical and Computer Engineering from Georgia Tech.",
+    "expertise": [
+      "AI Systems for Regulated Industries",
+      "Energy Permitting & Compliance Automation",
+      "Physical AI & Autonomous Systems",
+      "Robotics Perception & Localization",
+      "Production-Grade ML Engineering",
+      "Georgia Tech ECE"
+    ],
+    "photo": "/speakers/akshay-pramod-roy.jpg",
+    "themes": [
+      "ai",
+      "energy",
+      "policy"
+    ],
+    "featured": false,
+    "headline": "Deploying AI Where Errors Have Real-World Consequences",
+    "tagline": "Co-Founder & CTO • Flotive AI",
+    "subtitle": "Flotive AI\nPhysical AI · Energy Permitting · Autonomous Systems",
+    "signatureMoves": [
+      "Co-Founder & CTO — Flotive AI",
+      "Former Team Lead — GPR (Mapping, Localization & AV Perception)",
+      "Former Core Autonomy Engineer — Vecna Robotics",
+      "Nearly a Decade in Physical AI & Autonomous Machines",
+      "Compressing Energy Project Timelines from Months to Weeks",
+      "M.S. Electrical & Computer Engineering — Georgia Tech"
+    ],
+    "quote": "“In regulated, high-consequence industries, AI has to be right the first time — there is no room for 'move fast and break things.'”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/akshaypramodroy/",
+      "website": "https://flotive.ai"
+    }
+  },
+  {
+    "slug": "cat-bonar",
+    "name": "Cat Bonar",
+    "title": "CEO",
+    "company": "Block Reign",
+    "bio": "Cat Bonar is CEO of Block Reign, where she leads at the intersection of blockchain, Web3 innovation, and enterprise growth. She brings over 20 years of leadership experience spanning healthcare, medical billing, and regulatory compliance, and has held C-suite roles across both private and public companies, driving strategy, operations, and compliance through periods of rapid growth and technological transformation.\n\nToday she is guiding Block Reign through its PCAOB audit process while the company engages in active discussions with governments internationally to bring blockchain into public-sector protocols and programs. A named inventor herself, she holds a U.S. design patent for an FDA medical device to treat sleep apnea in adults. From FDA approvals and clinical trials to decentralized ecosystems, she has built companies, trained thousands, advised DAOs, and developed compliance strategies that scale alongside innovation.\n\nAt Block Reign, which integrates blockchain and AI, Cat helps businesses, developers, and innovators bring everyday products and services on-chain — delivering utility-based digital rewards and bridging compliance with real Web3 adoption, without the complexity or speculation the space is known for.",
+    "expertise": [
+      "Web3 & Blockchain Compliance",
+      "Enterprise Growth Strategy",
+      "Regulatory & PCAOB Audit Readiness",
+      "Healthcare & FDA Regulatory Experience",
+      "DAO Advisory & Community Education",
+      "AI × Blockchain Integration"
+    ],
+    "photo": "/speakers/cat-bonar.jpg",
+    "themes": [
+      "policy",
+      "ai",
+      "bitcoin"
+    ],
+    "featured": false,
+    "headline": "Building the Trust Layer Where AI and Blockchain Meet",
+    "tagline": "CEO • Block Reign",
+    "subtitle": "Block Reign\nWeb3 Compliance · Enterprise Growth · Regulated Innovation",
+    "signatureMoves": [
+      "CEO — Block Reign",
+      "20+ Years in Compliance & Regulated Innovation",
+      "U.S. Design Patent Holder (FDA Medical Device — Sleep Apnea)",
+      "Guiding Block Reign Through PCAOB Audit Process",
+      "C-Suite Leadership Across Healthcare & Public Companies",
+      "Government Blockchain Discussions Internationally"
+    ],
+    "quote": "“Bold ideas only scale when they are backed by airtight execution and clear, compliant messaging.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/catbonar",
+      "website": "https://blockreign.tech"
+    }
+  },
+  {
+    "slug": "wassim-jarkas",
+    "name": "Wassim Jarkas",
+    "title": "Managing Director",
+    "company": "iBLOCKCHAIN",
+    "bio": "Wassim Jarkas is Managing Director at iBLOCKCHAIN, where he operates at the intersection of telecom infrastructure, Agentic AI, cloud-native architecture, and blockchain-based trust frameworks. With 25 years of experience solving organizational readiness problems at national scale across four continents, he brings a rare combination of technical depth and the organizational intelligence to make large institutions move in directions they otherwise resist.\n\nHe has directed a $1.2 billion national wireless network rollout governed across multiple vendors and thousands of deployment sites, owned an $800 million 4G and 5G technology roadmap execution, and held annual budget authority exceeding $150 million while directing 300+ engineering professionals across critical digital transformation programs.\n\nToday Wassim builds blueprints and deployment strategies for enterprises navigating four forces simultaneously creating and destroying value: telecom infrastructure, Agentic AI, cloud-native architecture, and blockchain-based trust frameworks. His work focuses on the human and organizational dimensions of technology adoption — because most programs fail not when the technology is wrong, but when the institution was never ready for it.",
+    "expertise": [
+      "Large-Scale Digital Transformation",
+      "Telecom Infrastructure (4G/5G)",
+      "Agentic AI Deployment Strategy",
+      "Blockchain-Based Trust Frameworks",
+      "Organizational Readiness & Change Leadership",
+      "Multi-Vendor Program Governance"
+    ],
+    "photo": "/speakers/wassim-jarkas.jpg",
+    "themes": [
+      "ai",
+      "bitcoin",
+      "policy"
+    ],
+    "featured": false,
+    "headline": "Making Large Institutions Ready for the Technology They Adopt",
+    "tagline": "Managing Director • iBLOCKCHAIN",
+    "subtitle": "iBLOCKCHAIN\nTelecom Infrastructure · Agentic AI · Blockchain Trust Frameworks",
+    "signatureMoves": [
+      "Managing Director — iBLOCKCHAIN",
+      "Directed $1.2B National Wireless Network Rollout",
+      "Owned $800M 4G/5G Technology Roadmap Execution",
+      "25 Years Across Four Continents at National Scale",
+      "Budget Authority Exceeding $150M (300+ Engineers)",
+      "RWA Tokenization & AI Thought Leadership"
+    ],
+    "quote": "“Most technology programs fail not because the technology is wrong — but because the organization was never truly ready for it.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/wassim-jarkas",
+      "website": "https://i-blockchain.com"
+    }
+  },
+  {
+    "slug": "wook-lee",
+    "name": "Wook Lee",
+    "title": "Founder & CEO",
+    "company": "EDENA Capital Partners",
+    "bio": "Wook Lee is CEO and Founder of EDENA Capital Partners, an institutional digital asset platform focused on tokenizing sovereign and real-world assets across Asia, Africa, and the Middle East. He is leading the development of a $20 billion+ pipeline of investable assets — including infrastructure, energy, private markets, and nature-based climate assets — designed to connect emerging markets with global institutional capital.\n\nA capital markets and regulatory specialist, Wook works closely with governments, regulators, and sovereign institutions to structure compliant digital securities and enable cross-border capital formation using blockchain-based infrastructure. Under his leadership, EDENA has established strategic partnerships across multiple regions, including a joint venture with Egypt's BEK Group, chaired by former Prime Minister Ibrahim Mahlab, providing commercial reach across more than 70 countries.\n\nWook's work increasingly focuses on bringing natural capital and climate-linked assets on-chain, using data, satellite monitoring, and verification technologies to support transparent, investable environmental markets. He also serves as Chairman of W Foundation, an official UNFCCC partner from 2019 to 2022, and has delivered keynote addresses at COP25, COP26, and COP27.",
+    "expertise": [
+      "Sovereign & Real-World Asset Tokenization",
+      "Cross-Border Capital Formation",
+      "Climate & Natural Capital Markets",
+      "Institutional Digital Securities",
+      "Government & Regulator Engagement",
+      "Emerging Markets Infrastructure Finance"
+    ],
+    "photo": "/speakers/wook-lee.jpg",
+    "themes": [
+      "investment",
+      "policy",
+      "energy"
+    ],
+    "featured": false,
+    "headline": "Tokenizing Sovereign Assets to Connect Emerging Markets With Global Capital",
+    "tagline": "Founder & CEO • EDENA Capital Partners",
+    "subtitle": "EDENA Capital Partners\nRWA Tokenization · Climate Assets · Cross-Border Capital Formation",
+    "signatureMoves": [
+      "Founder & CEO — EDENA Capital Partners",
+      "$20B+ Pipeline of Tokenizable Assets Across Asia, Africa & MENA",
+      "Joint Venture with Egypt's BEK Group (70+ Countries)",
+      "Chairman — W Foundation (UNFCCC Partner 2019–2022)",
+      "Keynote Speaker at COP25, COP26 & COP27",
+      "Co-Founder — HOOXI Partners (Carbon Credits)"
+    ],
+    "quote": "“Emerging markets don't lack assets — they lack compliant infrastructure to connect those assets to global institutional capital.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/wooklee910/",
+      "website": "https://edenacapital.com"
+    }
+  },
+  {
+    "slug": "chris-ransdell",
+    "name": "Chris Ransdell",
+    "title": "Founder & CEO",
+    "company": "FlarePoint Capital Partners",
+    "bio": "Chris Ransdell brings more than 25 years of experience in capital formation and structured finance, with a focus on connecting investors, operators, and infrastructure assets through institutional-grade financial structures. As Founder and CEO of FlarePoint Capital Partners, he focuses on the convergence of oil & gas resources, natural-gas power generation, Bitcoin mining, and high-performance data centers, including render farms and AI compute infrastructure.\n\nHis projects integrate energy production, on-site power generation, and digital compute — creating vertically integrated investment models that convert energy resources into scalable computing capacity and investor yield. He frequently speaks on structured finance, AI-driven automation, and emerging investment strategies at the intersection of energy, technology, and capital markets.\n\nChris represents a new generation of infrastructure investors who see energy not just as a commodity but as the foundational input for Bitcoin mining, AI compute, and the next wave of digital infrastructure — all structured through disciplined capital formation and operational integration.",
+    "expertise": [
+      "Structured Finance & Capital Formation",
+      "Oil & Gas Resource Development",
+      "Natural-Gas Power Generation",
+      "Bitcoin Mining Operations",
+      "AI Compute & Render Farm Infrastructure",
+      "Vertically Integrated Energy-to-Compute Models"
+    ],
+    "photo": "/speakers/chris-ransdell.jpg",
+    "themes": [
+      "bitcoin",
+      "energy",
+      "investment"
+    ],
+    "featured": false,
+    "headline": "Converting Energy Resources Into Scalable Compute and Investor Yield",
+    "tagline": "Founder & CEO • FlarePoint Capital Partners",
+    "subtitle": "FlarePoint Capital Partners\nOil & Gas · Bitcoin Mining · AI Compute Infrastructure",
+    "signatureMoves": [
+      "Founder & CEO — FlarePoint Capital Partners",
+      "25+ Years in Capital Formation & Structured Finance",
+      "Integrating Energy Production with On-Site Power Generation",
+      "Bitcoin Mining & High-Performance Data Center Projects",
+      "AI-Driven Automation in Energy & Finance",
+      "Institutional-Grade Investment Structures"
+    ],
+    "quote": "“The future of yield sits at the intersection of energy production, compute infrastructure, and disciplined capital structure.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/chris-ransdell/",
+      "website": "https://flarepointpartners.com"
+    }
+  },
+  {
+    "slug": "ali-abou-daya",
+    "name": "Ali Abou Daya",
+    "title": "CEO",
+    "company": "Transactix",
+    "bio": "Ali Abou Daya is CEO of Transactix, a financial infrastructure company building the rails for how value moves across Canada and the world. With over 18 years across business and engineering, Ali has been at the forefront of blockchain development since 2016, digital currency mining since 2011, and software programming since 2003.\n\nHis work centres on building secure, regulated, and scalable systems that balance innovation with consumer protection and financial stability. An active voice in Canadian digital asset policy, Ali has presented at the House of Commons Standing Committee on Industry and Technology and speaks regularly at Consensus, Inventures, and forums hosted by the Canadian Blockchain Consortium, Fintechs Canada, Digital Governance Council, and Canadian Web3 Council.\n\nBefore Transactix, Ali was COO of Gearlay Technologies, ranked #1 company to watch in Canada by Deloitte Fast50 in 2025, with millions of wallets, tens of millions in transactions, and billions of dollars processed to date. He holds degrees in business and computer and communications engineering from Cornell University and the American University of Beirut.",
+    "expertise": [
+      "Payments & Financial Infrastructure",
+      "Blockchain Development Since 2016",
+      "Canadian Digital Asset Policy",
+      "Regulated Consumer Protection Frameworks",
+      "Enterprise-Scale Transaction Systems",
+      "Cross-Border Value Transfer"
+    ],
+    "photo": "/speakers/ali-abou-daya.jpg",
+    "themes": [
+      "stablecoin",
+      "policy",
+      "bitcoin"
+    ],
+    "featured": false,
+    "headline": "Building the Financial Rails for How Value Moves Across Canada and the World",
+    "tagline": "CEO • Transactix",
+    "subtitle": "Transactix\nPayments Infrastructure · Digital Assets · Canadian Policy",
+    "signatureMoves": [
+      "CEO — Transactix",
+      "18+ Years Across Business & Engineering",
+      "Testified Before Canadian House of Commons (Industry & Technology)",
+      "Former COO — Gearlay Technologies (Deloitte Fast50 #1, 2025)",
+      "Digital Currency Mining Since 2011",
+      "Degrees from Cornell University & American University of Beirut"
+    ],
+    "quote": "“Innovation in digital assets only scales when it is secure, regulated, and built for real consumer protection.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/aliaboudaya/",
+      "website": "https://transactix.ca"
+    }
+  },
+  {
+    "slug": "samir-sengupta",
+    "name": "Samir Sengupta",
+    "title": "AI/ML Engineer",
+    "company": "SyGenticAI",
+    "bio": "Samir Sengupta is an AI/ML Engineer passionate about building intelligent systems that solve real-world problems using Large Language Models, RAG architectures, and production-grade MLOps. He is developing SyGenticAI, a startup focused on building agentic AI systems where AI creates micro-agents capable of assembling entire software products.\n\nHis work spans designing and deploying production-ready LLM applications using RAG, embeddings, and semantic search; building scalable ML pipelines with distributed training and model optimization; and implementing cloud-native AI solutions on AWS Bedrock, Azure OpenAI, and GCP Vertex AI. Recent achievements include improving LLM reasoning accuracy by 35% on GSM8K and HumanEval benchmarks, reducing ML inference costs by 50% through quantization, and building microservices handling 10M+ daily events with 99.9% uptime.\n\nFeatured projects include PrometheusAI (privacy-first offline LLM assistant), NeuralScale (distributed training framework), and OmniGen (multi-modal generation engine). Samir brings a builder's perspective on what it takes to move AI from prototype to production — with systems engineered for reliability, scale, and real business impact.",
+    "expertise": [
+      "Large Language Models & RAG Architectures",
+      "Production MLOps & Cloud-Native AI",
+      "Agentic AI Systems",
+      "Model Optimization (Quantization, LoRA/QLoRA)",
+      "Distributed ML Training",
+      "Vector Databases & Semantic Search"
+    ],
+    "photo": "/speakers/samir-sengupta.jpg",
+    "themes": [
+      "ai",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Building Production-Grade AI Systems That Solve Real Problems",
+    "tagline": "AI/ML Engineer • SyGenticAI",
+    "subtitle": "SyGenticAI\nLarge Language Models · RAG · MLOps",
+    "signatureMoves": [
+      "Founder — SyGenticAI (Agentic AI Startup)",
+      "35% Improvement in LLM Reasoning on GSM8K & HumanEval",
+      "50% Reduction in ML Inference Costs via Quantization",
+      "Built Microservices Handling 10M+ Daily Events",
+      "Projects: PrometheusAI, NeuralScale, OmniGen",
+      "AWS Bedrock, Azure OpenAI & GCP Vertex AI"
+    ],
+    "quote": "“The future of AI belongs to engineers who can move from prototype to production — with systems that actually work at scale.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/samirsengupta/",
+      "website": "https://www.samcodeman.com"
+    }
+  },
+  {
+    "slug": "justine-bone",
+    "name": "Justine Bone",
+    "title": "Executive Director",
+    "company": "Crypto ISAC",
+    "bio": "Justine Bone is Executive Director of Crypto ISAC, working across crypto native companies, financial institutions, technology providers, and the public sector to strengthen threat intelligence and collective defense. A longtime cybersecurity leader, her career spans government service, security leadership at Bloomberg and Dow Jones, entrepreneurship, and digital asset security.\n\nCrypto ISAC is a nonprofit Information Sharing and Analysis Center focused on strengthening resilience across the digital asset ecosystem through trusted information sharing, actionable threat intelligence, industry collaboration, and collective defense. Under Justine's leadership, the organization bridges the gap between traditional financial security and the emerging digital asset ecosystem.\n\nJustine has extensive speaking and moderation experience, including serving as Emcee at the Black Hat Financial Threat Summit, moderating Lessons in Security From Those in The Know at Bitcoin 2026 in Las Vegas, and speaking on Securing, Not Assuming Trust at Hedera Conference 2026. She remains one of the most recognized voices connecting cybersecurity discipline with the unique threat landscape of digital assets.",
+    "expertise": [
+      "Cybersecurity Leadership",
+      "Digital Asset Threat Intelligence",
+      "Collective Defense & ISAC Models",
+      "Financial Services Security (Bloomberg, Dow Jones)",
+      "Public-Private Collaboration",
+      "Conference Speaking & Moderation"
+    ],
+    "photo": "/speakers/justine-bone.jpg",
+    "themes": [
+      "policy",
+      "bitcoin",
+      "ai"
+    ],
+    "featured": false,
+    "headline": "Bridging Traditional Financial Security and the Digital Asset Ecosystem",
+    "tagline": "Executive Director • Crypto ISAC",
+    "subtitle": "Crypto ISAC\nCybersecurity · Threat Intelligence · Collective Defense",
+    "signatureMoves": [
+      "Executive Director — Crypto ISAC",
+      "Former Security Leadership at Bloomberg & Dow Jones",
+      "Emcee — Black Hat Financial Threat Summit",
+      "Moderator — Bitcoin 2026 (Las Vegas)",
+      "Speaker — Hedera Conference 2026",
+      "Cross-Sector Threat Intelligence for Crypto Native & TradFi Institutions"
+    ],
+    "quote": "“Digital assets need collective defense — not assumptions that trust can be taken for granted.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/justinebone/",
+      "website": "https://cryptoisac.org"
+    }
+  },
+  {
+    "slug": "lewis-tuff",
+    "name": "Lewis Tuff",
+    "title": "CEO & Founder",
+    "company": "Twilight",
+    "bio": "Lewis Tuff is CEO and Co-Founder of Twilight, the unified liquidity layer that lets institutions move capital across custodians, venues, and chains — privately. Backed by leading investors including Alan Howard and Sequoia, Twilight combines zero-knowledge privacy with built-in regulatory compliance to make on-chain settlement as seamless as it is secure.\n\nOne of fintech's most seasoned technical operators, Lewis has spent over a decade building the infrastructure behind some of the industry's defining companies. As the second engineering hire at Revolut, he scaled the engineering team to 50+ and spearheaded the company's first-of-its-kind crypto offering, which went on to drive more than $300M in trading revenue. He then joined Blockchain.com, rising from engineering lead to Chief Technology Officer, where he was responsible for the technology underpinning one of the world's largest crypto platforms.\n\nMost recently, he served as CTO of Brevan Howard Digital, the digital assets arm of one of the world's premier macro hedge funds. Lewis began his career building trading and risk technology at Goldman Sachs and UBS, and was named to Business Insider's 35 Under 35 in fintech. He is a graduate of the University of Manchester.",
+    "expertise": [
+      "Institutional Crypto Infrastructure",
+      "Zero-Knowledge Privacy & Compliance",
+      "Cross-Chain Capital Movement",
+      "Fintech Engineering at Scale (Revolut, Blockchain.com)",
+      "Trading & Risk Technology (Goldman Sachs, UBS)",
+      "CTO Leadership at Brevan Howard Digital"
+    ],
+    "photo": "/speakers/lewis-tuff.jpg",
+    "themes": [
+      "investment",
+      "bitcoin",
+      "stablecoin"
+    ],
+    "featured": false,
+    "headline": "Building the Unified Liquidity Layer for Institutional On-Chain Capital",
+    "tagline": "CEO & Founder • Twilight",
+    "subtitle": "Twilight\nZero-Knowledge Privacy · Institutional Settlement · Cross-Chain Liquidity",
+    "signatureMoves": [
+      "CEO & Co-Founder — Twilight (Backed by Alan Howard & Sequoia)",
+      "Second Engineering Hire at Revolut (Scaled Team to 50+)",
+      "Former CTO — Blockchain.com",
+      "Former CTO — Brevan Howard Digital",
+      "Revolut Crypto Offering Drove $300M+ Trading Revenue",
+      "Business Insider 35 Under 35 in Fintech"
+    ],
+    "quote": "“Institutions need on-chain settlement that is as seamless as it is secure — privacy and compliance are not opposites.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/lewistuff/",
+      "website": "https://twilight.co"
+    }
+  },
+  {
+    "slug": "melody-fogarty",
+    "name": "Melody Fogarty",
+    "title": "Executive Leadership Strategist",
+    "company": "Dakota Gray, LLC",
+    "bio": "Melody Fogarty is an executive leadership strategist, business solutions consultant, and coach with 35 years of experience supporting major Fortune 100 organizations. She helps leaders navigate transformation, build high-performing and inclusive executive teams, and translate complex change into measurable organizational results.\n\nHer work includes extensive executive coaching and leading a leadership-development program focused on advancing Black women executives. She brings a human-capital, governance, and enterprise-adoption lens to the future of blockchain, AI, and decentralized innovation — emphasizing that technology transformation succeeds only when organizations, cultures, and leadership are ready for it.\n\nThrough Dakota Gray, LLC, Melody partners with executives and institutions to turn complexity into confidence — structuring adoption strategies, building inclusive teams, and designing education programs that help decentralized communities and enterprises move from experimentation to durable impact.",
+    "expertise": [
+      "Executive Leadership & Team Building",
+      "Organizational Transformation",
+      "Executive Coaching (Fortune 100)",
+      "Inclusive Leadership Development",
+      "Enterprise Blockchain & AI Adoption",
+      "Governance & Human Capital Strategy"
+    ],
+    "photo": "/speakers/melody-fogarty.jpg",
+    "themes": [
+      "policy",
+      "ai",
+      "identity"
+    ],
+    "featured": false,
+    "headline": "Turning Complex Transformation Into Measurable Organizational Results",
+    "tagline": "Executive Leadership Strategist • Dakota Gray, LLC",
+    "subtitle": "Dakota Gray, LLC\nExecutive Coaching · Enterprise Adoption · Human Capital",
+    "signatureMoves": [
+      "Executive Leadership Strategist — Dakota Gray, LLC",
+      "35 Years Supporting Fortune 100 Organizations",
+      "Leadership Development for Black Women Executives",
+      "Executive Coaching & Business Solutions Consulting",
+      "Human-Capital Lens on Blockchain & AI Adoption",
+      "Governance & Enterprise Change Management"
+    ],
+    "quote": "“The future of blockchain and AI will be shaped as much by how organizations adopt change as by the technology itself.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/melody-m-fogarty-8103514",
+      "website": "https://dakotagrayllc.com"
+    }
+  },
+  {
+    "slug": "li-maor",
+    "name": "Li Maor",
+    "title": "Country Manager, Switzerland",
+    "company": "XDC Network",
+    "bio": "Li Maor is Country Manager Switzerland for XDC Network, a Layer-1 blockchain infrastructure company focused on institutional trade finance, real-world asset tokenization, and cross-border payments. Based in Zurich, she leads XDC's Swiss market development and institutional partnerships.\n\nLi brings a decade of direct UN system experience. From 2007 she served in various roles as Program Manager, Legal Counsel, and Project Coordinator at WIPO in Geneva, managing international project portfolios across more than 14 member states and negotiating contracts and budgets. She later moved into finance, managing a $1B+ institutional and HNW portfolio at Bitcoin Suisse and working in private banking at Julius Baer.\n\nShe holds an LL.B. and an MBA with distinction from HEC Geneva, combining legal, diplomatic, and financial market expertise — a rare profile for bridging institutional trade finance with blockchain infrastructure in one of the world's most important financial centers.",
+    "expertise": [
+      "Institutional Blockchain Partnerships",
+      "Trade Finance & RWA Tokenization",
+      "Cross-Border Payments Infrastructure",
+      "UN System Program Management (WIPO)",
+      "Private Banking & Digital Assets (Bitcoin Suisse, Julius Baer)",
+      "Swiss Market Development"
+    ],
+    "photo": "/speakers/li-maor.jpg",
+    "themes": [
+      "investment",
+      "policy",
+      "stablecoin"
+    ],
+    "featured": false,
+    "headline": "Connecting Institutional Trade Finance to Layer-1 Blockchain Infrastructure",
+    "tagline": "Country Manager, Switzerland • XDC Network",
+    "subtitle": "XDC Network\nTrade Finance · RWA Tokenization · Cross-Border Payments",
+    "signatureMoves": [
+      "Country Manager, Switzerland — XDC Network",
+      "Former Program Manager, Legal Counsel & Project Coordinator — WIPO (Geneva)",
+      "Managed International Portfolios Across 14+ Member States",
+      "Former Portfolio Manager — Bitcoin Suisse ($1B+ AUM)",
+      "Former Private Banking — Julius Baer",
+      "LL.B. & MBA with Distinction — HEC Geneva"
+    ],
+    "quote": "“Institutional blockchain adoption in trade finance requires both technical infrastructure and the trust built through years of regulated market experience.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/li-m-74692b5/",
+      "website": "https://xdc.org"
+    }
   }
 ]

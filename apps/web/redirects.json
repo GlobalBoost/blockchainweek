@@ -1333,5 +1333,205 @@
     "source": "/anna-l-de-bacci-2",
     "destination": "/anna-l-de-bacci",
     "permanent": true
+  },
+  {
+    "source": "/speakers/b-dweik",
+    "destination": "/b-dweik",
+    "permanent": true
+  },
+  {
+    "source": "/b-dweik-2",
+    "destination": "/b-dweik",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/doug-jordan",
+    "destination": "/doug-jordan",
+    "permanent": true
+  },
+  {
+    "source": "/doug-jordan-2",
+    "destination": "/doug-jordan",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/travis-john",
+    "destination": "/travis-john",
+    "permanent": true
+  },
+  {
+    "source": "/travis-john-2",
+    "destination": "/travis-john",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/srinivasa-rao-gunda",
+    "destination": "/srinivasa-rao-gunda",
+    "permanent": true
+  },
+  {
+    "source": "/srinivasa-rao-gunda-2",
+    "destination": "/srinivasa-rao-gunda",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kedar-mohile",
+    "destination": "/kedar-mohile",
+    "permanent": true
+  },
+  {
+    "source": "/kedar-mohile-2",
+    "destination": "/kedar-mohile",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/suryasivaji-killi",
+    "destination": "/suryasivaji-killi",
+    "permanent": true
+  },
+  {
+    "source": "/suryasivaji-killi-2",
+    "destination": "/suryasivaji-killi",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/harshitha-ram",
+    "destination": "/harshitha-ram",
+    "permanent": true
+  },
+  {
+    "source": "/harshitha-ram-2",
+    "destination": "/harshitha-ram",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/eric-guthrie",
+    "destination": "/eric-guthrie",
+    "permanent": true
+  },
+  {
+    "source": "/eric-guthrie-2",
+    "destination": "/eric-guthrie",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/nithya-ramachandran",
+    "destination": "/nithya-ramachandran",
+    "permanent": true
+  },
+  {
+    "source": "/nithya-ramachandran-2",
+    "destination": "/nithya-ramachandran",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/akshay-pramod-roy",
+    "destination": "/akshay-pramod-roy",
+    "permanent": true
+  },
+  {
+    "source": "/akshay-pramod-roy-2",
+    "destination": "/akshay-pramod-roy",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/cat-bonar",
+    "destination": "/cat-bonar",
+    "permanent": true
+  },
+  {
+    "source": "/cat-bonar-2",
+    "destination": "/cat-bonar",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/wassim-jarkas",
+    "destination": "/wassim-jarkas",
+    "permanent": true
+  },
+  {
+    "source": "/wassim-jarkas-2",
+    "destination": "/wassim-jarkas",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/wook-lee",
+    "destination": "/wook-lee",
+    "permanent": true
+  },
+  {
+    "source": "/wook-lee-2",
+    "destination": "/wook-lee",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/chris-ransdell",
+    "destination": "/chris-ransdell",
+    "permanent": true
+  },
+  {
+    "source": "/chris-ransdell-2",
+    "destination": "/chris-ransdell",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/ali-abou-daya",
+    "destination": "/ali-abou-daya",
+    "permanent": true
+  },
+  {
+    "source": "/ali-abou-daya-2",
+    "destination": "/ali-abou-daya",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/samir-sengupta",
+    "destination": "/samir-sengupta",
+    "permanent": true
+  },
+  {
+    "source": "/samir-sengupta-2",
+    "destination": "/samir-sengupta",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/justine-bone",
+    "destination": "/justine-bone",
+    "permanent": true
+  },
+  {
+    "source": "/justine-bone-2",
+    "destination": "/justine-bone",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/lewis-tuff",
+    "destination": "/lewis-tuff",
+    "permanent": true
+  },
+  {
+    "source": "/lewis-tuff-2",
+    "destination": "/lewis-tuff",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/melody-fogarty",
+    "destination": "/melody-fogarty",
+    "permanent": true
+  },
+  {
+    "source": "/melody-fogarty-2",
+    "destination": "/melody-fogarty",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/li-maor",
+    "destination": "/li-maor",
+    "permanent": true
+  },
+  {
+    "source": "/li-maor-2",
+    "destination": "/li-maor",
+    "permanent": true
   }
 ]
