@@ -9,7 +9,6 @@ import programData from "@/content/program.json";
 import sponsorshipData from "@/content/sponsorship.json";
 import aboutData from "@/content/about.json";
 import pricingData from "@/content/pricing.json";
-import testimonialsData from "@/content/testimonials.json";
 import sponsorsData from "@/content/sponsors.json";
 import mediaPartnersData from "@/content/media-partners.json";
 import partnerPagesData from "@/content/partner-pages.json";
@@ -28,7 +27,6 @@ import type {
   SponsorshipTier,
   SponsorshipWhyPartner,
   TeamMember,
-  Testimonial,
   Theme,
   ThemePillar,
   BlogPost,
@@ -169,10 +167,6 @@ export function getAboutContent(): AboutContent {
 
 export function getPricing(): PricingTier[] {
   return pricingData as PricingTier[];
-}
-
-export function getTestimonials(): Testimonial[] {
-  return testimonialsData as Testimonial[];
 }
 
 export function getSponsors(): Sponsor[] {

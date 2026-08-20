@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { TestimonialsSection } from "@/components/ui/TestimonialsSection";
 import { SpeakerCard } from "@/components/speakers/SpeakerCard";
 import { getAboutContent, getSpeakerBySlug } from "@/lib/content";
 import {
@@ -240,8 +239,6 @@ export function AboutPageContent() {
           <BrandName /> is an independent initiative and is not affiliated with the United Nations.
         </p>
       </section>
-
-      <TestimonialsSection />
 
       {/* CTA */}
       <section className="section-light py-16 sm:py-20">

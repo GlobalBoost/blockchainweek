@@ -132,13 +132,6 @@ export interface PartnerPricingTier extends PricingTier {
   discountLabel: string;
 }
 
-export interface Testimonial {
-  quote: string;
-  name: string;
-  role: string;
-  photo?: string;
-}
-
 export interface Sponsor {
   name: string;
   logo: string;

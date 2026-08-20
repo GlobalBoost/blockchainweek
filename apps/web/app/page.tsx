@@ -9,7 +9,6 @@ import { FeaturedSpeakers } from "@/components/home/FeaturedSpeakers";
 import { LumaCTA } from "@/components/home/LumaCTA";
 import { SponsorMarquee } from "@/components/sponsors/SponsorMarquee";
 import { MediaPartnerGrid } from "@/components/sponsors/MediaPartnerGrid";
-import { TestimonialsSection } from "@/components/ui/TestimonialsSection";
 import { CTASection } from "@/components/ui/CTASection";
 import { HomeScrollRestore } from "@/components/home/HomeScrollRestore";
 import { getFeaturedSpeakers } from "@/lib/content";
@@ -31,7 +30,6 @@ export default function HomePage() {
       <LumaCTA />
       <SponsorMarquee />
       <MediaPartnerGrid />
-      <TestimonialsSection />
       <CTASection />
     </>
   );
