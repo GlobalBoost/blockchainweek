@@ -142,8 +142,29 @@ export function getSponsorshipPackagesNote(): string | null {
   return note?.trim() ? note : null;
 }
 
+function normalizeAboutContent(data: AboutContent): AboutContent {
+  return {
+    ...data,
+    hero: {
+      subtitle: replaceLegacyBrandName(data.hero.subtitle),
+    },
+    sections: data.sections.map((section) => ({
+      ...section,
+      paragraphs: section.paragraphs.map(replaceLegacyBrandName),
+    })),
+    leadership: {
+      ...data.leadership,
+      paragraphs: data.leadership.paragraphs.map(replaceLegacyBrandName),
+    },
+    mission: {
+      ...data.mission,
+      paragraphs: data.mission.paragraphs.map(replaceLegacyBrandName),
+    },
+  };
+}
+
 export function getAboutContent(): AboutContent {
-  return aboutData as AboutContent;
+  return normalizeAboutContent(aboutData as AboutContent);
 }
 
 export function getPricing(): PricingTier[] {

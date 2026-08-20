@@ -218,20 +218,35 @@ export interface SponsorshipAvailability {
   count: number;
 }
 
-export interface AboutHighlight {
-  title: string;
-  description: string;
-}
-
-export interface AboutStat {
-  value: number;
+export interface AboutMetric {
+  value: string;
   label: string;
   description: string;
 }
 
+export interface AboutStorySection {
+  id: string;
+  title: string;
+  paragraphs: string[];
+}
+
 export interface AboutContent {
-  highlights: AboutHighlight[];
-  stats: AboutStat[];
+  hero: {
+    subtitle: string;
+  };
+  metrics: AboutMetric[];
+  sections: AboutStorySection[];
+  leadership: {
+    title: string;
+    paragraphs: string[];
+    featuredSpeakerSlugs: string[];
+    ctaLabel: string;
+    ctaHref: string;
+  };
+  mission: {
+    title: string;
+    paragraphs: string[];
+  };
   images: {
     speakersPanel: string;
     speakingOpportunity: string;

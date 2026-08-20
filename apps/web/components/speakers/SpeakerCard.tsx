@@ -13,7 +13,7 @@ export function SpeakerCard({
   return (
     <Link
       href={`/${speaker.slug}`}
-      onClick={() => onNavigate?.()}
+      {...(onNavigate ? { onClick: onNavigate } : {})}
       className="group flex h-full flex-col rounded-xl border border-black/10 bg-white shadow-sm transition hover:border-un-blue/40 hover:shadow-md"
     >
       <div className="relative aspect-[4/5] shrink-0 overflow-hidden rounded-t-xl bg-gray-100">

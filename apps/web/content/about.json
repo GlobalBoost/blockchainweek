@@ -1,30 +1,75 @@
 {
-  "highlights": [
+  "hero": {
+    "subtitle": "Fifteen years of blockchain events worldwide — now our biggest chapter yet."
+  },
+  "metrics": [
     {
-      "title": "Speak to World Leaders",
-      "description": "Keynote stages and private dinners attended by UN delegates, heads of state, and C-suite executives from Fortune 500 companies."
+      "value": "15",
+      "label": "Years",
+      "description": "Producing blockchain events worldwide"
     },
     {
-      "title": "High-Level Networking",
-      "description": "Exclusive access to the Washington Elite Investment Summit & Gala – where billion-dollar deals are made during UNGA week."
+      "value": "~500",
+      "label": "Gala Attendees",
+      "description": "Washington Elite Investment Summit & Gala in past years"
     },
     {
-      "title": "Global Policy Impact",
-      "description": "Shape conversations on AI regulation, Bitcoin adoption, space economy treaties, and sustainable blockchain frameworks with the exact people writing the rules."
+      "value": "10",
+      "label": "Days",
+      "description": "September 10–19, 2026 · Times Square, NYC"
+    },
+    {
+      "value": "2",
+      "label": "Flagship Days",
+      "description": "First-ever two-day conference · September 16–17, 2026"
     }
   ],
-  "stats": [
+  "sections": [
     {
-      "value": 81,
-      "label": "UN General Assembly",
-      "description": "World leaders from 193 countries converge in NYC"
+      "id": "heritage",
+      "title": "Fifteen Years in the Making",
+      "paragraphs": [
+        "Blockchain Week - UNGA Edition is produced by brothers Bruce Porter Jr. and David Porter, who've spent close to 15 years building blockchain events around the world. What began as a decentralized, grassroots gathering during UN General Assembly week in New York has grown, year over year, into a 10-day program spanning Bitcoin, AI, space, energy, and fashion-tech."
+      ]
     },
     {
-      "value": 10,
-      "label": "Days of Global Access",
-      "description": "Speak directly to the people shaping tomorrow's policies"
+      "id": "ground-up",
+      "title": "From the Ground Up",
+      "paragraphs": [
+        "In its earliest years, the event grew organically — other UNGA-week gatherings wanted to be part of it, and that momentum led to BitcoinPalooza and the Washington Elite Investment Summit & Gala, which has drawn approximately 500 attendees in past years. That grassroots growth is also how much of today's leadership found their way in: Lou Kerner and David Fung both first joined as speakers at BitcoinPalooza and Washington Elite before stepping into leadership roles at Blockchain Week - UNGA Edition itself."
+      ]
+    },
+    {
+      "id": "next-chapter",
+      "title": "2026: The Next Chapter",
+      "paragraphs": [
+        "This year brings our first flagship two-day conference (September 16–17), anchoring a full 10-day program running September 10–19 in the heart of Times Square, timed alongside both the UN General Assembly and New York Fashion Week. Growing interest — and this year's geopolitical backdrop — pushed us to expand the format for the first time.",
+        "You'll also find us on the Hard Rock Marquee this year: a Times Square billboard running across three screens, every 2.5 minutes, for the full 10 days. We're proud to be collaborating with Paul Sladkus's Pause the World for Peace outdoor concert, closing out the week in Times Square on the final day."
+      ]
     }
   ],
+  "leadership": {
+    "title": "Leadership & Speakers",
+    "paragraphs": [
+      "Bruce and David are joined by a growing leadership team, including Lou Kerner, David Fung, and Jimmy Nguyen. Every speaker on our 2026 roster is confirmed — including returning voices Brock Pierce, Liberland President Vít Jedlička, Lou Kerner, Karla Ballard, Vin Menon, and David Fung, several of whom are also event sponsors, alongside speakers joining our stage for the first time."
+    ],
+    "featuredSpeakerSlugs": [
+      "brock-pierce",
+      "vit-jedlicka",
+      "lou-kerner",
+      "karla-ballard",
+      "dr-vin-menon",
+      "david-fung"
+    ],
+    "ctaLabel": "See the full confirmed 2026 speaker lineup",
+    "ctaHref": "/speakers"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "paragraphs": [
+      "We're not the bankers — we're the monetary revolution guys, the ones who've been building blockchain and blockchain events for 15 years. As the space has matured, the institutions have gotten involved too, and that's exactly the gap we want to help close: bringing the big and the small together, so the industry can chart its path forward in a way that includes everyone in the room."
+    ]
+  },
   "images": {
     "speakersPanel": "/about/speakers-panel.png",
     "speakingOpportunity": "/about/speaking-opportunity.png"
