@@ -1,86 +1,136 @@
 {
-  "pricingBanner": {
-    "label": "STANDARD PRICING ACTIVE – UNTIL SEPTEMBER 9, 2026",
-    "cta": "View Standard Rates"
+  "hero": {
+    "subtitle": "Partnership opportunities for crypto, meme-coin & community-driven projects",
+    "lede": "Ten days of programming during the United Nations General Assembly and New York Fashion Week — anchored by a three-screen Times Square marquee takeover at the Hard Rock, Times Square.",
+    "themeLine": "Energy · Fashion · Crypto · Privacy · AI · Space",
+    "image": "/partnerships/marquee-hero.jpg",
+    "imageAlt": "Sponsor creative live on the Hard Rock Times Square marquee",
+    "imageCaption": "Sponsor creative live on the Hard Rock marquee — 1501 Broadway at W 43rd St"
   },
-  "packagesNote": "Times Square Billboard (Gold tier and above): Your brand will be featured in a 10-second animated creative that runs every 2.5 minutes on a premium Times Square screen, starting two weeks before the event, continuing throughout, and after.",
+  "stats": [
+    { "value": "34,560", "label": "Billboard plays · 3 screens · 20 days" },
+    { "value": "220,000+", "label": "Daily Times Square pedestrians" },
+    { "value": "500+", "label": "Attended the 2025 flagship gala" },
+    { "value": "1,450+", "label": "Registered for the 2026 gala" }
+  ],
+  "billboard": {
+    "eyebrow": "The Times Square takeover",
+    "title": "Three screens. Every 2.5 minutes. 20 days.",
+    "lede": "Our 15-second creative runs on all three digital screens of the Hard Rock Times Square marquee — front plus both street-facing sides — around the clock for a 20-day flight. Partners at Gold and above are integrated within the creative: your own assets, a spot we produce for you, or your logo.",
+    "bullets": [
+      {
+        "title": "Every direction covered",
+        "description": "Front screen faces Broadway; both side screens catch cross-traffic through the heart of the Bowtie."
+      },
+      {
+        "title": "Simultaneous rotation",
+        "description": "One campaign creative on all three screens at once, every 2.5 minutes, day and night."
+      },
+      {
+        "title": "Built for sharing",
+        "description": "The most photographed intersection on earth — organic photos, shares, and FOMO that community tokens thrive on."
+      },
+      {
+        "title": "Proof for your community",
+        "description": "Professional capture of your placement for your channels and your investors."
+      }
+    ],
+    "metrics": [
+      { "value": "1,728", "label": "Plays per day across all 3 screens" },
+      { "value": "11,520", "label": "Plays per screen over the flight" },
+      { "value": "34,560", "label": "Total plays · full campaign" },
+      { "value": "144 hrs", "label": "Cumulative on-screen time" }
+    ],
+    "featureImage": "/partnerships/marquee-screens.jpg",
+    "featureImageAlt": "Front and side marquee screens running simultaneous sponsor creative",
+    "featureTag": "As seen in Times Square",
+    "proofImages": [
+      {
+        "image": "/partnerships/proof-bitcoinpalooza.jpg",
+        "label": "BitcoinPalooza · front screen",
+        "alt": "BitcoinPalooza creative on the marquee"
+      },
+      {
+        "image": "/partnerships/proof-globalboost.jpg",
+        "label": "GlobalBoost Media · night",
+        "alt": "GlobalBoost Media creative on the marquee"
+      },
+      {
+        "image": "/partnerships/proof-mindwavedao.jpg",
+        "label": "MindWaveDAO · front screen",
+        "alt": "MindWaveDAO creative on the marquee"
+      },
+      {
+        "image": "/partnerships/proof-dna.jpg",
+        "label": "DNA · front + side screens",
+        "alt": "DNA creative on front and side screens"
+      }
+    ],
+    "partnerNote": "How partner placement works (Gold and above): your creative assets, a spot we produce for you, or your logo — integrated within our 15-second creative for the full 20-day flight. Presidential receives priority placement and prominence. Ideal fuel for community virality and brand legitimacy.",
+    "sourceNote": "Billboard audience: Times Square Alliance automated pedestrian counts — 2025 average 221,457 per day; 2025 single-day high 295,227. Figures represent Bowtie pedestrian volume, not verified ad impressions. Flight window approximately September 2–18, subject to final confirmation."
+  },
+  "packagesNote": "Gold and above includes placement in the three-screen Times Square campaign (15-second creative · every 2.5 minutes · ~20-day flight). À-la-carte add-ons are quoted separately.",
   "whyPartner": [
     {
-      "title": "Global Government Exposure",
-      "description": "Direct access to policymakers and government leaders from around the world."
+      "title": "Viral visibility",
+      "description": "Your brand featured in our marquee creative across three screens for a 20-day flight — generating the organic photos, social shares, and FOMO that meme coins and community tokens thrive on."
     },
     {
-      "title": "Institutional Investor Access",
-      "description": "Connect with high-net-worth individuals and institutional capital allocators."
+      "title": "Investor access",
+      "description": "HNWIs, VCs, and institutional allocators actively seeking high-conviction crypto and meme-coin opportunities during UNGA week — the audience the Washington Elite Summit has convened for four consecutive years."
     },
     {
-      "title": "Enterprise Partnerships",
-      "description": "Build strategic relationships with Fortune 500 companies and innovators."
+      "title": "Partnerships & listings",
+      "description": "Exchanges, protocols, market makers, and Fortune 500 innovators operating at the intersection of blockchain, AI, and digital culture."
     },
     {
-      "title": "UN & Regulatory Networking",
-      "description": "Engage directly with UN agencies and regulatory bodies shaping the future."
+      "title": "Policy & legitimacy",
+      "description": "Engage directly with policymakers, UN agencies, and regulators shaping the future of digital assets — legitimacy few meme coins ever achieve."
     },
     {
-      "title": "International Media Visibility",
-      "description": "Amplify your brand through global media coverage and thought leadership."
+      "title": "Global media",
+      "description": "International media coverage, thought-leadership placement, and the most shareable location on earth — perfect for community-driven tokens."
     },
     {
-      "title": "High-Value Lead Generation",
-      "description": "Generate qualified leads from decision-makers in blockchain and emerging tech."
+      "title": "Holder & lead generation",
+      "description": "Qualified leads, new holders, and strategic introductions from a curated audience across government, capital, and crypto over ten intensive days."
     }
   ],
   "comparisonGroups": [
     {
       "label": "SPEAKING & CONTENT",
       "rows": [
-        { "benefit": "Speaking Opportunity", "presidential": "Custom keynote / fireside", "platinum": "20-min Keynote", "gold": "Panel Speaker Seat", "silver": "–", "bronze": "–" },
-        { "benefit": "Thought Leadership", "presidential": "Full custom campaign", "platinum": "Interview + article", "gold": "Featured quote / post", "silver": "Listing mention", "bronze": "–" }
+        { "benefit": "Speaking", "presidential": "Custom keynote", "platinum": "20-min keynote", "gold": "Panel seat", "silver": "–", "bronze": "–" },
+        { "benefit": "Thought leadership", "presidential": "Full campaign", "platinum": "Interview + article", "gold": "Featured quote", "silver": "Listing", "bronze": "–" }
       ]
     },
     {
       "label": "EXHIBITION",
       "rows": [
-        { "benefit": "Booth Size", "presidential": "Custom / largest available", "platinum": "25 sqm Premium", "gold": "16 sqm", "silver": "9 sqm", "bronze": "Logo presence" },
-        { "benefit": "Location Priority", "presidential": "First choice", "platinum": "Premium zone", "gold": "High-traffic", "silver": "Standard", "bronze": "–" },
-        { "benefit": "Lead Tools", "presidential": "Full + custom", "platinum": "Lead scanning", "gold": "Lead scanning", "silver": "Basic", "bronze": "–" }
+        { "benefit": "Exhibition presence", "presidential": "Custom — largest footprint", "platinum": "Premium booth", "gold": "Full booth", "silver": "Exhibition space", "bronze": "Logo only" },
+        { "benefit": "Location priority", "presidential": "First choice", "platinum": "Premium zone", "gold": "High-traffic", "silver": "Standard", "bronze": "–" }
       ]
     },
     {
       "label": "TICKETS & ACCESS",
       "rows": [
-        { "benefit": "VIP Tickets", "presidential": "Custom (high)", "platinum": "12", "gold": "6", "silver": "2", "bronze": "0" },
-        { "benefit": "General Admission", "presidential": "Custom (high)", "platinum": "8", "gold": "6", "silver": "4", "bronze": "3" },
-        { "benefit": "Additional Ticket Discount", "presidential": "Priority rate", "platinum": "30%", "gold": "25%", "silver": "20%", "bronze": "15%" },
-        { "benefit": "VIP Delegate Lounge", "presidential": "Full + private area", "platinum": "Full access", "gold": "Full access", "silver": "Day passes", "bronze": "–" },
-        { "benefit": "VIP Gala / Evening Events", "presidential": "Yes + hosting", "platinum": "Yes", "gold": "Yes", "silver": "Yes", "bronze": "–" }
-      ]
-    },
-    {
-      "label": "PRIVATE & NETWORKING",
-      "rows": [
-        { "benefit": "Private Roundtable / Dinner", "presidential": "Govt + Investor (hosted)", "platinum": "Exclusive Investor Dinner", "gold": "Networking priority", "silver": "Standard access", "bronze": "Open networking" }
+        { "benefit": "VIP tickets", "presidential": "Custom (high)", "platinum": "12", "gold": "6", "silver": "2", "bronze": "0" },
+        { "benefit": "GA tickets", "presidential": "Custom (high)", "platinum": "8", "gold": "6", "silver": "4", "bronze": "3" },
+        { "benefit": "Extra ticket discount", "presidential": "Priority", "platinum": "30%", "gold": "25%", "silver": "20%", "bronze": "15%" },
+        { "benefit": "VIP lounge", "presidential": "Full + private", "platinum": "Full access", "gold": "Full access", "silver": "Day passes", "bronze": "–" }
       ]
     },
     {
       "label": "MARKETING & VISIBILITY",
       "rows": [
-        { "benefit": "Logo Placement Priority", "presidential": "Highest / naming rights option", "platinum": "Top tier", "gold": "Prominent", "silver": "Standard", "bronze": "Listing" },
-        { "benefit": "Dedicated Email Blasts", "presidential": "Custom series", "platinum": "2", "gold": "1", "silver": "Shared mention", "bronze": "–" },
-        { "benefit": "Social Media Posts", "presidential": "Full campaign", "platinum": "4+ dedicated", "gold": "2 dedicated", "silver": "1–2 mentions", "bronze": "Group mention" },
-        { "benefit": "Website Profile", "presidential": "Featured + custom", "platinum": "150 words + logo", "gold": "100 words + logo", "silver": "Logo + link", "bronze": "Logo listing" },
-        { "benefit": "On-site Branding", "presidential": "Stage + custom", "platinum": "Stage backdrop priority", "gold": "Banners + screens", "silver": "Program + signage", "bronze": "Program listing" },
-        { "benefit": "Global Media Campaign", "presidential": "Yes – full", "platinum": "Yes", "gold": "Press inclusion", "silver": "–", "bronze": "–" },
-        { "benefit": "Times Square Billboard", "presidential": "Yes – priority", "platinum": "Yes", "gold": "Yes", "silver": "–", "bronze": "–" },
-        { "benefit": "Post-Event Report & Assets", "presidential": "Custom analytics", "platinum": "Full report + media", "gold": "Summary + photos", "silver": "Photos", "bronze": "–" }
+        { "benefit": "Billboard creative placement (3 screens · 20 days)", "presidential": "Priority placement", "platinum": "Featured", "gold": "Featured", "silver": "–", "bronze": "–" },
+        { "benefit": "Logo priority", "presidential": "Highest / naming", "platinum": "Top tier", "gold": "Prominent", "silver": "Standard", "bronze": "Listing" },
+        { "benefit": "Dedicated emails", "presidential": "Custom series", "platinum": "2", "gold": "1", "silver": "Shared", "bronze": "–" },
+        { "benefit": "Social posts", "presidential": "Full campaign", "platinum": "4+ dedicated", "gold": "2 dedicated", "silver": "1–2 mentions", "bronze": "Group" },
+        { "benefit": "Global media", "presidential": "Full campaign", "platinum": "Yes", "gold": "Press inclusion", "silver": "–", "bronze": "–" },
+        { "benefit": "Post-event report", "presidential": "Custom analytics", "platinum": "Full + media", "gold": "Summary + photos", "silver": "Photos", "bronze": "–" }
       ]
     }
-  ],
-  "pricingPhases": [
-    { "id": "founding", "label": "FOUNDING PARTNER", "period": "Until Jul 16" },
-    { "id": "early", "label": "EARLY BIRD", "period": "Jul 17 – Aug 1" },
-    { "id": "standard", "label": "STANDARD", "period": "Aug 2 – Sept 9", "active": true },
-    { "id": "event", "label": "EVENT RATE", "period": "Sept 10–19" }
   ],
   "availability": [
     { "tier": "Presidential", "count": 1 },
@@ -89,25 +139,34 @@
     { "tier": "Silver", "count": 10 },
     { "tier": "Bronze", "count": 20 }
   ],
+  "closingCta": {
+    "eyebrow": "The week",
+    "title": "Ready to put your project on the global stage?",
+    "lede": "Sept 2–18: the 20-day billboard flight. Sept 10–19: ten days of programming, including BitcoinPalooza and the ticket-free Orbital Runway kickoff. Sept 18: the Washington Elite Investment Summit & Gala — 500+ attended in 2025, 1,450+ already registered for 2026.",
+    "secondaryCta": {
+      "label": "Register for the gala",
+      "href": "https://luma.com/WashingtonEliteGala"
+    }
+  },
   "tiers": [
     {
       "id": "presidential",
       "name": "Presidential",
-      "subtitle": "Custom • Tailored",
-      "price": "Custom",
-      "priceLabel": "Investment",
-      "priceNote": "tailored to your objectives",
+      "subtitle": "Custom",
+      "price": "From $75,000",
+      "priceLabel": null,
+      "priceNote": "bespoke",
       "rateLabel": null,
       "available": 1,
       "color": "gold",
-      "ctaLabel": "Build Your Package",
+      "ctaLabel": "Inquire",
       "footnote": "Designed around your exact strategic goals and success metrics.",
       "highlights": [
-        "Fully bespoke activation & KPIs",
-        "Private govt + investor roundtable",
-        "Custom keynote / major speaking",
-        "Largest premium booth + hospitality",
-        "Times Square Billboard (priority)",
+        "Billboard: priority placement in our creative",
+        "Fully bespoke activation",
+        "Private government + investor roundtable",
+        "Custom keynote",
+        "Largest premium booth",
         "Maximum tickets + full media campaign"
       ],
       "sections": [
@@ -116,7 +175,7 @@
           "items": [
             "Fully bespoke partnership designed around your specific KPIs and objectives",
             "Dedicated sponsorship manager and custom activation planning",
-            "Legacy recognition as the visionary partner of Blockchain Week - UNGA Edition 2026"
+            "Priority placement in the three-screen Times Square marquee creative"
           ]
         },
         {
@@ -136,51 +195,42 @@
           ]
         },
         {
-          "title": "Tickets & Access",
-          "items": [
-            "High allocation of VIP + General Admission tickets (scaled to your needs)",
-            "Priority rates on additional tickets",
-            "Full access to all exclusive evening events and networking"
-          ]
-        },
-        {
           "title": "Marketing & Media",
           "items": [
             "Highest logo priority with optional naming / \"Presented by\" elements",
             "Custom email and social campaign series to the full audience",
-            "Times Square Billboard – priority placement of your 10-second animated creative",
+            "Billboard priority placement — 15-second creative across three screens for ~20 days",
             "Comprehensive global media campaign and post-event analytics report"
           ]
         }
       ],
-      "fullPrice": { "founding": "Custom", "early": "Custom", "standard": "Custom", "event": "Custom" },
-      "customNote": "This package is entirely customized. Our team works with you to define the ideal speaking role, visibility, access, and activation – ensuring maximum ROI and alignment with your strategic goals."
+      "customNote": "This package is entirely customized. Our team works with you to define the ideal speaking role, visibility, access, and activation — ensuring maximum ROI and alignment with your strategic goals."
     },
     {
       "id": "platinum",
       "name": "Platinum",
       "subtitle": "Title Sponsor",
-      "price": "$190,000",
-      "priceLabel": "Starting at",
+      "price": "$40,000",
+      "priceLabel": null,
       "priceNote": null,
-      "rateLabel": "Standard Rate",
+      "rateLabel": null,
       "available": 3,
       "color": "platinum",
-      "ctaLabel": "View Full Benefits",
+      "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "20-min Keynote Speaking Slot",
-        "Host Exclusive Investor Dinner",
-        "Premium 25 sqm Booth + VIP Lounge",
-        "12 VIP + 8 GA Tickets",
-        "Times Square Billboard",
-        "2 Dedicated Emails + Global Media"
+        "Billboard: featured in our creative",
+        "20-minute keynote",
+        "Host an investor dinner",
+        "Premium exhibition booth",
+        "12 VIP + 8 GA tickets",
+        "2 dedicated emails + global media"
       ],
       "sections": [
         {
           "title": "Speaking & Content",
           "items": [
-            "20-minute Keynote Speaking Slot on the main program",
+            "20-minute keynote on the main program",
             "Featured interview + thought-leadership article",
             "Inclusion in global media campaign"
           ]
@@ -188,7 +238,7 @@
         {
           "title": "Exhibition",
           "items": [
-            "Premium 25 sqm exhibition booth in priority location",
+            "Premium exhibition booth in priority location",
             "Lead-scanning tools and high-visibility placement",
             "Full VIP Delegate Lounge access for your team"
           ]
@@ -214,46 +264,44 @@
             "Top-tier logo placement (website, stage backdrop, program, app)",
             "2 dedicated email blasts to the full attendee list",
             "4+ dedicated social media posts + campaign assets",
-            "Times Square Billboard – 10-second animated creative every 2.5 minutes",
-            "150-word company profile on the official website",
+            "Billboard featured in our 15-second creative across three screens for ~20 days",
             "Full post-event report with media assets and metrics"
           ]
         }
-      ],
-      "fullPrice": { "founding": "$150,000", "early": "$175,000", "standard": "$190,000", "event": "$200,000" }
+      ]
     },
     {
       "id": "gold",
       "name": "Gold",
       "subtitle": "Strategic Partner",
-      "price": "$95,000",
-      "priceLabel": "Starting at",
+      "price": "$20,000",
+      "priceLabel": null,
       "priceNote": null,
-      "rateLabel": "Standard Rate",
+      "rateLabel": null,
       "available": 5,
       "color": "amber",
-      "ctaLabel": "View Full Benefits",
+      "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "Panel Speaker Seat",
-        "16 sqm Exhibition Booth",
-        "6 VIP + 6 GA Tickets",
-        "VIP Lounge + Gala Access",
-        "Times Square Billboard",
-        "1 Dedicated Email + Strong Branding"
+        "Billboard: featured in our creative",
+        "Panel speaker seat",
+        "Full exhibition booth",
+        "6 VIP + 6 GA tickets",
+        "VIP lounge + gala access",
+        "1 dedicated email + branding"
       ],
       "sections": [
         {
           "title": "Speaking & Content",
           "items": [
-            "Confirmed Panel Speaker Seat",
+            "Confirmed panel speaker seat",
             "Featured quote / social content opportunity"
           ]
         },
         {
           "title": "Exhibition",
           "items": [
-            "16 sqm exhibition booth in high-traffic area",
+            "Full exhibition booth in high-traffic area",
             "Lead-scanning capability",
             "Full VIP Delegate Lounge access"
           ]
@@ -267,51 +315,45 @@
           ]
         },
         {
-          "title": "Networking",
-          "items": ["Priority investor and government networking access"]
-        },
-        {
           "title": "Marketing & Visibility",
           "items": [
             "Prominent logo placement across website, program, and signage",
             "1 dedicated email blast",
             "2 dedicated social media posts",
-            "Times Square Billboard – 10-second animated creative every 2.5 minutes",
-            "100-word company profile on the website",
+            "Billboard featured in our 15-second creative across three screens for ~20 days",
             "Summary post-event report + photo assets"
           ]
         }
-      ],
-      "fullPrice": { "founding": "$75,000", "early": "$85,000", "standard": "$95,000", "event": "$100,000" }
+      ]
     },
     {
       "id": "silver",
       "name": "Silver",
       "subtitle": "Supporting Partner",
-      "price": "$40,000",
-      "priceLabel": "Starting at",
+      "price": "$7,500",
+      "priceLabel": null,
       "priceNote": null,
-      "rateLabel": "Standard Rate",
+      "rateLabel": null,
       "available": 10,
       "color": "silver",
-      "ctaLabel": "View Full Benefits",
+      "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "9 sqm Exhibition Space",
-        "4 GA + 2 VIP Tickets",
-        "Gala + Networking Access",
-        "Logo on Website & Program",
-        "Social Mentions + Listing"
+        "Exhibition space",
+        "2 VIP + 4 GA tickets",
+        "Gala + networking access",
+        "Logo on website",
+        "Social mentions"
       ],
       "sections": [
         {
           "title": "Exhibition",
-          "items": ["9 sqm exhibition space", "Standard lead capture support"]
+          "items": ["Exhibition space with standard lead capture support"]
         },
         {
           "title": "Tickets & Access",
           "items": [
-            "4 General Admission + 2 VIP Tickets",
+            "2 VIP + 4 General Admission Tickets",
             "20% discount on additional tickets",
             "Gala attendance and networking access",
             "Day-pass VIP Lounge access"
@@ -322,31 +364,29 @@
           "items": [
             "Logo on website, program, and event signage",
             "Shared email mention + 1–2 social mentions",
-            "Logo + link company listing",
             "Event recognition materials and photo assets"
           ]
         }
-      ],
-      "fullPrice": { "founding": "$25,000", "early": "$30,000", "standard": "$40,000", "event": "$50,000" }
+      ]
     },
     {
       "id": "bronze",
       "name": "Bronze",
       "subtitle": "Community Partner",
-      "price": "$17,500",
-      "priceLabel": "Starting at",
+      "price": "$2,500",
+      "priceLabel": null,
       "priceNote": null,
-      "rateLabel": "Standard Rate",
+      "rateLabel": null,
       "available": 20,
       "color": "bronze",
-      "ctaLabel": "View Full Benefits",
+      "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "Logo & Sponsor Listing",
-        "3 GA Tickets",
-        "Full Event Access",
-        "Networking Opportunities",
-        "Recognition Materials"
+        "Logo & listing",
+        "3 GA tickets",
+        "Full event access",
+        "Networking",
+        "Recognition materials"
       ],
       "sections": [
         {
@@ -363,47 +403,42 @@
             "15% discount on additional tickets",
             "Full event access and open networking opportunities"
           ]
-        },
-        {
-          "title": "Recognition",
-          "items": ["Official sponsor recognition throughout the event"]
         }
-      ],
-      "fullPrice": { "founding": "$10,000", "early": "$12,500", "standard": "$17,500", "event": "$20,000" }
+      ]
     }
   ],
   "addons": [
     {
-      "name": "Private Dinner Host",
-      "description": "Host an invite-only dinner with government or investor guests. Branding, photography, and facilitation included."
+      "name": "Private dinner host",
+      "description": "Invite-only dinner with investors or key partners. Branding, photography, and facilitation included."
     },
     {
-      "name": "VIP Lounge Sponsor",
+      "name": "VIP lounge sponsor",
       "description": "Brand the exclusive VIP lounge. Includes signage, digital screens, and hosting privileges."
     },
     {
-      "name": "Lanyard / Badge Sponsor",
-      "description": "Your logo on every attendee's lanyard or badge – maximum all-attendee visibility."
+      "name": "Lanyard / badge",
+      "description": "Your logo on every attendee lanyard or badge — maximum all-attendee visibility."
     },
     {
-      "name": "WiFi Sponsor",
+      "name": "WiFi sponsor",
       "description": "Branded network name and splash page seen by every connected device on site."
     },
     {
-      "name": "Track / Session Sponsor",
+      "name": "Track / session",
       "description": "Own a content track. Includes stage branding, speaking slot, and session promotion."
     },
     {
-      "name": "Coffee / Break Sponsor",
+      "name": "Coffee / break",
       "description": "Brand high-traffic refreshment areas with signage, napkins, and digital displays."
     },
     {
-      "name": "Photo / Experience Booth",
+      "name": "Photo experience",
       "description": "Branded interactive photo or 360 experience that attendees share on social."
     },
     {
-      "name": "Startup / Pitch Package",
-      "description": "Dedicated pitch slot + small booth + tickets – ideal for emerging projects."
+      "name": "Token activation",
+      "description": "Airdrop / claim station + tickets — ideal for community tokens and meme-coin projects."
     }
   ]
 }

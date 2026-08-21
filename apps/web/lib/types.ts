@@ -145,6 +145,60 @@ export interface MediaPartner {
   logoClassName?: string;
 }
 
+export interface SponsorshipStat {
+  value: string;
+  label: string;
+}
+
+export interface SponsorshipBillboardBullet {
+  title: string;
+  description: string;
+}
+
+export interface SponsorshipBillboardMetric {
+  value: string;
+  label: string;
+}
+
+export interface SponsorshipBillboardProof {
+  image: string;
+  label: string;
+  alt: string;
+}
+
+export interface SponsorshipBillboard {
+  eyebrow: string;
+  title: string;
+  lede: string;
+  bullets: SponsorshipBillboardBullet[];
+  metrics: SponsorshipBillboardMetric[];
+  featureImage: string;
+  featureImageAlt: string;
+  featureTag?: string;
+  proofImages: SponsorshipBillboardProof[];
+  partnerNote: string;
+  sourceNote: string;
+}
+
+export interface SponsorshipHero {
+  subtitle: string;
+  lede: string;
+  themeLine: string;
+  image: string;
+  imageAlt: string;
+  imageCaption: string;
+}
+
+export interface SponsorshipClosingCta {
+  eyebrow: string;
+  title: string;
+  lede: string;
+  secondaryCta?: {
+    label: string;
+    href: string;
+  };
+}
+
 export interface SponsorshipTierSection {
   title: string;
   items: string[];
@@ -162,7 +216,7 @@ export interface SponsorshipTier {
   name: string;
   subtitle: string;
   price: string;
-  priceLabel?: string;
+  priceLabel?: string | null;
   priceNote?: string | null;
   rateLabel?: string | null;
   available: number;

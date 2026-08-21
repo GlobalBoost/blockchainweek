@@ -21,9 +21,11 @@ import type {
   Speaker,
   Sponsor,
   SponsorshipAddon,
-  SponsorshipAvailability,
+  SponsorshipBillboard,
+  SponsorshipClosingCta,
   SponsorshipComparisonGroup,
-  SponsorshipPricingPhase,
+  SponsorshipHero,
+  SponsorshipStat,
   SponsorshipTier,
   SponsorshipWhyPartner,
   TeamMember,
@@ -107,6 +109,22 @@ export function getProgramSchedule(): ProgramSchedule {
   return programData as ProgramSchedule;
 }
 
+export function getSponsorshipHero(): SponsorshipHero {
+  return (sponsorshipData as { hero: SponsorshipHero }).hero;
+}
+
+export function getSponsorshipStats(): SponsorshipStat[] {
+  return (sponsorshipData as { stats: SponsorshipStat[] }).stats;
+}
+
+export function getSponsorshipBillboard(): SponsorshipBillboard {
+  return (sponsorshipData as { billboard: SponsorshipBillboard }).billboard;
+}
+
+export function getSponsorshipClosingCta(): SponsorshipClosingCta {
+  return (sponsorshipData as { closingCta: SponsorshipClosingCta }).closingCta;
+}
+
 export function getSponsorshipTiers(): SponsorshipTier[] {
   return sponsorshipData.tiers as SponsorshipTier[];
 }
@@ -121,18 +139,6 @@ export function getSponsorshipWhyPartner(): SponsorshipWhyPartner[] {
 
 export function getSponsorshipComparison(): SponsorshipComparisonGroup[] {
   return sponsorshipData.comparisonGroups as SponsorshipComparisonGroup[];
-}
-
-export function getSponsorshipPricingPhases(): SponsorshipPricingPhase[] {
-  return sponsorshipData.pricingPhases as SponsorshipPricingPhase[];
-}
-
-export function getSponsorshipAvailability(): SponsorshipAvailability[] {
-  return sponsorshipData.availability as SponsorshipAvailability[];
-}
-
-export function getSponsorshipPricingBanner(): { label: string; cta: string } {
-  return sponsorshipData.pricingBanner as { label: string; cta: string };
 }
 
 export function getSponsorshipPackagesNote(): string | null {
