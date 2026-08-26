@@ -74,6 +74,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full`}>
+      <head>
+        <script
+          async
+          src="https://cdn.promotekit.com/pk.js"
+          data-promotekit="e81fc490-8cf5-442f-9cf8-c70ba3284dce"
+        />
+      </head>
       <body className="flex min-h-full flex-col antialiased">
         <EventJsonLd />
         <Suspense fallback={null}>
