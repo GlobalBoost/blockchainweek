@@ -5380,5 +5380,41 @@
     "social": {
       "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Viru%20Raparthi"
     }
+  },
+  {
+    "slug": "david-bennett",
+    "name": "David Bennett",
+    "title": "Founder & CEO",
+    "company": "W.B.C. Inc. / The World Bank of Crypto",
+    "bio": "David Bennett is Founder and CEO of W.B.C. Inc. – The World Bank of Crypto (TWBC) – building compliance-first digital banking, tokenization, and institutional crypto finance. Based in the Washington, D.C. area, he focuses on guiding businesses through regulatory complexity so digital-asset strategies can scale with transparency, accountability, and institutional credibility.\n\nAlongside leading TWBC, David is a Partner at Gormus & Bennett Investments, a board member at Rockefeller & Gormus Capital Management, and an Ambassador with the Institute of Peace and Development (INSPAD). His work sits at the intersection of finance, policy, and technology – from regulatory compliance and tax implications to mergers and acquisitions and digital-asset market infrastructure.\n\nHe advocates for a crypto ecosystem grounded in ethical practice and clear rules, helping issuers, investors, and institutions navigate the path from traditional capital markets to blockchain-enabled finance.",
+    "expertise": [
+      "Compliance-First Digital Banking",
+      "Institutional Crypto Finance & Tokenization",
+      "Regulatory Strategy & Market Infrastructure",
+      "Fintech Executive Leadership",
+      "Capital Markets & Strategic Advisory"
+    ],
+    "photo": "/speakers/david-bennett.jpg",
+    "themes": [
+      "policy",
+      "investment",
+      "stablecoin"
+    ],
+    "featured": false,
+    "headline": "Building Compliance-First Rails for Institutional Crypto Finance",
+    "tagline": "Founder & CEO • W.B.C. Inc. / The World Bank of Crypto",
+    "subtitle": "W.B.C. Inc. · The World Bank of Crypto\nDigital Banking · Tokenization · Institutional Crypto Finance",
+    "signatureMoves": [
+      "Founder & CEO – W.B.C. Inc. / The World Bank of Crypto",
+      "Partner – Gormus & Bennett Investments",
+      "Board Member – Rockefeller & Gormus Capital Management",
+      "Ambassador – Institute of Peace and Development (INSPAD)",
+      "Compliance-first digital banking, tokenization & institutional crypto finance"
+    ],
+    "quote": "“The next winners in digital assets may not be the loudest traders. They will be the institutions building the trusted rails for ownership, liquidity, settlement, and compliance.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ambassadordavidbennett/",
+      "website": "https://world-crypto-bank.base44.app"
+    }
   }
 ]

@@ -1633,5 +1633,15 @@
     "source": "/michalina-brokos-2",
     "destination": "/michalina-brokos",
     "permanent": true
+  },
+  {
+    "source": "/speakers/david-bennett",
+    "destination": "/david-bennett",
+    "permanent": true
+  },
+  {
+    "source": "/david-bennett-2",
+    "destination": "/david-bennett",
+    "permanent": true
   }
 ]
