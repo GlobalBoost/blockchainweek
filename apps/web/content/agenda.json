@@ -762,6 +762,10 @@
             {
               "name": "Carsten Stocker",
               "slug": "carsten-stocker"
+            },
+            {
+              "name": "Alan Avidan",
+              "slug": "alan-avidan"
             }
           ],
           "description": "AI without verifiable infrastructure is a black box with planetary stakes. This panel makes the case for blockchain as the trust layer–provenance, accountability, and audit trails–so autonomous systems can be governed, not just deployed."
@@ -1008,10 +1012,6 @@
             {
               "name": "Anisha Salunkhe",
               "slug": "anisha-salunkhe"
-            },
-            {
-              "name": "Alan Avidan",
-              "slug": "alan-avidan"
             }
           ],
           "description": "Governance cannot be bolted on after launch. This session explores designing DeFi controls, permanent code, forecasting, and multi-cloud architectures so policy, permanence, and trust are encoded from day one – not patched in after failure."
