@@ -2435,32 +2435,32 @@
   {
     "slug": "yoon-auh",
     "name": "Yoon Auh",
-    "title": "CEO",
+    "title": "Co-Founder",
     "company": "Bolts Technologies",
-    "bio": "Yoon Auh is the CEO of Bolts Technologies, a next‑generation infrastructure company that provides the high‑performance, modular protocols and connectivity layers essential for the decentralized internet. Under her leadership, Bolts is solving the fragmentation problem plaguing blockchain — delivering enterprise‑grade nodes, cross‑chain messaging, and data availability solutions that allow different networks, applications, and real‑world systems to interoperate seamlessly and at lightning speed.\n\nWith a career that spans telecommunications, distributed systems, and blockchain architecture, Yoon brings a unique engineering‑first perspective to the CEO role. She previously led platform engineering at a major telecom provider, overseeing the deployment of edge computing and 5G infrastructure before diving into the crypto space. At Bolts, she has steered the development of a highly optimized validator network, a universal RPC layer, and a novel cross‑chain transaction protocol that reduces finality time to under 200 milliseconds. Yoon is a strong proponent of open standards and works actively with the Linux Foundation and the Ethereum Enterprise Alliance. She believes that the critical missing piece for mass adoption is not another L1 or L2, but a unified, robust infrastructure grid that connects them all. At Blockchain Week - UNGA Edition she presents the Bolts blueprint for the physical and digital fabric that will power the next billion users of Web3.",
+    "bio": "Yoon Auh is co-founder of Bolts Technologies. He is a former VP at Goldman Sachs and Head Trader at Credit Suisse, and an inventor of data-centric security with a portfolio of patents and research validated in defense-grade settings and NIST-validated work.\n\nHis background spans deep-tech innovation, applied cryptography, and high-performance trading systems — experience that informs how we secure digital assets, protect against insider threats, and prepare for quantum-enabled attacks across financial systems. At Blockchain Week - UNGA Edition, Yoon brings that security and markets lens to the conversation on agents, privacy, and regenerative infrastructure.",
     "expertise": [
-      "High‑Performance Blockchain Infrastructure",
-      "Cross‑Chain Interoperability & Messaging",
-      "Modular Node Architecture & Validator Networks",
-      "Edge Computing & 5G Integration with Web3",
-      "Enterprise‑Grade RPC & Data Availability Layers"
+      "Data-Centric Security & Applied Cryptography",
+      "Digital Asset Security & Insider Threat Defense",
+      "Quantum-Ready Security for Financial Systems",
+      "High-Performance Trading Systems",
+      "Deep-Tech Innovation & Patented Research"
     ],
     "photo": "/speakers/yoon-auh.jpg",
     "themes": [
       "identity"
     ],
     "featured": false,
-    "headline": "Bolting Together the Decentralized World: Modular Infrastructure for Web3 Scale",
-    "tagline": "CEO • Bolts Technologies",
-    "subtitle": "Bolts Technologies\nHigh‑Performance Web3 Infrastructure • Modular Protocols • Interoperability",
+    "headline": "Securing Digital Assets for a Quantum-Ready Financial Stack",
+    "tagline": "Co-Founder • Bolts Technologies",
+    "subtitle": "Bolts Technologies\nData-Centric Security • Applied Cryptography • High-Performance Trading",
     "signatureMoves": [
-      "CEO – Bolts Technologies",
-      "Built a global validator network with sub‑200ms finality",
-      "Created the Universal Cross‑Chain Message Protocol (UCCMP)",
-      "Former VP of Platform Engineering – Tier‑1 Telecom",
-      "Speaker: The Interoperability Grid for Web3"
+      "Co-Founder – Bolts Technologies",
+      "Former VP – Goldman Sachs",
+      "Former Head Trader – Credit Suisse",
+      "Inventor of data-centric security — patents & NIST-validated research",
+      "Defense-grade cryptography & quantum-threat readiness"
     ],
-    "quote": "“We don’t need more blockchains. We need a universal infrastructure grid that makes every chain, every app, and every device work together with the reliability of a global public utility. That’s what Bolts delivers.”",
+    "quote": "“His background spans deep-tech innovation, applied cryptography, and high-performance trading systems — experience that informs how we secure digital assets, protect against insider threats, and prepare for quantum-enabled attacks across financial systems.”",
     "social": {
       "linkedin": "https://www.linkedin.com/in/yoonauh/"
     }
