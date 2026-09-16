@@ -76,7 +76,7 @@ export default async function Image({ params }: ImageProps) {
             {`${BRAND_NAME} 2026`}
           </div>
           <div style={{ marginTop: 16, fontSize: 28, color: "rgba(255,255,255,0.65)" }}>
-            Times Square, NYC
+            New York City
           </div>
         </div>
       ),

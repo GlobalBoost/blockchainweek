@@ -174,7 +174,7 @@ export function AboutPageContent() {
               <div className="relative mt-10 min-h-[280px] overflow-hidden rounded-3xl border border-white/10 lg:mt-0 lg:min-h-[420px]">
                 <Image
                   src={about.images.speakingOpportunity}
-                  alt="Blockchain Week - UNGA Edition in Times Square"
+                  alt="Blockchain Week - UNGA Edition in New York City"
                   fill
                   className="object-cover object-[center_18%]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -247,7 +247,7 @@ export function AboutPageContent() {
             <div className="flex flex-col justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
               <SectionHeader
                 title="Ready to be part of the story?"
-                subtitle="Limited speaking slots and sponsorship opportunities are available for leaders who want to shape the conversation during UNGA week in Times Square."
+                subtitle="Limited speaking slots and sponsorship opportunities are available for leaders who want to shape the conversation during UNGA week in New York City."
                 align="left"
                 className="mb-8"
               />

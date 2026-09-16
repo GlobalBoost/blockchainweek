@@ -52,7 +52,7 @@ export function HeroVideo() {
 
           {/* Meta line – below headline */}
           <p className="mx-auto mt-5 max-w-3xl text-[clamp(0.7rem,2.2vw,1.05rem)] font-medium uppercase tracking-[0.12em] text-un-blue sm:mt-10 sm:tracking-[0.18em] lg:mt-12 lg:text-base">
-            UNGA + NYFW 2026 · September 10–19, 2026 · Times Square, NYC
+            UNGA + NYFW 2026 · September 10–19, 2026 · New York City
           </p>
 
           {/* CTAs – spaced from headline and from next section */}

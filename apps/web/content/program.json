@@ -1,5 +1,5 @@
 {
-  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Hard Rock main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
+  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
   "events": [
     {
       "id": "multistakeholder-forum",
@@ -28,7 +28,7 @@
       "time": "6pm–9pm",
       "tag": "Networking · Emerging Tech",
       "title": "Tech Tuesdays · Liberland Meetup",
-      "description": "Liberty, Privacy & Ownership: From Liberland to the Ledger · Hard Rock Cafe Times Square",
+      "description": "Liberty, Privacy & Ownership: From Liberland to the Ledger · Gallery MC, 549 W 52nd St",
       "details": "Official Liberland Meetup evening under Tech Tuesdays, featuring the headline panel with Dorian Stern Vukotić, Bruce Porter Jr., Lou Kerner, and Randy Schwarz. See the full timed agenda above.",
       "featured": true
     },
@@ -39,7 +39,7 @@
       "time": "Evening",
       "tag": "Evening Programming",
       "title": "MAHA Wednesday",
-      "description": "Special evening programming following Day 1 of the main conference · Hard Rock Cafe Times Square",
+      "description": "Special evening programming following Day 1 of the main conference · Gallery MC, 549 W 52nd St",
       "details": "Continued discussions, networking, and curated sessions that build on the themes of the first conference day.",
       "featured": true
     },
@@ -50,7 +50,7 @@
       "time": "7pm–midnight",
       "tag": "Official After Party",
       "title": "BitcoinPalooza",
-      "description": "Official after party · Hard Rock Cafe Times Square",
+      "description": "Official after party · Gallery MC, 549 W 52nd St",
       "details": "Live performances, culture panels, fashion, and art – including Bella Porter, Alejandro Glatt, Emily Lazar, Aaron Williams, Enyo Sam, The Coinheads, and KOVO. See the full timed agenda above.",
       "variant": "bitcoin"
     },
@@ -61,7 +61,7 @@
       "time": "4pm–6pm summit, then Gala",
       "tag": "Closing Night · Investment · Flagship",
       "title": "Washington Elite Investment Summit & Gala",
-      "description": "Returning for the 4th year as the flagship event of Blockchain Week – UNGA Edition · Hard Rock Main Theatre",
+      "description": "Returning for the 4th year as the flagship event of Blockchain Week – UNGA Edition · Gallery MC",
       "details": "Washington Elite Investment Summit on the main stage, followed by the Gala. Opening performances by Santiago Cumplido Del Castillo; Brock Pierce opens the summit. See the full timed agenda above.",
       "featured": true
     },
@@ -79,17 +79,17 @@
   ],
   "conference": {
     "title": "Flagship Conference · September 16–17",
-    "summary": "Two full days on the Hard Rock Main Theatre stage – from opening keynotes with President Vít Jedlička and Brock Pierce through policy, AI, stablecoins, RWAs, and the hand-off to BitcoinPalooza.",
+    "summary": "Two full days on the Gallery MC main stage – from opening keynotes with President Vít Jedlička and Brock Pierce through policy, AI, stablecoins, RWAs, and the hand-off to BitcoinPalooza.",
     "days": [
       {
         "label": "Day 1 – Wednesday, September 16 · 9am–5pm",
         "focusAreas": "Sovereignty, rules, and the trust layer – liberty & privacy, constitutional internet, AI agents, on-chain risk, and closing with energy & health sovereignty.",
-        "description": "Main Stage, Hard Rock Times Square. Full timed agenda above."
+        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019. Full timed agenda above."
       },
       {
         "label": "Day 2 – Thursday, September 17 · 9am–5pm",
         "focusAreas": "Capital, the global dollar, and real-world assets – Bitcoin, stablecoin corridors, investor pitching, provenance, tokenization, and real estate on-chain.",
-        "description": "Main Stage, Hard Rock Times Square, then BitcoinPalooza from 7pm. Full timed agenda above."
+        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019, then BitcoinPalooza from 7pm. Full timed agenda above."
       }
     ]
   }

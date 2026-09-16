@@ -8,7 +8,7 @@ import {
 } from "@/lib/brand-constants";
 
 export const alt =
-  "Confirmed Programming for Blockchain Week - UNGA Edition 2026 in Times Square, NYC";
+  "Confirmed Programming for Blockchain Week - UNGA Edition 2026 at Gallery MC, New York City";
 
 export const size = {
   width: 1200,
@@ -191,7 +191,7 @@ export default async function Image() {
                 maxWidth: 900,
               }}
             >
-              Timed run of show for CryptoMondays, Liberland Meetup, the Hard Rock main stage,
+              Timed run of show for CryptoMondays, Liberland Meetup, the Gallery MC main stage,
               BitcoinPalooza, and the Washington Elite Investment Summit & Gala.
             </div>
           </div>

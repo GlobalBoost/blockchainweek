@@ -1,6 +1,6 @@
 {
   "title": "Confirmed Programming",
-  "summary": "Timed run of show for CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Hard Rock main stage, BitcoinPalooza, and the Washington Elite Investment Summit & Gala.",
+  "summary": "Timed run of show for CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, and the Washington Elite Investment Summit & Gala.",
   "days": [
     {
       "id": "mon",
@@ -63,8 +63,8 @@
       "id": "tue",
       "label": "Tuesday, September 15",
       "hours": "6:00 pm – 9:00 pm",
-      "venue": "Tech Tuesdays · Liberland Meetup, Hard Rock Cafe Times Square",
-      "theme": "Tech Tuesdays hosts the official Liberland Meetup at Hard Rock Times Square. Doors open for networking, then President Vít Jedlička welcomes the room ahead of two panels – sovereignty in practice, and the headline conversation on liberty, privacy, and ownership from Liberland to the ledger – before an open mixer closes the night.",
+      "venue": "Tech Tuesdays · Liberland Meetup · Gallery MC, 549 W 52nd St, New York, NY 10019",
+      "theme": "Tech Tuesdays hosts the official Liberland Meetup at Gallery MC. Doors open for networking, then President Vít Jedlička welcomes the room ahead of two panels – sovereignty in practice, and the headline conversation on liberty, privacy, and ownership from Liberland to the ledger – before an open mixer closes the night.",
       "dateLabel": "Sep 15",
       "dayShort": "Tue",
       "sessions": [
@@ -172,8 +172,8 @@
       "id": "wed",
       "label": "Wednesday, September 16",
       "hours": "9:00 am – 5:00 pm",
-      "venue": "Main Stage, Hard Rock Times Square",
-      "theme": "Day one on the Hard Rock main stage opens with President Vít Jedlička and Brock Pierce, then moves from liberty and the constitutional internet through oversight, rule-making, and Bitcoin beyond blind accumulation. The afternoon turns to verified trust, incentive design, and custody and zero-trust risk, closing on stablecoin infrastructure and pitching investors who don’t care about Web3.",
+      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
+      "theme": "Day one on the Gallery MC main stage opens with President Vít Jedlička and Brock Pierce, then moves from liberty and the constitutional internet through oversight, rule-making, and Bitcoin beyond blind accumulation. The afternoon turns to verified trust, incentive design, and custody and zero-trust risk, closing on stablecoin infrastructure and pitching investors who don’t care about Web3.",
       "dateLabel": "Sep 16",
       "dayShort": "Wed",
       "sessions": [
@@ -185,7 +185,7 @@
           "kind": "host",
           "title": "Welcome and housekeeping",
           "speakers": [],
-          "description": "Doors settle, the room is briefed, and Day 1 of the Hard Rock main stage begins."
+          "description": "Doors settle, the room is briefed, and Day 1 of the Gallery MC main stage begins."
         },
         {
           "id": "wed-0905-keynote",
@@ -603,7 +603,7 @@
       "id": "thu",
       "label": "Thursday, September 17",
       "hours": "9:00 am – 5:00 pm",
-      "venue": "Main Stage, Hard Rock Times Square",
+      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
       "theme": "Day two turns to capital and real-world assets: tokenized issuance, the new sovereign moment, the legal state of crypto, and the trust layer beneath AI. The afternoon runs the global dollar’s last mile into financial access, provenance, real estate on-chain, and RWA at scale – then governance by design and the hand-off to BitcoinPalooza.",
       "dateLabel": "Sep 17",
       "dayShort": "Thu",
@@ -616,7 +616,7 @@
           "kind": "host",
           "title": "Welcome",
           "speakers": [],
-          "description": "Welcome back to the Hard Rock main stage for Day 2 – capital, rails, and real-world assets."
+          "description": "Welcome back to the Gallery MC main stage for Day 2 – capital, rails, and real-world assets."
         },
         {
           "id": "thu-0905-panel",
@@ -1055,7 +1055,7 @@
       "id": "palooza",
       "label": "Thursday night · BitcoinPalooza",
       "hours": "7:00 pm – midnight",
-      "venue": "Hard Rock Cafe Times Square",
+      "venue": "Gallery MC, 549 W 52nd St, New York, NY 10019",
       "theme": "The official after party. KOVO’s art fills the floor all night while Bella Porter, Alejandro Glatt, Emily Lazar, Aaron Williams, Enyo Sam, and The Coinheads take the stage – with culture panels on art, fashion, Bitcoin, and the long game.",
       "dateLabel": "Sep 17",
       "dayShort": "Thu",
@@ -1073,7 +1073,7 @@
               "slug": null
             }
           ],
-          "description": "Doors open into KOVO’s floor installation – art in the room all night as BitcoinPalooza fills Hard Rock Times Square."
+          "description": "Doors open into KOVO’s floor installation – art in the room all night as BitcoinPalooza fills Gallery MC."
         },
         {
           "id": "palooza-1930-host",
@@ -1245,8 +1245,8 @@
       "id": "fri",
       "label": "Friday, September 18",
       "hours": "4:00 pm – 6:00 pm, then the Gala",
-      "venue": "Main Stage, Hard Rock Times Square",
-      "theme": "The Washington Elite Investment Summit on the Hard Rock main stage, then the Gala. Opening and closing performances by Santiago Cumplido Del Castillo, with keynotes from Brock Pierce and Jimmy Nguyen. Panels move from UN-aligned capital and institutional infrastructure to cities, supply chains, and leaders deploying capital at global scale.",
+      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
+      "theme": "The Washington Elite Investment Summit on the Gallery MC main stage, then the Gala. Opening and closing performances by Santiago Cumplido Del Castillo, with keynotes from Brock Pierce and Jimmy Nguyen. Panels move from UN-aligned capital and institutional infrastructure to cities, supply chains, and leaders deploying capital at global scale.",
       "dateLabel": "Sep 18",
       "dayShort": "Fri",
       "sessions": [

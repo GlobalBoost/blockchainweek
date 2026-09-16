@@ -13,11 +13,11 @@ import { TrackedExternalLink } from "@/components/analytics/TrackedExternalLink"
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import {
-  CONFERENCE_LOCATION,
   EVENT_DATES,
   EVENT_LOCATION,
   SESSIONIZE_SPEAKERS_URL,
   BRAND_NAME,
+  VENUE_NAME,
 } from "@/lib/brand-constants";
 import { BrandName } from "@/components/ui/BrandName";
 import { LUMA_PUBLIC_URL } from "@/lib/luma";
@@ -100,8 +100,8 @@ export default function SpeakPage() {
         title="Shape the Future of Blockchain at the UN"
         subtitle={
           <>
-            <BrandName /> 2026 brings together world leaders, investors, policymakers, and builders in{" "}
-            {CONFERENCE_LOCATION} during UNGA and New York Fashion Week.
+            <BrandName /> 2026 brings together world leaders, investors, policymakers, and builders at{" "}
+            {VENUE_NAME} in {EVENT_LOCATION} during UNGA and New York Fashion Week.
           </>
         }
         actions={[
@@ -121,7 +121,7 @@ export default function SpeakPage() {
         <div className="mx-auto max-w-4xl px-4 text-center lg:px-8">
           <SectionHeader
             eyebrow={EVENT_DATES}
-            title="A Global Stage in the Heart of Times Square"
+            title="A Global Stage at Gallery MC in New York City"
             subtitle="This landmark 10-day experience explores blockchain, cryptocurrency, AI, energy, space innovation, liberty, privacy, and policy through high-impact panels, keynotes, fireside chats, workshops, and exclusive networking."
           />
           <p className="mx-auto max-w-3xl text-base leading-relaxed text-ink-muted">

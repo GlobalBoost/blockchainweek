@@ -27,7 +27,7 @@ export function TicketPricingCards({
   tiers,
   eyebrow = "Tickets On Sale Now",
   title = "Get Your Pass",
-  subtitle = "Join us for ten days of programming during UNGA week in Times Square.",
+  subtitle = "Join us for ten days of programming during UNGA week in New York City.",
   phaseNote,
   footerNote,
   phaseLabel,

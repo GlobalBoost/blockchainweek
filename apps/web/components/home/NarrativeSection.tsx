@@ -13,7 +13,7 @@ export function NarrativeSection() {
           10 days of Bitcoin & Energy breakthroughs, AI agents, Space, and the biggest Fashion-Tech Summit ever – all coinciding with the United Nations General Assembly and New York Fashion Week.
         </p>
         <p className="mt-4 text-lg leading-relaxed text-ink/80">
-          Plus the exclusive Washington Elite Investment Summit & Gala on September 18th in Times Square.
+          Plus the exclusive Washington Elite Investment Summit & Gala on September 18th at Gallery MC.
         </p>
       </div>
     </section>
