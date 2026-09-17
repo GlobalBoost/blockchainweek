@@ -1,6 +1,27 @@
 {
-  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
+  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
   "events": [
+    {
+      "id": "orbital-runway",
+      "day": "Thu",
+      "date": "Sep 10",
+      "time": "6pm–10pm",
+      "tag": "Opening Night · Space × Fashion",
+      "title": "Orbital Runway Kickoff",
+      "description": "Hard Rock Cafe Times Square · Legends Bar + New York Room",
+      "details": "A space-themed opening night featuring a live fashion show that blends futuristic design with blockchain culture. Presented in collaboration with Hooked-App, the evening launches Blockchain Week – UNGA Edition with immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers.",
+      "featured": true
+    },
+    {
+      "id": "marquee-spotlight",
+      "day": "Sat",
+      "date": "Sep 12",
+      "tag": "VVIP · Media Moment",
+      "title": "Marquee Spotlight VVIP",
+      "description": "Exclusive gathering for sponsors and media · On top of the Times Square billboard (the 3-sided marquee on the front of the Hard Rock Cafe)",
+      "details": "Private VVIP experience with direct access to the iconic 3-sided Times Square marquee for branding, photos, and media coverage.",
+      "featured": true
+    },
     {
       "id": "multistakeholder-forum",
       "day": "Mon",
@@ -50,7 +71,7 @@
       "time": "7pm–midnight",
       "tag": "Official After Party",
       "title": "BitcoinPalooza",
-      "description": "Official after party · Gallery MC, 549 W 52nd St",
+      "description": "Official after party · Sugar Mouse NYC, 47 3rd Ave",
       "details": "Live performances, culture panels, fashion, and art – including Bella Porter, Alejandro Glatt, Emily Lazar, Aaron Williams, Enyo Sam, The Coinheads, and KOVO. See the full timed agenda above.",
       "variant": "bitcoin"
     },
@@ -89,7 +110,7 @@
       {
         "label": "Day 2 – Thursday, September 17 · 9am–5pm",
         "focusAreas": "Capital, the global dollar, and real-world assets – Bitcoin, stablecoin corridors, investor pitching, provenance, tokenization, and real estate on-chain.",
-        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019, then BitcoinPalooza from 7pm. Full timed agenda above."
+        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019. Then BitcoinPalooza from 7pm at Sugar Mouse NYC, 47 3rd Ave. Full timed agenda above."
       }
     ]
   }

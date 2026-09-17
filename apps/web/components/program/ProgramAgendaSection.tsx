@@ -195,7 +195,11 @@ function SessionRow({
             )}
             aria-hidden
           />
-          <SessionTime start={session.start} end={session.end} />
+          {session.time === "By invitation" ? (
+            <p className="text-sm font-semibold uppercase tracking-wider text-white/70">By invitation</p>
+          ) : (
+            <SessionTime start={session.start} end={session.end} />
+          )}
         </div>
 
         <div className="min-w-0">
@@ -422,7 +426,16 @@ export function ProgramAgendaSection({ agenda }: { agenda: ProgramAgenda }) {
                         : "border border-white/15 text-white/70 hover:border-un-blue hover:text-un-blue"
                     )}
                   >
-                    {day.id === "palooza" ? "Palooza" : day.dayShort} {day.dateLabel.replace("Sep ", "")}
+                    {day.id === "palooza"
+                      ? "Palooza"
+                      : day.id === "orbital"
+                        ? "Orbital"
+                        : day.id === "marquee"
+                          ? "Marquee"
+                          : day.id === "peace"
+                            ? "Peace"
+                            : day.dayShort}{" "}
+                    {day.dateLabel.replace("Sep ", "")}
                   </button>
                 ))}
               </div>

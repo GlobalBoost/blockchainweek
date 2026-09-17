@@ -1,7 +1,49 @@
 {
   "title": "Confirmed Programming",
-  "summary": "Timed run of show for CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, and the Washington Elite Investment Summit & Gala.",
+  "summary": "Timed run of show for Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and Pause the World for Peace.",
   "days": [
+    {
+      "id": "orbital",
+      "label": "Thursday, September 10",
+      "hours": "6:00 pm – 10:00 pm",
+      "venue": "Hard Rock Cafe Times Square · Legends Bar + New York Room",
+      "theme": "Opening night. A space-themed fashion kickoff with Hooked-App — immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers.",
+      "dateLabel": "Sep 10",
+      "dayShort": "Thu",
+      "sessions": [
+        {
+          "id": "orbital-1800-kickoff",
+          "start": "18:00",
+          "end": "22:00",
+          "time": "6:00 PM – 10:00 PM",
+          "kind": "performance",
+          "title": "Orbital Runway Kickoff",
+          "speakers": [],
+          "description": "A space-themed opening night featuring a live fashion show that blends futuristic design with blockchain culture. Presented in collaboration with Hooked-App, the evening launches Blockchain Week – UNGA Edition with immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers."
+        }
+      ]
+    },
+    {
+      "id": "marquee",
+      "label": "Saturday, September 12",
+      "hours": "VVIP · Media Moment",
+      "venue": "On top of the Times Square billboard (the 3-sided marquee on the front of the Hard Rock Cafe)",
+      "theme": "Exclusive gathering for sponsors and media with direct access to the iconic three-screen Times Square marquee for branding, photos, and media coverage.",
+      "dateLabel": "Sep 12",
+      "dayShort": "Sat",
+      "sessions": [
+        {
+          "id": "marquee-spotlight",
+          "start": "12:00",
+          "end": "15:00",
+          "time": "By invitation",
+          "kind": "host",
+          "title": "Marquee Spotlight VVIP",
+          "speakers": [],
+          "description": "Private VVIP experience with direct access to the iconic 3-sided Times Square marquee for branding, photos, and media coverage."
+        }
+      ]
+    },
     {
       "id": "mon",
       "label": "Monday, September 14",
@@ -1047,7 +1089,7 @@
           "kind": "host",
           "title": "Day 2 close and hand-off to BitcoinPalooza",
           "speakers": [],
-          "description": "Day 2 closes. The floor resets for BitcoinPalooza – culture, performance, and the after party."
+          "description": "Day 2 closes. Head to Sugar Mouse NYC for BitcoinPalooza – culture, performance, and the after party."
         }
       ]
     },
@@ -1055,7 +1097,7 @@
       "id": "palooza",
       "label": "Thursday night · BitcoinPalooza",
       "hours": "7:00 pm – midnight",
-      "venue": "Gallery MC, 549 W 52nd St, New York, NY 10019",
+      "venue": "Sugar Mouse NYC, 47 3rd Ave, New York, NY 10003",
       "theme": "The official after party. KOVO’s art fills the floor all night while Bella Porter, Alejandro Glatt, Emily Lazar, Aaron Williams, Enyo Sam, and The Coinheads take the stage – with culture panels on art, fashion, Bitcoin, and the long game.",
       "dateLabel": "Sep 17",
       "dayShort": "Thu",
@@ -1073,7 +1115,7 @@
               "slug": null
             }
           ],
-          "description": "Doors open into KOVO’s floor installation – art in the room all night as BitcoinPalooza fills Gallery MC."
+          "description": "Doors open into KOVO’s floor installation – art in the room all night as BitcoinPalooza fills Sugar Mouse NYC."
         },
         {
           "id": "palooza-1930-host",
@@ -1448,6 +1490,27 @@
             }
           ],
           "description": "The Gala opens with a special return performance by Santiago Cumplido Del Castillo."
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Saturday, September 19",
+      "hours": "11:00 am – 1:00 pm",
+      "venue": "Times Square",
+      "theme": "Closing the week outdoors: Paul Sladkus’s Pause the World for Peace — the 24th Annual LIVE CLEAN ENERGY International Day of Peace Concert in the heart of Times Square.",
+      "dateLabel": "Sep 19",
+      "dayShort": "Sat",
+      "sessions": [
+        {
+          "id": "peace-1100-concert",
+          "start": "11:00",
+          "end": "13:00",
+          "time": "11:00 AM – 1:00 PM",
+          "kind": "performance",
+          "title": "Pause the World for Peace",
+          "speakers": [],
+          "description": "24th Annual LIVE CLEAN ENERGY International Day of Peace Concert. In collaboration with PaulSladkus. A special daytime concert celebrating peace and clean energy, closing out Blockchain Week – UNGA Edition in the heart of Times Square."
         }
       ]
     }

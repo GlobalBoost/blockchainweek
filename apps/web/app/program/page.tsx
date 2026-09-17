@@ -5,7 +5,7 @@ import { CTASection } from "@/components/ui/CTASection";
 import { getProgramAgenda } from "@/lib/content";
 import { BRAND_NAME, SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH, TICKETS_SECTION_HASH } from "@/lib/brand-constants";
 
-const description = `${BRAND_NAME} 2026 confirmed programming – timed run of show for CryptoMondays, Liberland Meetup, the Gallery MC main stage, BitcoinPalooza, and the Washington Elite Investment Summit & Gala.`;
+const description = `${BRAND_NAME} 2026 confirmed programming – timed run of show for Orbital Runway, CryptoMondays, Liberland Meetup, the Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and Pause the World for Peace.`;
 
 export const metadata: Metadata = {
   title: "Confirmed Programming",
