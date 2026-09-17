@@ -1404,10 +1404,6 @@
           "title": "Dressed for the Party, Built for the Morning After",
           "speakers": [
             {
-              "name": "Anna Muheim",
-              "slug": "anna-muheim"
-            },
-            {
               "name": "Katie Hilborn",
               "slug": "katie-hilborn"
             },
@@ -1416,8 +1412,12 @@
               "slug": "thuy-pham"
             },
             {
-              "name": "Nicole Nguyen",
-              "slug": "nicole-nguyen"
+              "name": "Richie Hosein",
+              "slug": "richie-hosein"
+            },
+            {
+              "name": "Kwasi Amaning Asare",
+              "slug": "kwasi-amaning-asare"
             }
           ],
           "description": "Looking past the gala glow: how founders and operators dress for the party while building for the morning after. A candid panel on staying power, brand, and the operational habits that survive the spotlight."

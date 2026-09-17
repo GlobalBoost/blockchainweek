@@ -5416,5 +5416,74 @@
       "linkedin": "https://www.linkedin.com/in/ambassadordavidbennett/",
       "website": "https://world-crypto-bank.base44.app"
     }
+  },
+  {
+    "slug": "richie-hosein",
+    "name": "Richie Hosein",
+    "title": "Founder",
+    "company": "FreeHealth.ai / 1nfluenc3 Media",
+    "headline": "Building Companies Where Healthcare, Hospitality & Culture Meet",
+    "tagline": "Founder • FreeHealth.ai / 1nfluenc3 Media",
+    "subtitle": "FreeHealth.ai · 1nfluenc3 Media\nHealthcare · Hospitality · Marketing & Culture",
+    "bio": "Richie Hosein is an award-winning executive, serial entrepreneur, and connector with more than two decades building, scaling, and advising high-growth businesses across healthcare, life sciences, AI, hospitality, media, and consumer brands. Operating at the intersection of strategy, commercialization, and culture, he has led initiatives that have collectively generated over $1 billion in sales.\n\nHis career spans Pfizer and Johnson & Johnson commercial leadership, founding TRE Medical Technology Consultants and Baseline Health, and serving as Chief Growth Officer at Thinkhat Venture Studio. Today he is launching a venture studio across healthcare, hospitality, and marketing — including FreeHealth.ai, an AI-driven digital health companion, and 1nfluenc3 Media, a full-stack creative marketing and media agency. He is also founder and president of the Global Healthcare Leaders Foundation, co-founder of Etiquette Management Group, and a recognized operator in nightlife and experiential hospitality, including work that drove a 1200% revenue increase at the Playboy Club NYC.\n\nRichie holds a Bachelor in Management from St. John’s University and completed the Harvard Medical School Global Healthcare Leadership Program. Yahoo Finance has named him among Top Entrepreneurs to Watch.",
+    "expertise": [
+      "Healthcare Commercialization & Growth",
+      "AI & Digital Health Venture Building",
+      "Hospitality & Experiential Brand Strategy",
+      "Marketing, Media & Cultural Partnerships",
+      "Capital Formation & Operator Leadership"
+    ],
+    "signatureMoves": [
+      "Founder — FreeHealth.ai and 1nfluenc3 Media",
+      "Founder & President — Global Healthcare Leaders Foundation",
+      "Former Chief Growth Officer — Thinkhat Venture Studio",
+      "Founder — TRE Medical Technology Consultants",
+      "Hospitality operator — Etiquette Management Group / Playboy Club NYC turnaround"
+    ],
+    "quote": "“Build meaningful companies, elevate leaders, and deploy capital, technology, and culture to create lasting impact across healthcare, business, and society.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/richie-hosein/",
+      "website": "https://www.richiehosein.com/"
+    },
+    "photo": "/speakers/richie-hosein.jpg",
+    "featured": false,
+    "themes": [
+      "ai",
+      "fashion"
+    ]
+  },
+  {
+    "slug": "kwasi-amaning-asare",
+    "name": "Kwasi Amaning Asare",
+    "title": "Founder & CEO",
+    "company": "Feedia / 2050 House",
+    "headline": "Marketing Culture, Technology & Impact at Global Scale",
+    "tagline": "Founder & CEO • Feedia / 2050 House",
+    "subtitle": "Feedia · 2050 House\nMarketing · Culture · Technology · Sustainable Development",
+    "bio": "Kwasi Amaning Asare is Founder and CEO of Feedia, a global marketing and business development agency, and Founder of 2050 House — a multimedia platform and conversation series guided by the United Nations Sustainable Development Goals that brings together family offices, cultural leaders, diplomats, and technologists.\n\nHe has marketed and monetized content releases generating approximately 30 million record sales and album equivalents, with prior digital marketing leadership at Sony Music, Atlantic Records, and Warner Music Group. He is Cofounder and Chief Marketing Officer of technology platform ESAIYO, a member of the Fast Company Executive Board, and a frequent speaker at forums including COP, SXSW, CES, Nexus Global, and Wharton Africa Private Wealth Summits.\n\nKwasi advises companies and nonprofits across media, technology, and social impact, and previously worked as an investment banker at Citigroup. His work sits at the intersection of culture, monetization, blockchain, and global coalition-building for sustainable development.",
+    "expertise": [
+      "Global Marketing & Business Development",
+      "Culture, Music & Brand Monetization",
+      "UN SDG Convenings & Coalition Building",
+      "Technology Platforms & Growth Strategy",
+      "Media Partnerships & Social Impact"
+    ],
+    "signatureMoves": [
+      "Founder & CEO — Feedia",
+      "Founder — 2050 House (UN SDG-aligned convenings)",
+      "Cofounder & CMO — ESAIYO",
+      "Fast Company Executive Board member",
+      "Former digital marketing leadership — Sony, Atlantic, Warner Music Group"
+    ],
+    "quote": "“Culture, technology, and diplomacy have to sit in the same room if we want coalitions that can actually move capital and change outcomes.”",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/kwasia/"
+    },
+    "photo": "/speakers/kwasi-amaning-asare.jpg",
+    "featured": false,
+    "themes": [
+      "fashion",
+      "policy"
+    ]
   }
 ]

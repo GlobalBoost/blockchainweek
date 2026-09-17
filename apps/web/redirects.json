@@ -1643,5 +1643,25 @@
     "source": "/david-bennett-2",
     "destination": "/david-bennett",
     "permanent": true
+  },
+  {
+    "source": "/speakers/richie-hosein",
+    "destination": "/richie-hosein",
+    "permanent": true
+  },
+  {
+    "source": "/richie-hosein-2",
+    "destination": "/richie-hosein",
+    "permanent": true
+  },
+  {
+    "source": "/speakers/kwasi-amaning-asare",
+    "destination": "/kwasi-amaning-asare",
+    "permanent": true
+  },
+  {
+    "source": "/kwasi-amaning-asare-2",
+    "destination": "/kwasi-amaning-asare",
+    "permanent": true
   }
 ]
