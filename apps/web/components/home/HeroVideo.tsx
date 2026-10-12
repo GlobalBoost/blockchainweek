@@ -30,10 +30,10 @@ export function HeroVideo() {
         <div className="mx-auto max-w-5xl text-center lg:max-w-none">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/brand/hero-wordmark.svg"
+            src="/brand/hero-wordmark.png"
             alt="Blockchain Week 2027"
             width={1024}
-            height={85}
+            height={72}
             className="mx-auto mb-5 h-auto w-[min(88vw,44rem)] sm:mb-8 lg:mb-10"
             fetchPriority="high"
           />
