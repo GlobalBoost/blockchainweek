@@ -8,7 +8,7 @@ import { EVENT_DATES, EVENT_LOCATION, BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Team",
-  description: `Meet the team behind ${BRAND_NAME} 2026.`,
+  description: `Meet the team behind ${BRAND_NAME} 2027.`,
 };
 
 export default function TeamPage() {
@@ -19,7 +19,7 @@ export default function TeamPage() {
       <PageHero
         eyebrow={`${EVENT_DATES} · ${EVENT_LOCATION}`}
         title="Meet the Team"
-        subtitle="Our team combines decades of experience in blockchain, event production, media, and high-level diplomacy. Together we create unforgettable experiences that connect world leaders, corporations, investors, and innovators during UNGA + NYFW."
+        subtitle="Our team combines decades of experience in blockchain, event production, media, and high-level diplomacy. Together we create unforgettable experiences that connect world leaders, corporations, investors, and innovators during UNGA week in Times Square."
       />
 
       <section className="section-light py-16 sm:py-20">

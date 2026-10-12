@@ -10,7 +10,7 @@ export const size = {
 };
 
 export const contentType = "image/png";
-export const alt = `Speaker at ${BRAND_NAME} 2026`;
+export const alt = `Past speaker, ${BRAND_NAME} 2026`;
 
 interface ImageProps {
   params: Promise<{ slug: string }>;
@@ -73,10 +73,10 @@ export default async function Image({ params }: ImageProps) {
           }}
         >
           <div style={{ fontSize: 56, fontWeight: 800, letterSpacing: "-0.02em" }}>
-            {`${BRAND_NAME} 2026`}
+            {`Past Speaker · ${BRAND_NAME} 2026`}
           </div>
           <div style={{ marginTop: 16, fontSize: 28, color: "rgba(255,255,255,0.65)" }}>
-            New York City
+            Times Square, New York
           </div>
         </div>
       ),

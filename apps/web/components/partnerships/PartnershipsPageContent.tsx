@@ -183,6 +183,7 @@ export function PartnershipsPageContent() {
             </div>
           </div>
 
+          {billboard.metrics.length > 0 ? (
           <dl className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {billboard.metrics.map((metric) => (
               <div
@@ -194,6 +195,7 @@ export function PartnershipsPageContent() {
               </div>
             ))}
           </dl>
+          ) : null}
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {billboard.proofImages.map((proof) => (
@@ -211,7 +213,9 @@ export function PartnershipsPageContent() {
           <div className="mt-8 rounded-2xl border border-gold/20 bg-gold/[0.06] px-5 py-4 text-sm leading-relaxed text-white/80">
             {billboard.partnerNote}
           </div>
-          <p className="mt-4 text-xs leading-relaxed text-white/45">{billboard.sourceNote}</p>
+          {billboard.sourceNote ? (
+            <p className="mt-4 text-xs leading-relaxed text-white/45">{billboard.sourceNote}</p>
+          ) : null}
         </div>
       </section>
 

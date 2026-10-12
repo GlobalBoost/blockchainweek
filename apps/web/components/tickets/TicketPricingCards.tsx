@@ -25,9 +25,9 @@ function isPartnerTier(tier: PricingTier | PartnerPricingTier): tier is PartnerP
 
 export function TicketPricingCards({
   tiers,
-  eyebrow = "Tickets On Sale Now",
+  eyebrow = "Early, Early Bird pricing for 2027. Limited time.",
   title = "Get Your Pass",
-  subtitle = "Join us for ten days of programming during UNGA week in New York City.",
+  subtitle = "Join us for six days of programming during UNGA week in Times Square, New York.",
   phaseNote,
   footerNote,
   phaseLabel,

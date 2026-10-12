@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 function speakingTitle(name: string) {
-  return `${name} Speaking at ${BRAND_NAME} 2026`;
+  return `${name} | Past Speaker, ${BRAND_NAME} 2026`;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

@@ -52,7 +52,7 @@ function normalizeSpeaker(speaker: Speaker): Speaker {
     subtitle: speaker.subtitle ? replaceLegacyBrandName(decodeHtml(speaker.subtitle)) : undefined,
     bio:
       sanitizeSpeakerText(speaker.bio) ||
-      `${decodeHtml(speaker.name)} is a speaker at ${BRAND_NAME} 2026.`,
+      `${decodeHtml(speaker.name)} is a past speaker at ${BRAND_NAME}.`,
     expertise: speaker.expertise.map((e) => replaceLegacyBrandName(decodeHtml(e))).filter(Boolean),
     signatureMoves: speaker.signatureMoves
       ?.map((e) => replaceLegacyBrandName(decodeHtml(e)))

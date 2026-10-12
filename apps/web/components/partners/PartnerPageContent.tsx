@@ -12,7 +12,7 @@ export function PartnerPageContent({ partner }: { partner: PartnerPage }) {
     <>
       <PartnerHero partner={partner} />
       <PartnerTicketPricing partner={partner} />
-      <GalaSpotlight />
+      <GalaSpotlight vipCheckoutUrl={partner.pricing.vip.checkoutUrl} />
       <StatsBar />
       <SponsorMarquee />
       <CTASection ticketsHref={TICKETS_SECTION_HASH} />

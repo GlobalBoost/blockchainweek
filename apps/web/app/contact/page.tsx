@@ -1,23 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { FormField, FormSubmit, FormTextarea } from "@/components/ui/FormField";
-import { CONTACT_EMAIL, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
+import { CONTACT_EMAIL, CONTACT_PHONE, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 
 const CONTACT_ITEMS = [
   {
-    icon: MapPin,
-    label: "Office",
-    value: "26 Broadway, 3rd Floor, New York, NY 10004",
-    href: "https://maps.google.com/?q=26+Broadway+New+York+NY+10004",
-  },
-  {
     icon: Phone,
     label: "Phone",
-    value: "(202) 436-6577",
+    value: CONTACT_PHONE,
     href: "tel:+12024366577",
   },
   {

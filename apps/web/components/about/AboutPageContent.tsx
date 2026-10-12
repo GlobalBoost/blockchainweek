@@ -34,7 +34,10 @@ function LightStoryParagraphs({ paragraphs }: { paragraphs: string[] }) {
 
 export function AboutPageContent() {
   const about = getAboutContent();
-  const [heritage, groundUp, nextChapter] = about.sections;
+  const heritage = about.sections.find((section) => section.id === "heritage");
+  const groundUp = about.sections.find((section) => section.id === "ground-up");
+  const nextChapter = about.sections.find((section) => section.id === "recap-2026");
+  const edition2027 = about.sections.find((section) => section.id === "edition-2027");
   const leadershipSpeakers = about.leadership.featuredSpeakerSlugs
     .map((slug) => getSpeakerBySlug(slug))
     .filter((speaker): speaker is NonNullable<typeof speaker> => speaker != null);
@@ -57,7 +60,7 @@ export function AboutPageContent() {
 
         <div className="relative z-10 mx-auto w-full max-w-4xl px-5 text-center sm:px-8">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-un-blue">
-            UNGA + NYFW 2026 · {EVENT_DATES} · {EVENT_LOCATION}
+            UNGA 2027 · {EVENT_DATES} · {EVENT_LOCATION}
           </p>
           <h1 className="heading-font mt-4 text-4xl leading-tight text-runway-white sm:text-5xl lg:text-6xl">
             About {BRAND_NAME}
@@ -93,7 +96,7 @@ export function AboutPageContent() {
           <SectionHeader
             theme="dark"
             eyebrow="By the numbers"
-            title="Built over fifteen years. Scaling for 2026."
+            title="Built over fifteen years. Six days in 2027."
             className="mb-10"
           />
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
@@ -166,7 +169,7 @@ export function AboutPageContent() {
                     href="/program"
                     className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-gold/90"
                   >
-                    Full 10-day program
+                    2026 program archive
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
@@ -174,12 +177,33 @@ export function AboutPageContent() {
               <div className="relative mt-10 min-h-[280px] overflow-hidden rounded-3xl border border-white/10 lg:mt-0 lg:min-h-[420px]">
                 <Image
                   src={about.images.speakingOpportunity}
-                  alt="Blockchain Week - UNGA Edition in New York City"
+                  alt="Blockchain Week - UNGA Edition in Times Square, New York"
                   fill
                   className="object-cover object-[center_18%]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {edition2027 && (
+        <section id={edition2027.id} className="section-light py-16 sm:py-20">
+          <div className="mx-auto max-w-3xl px-4 lg:px-8">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-un-blue">04</p>
+            <h2 className="heading-font mt-3 text-3xl text-ink sm:text-4xl">{edition2027.title}</h2>
+            <div className="mt-8">
+              <LightStoryParagraphs paragraphs={edition2027.paragraphs} />
+            </div>
+            <div className="mt-8">
+              <Link
+                href={TICKETS_ANCHOR}
+                className="inline-flex items-center gap-2 rounded-full bg-un-blue px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-un-blue/90"
+              >
+                Get your 2027 pass
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
           </div>
         </section>
@@ -247,7 +271,7 @@ export function AboutPageContent() {
             <div className="flex flex-col justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
               <SectionHeader
                 title="Ready to be part of the story?"
-                subtitle="Limited speaking slots and sponsorship opportunities are available for leaders who want to shape the conversation during UNGA week in New York City."
+                subtitle="Limited speaking slots and sponsorship opportunities are available for leaders who want to shape the conversation during UNGA week in Times Square."
                 align="left"
                 className="mb-8"
               />

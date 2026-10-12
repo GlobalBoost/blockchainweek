@@ -1,48 +1,55 @@
 {
   "hero": {
     "subtitle": "Partnership opportunities for crypto, meme-coin & community-driven projects",
-    "lede": "Ten days of programming during the United Nations General Assembly and New York Fashion Week — anchored by a three-screen Times Square marquee takeover at the Hard Rock, Times Square.",
+    "lede": "Six days of programming during the United Nations General Assembly in Times Square, New York. Your brand is included in our digital creative Times Square billboard for the entire week.",
     "themeLine": "Energy · Fashion · Crypto · Privacy · AI · Space",
     "image": "/partnerships/marquee-hero.jpg",
-    "imageAlt": "Sponsor creative live on the Hard Rock Times Square marquee",
-    "imageCaption": "Sponsor creative live on the Hard Rock marquee — 1501 Broadway at W 43rd St"
+    "imageAlt": "Digital creative on our Times Square billboard",
+    "imageCaption": "Your brand is included in our digital creative Times Square billboard for the entire week of Blockchain Week - UNGA Edition 2027, September 13-18."
   },
   "stats": [
-    { "value": "34,560", "label": "Billboard plays · 3 screens · 20 days" },
-    { "value": "220,000+", "label": "Daily Times Square pedestrians" },
-    { "value": "500+", "label": "Attended the 2025 flagship gala" },
-    { "value": "1,450+", "label": "Registered for the 2026 gala" }
+    {
+      "value": "6",
+      "label": "Days in Times Square, September 13-18, 2027"
+    },
+    {
+      "value": "Week",
+      "label": "Included in our digital creative Times Square billboard"
+    },
+    {
+      "value": "500+",
+      "label": "Attended the flagship gala in past years"
+    },
+    {
+      "value": "Gold+",
+      "label": "Partners integrated within the creative"
+    }
   ],
   "billboard": {
-    "eyebrow": "The Times Square takeover",
-    "title": "Three screens. Every 2.5 minutes. 20 days.",
-    "lede": "Our 15-second creative runs on all three digital screens of the Hard Rock Times Square marquee — front plus both street-facing sides — around the clock for a 20-day flight. Partners at Gold and above are integrated within the creative: your own assets, a spot we produce for you, or your logo.",
+    "eyebrow": "Times Square billboard",
+    "title": "Included for the entire week",
+    "lede": "Your brand is included in our digital creative Times Square billboard for the entire week of Blockchain Week - UNGA Edition 2027, September 13-18. Partners at Gold and above are integrated within the creative: your own assets, a spot we produce for you, or your logo.",
     "bullets": [
       {
-        "title": "Every direction covered",
-        "description": "Front screen faces Broadway; both side screens catch cross-traffic through the heart of the Bowtie."
+        "title": "Entire week",
+        "description": "Your brand is included in our digital creative Times Square billboard for the entire week of Blockchain Week - UNGA Edition 2027, September 13-18."
       },
       {
-        "title": "Simultaneous rotation",
-        "description": "One campaign creative on all three screens at once, every 2.5 minutes, day and night."
+        "title": "Gold and above",
+        "description": "Partners at Gold and above are integrated within the creative: your own assets, a spot we produce for you, or your logo."
       },
       {
-        "title": "Built for sharing",
-        "description": "The most photographed intersection on earth — organic photos, shares, and FOMO that community tokens thrive on."
+        "title": "Priority for Presidential",
+        "description": "Presidential partners are included in our digital creative Times Square billboard for the entire week, with priority placement."
       },
       {
-        "title": "Proof for your community",
-        "description": "Professional capture of your placement for your channels and your investors."
+        "title": "Times Square, New York",
+        "description": "The week is anchored in Times Square, New York, September 13-18, 2027."
       }
     ],
-    "metrics": [
-      { "value": "1,728", "label": "Plays per day across all 3 screens" },
-      { "value": "11,520", "label": "Plays per screen over the flight" },
-      { "value": "34,560", "label": "Total plays · full campaign" },
-      { "value": "144 hrs", "label": "Cumulative on-screen time" }
-    ],
+    "metrics": [],
     "featureImage": "/partnerships/marquee-screens.jpg",
-    "featureImageAlt": "Front and side marquee screens running simultaneous sponsor creative",
+    "featureImageAlt": "Times Square billboard creative",
     "featureTag": "As seen in Times Square",
     "proofImages": [
       {
@@ -66,14 +73,14 @@
         "alt": "DNA creative on front and side screens"
       }
     ],
-    "partnerNote": "How partner placement works (Gold and above): your creative assets, a spot we produce for you, or your logo — integrated within our 15-second creative for the full 20-day flight. Presidential receives priority placement and prominence. Ideal fuel for community virality and brand legitimacy.",
-    "sourceNote": "Billboard audience: Times Square Alliance automated pedestrian counts — 2025 average 221,457 per day; 2025 single-day high 295,227. Figures represent Bowtie pedestrian volume, not verified ad impressions. Flight window approximately September 2–18, subject to final confirmation."
+    "partnerNote": "Partners at Gold and above are integrated within the creative: your own assets, a spot we produce for you, or your logo.",
+    "sourceNote": ""
   },
-  "packagesNote": "Gold and above includes placement in the three-screen Times Square campaign (15-second creative · every 2.5 minutes · ~20-day flight). À-la-carte add-ons are quoted separately.",
+  "packagesNote": "Gold and above are included in our digital creative Times Square billboard for the entire week. Add-ons are quoted separately.",
   "whyPartner": [
     {
       "title": "Viral visibility",
-      "description": "Your brand featured in our marquee creative across three screens for a 20-day flight — generating the organic photos, social shares, and FOMO that meme coins and community tokens thrive on."
+      "description": "Your brand is included in our digital creative Times Square billboard for the entire week of Blockchain Week - UNGA Edition 2027."
     },
     {
       "title": "Investor access",
@@ -93,60 +100,169 @@
     },
     {
       "title": "Holder & lead generation",
-      "description": "Qualified leads, new holders, and strategic introductions from a curated audience across government, capital, and crypto over ten intensive days."
+      "description": "Qualified leads, new holders, and strategic introductions from a curated audience across government, capital, and crypto during six days in Times Square."
     }
   ],
   "comparisonGroups": [
     {
       "label": "SPEAKING & CONTENT",
       "rows": [
-        { "benefit": "Speaking", "presidential": "Custom keynote", "platinum": "20-min keynote", "gold": "Panel seat", "silver": "–", "bronze": "–" },
-        { "benefit": "Thought leadership", "presidential": "Full campaign", "platinum": "Interview + article", "gold": "Featured quote", "silver": "Listing", "bronze": "–" }
+        {
+          "benefit": "Speaking",
+          "presidential": "Custom keynote",
+          "platinum": "20-min keynote",
+          "gold": "Panel seat",
+          "silver": "–",
+          "bronze": "–"
+        },
+        {
+          "benefit": "Thought leadership",
+          "presidential": "Full campaign",
+          "platinum": "Interview + article",
+          "gold": "Featured quote",
+          "silver": "Listing",
+          "bronze": "–"
+        }
       ]
     },
     {
       "label": "EXHIBITION",
       "rows": [
-        { "benefit": "Exhibition presence", "presidential": "Custom — largest footprint", "platinum": "Premium booth", "gold": "Full booth", "silver": "Exhibition space", "bronze": "Logo only" },
-        { "benefit": "Location priority", "presidential": "First choice", "platinum": "Premium zone", "gold": "High-traffic", "silver": "Standard", "bronze": "–" }
+        {
+          "benefit": "Exhibition presence",
+          "presidential": "Custom — largest footprint",
+          "platinum": "Premium booth",
+          "gold": "Full booth",
+          "silver": "Exhibition space",
+          "bronze": "Logo only"
+        },
+        {
+          "benefit": "Location priority",
+          "presidential": "First choice",
+          "platinum": "Premium zone",
+          "gold": "High-traffic",
+          "silver": "Standard",
+          "bronze": "–"
+        }
       ]
     },
     {
       "label": "TICKETS & ACCESS",
       "rows": [
-        { "benefit": "VIP tickets", "presidential": "Custom (high)", "platinum": "12", "gold": "6", "silver": "2", "bronze": "0" },
-        { "benefit": "GA tickets", "presidential": "Custom (high)", "platinum": "8", "gold": "6", "silver": "4", "bronze": "3" },
-        { "benefit": "Extra ticket discount", "presidential": "Priority", "platinum": "30%", "gold": "25%", "silver": "20%", "bronze": "15%" },
-        { "benefit": "VIP lounge", "presidential": "Full + private", "platinum": "Full access", "gold": "Full access", "silver": "Day passes", "bronze": "–" }
+        {
+          "benefit": "VIP tickets",
+          "presidential": "Custom (high)",
+          "platinum": "12",
+          "gold": "6",
+          "silver": "2",
+          "bronze": "0"
+        },
+        {
+          "benefit": "GA tickets",
+          "presidential": "Custom (high)",
+          "platinum": "8",
+          "gold": "6",
+          "silver": "4",
+          "bronze": "3"
+        },
+        {
+          "benefit": "Extra ticket discount",
+          "presidential": "Priority",
+          "platinum": "30%",
+          "gold": "25%",
+          "silver": "20%",
+          "bronze": "15%"
+        },
+        {
+          "benefit": "VIP lounge",
+          "presidential": "Full + private",
+          "platinum": "Full access",
+          "gold": "Full access",
+          "silver": "Day passes",
+          "bronze": "–"
+        }
       ]
     },
     {
       "label": "MARKETING & VISIBILITY",
       "rows": [
-        { "benefit": "Billboard creative placement (3 screens · 20 days)", "presidential": "Priority placement", "platinum": "Featured", "gold": "Featured", "silver": "–", "bronze": "–" },
-        { "benefit": "Logo priority", "presidential": "Highest / naming", "platinum": "Top tier", "gold": "Prominent", "silver": "Standard", "bronze": "Listing" },
-        { "benefit": "Dedicated emails", "presidential": "Custom series", "platinum": "2", "gold": "1", "silver": "Shared", "bronze": "–" },
-        { "benefit": "Social posts", "presidential": "Full campaign", "platinum": "4+ dedicated", "gold": "2 dedicated", "silver": "1–2 mentions", "bronze": "Group" },
-        { "benefit": "Global media", "presidential": "Full campaign", "platinum": "Yes", "gold": "Press inclusion", "silver": "–", "bronze": "–" },
-        { "benefit": "Post-event report", "presidential": "Custom analytics", "platinum": "Full + media", "gold": "Summary + photos", "silver": "Photos", "bronze": "–" }
+        {
+          "benefit": "Times Square billboard",
+          "presidential": "Included for the entire week (priority placement)",
+          "platinum": "Included for the entire week",
+          "gold": "Included for the entire week",
+          "silver": "–",
+          "bronze": "–"
+        },
+        {
+          "benefit": "Logo priority",
+          "presidential": "Highest / naming",
+          "platinum": "Top tier",
+          "gold": "Prominent",
+          "silver": "Standard",
+          "bronze": "Listing"
+        },
+        {
+          "benefit": "Dedicated emails",
+          "presidential": "Custom series",
+          "platinum": "2",
+          "gold": "1",
+          "silver": "Shared",
+          "bronze": "–"
+        },
+        {
+          "benefit": "Social posts",
+          "presidential": "Full campaign",
+          "platinum": "4+ dedicated",
+          "gold": "2 dedicated",
+          "silver": "1–2 mentions",
+          "bronze": "Group"
+        },
+        {
+          "benefit": "Global media",
+          "presidential": "Full campaign",
+          "platinum": "Yes",
+          "gold": "Press inclusion",
+          "silver": "–",
+          "bronze": "–"
+        },
+        {
+          "benefit": "Post-event report",
+          "presidential": "Custom analytics",
+          "platinum": "Full + media",
+          "gold": "Summary + photos",
+          "silver": "Photos",
+          "bronze": "–"
+        }
       ]
     }
   ],
   "availability": [
-    { "tier": "Presidential", "count": 1 },
-    { "tier": "Platinum", "count": 3 },
-    { "tier": "Gold", "count": 5 },
-    { "tier": "Silver", "count": 10 },
-    { "tier": "Bronze", "count": 20 }
+    {
+      "tier": "Presidential",
+      "count": 1
+    },
+    {
+      "tier": "Platinum",
+      "count": 3
+    },
+    {
+      "tier": "Gold",
+      "count": 5
+    },
+    {
+      "tier": "Silver",
+      "count": 10
+    },
+    {
+      "tier": "Bronze",
+      "count": 20
+    }
   ],
   "closingCta": {
     "eyebrow": "The week",
     "title": "Ready to put your project on the global stage?",
-    "lede": "Sept 2–18: the 20-day billboard flight. Sept 10–19: ten days of programming, including BitcoinPalooza and the ticket-free Orbital Runway kickoff. Sept 18: the Washington Elite Investment Summit & Gala — 500+ attended in 2025, 1,450+ already registered for 2026.",
-    "secondaryCta": {
-      "label": "Register for the gala",
-      "href": "https://luma.com/WashingtonEliteGala"
-    }
+    "lede": "September 13-18, 2027 in Times Square, New York. Your brand is included in our digital creative Times Square billboard for the entire week. The Washington Elite Investment Summit & Gala (date to be announced)."
   },
   "tiers": [
     {
@@ -162,7 +278,7 @@
       "ctaLabel": "Inquire",
       "footnote": "Designed around your exact strategic goals and success metrics.",
       "highlights": [
-        "Billboard: priority placement in our creative",
+        "Included in our digital creative Times Square billboard for the entire week (priority placement)",
         "Fully bespoke activation",
         "Private government + investor roundtable",
         "Custom keynote",
@@ -175,7 +291,7 @@
           "items": [
             "Fully bespoke partnership designed around your specific KPIs and objectives",
             "Dedicated sponsorship manager and custom activation planning",
-            "Priority placement in the three-screen Times Square marquee creative"
+            "Included in our digital creative Times Square billboard for the entire week (priority placement)"
           ]
         },
         {
@@ -199,7 +315,7 @@
           "items": [
             "Highest logo priority with optional naming / \"Presented by\" elements",
             "Custom email and social campaign series to the full audience",
-            "Billboard priority placement — 15-second creative across three screens for ~20 days",
+            "Included in our digital creative Times Square billboard for the entire week (priority placement)",
             "Comprehensive global media campaign and post-event analytics report"
           ]
         }
@@ -219,7 +335,7 @@
       "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "Billboard: featured in our creative",
+        "Included in our digital creative Times Square billboard for the entire week",
         "20-minute keynote",
         "Host an investor dinner",
         "Premium exhibition booth",
@@ -264,7 +380,7 @@
             "Top-tier logo placement (website, stage backdrop, program, app)",
             "2 dedicated email blasts to the full attendee list",
             "4+ dedicated social media posts + campaign assets",
-            "Billboard featured in our 15-second creative across three screens for ~20 days",
+            "Included in our digital creative Times Square billboard for the entire week",
             "Full post-event report with media assets and metrics"
           ]
         }
@@ -283,7 +399,7 @@
       "ctaLabel": "Inquire",
       "footnote": null,
       "highlights": [
-        "Billboard: featured in our creative",
+        "Included in our digital creative Times Square billboard for the entire week",
         "Panel speaker seat",
         "Full exhibition booth",
         "6 VIP + 6 GA tickets",
@@ -320,7 +436,7 @@
             "Prominent logo placement across website, program, and signage",
             "1 dedicated email blast",
             "2 dedicated social media posts",
-            "Billboard featured in our 15-second creative across three screens for ~20 days",
+            "Included in our digital creative Times Square billboard for the entire week",
             "Summary post-event report + photo assets"
           ]
         }
@@ -348,7 +464,9 @@
       "sections": [
         {
           "title": "Exhibition",
-          "items": ["Exhibition space with standard lead capture support"]
+          "items": [
+            "Exhibition space with standard lead capture support"
+          ]
         },
         {
           "title": "Tickets & Access",

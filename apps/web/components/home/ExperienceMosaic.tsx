@@ -9,9 +9,9 @@ export function ExperienceMosaic() {
     <section id="runway" className="section-dark scroll-mt-24 py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeader
-          eyebrow="NYFW × Blockchain Runway"
-          title="10 Days of Fire"
-          subtitle="Where New York Fashion Week meets on-chain innovation – runways, panels, and the Fashion-Tech Summit live during UNGA week."
+          eyebrow="From the runway"
+          title="Highlights from Past Editions"
+          subtitle="Runways, panels, and fashion-tech moments from past editions of Blockchain Week."
           theme="dark"
         />
 

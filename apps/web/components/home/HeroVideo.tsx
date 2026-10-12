@@ -12,7 +12,7 @@ export function HeroVideo() {
       <div className="absolute inset-0 bg-[#0a0a0f]" />
       <Image
         src="/hero/nyc-skyline.png"
-        alt="New York City skyline at night from the Brooklyn Bridge"
+        alt="Times Square, New York at night"
         fill
         priority
         className="object-cover object-[center_55%] sm:object-center"
@@ -31,7 +31,7 @@ export function HeroVideo() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/hero-wordmark.svg"
-            alt="Blockchain Week 2026"
+            alt="Blockchain Week 2027"
             width={1024}
             height={85}
             className="mx-auto mb-5 h-auto w-[min(88vw,44rem)] sm:mb-8 lg:mb-10"
@@ -52,7 +52,7 @@ export function HeroVideo() {
 
           {/* Meta line – below headline */}
           <p className="mx-auto mt-5 max-w-3xl text-[clamp(0.7rem,2.2vw,1.05rem)] font-medium uppercase tracking-[0.12em] text-un-blue sm:mt-10 sm:tracking-[0.18em] lg:mt-12 lg:text-base">
-            UNGA + NYFW 2026 · September 10–19, 2026 · New York City
+            UNGA 2027 · September 13-18, 2027 · Times Square, New York
           </p>
 
           {/* CTAs – spaced from headline and from next section */}
@@ -67,7 +67,7 @@ export function HeroVideo() {
               href="/#featured-speakers"
               className="inline-flex min-h-[3rem] items-center justify-center rounded-full border border-white/25 bg-white/5 px-8 py-3.5 text-sm font-bold uppercase tracking-wider text-white backdrop-blur-sm transition hover:border-un-blue hover:text-un-blue sm:min-w-[220px]"
             >
-              See Our Speakers
+              See Past Speakers
             </Link>
           </div>
         </div>

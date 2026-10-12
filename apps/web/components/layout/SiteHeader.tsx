@@ -6,10 +6,11 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Menu, Ticket, X } from "lucide-react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { BRAND_NAME, LOGO_HEIGHT, LOGO_MAIN, LOGO_WIDTH, TICKETS_ANCHOR, TICKETS_SECTION_HASH } from "@/lib/brand-constants";
+import { BRAND_NAME, FIRESIDE_PATH, LOGO_HEIGHT, LOGO_MAIN, LOGO_WIDTH, TICKETS_ANCHOR, TICKETS_SECTION_HASH } from "@/lib/brand-constants";
 
 const NAV_LINKS = [
   { name: "Home", href: "/" },
+  { name: "Watch", href: FIRESIDE_PATH },
   { name: "About", href: "/about" },
   { name: "Program", href: "/program" },
   { name: "Speakers", href: "/speakers" },
@@ -83,7 +84,7 @@ export function SiteHeader() {
     );
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/10 bg-white/95 shadow-sm backdrop-blur-md">
+    <header className="border-b border-black/10 bg-white/95 shadow-sm backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center">
           <Image
@@ -96,7 +97,7 @@ export function SiteHeader() {
           />
         </Link>
 
-        <div className="hidden items-center gap-5 lg:flex">
+        <div className="hidden items-center gap-4 xl:flex">
           {NAV_LINKS.map((item) => (
             <Link key={item.href} href={item.href} className={linkClass(item.href)}>
               {item.name}
@@ -152,7 +153,7 @@ export function SiteHeader() {
           </Link>
           <button
             type="button"
-            className="rounded-md p-2 text-ink lg:hidden"
+            className="rounded-md p-2 text-ink xl:hidden"
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >
@@ -162,7 +163,7 @@ export function SiteHeader() {
       </nav>
 
       {open && (
-        <div className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-black/10 bg-white px-4 py-4 lg:hidden">
+        <div className="max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-black/10 bg-white px-4 py-4 xl:hidden">
           <div className="flex flex-col gap-3">
             {NAV_LINKS.map((item) => (
               <Link

@@ -5,9 +5,7 @@ import {
   EVENT_DATES,
   SOCIAL_PREVIEW_IMAGE,
   UN_DISCLAIMER,
-  VENUE_FULL,
-  VENUE_NAME,
-  VENUE_STREET,
+  EVENT_LOCATION,
 } from "@/lib/brand-constants";
 
 export function EventJsonLd() {
@@ -40,22 +38,20 @@ export function EventJsonLd() {
       {
         "@type": "Event",
         "@id": eventId,
-        name: `${BRAND_NAME} 2026`,
-        description: `${BRAND_DESCRIPTION} Primary venue: ${VENUE_FULL}.`,
-        startDate: "2026-09-10",
-        endDate: "2026-09-19",
+        name: `${BRAND_NAME} 2027`,
+        description: `${BRAND_DESCRIPTION} Location: ${EVENT_LOCATION}.`,
+        startDate: "2027-09-13",
+        endDate: "2027-09-18",
         eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
         eventStatus: "https://schema.org/EventScheduled",
         image: [`${siteUrl}${SOCIAL_PREVIEW_IMAGE}`],
         location: {
           "@type": "Place",
-          name: VENUE_NAME,
+          name: EVENT_LOCATION,
           address: {
             "@type": "PostalAddress",
-            streetAddress: VENUE_STREET,
             addressLocality: "New York",
             addressRegion: "NY",
-            postalCode: "10019",
             addressCountry: "US",
           },
         },
@@ -65,9 +61,11 @@ export function EventJsonLd() {
           "@type": "Offer",
           url: `${siteUrl}/#tickets`,
           availability: "https://schema.org/InStock",
-          validFrom: "2026-01-01",
+          validFrom: "2026-10-01",
+          price: "79",
+          priceCurrency: "USD",
         },
-        disambiguatingDescription: `${EVENT_DATES} · ${VENUE_FULL}`,
+        disambiguatingDescription: `${EVENT_DATES} · ${EVENT_LOCATION}`,
       },
     ],
   };

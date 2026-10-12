@@ -1,5 +1,5 @@
 export const BRAND_NAME = "Blockchain Week - UNGA Edition";
-export const BRAND_SEO_TITLE = "Blockchain Week - UNGA Edition 2026 · New York City";
+export const BRAND_SEO_TITLE = "Blockchain Week - UNGA Edition 2027 · Times Square, New York";
 export const LOGO_WHITE = "/brand/logo-white.png";
 export const LOGO_MAIN = "/brand/logo-main.png";
 export const LOGO_BLACK = "/brand/logo-black.png";
@@ -9,17 +9,14 @@ export const SOCIAL_PREVIEW_IMAGE = "/opengraph-image.png";
 export const SOCIAL_PREVIEW_WIDTH = 1200;
 export const SOCIAL_PREVIEW_HEIGHT = 630;
 export const BRAND_TAGLINE =
-  "Bitcoin · AI & Energy · Space · Fashion – during UNGA + NYFW";
+  "Bitcoin · AI & Energy · Space · Fashion during UNGA 2027";
 export const BRAND_DESCRIPTION =
-  "Blockchain Week - UNGA Edition 2026 is the premier 10-day blockchain gathering during the United Nations General Assembly and New York Fashion Week in New York City, anchored at Gallery MC.";
+  "Blockchain Week - UNGA Edition 2027 is a six-day blockchain gathering during the United Nations General Assembly in Times Square, New York.";
 export const BRAND_KEYWORDS = [
   "Blockchain Week - UNGA Edition",
-  "Blockchain Week UNGA Edition 2026",
+  "Blockchain Week UNGA Edition 2027",
   "UNGA",
-  "UNGA 81",
-  "New York Fashion Week",
-  "NYFW",
-  "Gallery MC",
+  "UNGA 82",
   "Times Square",
   "blockchain conference",
   "Bitcoin",
@@ -27,18 +24,21 @@ export const BRAND_KEYWORDS = [
 ] as const;
 export const BRAND_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.blockchainweek.ai";
-export const EVENT_DATES = "September 10–19, 2026";
-export const EVENT_LOCATION = "New York City";
-export const VENUE_NAME = "Gallery MC";
-export const VENUE_STREET = "549 W 52nd St";
-export const VENUE_CITY_LINE = "New York, NY 10019";
-export const VENUE_FULL = `${VENUE_NAME}, ${VENUE_STREET}, ${VENUE_CITY_LINE}`;
-export const CONFERENCE_DATES = "September 16–17, 2026";
-export const CONFERENCE_LOCATION = VENUE_FULL;
-export const CONFERENCE_EYEBROW = `${CONFERENCE_DATES} · ${VENUE_NAME}`;
+export const EVENT_DATES = "September 13-18, 2027";
+export const EVENT_LOCATION = "Times Square, New York";
+export const VENUE_NAME = "Times Square";
+export const VENUE_STREET = "";
+export const VENUE_CITY_LINE = "New York, NY";
+export const VENUE_FULL = EVENT_LOCATION;
+export const CONFERENCE_DATES = "Dates to be announced";
+export const CONFERENCE_LOCATION = EVENT_LOCATION;
+export const CONFERENCE_EYEBROW = `Flagship conference days: ${CONFERENCE_DATES}`;
 export const UN_DISCLAIMER =
-  "Blockchain Week 2026 (UNGA Edition) is an independent initiative and is not affiliated with the United Nations.";
+  "Blockchain Week - UNGA Edition is an independent initiative and is not affiliated with the United Nations.";
+export const FIRESIDE_DISCLAIMER =
+  "Blockchain Week - UNGA Edition is an independent initiative and is not affiliated with the United Nations. Candidates for Secretary-General appear in their personal capacity.";
 export const CONTACT_EMAIL = "contact@blockchainweek.ai";
+export const CONTACT_PHONE = "(202) 436-6577";
 export const SPONSORSHIP_EMAIL = "sponsorships@blockchainweek.ai";
 export const NOREPLY_EMAIL = "noreply@blockchainweek.ai";
 
@@ -49,8 +49,8 @@ export const LEGACY_SITE_HOSTS = [
 ] as const;
 
 export const TICKET_CHECKOUT = {
-  ga: "https://buy.stripe.com/fZu9AS0Tj7FQbr29RJfjG12",
-  vip: "https://buy.stripe.com/eVq3cu1Xn5xI9iU2phfjG11",
+  ga: "https://buy.stripe.com/aFa28qbxX3pAdza8NFfjG16",
+  vip: "https://buy.stripe.com/00wcN47hH8JUamYaVNfjG17",
 } as const;
 
 export const TICKETS_SECTION_ID = "tickets";
@@ -58,3 +58,12 @@ export const TICKETS_SECTION_HASH = `#${TICKETS_SECTION_ID}`;
 export const TICKETS_ANCHOR = `/${TICKETS_SECTION_HASH}`;
 
 export const SESSIONIZE_SPEAKERS_URL = "https://sessionize.com/UN-Blockchain-Week";
+
+export const FIRESIDE_PATH = "/ai-peace-united-nations-2027";
+/** Fill in when the Luma event is published. Falls back to the public calendar. */
+export const FIRESIDE_LUMA_URL = "";
+/** Fill in when the YouTube live or replay ID is ready. */
+export const YOUTUBE_VIDEO_ID = "";
+export const FIRESIDE_START_ISO = "2026-10-13T10:00:00-04:00";
+/** Live window ends two hours after the start, then the page switches to replay. */
+export const FIRESIDE_LIVE_END_ISO = "2026-10-13T12:00:00-04:00";

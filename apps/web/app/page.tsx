@@ -1,4 +1,5 @@
 import { HeroVideo } from "@/components/home/HeroVideo";
+import { FiresideFeature } from "@/components/home/FiresideFeature";
 import { StatsBar } from "@/components/home/StatsBar";
 import { NarrativeSection } from "@/components/home/NarrativeSection";
 import { KeyThemesSection } from "@/components/home/KeyThemesSection";
@@ -12,6 +13,7 @@ import { MediaPartnerGrid } from "@/components/sponsors/MediaPartnerGrid";
 import { CTASection } from "@/components/ui/CTASection";
 import { HomeScrollRestore } from "@/components/home/HomeScrollRestore";
 import { getFeaturedSpeakers } from "@/lib/content";
+import { getFiresidePhase } from "@/lib/fireside";
 
 export default function HomePage() {
   const featuredSpeakers = getFeaturedSpeakers();
@@ -20,6 +22,7 @@ export default function HomePage() {
     <>
       <HomeScrollRestore />
       <HeroVideo />
+      <FiresideFeature initialPhase={getFiresidePhase()} />
       <StatsBar />
       <NarrativeSection />
       <KeyThemesSection />

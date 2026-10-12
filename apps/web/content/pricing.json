@@ -3,32 +3,32 @@
     "id": "ga",
     "name": "General Admission",
     "subtitle": "Full Week Access",
-    "price": 399,
-    "checkoutUrl": "https://buy.stripe.com/fZu9AS0Tj7FQbr29RJfjG12",
-    "ctaLabel": "Buy General Admission – $399",
+    "price": 79,
+    "checkoutUrl": "https://buy.stripe.com/aFa28qbxX3pAdza8NFfjG16",
+    "ctaLabel": "Buy General Admission – $79",
     "features": [
-      "Access to all public events, panels & runways",
-      "Bitcoin, AI, Energy, Space & Fashion-Tech content",
+      "Access to all public events, panels and runways",
+      "Bitcoin, AI, Energy, Space and Fashion-Tech content",
       "Networking with 1,000+ visionaries",
-      "Live calendar + side events",
-      "Digital pass & recordings"
+      "Live calendar and side events",
+      "Digital pass and recordings"
     ]
   },
   {
     "id": "vip",
     "name": "VIP Pass",
     "subtitle": "All-Access + Gala",
-    "price": 1499,
+    "price": 399,
     "popular": true,
-    "checkoutUrl": "https://buy.stripe.com/eVq3cu1Xn5xI9iU2phfjG11",
-    "ctaLabel": "Buy VIP Pass – $1,499",
+    "checkoutUrl": "https://buy.stripe.com/00wcN47hH8JUamYaVNfjG17",
+    "ctaLabel": "Buy VIP Pass – $399",
     "features": [
       "Everything in General Admission",
-      "Washington Elite Investment Summit & Gala – Sept 18, Gallery MC",
+      "Washington Elite Investment Summit & Gala access",
       "Premium networking lounge access",
-      "VIP swag bag + photo ops",
+      "VIP swag bag and photo ops",
       "Priority seating at all key events",
-      "Private after-parties & investor dinners"
+      "Private after-parties and investor dinners"
     ]
   }
 ]

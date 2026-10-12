@@ -1,6 +1,6 @@
 {
   "hero": {
-    "subtitle": "Fifteen years of blockchain events worldwide — now our biggest chapter yet."
+    "subtitle": "Fifteen years of blockchain events worldwide, and six days in Times Square in 2027."
   },
   "metrics": [
     {
@@ -14,14 +14,14 @@
       "description": "Washington Elite Investment Summit & Gala in past years"
     },
     {
-      "value": "10",
+      "value": "6",
       "label": "Days",
-      "description": "September 10–19, 2026 · New York City"
+      "description": "September 13-18, 2027 · Times Square, New York"
     },
     {
-      "value": "2",
+      "value": "TBA",
       "label": "Flagship Days",
-      "description": "First-ever two-day conference · September 16–17, 2026"
+      "description": "Flagship conference days: dates to be announced"
     }
   ],
   "sections": [
@@ -29,29 +29,37 @@
       "id": "heritage",
       "title": "Fifteen Years in the Making",
       "paragraphs": [
-        "Blockchain Week - UNGA Edition is produced by brothers Bruce Porter Jr. and David Porter, who've spent close to 15 years building blockchain events around the world. What began as a decentralized, grassroots gathering during UN General Assembly week in New York has grown, year over year, into a 10-day program spanning Bitcoin, AI, space, energy, and fashion-tech."
+        "Blockchain Week - UNGA Edition is produced by brothers Bruce Porter Jr. and David Porter, who've spent close to 15 years building blockchain events around the world. What began as a decentralized, grassroots gathering during UN General Assembly week in New York has grown, year over year, into programming spanning Bitcoin, AI, space, energy, and fashion-tech."
       ]
     },
     {
       "id": "ground-up",
       "title": "From the Ground Up",
       "paragraphs": [
-        "In its earliest years, the event grew organically — other UNGA-week gatherings wanted to be part of it, and that momentum led to BitcoinPalooza and the Washington Elite Investment Summit & Gala, which has drawn approximately 500 attendees in past years. That grassroots growth is also how much of today's leadership found their way in: Lou Kerner and David Fung both first joined as speakers at BitcoinPalooza and Washington Elite before stepping into leadership roles at Blockchain Week - UNGA Edition itself."
+        "In its earliest years, the event grew organically. Other UNGA-week gatherings wanted to be part of it, and that momentum led to BitcoinPalooza and the Washington Elite Investment Summit & Gala, which has drawn approximately 500 attendees in past years. That grassroots growth is also how much of today's leadership found their way in: Lou Kerner and David Fung both first joined as speakers at BitcoinPalooza and Washington Elite before stepping into leadership roles at Blockchain Week - UNGA Edition itself."
       ]
     },
     {
-      "id": "next-chapter",
+      "id": "recap-2026",
       "title": "2026: The Next Chapter",
       "paragraphs": [
-        "This year brings our first flagship two-day conference (September 16–17) at Gallery MC, anchoring a full 10-day program running September 10–19 in New York City, timed alongside both the UN General Assembly and New York Fashion Week. Growing interest — and this year's geopolitical backdrop — pushed us to expand the format for the first time.",
-        "You'll also find us on the Hard Rock Marquee this year: a Times Square billboard running across three screens, every 2.5 minutes, for the full 10 days. We're proud to be collaborating with Paul Sladkus's Pause the World for Peace outdoor concert, closing out the week in Times Square on the final day."
+        "In 2026 we held our first two-day flagship conference, anchoring a full program in New York City timed alongside the UN General Assembly. Growing interest, and that year's geopolitical backdrop, pushed us to expand the format for the first time.",
+        "We also ran a Times Square billboard and collaborated with Paul Sladkus's Pause the World for Peace outdoor concert, closing out the week in Times Square."
+      ]
+    },
+    {
+      "id": "edition-2027",
+      "title": "2027: Six Days in Times Square",
+      "paragraphs": [
+        "Blockchain Week - UNGA Edition 2027 runs September 13-18, 2027, in Times Square, New York. Six days of programming bring Bitcoin, AI, energy, space, and fashion-tech together during United Nations General Assembly week.",
+        "Your brand is included in our digital creative Times Square billboard for the entire week. The Washington Elite Investment Summit & Gala returns, with the date to be announced. The 2027 program and speaker lineup will be announced soon."
       ]
     }
   ],
   "leadership": {
     "title": "Leadership & Speakers",
     "paragraphs": [
-      "Bruce and David are joined by a growing leadership team, including Lou Kerner, David Fung, and Jimmy Nguyen. Every speaker on our 2026 roster is confirmed — including returning voices Brock Pierce, Liberland President Vít Jedlička, Lou Kerner, Karla Ballard, Vin Menon, and David Fung, several of whom are also event sponsors, alongside speakers joining our stage for the first time."
+      "Bruce and David are joined by a growing leadership team, including Lou Kerner, David Fung, and Jimmy Nguyen. Returning and past speakers include Brock Pierce, Liberland President Vít Jedlička, Lou Kerner, Karla Ballard, Vin Menon, and David Fung, several of whom are also event sponsors. 2027 speakers will be announced soon."
     ],
     "featuredSpeakerSlugs": [
       "brock-pierce",
@@ -61,13 +69,13 @@
       "dr-vin-menon",
       "david-fung"
     ],
-    "ctaLabel": "See the full confirmed 2026 speaker lineup",
+    "ctaLabel": "See past speakers",
     "ctaHref": "/speakers"
   },
   "mission": {
     "title": "Our Mission",
     "paragraphs": [
-      "We're not the bankers — we're the monetary revolution guys, the ones who've been building blockchain and blockchain events for 15 years. As the space has matured, the institutions have gotten involved too, and that's exactly the gap we want to help close: bringing the big and the small together, so the industry can chart its path forward in a way that includes everyone in the room."
+      "We're not the bankers. We're the monetary revolution guys, the ones who've been building blockchain and blockchain events for 15 years. As the space has matured, the institutions have gotten involved too, and that's exactly the gap we want to help close: bringing the big and the small together, so the industry can chart its path forward in a way that includes everyone in the room."
     ]
   },
   "images": {

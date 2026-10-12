@@ -24,7 +24,7 @@ export function AlsoSpeaking({
 
   return (
     <div className="mt-12 border-t border-white/10 pt-12">
-      <h2 className="heading-font mb-8 text-2xl sm:text-3xl">Also speaking</h2>
+      <h2 className="heading-font mb-8 text-2xl sm:text-3xl">Other past speakers</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((speaker) => (
           <div key={speaker.slug} className="h-full">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { TICKETS_ANCHOR } from "@/lib/brand-constants";
+import { FIRESIDE_PATH, TICKETS_ANCHOR } from "@/lib/brand-constants";
 import { Globe } from "lucide-react";
 import { TweetEmbed } from "@/components/speakers/TweetEmbed";
 import { SpeakerBackButton } from "@/components/speakers/SpeakerBackButton";
@@ -111,6 +111,9 @@ export function SpeakerPageContent({
               </div>
 
               <div className="min-w-0 lg:col-span-7">
+                <p className="mb-3 inline-flex rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-gold">
+                  Past Speaker · 2026
+                </p>
                 <h1 className="heading-font break-words text-3xl sm:text-5xl">{speaker.name}</h1>
                 <p className="mt-4 text-lg font-medium leading-relaxed text-un-blue sm:text-2xl">
                   {speaker.title}
@@ -123,6 +126,15 @@ export function SpeakerPageContent({
                 {!speaker.subtitle && speaker.company && (
                   <p className="mt-3 text-base text-white/70 sm:text-lg">{speaker.company}</p>
                 )}
+
+                {speaker.slug === "karla-ballard" ? (
+                  <Link
+                    href={FIRESIDE_PATH}
+                    className="mt-6 inline-flex text-sm font-semibold text-gold hover:underline"
+                  >
+                    Watch Karla with Ivonne A-Baki: The Human Future
+                  </Link>
+                ) : null}
 
                 <div className="mt-8 flex flex-wrap items-center gap-3">
                   {speaker.social?.linkedin && (

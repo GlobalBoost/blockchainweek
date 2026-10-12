@@ -6,7 +6,7 @@ import { BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: `News, op-eds, and updates from ${BRAND_NAME} 2026 – speakers, UNGA 81, Bitcoin, and global blockchain policy.`,
+  description: `News, op-eds, and updates from ${BRAND_NAME}: speakers, UNGA, Bitcoin, and global blockchain policy.`,
   alternates: { canonical: "/blog" },
 };
 

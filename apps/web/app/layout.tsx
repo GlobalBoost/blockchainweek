@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
 import { PostHogPageView } from "@/components/analytics/PostHogPageView";
+import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { ScrollToTopOnNavigate } from "@/components/layout/ScrollToTopOnNavigate";
@@ -32,7 +33,7 @@ const socialImage = {
   url: SOCIAL_PREVIEW_IMAGE,
   width: SOCIAL_PREVIEW_WIDTH,
   height: SOCIAL_PREVIEW_HEIGHT,
-  alt: `${BRAND_NAME} 2026`,
+  alt: `${BRAND_NAME} 2027`,
 };
 
 export const metadata: Metadata = {
@@ -87,7 +88,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <PostHogPageView />
         </Suspense>
         <ScrollToTopOnNavigate />
-        <SiteHeader />
+        <div className="sticky top-0 z-50">
+          <AnnouncementBar />
+          <SiteHeader />
+        </div>
         <main className="flex-1">{children}</main>
         <SiteFooter />
       </body>

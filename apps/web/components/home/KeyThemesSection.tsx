@@ -20,9 +20,9 @@ export function KeyThemesSection() {
     <section id="key-themes" className="section-dark py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeader
-          eyebrow="2026 Focus Areas"
+          eyebrow="2027 Focus Areas"
           title="The Convergence of Tomorrow's Biggest Industries"
-          subtitle="Where the future of humanity is being built – live during UNGA and New York Fashion Week"
+          subtitle="Where the future of humanity is being built, live during UNGA week in Times Square."
           theme="dark"
         />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -43,7 +43,7 @@ export function KeyThemesSection() {
             href={TICKETS_ANCHOR}
             className="rounded-full bg-un-blue px-8 py-3 text-sm font-bold uppercase transition hover:bg-un-blue/90"
           >
-            Register for 2026
+            Register for 2027
           </Link>
         </div>
       </div>

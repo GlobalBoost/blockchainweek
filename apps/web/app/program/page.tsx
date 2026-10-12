@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { ProgramSchedule } from "@/components/program/ProgramSchedule";
-import { TicketPricing } from "@/components/home/TicketPricing";
-import { CTASection } from "@/components/ui/CTASection";
+import { LumaEmbed } from "@/components/events/LumaEmbed";
 import { getProgramAgenda } from "@/lib/content";
-import { BRAND_NAME, SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH, TICKETS_SECTION_HASH } from "@/lib/brand-constants";
+import { BRAND_NAME, SOCIAL_PREVIEW_HEIGHT, SOCIAL_PREVIEW_WIDTH } from "@/lib/brand-constants";
 
-const description = `${BRAND_NAME} 2026 confirmed programming – timed run of show for Orbital Runway, CryptoMondays, Liberland Meetup, the Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and Pause the World for Peace.`;
+const description = `2026 Program (archive) for ${BRAND_NAME}. The 2027 program will be announced soon. The live calendar is on Luma.`;
 
 export const metadata: Metadata = {
   title: "Confirmed Programming",
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
         url: "/program/opengraph-image",
         width: SOCIAL_PREVIEW_WIDTH,
         height: SOCIAL_PREVIEW_HEIGHT,
-        alt: "Confirmed Programming for Blockchain Week - UNGA Edition 2026",
+        alt: "2026 Program archive for Blockchain Week - UNGA Edition",
       },
     ],
   },
@@ -38,9 +37,19 @@ export default function ProgramPage() {
 
   return (
     <>
+      <div className="bg-gold px-4 py-3 text-center text-sm font-semibold text-black">
+        2026 Program (archive). The 2027 program will be announced soon.
+      </div>
+      <section className="section-light py-10">
+        <div className="mx-auto max-w-5xl px-4 lg:px-8">
+          <h2 className="heading-font mb-4 text-2xl text-ink">2027 calendar</h2>
+          <p className="mb-6 text-sm text-ink-muted">
+            Confirmed 2027 events are added to the Luma calendar as they are announced.
+          </p>
+          <LumaEmbed />
+        </div>
+      </section>
       <ProgramSchedule agenda={agenda} />
-      <TicketPricing />
-      <CTASection ticketsHref={TICKETS_SECTION_HASH} />
     </>
   );
 }

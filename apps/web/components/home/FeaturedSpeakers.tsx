@@ -19,7 +19,7 @@ export function FeaturedSpeakers({ speakers }: { speakers: Speaker[] }) {
     <section id="featured-speakers" className="section-light scroll-mt-20 py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <SectionHeader
-          eyebrow="Our speakers"
+          eyebrow="Past speakers"
           title="Meet the Visionaries"
           subtitle="Bitcoin OGs, AI pioneers, policymakers and founders shaping the future"
           theme="light"
@@ -43,7 +43,7 @@ export function FeaturedSpeakers({ speakers }: { speakers: Speaker[] }) {
             href="/speakers"
             className="rounded-full border border-un-blue px-8 py-3 text-sm font-bold uppercase tracking-wider text-un-blue transition hover:bg-un-blue hover:text-white"
           >
-            See All Speakers
+            See All Past Speakers
           </Link>
         </div>
       </div>

@@ -8,7 +8,7 @@ import {
 } from "@/lib/brand-constants";
 
 export const alt =
-  "Confirmed Programming for Blockchain Week - UNGA Edition 2026 at Gallery MC, New York City";
+  "2026 Program archive for Blockchain Week - UNGA Edition in Times Square, New York";
 
 export const size = {
   width: 1200,
@@ -191,8 +191,7 @@ export default async function Image() {
                 maxWidth: 900,
               }}
             >
-              Timed run of show for CryptoMondays, Liberland Meetup, the Gallery MC main stage,
-              BitcoinPalooza, and the Washington Elite Investment Summit & Gala.
+              2026 Program archive. The 2027 program will be announced soon.
             </div>
           </div>
 
@@ -226,7 +225,7 @@ export default async function Image() {
                 color: "rgba(255,255,255,0.7)",
               }}
             >
-              UNGA + NYFW 2026
+              UNGA 2027
             </div>
           </div>
         </div>

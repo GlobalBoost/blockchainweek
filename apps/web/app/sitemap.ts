@@ -12,6 +12,7 @@ const STATIC_ROUTES = [
   "/team",
   "/speak",
   "/contact",
+  "/ai-peace-united-nations-2027",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -12,14 +12,14 @@
     "discountLabel": "Special rate for CryptoEvents community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -37,14 +37,14 @@
     "discountLabel": "Special rate for CoinCarp community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"
@@ -62,14 +62,14 @@
     "discountLabel": "Special rate for CryptoNomads community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"
@@ -87,14 +87,14 @@
     "discountLabel": "Special rate for CryptoNewsZ community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -112,14 +112,14 @@
     "discountLabel": "Special rate for CapitalBay News community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "compact"
@@ -137,14 +137,14 @@
     "discountLabel": "Special rate for CryptoNews.ge community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "square"
@@ -162,14 +162,14 @@
     "discountLabel": "Special rate for CoinTurk community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"
@@ -187,14 +187,14 @@
     "discountLabel": "Special rate for Times of Blockchain community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "compact"
@@ -212,14 +212,14 @@
     "discountLabel": "Special rate for CriptoNoticias community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -236,14 +236,14 @@
     "discountLabel": "Special rate for Blockchain Ninja community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     }
   },
@@ -260,14 +260,14 @@
     "discountLabel": "Special rate for CoinsCapture community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -285,14 +285,14 @@
     "discountLabel": "Special rate for Toobit community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -310,14 +310,14 @@
     "discountLabel": "Special rate for CryptoTotem community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -335,14 +335,14 @@
     "discountLabel": "Special rate for Bitcoin Insider community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"
@@ -360,14 +360,14 @@
     "discountLabel": "Special rate for Crypto.News community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -385,14 +385,14 @@
     "discountLabel": "Special rate for Coin Gabbar community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"
@@ -410,14 +410,14 @@
     "discountLabel": "Special rate for AMBCrypto community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "banner"
@@ -435,14 +435,14 @@
     "discountLabel": "Special rate for Liberland community",
     "pricing": {
       "ga": {
-        "publicPrice": 399,
-        "partnerPrice": 359.1,
-        "checkoutUrl": "https://buy.stripe.com/eVqfZgbxX4tE8eQ8NFfjG0V"
+        "publicPrice": 79,
+        "partnerPrice": 71.1,
+        "checkoutUrl": "https://buy.stripe.com/6oU8wOdG53pAbr24xpfjG19"
       },
       "vip": {
-        "publicPrice": 1499,
-        "partnerPrice": 1349.1,
-        "checkoutUrl": "https://buy.stripe.com/9B614mbxX6BMbr2d3VfjG0U"
+        "publicPrice": 399,
+        "partnerPrice": 359.1,
+        "checkoutUrl": "https://buy.stripe.com/7sY7sKeK9f8i66I0h9fjG18"
       }
     },
     "logoFit": "wide"

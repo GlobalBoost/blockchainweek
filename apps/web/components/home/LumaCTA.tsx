@@ -16,10 +16,10 @@ export function LumaCTA() {
               Live Event Calendar
             </p>
             <h2 className="heading-font mt-3 text-3xl leading-tight text-white sm:text-4xl">
-              Everything Happening During UNGA + NYFW
+              Everything Happening During UNGA Week
             </h2>
             <p className="mt-4 max-w-md text-base leading-relaxed text-white/75">
-              Side events, panels, runways, and networking nights across New York City – updated live on
+              Side events, panels, runways, and networking nights in Times Square, New York, updated live on
               Luma.
             </p>
 

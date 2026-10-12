@@ -3,7 +3,7 @@ import { BRAND_NAME } from "@/lib/brand-constants";
 
 export const metadata: Metadata = {
   title: "Visa Invitation Letter",
-  description: `Request an official invitation letter for visa purposes for ${BRAND_NAME} 2026 in New York.`,
+  description: `Request an official invitation letter for visa purposes for ${BRAND_NAME}, September 13-18, 2027, in Times Square, New York.`,
   alternates: { canonical: "/visa-invitation" },
 };
 

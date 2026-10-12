@@ -33,7 +33,7 @@ function buildCTAs(ticketsHref: string): CTAItem[] {
   return [
     {
       title: "Register Now",
-      desc: "Secure your spot for UNGA + NYFW week before prices rise.",
+      desc: "Secure your spot for UNGA week 2027 at Early, Early Bird pricing.",
       href: ticketsHref,
       cta: "Get tickets",
       icon: Ticket,
@@ -50,7 +50,7 @@ function buildCTAs(ticketsHref: string): CTAItem[] {
     },
     {
       title: "Become a Partner",
-      desc: "Showcase your brand to global leaders during the most influential week in NYC.",
+      desc: "Showcase your brand to global leaders during UNGA week in Times Square.",
       href: "/partnerships",
       cta: "View packages",
       icon: Handshake,
@@ -76,7 +76,7 @@ export function CTASection({ ticketsHref = TICKETS_ANCHOR }: { ticketsHref?: str
           title="The Future Is Here."
           subtitle={
             <>
-              Three ways to be part of <BrandName /> during UNGA + NYFW week.
+              Three ways to be part of <BrandName /> during UNGA week 2027.
             </>
           }
           className="mb-12"

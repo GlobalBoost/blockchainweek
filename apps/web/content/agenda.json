@@ -1,12 +1,12 @@
 {
   "title": "Confirmed Programming",
-  "summary": "Timed run of show for Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and Pause the World for Peace.",
+  "summary": "Timed run of show for Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Times Square main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and Pause the World for Peace.",
   "days": [
     {
       "id": "orbital",
-      "label": "Thursday, September 10",
+      "label": "Thursday, 10 September",
       "hours": "6:00 pm – 10:00 pm",
-      "venue": "Hard Rock Cafe Times Square · Legends Bar + New York Room",
+      "venue": "Times Square, New York",
       "theme": "Opening night. A space-themed fashion kickoff with Hooked-App — immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers.",
       "dateLabel": "Sep 10",
       "dayShort": "Thu",
@@ -27,7 +27,7 @@
       "id": "marquee",
       "label": "Saturday, September 12",
       "hours": "VVIP · Media Moment",
-      "venue": "On top of the Times Square billboard (the 3-sided marquee on the front of the Hard Rock Cafe)",
+      "venue": "Times Square, New York",
       "theme": "Exclusive gathering for sponsors and media with direct access to the iconic three-screen Times Square marquee for branding, photos, and media coverage.",
       "dateLabel": "Sep 12",
       "dayShort": "Sat",
@@ -105,8 +105,8 @@
       "id": "tue",
       "label": "Tuesday, September 15",
       "hours": "6:00 pm – 9:00 pm",
-      "venue": "Tech Tuesdays · Liberland Meetup · Gallery MC, 549 W 52nd St, New York, NY 10019",
-      "theme": "Tech Tuesdays hosts the official Liberland Meetup at Gallery MC. Doors open for networking, then President Vít Jedlička welcomes the room ahead of two panels – sovereignty in practice, and the headline conversation on liberty, privacy, and ownership from Liberland to the ledger – before an open mixer closes the night.",
+      "venue": "Tech Tuesdays · Liberland Meetup · Times Square, New York",
+      "theme": "Tech Tuesdays hosts the official Liberland Meetup at Times Square. Doors open for networking, then President Vít Jedlička welcomes the room ahead of two panels – sovereignty in practice, and the headline conversation on liberty, privacy, and ownership from Liberland to the ledger – before an open mixer closes the night.",
       "dateLabel": "Sep 15",
       "dayShort": "Tue",
       "sessions": [
@@ -214,8 +214,8 @@
       "id": "wed",
       "label": "Wednesday, September 16",
       "hours": "9:00 am – 5:00 pm",
-      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
-      "theme": "Day one on the Gallery MC main stage opens with President Vít Jedlička and Brock Pierce, then moves from liberty and the constitutional internet through oversight, rule-making, and Bitcoin beyond blind accumulation. The afternoon turns to verified trust, incentive design, and custody and zero-trust risk, closing on stablecoin infrastructure and pitching investors who don’t care about Web3.",
+      "venue": "Main Stage · Times Square, New York",
+      "theme": "Day one on the Times Square main stage opens with President Vít Jedlička and Brock Pierce, then moves from liberty and the constitutional internet through oversight, rule-making, and Bitcoin beyond blind accumulation. The afternoon turns to verified trust, incentive design, and custody and zero-trust risk, closing on stablecoin infrastructure and pitching investors who don’t care about Web3.",
       "dateLabel": "Sep 16",
       "dayShort": "Wed",
       "sessions": [
@@ -227,7 +227,7 @@
           "kind": "host",
           "title": "Welcome and housekeeping",
           "speakers": [],
-          "description": "Doors settle, the room is briefed, and Day 1 of the Gallery MC main stage begins."
+          "description": "Doors settle, the room is briefed, and Day 1 of the Times Square main stage begins."
         },
         {
           "id": "wed-0905-keynote",
@@ -645,7 +645,7 @@
       "id": "thu",
       "label": "Thursday, September 17",
       "hours": "9:00 am – 5:00 pm",
-      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
+      "venue": "Main Stage · Times Square, New York",
       "theme": "Day two turns to capital and real-world assets: tokenized issuance, the new sovereign moment, the legal state of crypto, and the trust layer beneath AI. The afternoon runs the global dollar’s last mile into financial access, provenance, real estate on-chain, and RWA at scale – then governance by design and the hand-off to BitcoinPalooza.",
       "dateLabel": "Sep 17",
       "dayShort": "Thu",
@@ -658,7 +658,7 @@
           "kind": "host",
           "title": "Welcome",
           "speakers": [],
-          "description": "Welcome back to the Gallery MC main stage for Day 2 – capital, rails, and real-world assets."
+          "description": "Welcome back to the Times Square main stage for Day 2 – capital, rails, and real-world assets."
         },
         {
           "id": "thu-0905-panel",
@@ -1287,8 +1287,8 @@
       "id": "fri",
       "label": "Friday, September 18",
       "hours": "4:00 pm – 6:00 pm, then the Gala",
-      "venue": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019",
-      "theme": "The Washington Elite Investment Summit on the Gallery MC main stage, then the Gala. Opening and closing performances by Santiago Cumplido Del Castillo, with keynotes from Brock Pierce and Jimmy Nguyen. Panels move from UN-aligned capital and institutional infrastructure to cities, supply chains, and leaders deploying capital at global scale.",
+      "venue": "Main Stage · Times Square, New York",
+      "theme": "The Washington Elite Investment Summit on the Times Square main stage, then the Gala. Opening and closing performances by Santiago Cumplido Del Castillo, with keynotes from Brock Pierce and Jimmy Nguyen. Panels move from UN-aligned capital and institutional infrastructure to cities, supply chains, and leaders deploying capital at global scale.",
       "dateLabel": "Sep 18",
       "dayShort": "Fri",
       "sessions": [

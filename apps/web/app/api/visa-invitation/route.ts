@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { CONTACT_EMAIL } from "@/lib/brand-constants";
+import { BRAND_NAME, CONTACT_EMAIL, EVENT_DATES, EVENT_LOCATION } from "@/lib/brand-constants";
 import { sendFormEmail } from "@/lib/send-form-email";
 
 const schema = z.object({
@@ -32,7 +32,8 @@ const schema = z.object({
 function formatBody(body: z.infer<typeof schema>): string {
   return [
     "VISA INVITATION LETTER REQUEST",
-    "Blockchain Week - UNGA Edition 2026",
+    `${BRAND_NAME} 2027`,
+    `${EVENT_DATES} · ${EVENT_LOCATION}`,
     "",
     "— Primary Contact —",
     `Full Name: ${body.contactFullName}`,

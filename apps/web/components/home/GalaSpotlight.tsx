@@ -4,7 +4,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { TICKET_CHECKOUT } from "@/lib/brand-constants";
 import { BrandName } from "@/components/ui/BrandName";
 
-export function GalaSpotlight() {
+export function GalaSpotlight({ vipCheckoutUrl = TICKET_CHECKOUT.vip }: { vipCheckoutUrl?: string }) {
   return (
     <section id="gala" className="section-light py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
@@ -13,7 +13,7 @@ export function GalaSpotlight() {
           <div className="relative order-1 aspect-[5/6] sm:aspect-[4/5] lg:order-2 lg:aspect-auto lg:min-h-[540px]">
             <Image
               src="/gala/times-square-gala.png"
-              alt="Washington Elite Investment Summit & Gala at Gallery MC, New York City"
+              alt="Washington Elite Investment Summit and Gala"
               fill
               className="object-cover object-[center_28%]"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -21,7 +21,7 @@ export function GalaSpotlight() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0d1b2a] via-[#0d1b2a]/20 to-transparent lg:bg-gradient-to-r lg:from-[#0d1b2a] lg:via-[#0d1b2a]/30 lg:to-transparent" />
             <p className="absolute bottom-4 left-4 text-xs font-medium uppercase tracking-[0.2em] text-white/60 lg:hidden">
-              Gallery MC · NYC
+              Times Square, New York
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export function GalaSpotlight() {
               title="Washington Elite Investment Summit & Gala"
               subtitle={
                 <>
-                  September 18 · Gallery MC · The most exclusive night of <BrandName /> 2026
+                  The Washington Elite Investment Summit & Gala (date to be announced). The most exclusive night of <BrandName />.
                 </>
               }
               gold
@@ -42,13 +42,13 @@ export function GalaSpotlight() {
             />
             <p className="max-w-lg text-base leading-relaxed text-white/80 sm:text-lg">
               High-net-worth investors, heads of state, blockchain leaders, and fashion icons come together
-              for an unforgettable evening at Gallery MC in New York City.
+              for an unforgettable evening in Times Square, New York.
             </p>
             <ul className="mt-6 space-y-2 text-sm text-white/70 sm:text-base">
               {[
                 "Black-tie networking with world leaders & investors",
                 "Premium seating and VIP lounge access",
-                "Gallery MC – 549 W 52nd St, New York",
+                "Washington Elite Investment Summit & Gala access",
               ].map((item) => (
                 <li key={item} className="flex gap-2">
                   <span className="text-gold">✦</span>
@@ -57,7 +57,7 @@ export function GalaSpotlight() {
               ))}
             </ul>
             <TrackedExternalLink
-              href={TICKET_CHECKOUT.vip}
+              href={vipCheckoutUrl}
               event="checkout_click"
               eventProperties={{ tier: "vip", placement: "gala" }}
               className="mt-8 inline-flex w-fit items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-black transition hover:bg-gold/90"

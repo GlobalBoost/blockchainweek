@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { BRAND_NAME } from "@/lib/brand-constants";
 import { cn } from "@/lib/utils";
 
-const BRAND_PATTERNS = [BRAND_NAME, `${BRAND_NAME} 2026`] as const;
+const BRAND_PATTERNS = [BRAND_NAME, `${BRAND_NAME} 2027`, `${BRAND_NAME} 2026`] as const;
 
 function brandPattern() {
   return BRAND_PATTERNS.map((pattern) => pattern.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");

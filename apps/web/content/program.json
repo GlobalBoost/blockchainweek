@@ -1,5 +1,5 @@
 {
-  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Gallery MC main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
+  "intro": "Welcome to Blockchain Week – UNGA Edition 2026. Below is the confirmed programming for the week in New York City – Orbital Runway, CryptoMondays, Tech Tuesdays (Liberland Meetup), the two-day Times Square main stage, BitcoinPalooza, the Washington Elite Investment Summit & Gala, and the International Day of Peace Concert – bringing together builders, policymakers, investors, and innovators at the intersection of blockchain, AI, climate tech, and real-world impact.",
   "events": [
     {
       "id": "orbital-runway",
@@ -8,7 +8,7 @@
       "time": "6pm–10pm",
       "tag": "Opening Night · Space × Fashion",
       "title": "Orbital Runway Kickoff",
-      "description": "Hard Rock Cafe Times Square · Legends Bar + New York Room",
+      "description": "Times Square, New York",
       "details": "A space-themed opening night featuring a live fashion show that blends futuristic design with blockchain culture. Presented in collaboration with Hooked-App, the evening launches Blockchain Week – UNGA Edition with immersive visuals, runway presentations, and networking under the theme of space exploration and digital frontiers.",
       "featured": true
     },
@@ -18,7 +18,7 @@
       "date": "Sep 12",
       "tag": "VVIP · Media Moment",
       "title": "Marquee Spotlight VVIP",
-      "description": "Exclusive gathering for sponsors and media · On top of the Times Square billboard (the 3-sided marquee on the front of the Hard Rock Cafe)",
+      "description": "Exclusive gathering for sponsors and media · Times Square, New York",
       "details": "Private VVIP experience with direct access to the iconic 3-sided Times Square marquee for branding, photos, and media coverage.",
       "featured": true
     },
@@ -49,7 +49,7 @@
       "time": "6pm–9pm",
       "tag": "Networking · Emerging Tech",
       "title": "Tech Tuesdays · Liberland Meetup",
-      "description": "Liberty, Privacy & Ownership: From Liberland to the Ledger · Gallery MC, 549 W 52nd St",
+      "description": "Liberty, Privacy & Ownership: From Liberland to the Ledger · Times Square, New York",
       "details": "Official Liberland Meetup evening under Tech Tuesdays, featuring the headline panel with Dorian Stern Vukotić, Bruce Porter Jr., Lou Kerner, and Randy Schwarz. See the full timed agenda above.",
       "featured": true
     },
@@ -60,7 +60,7 @@
       "time": "Evening",
       "tag": "Evening Programming",
       "title": "MAHA Wednesday",
-      "description": "Special evening programming following Day 1 of the main conference · Gallery MC, 549 W 52nd St",
+      "description": "Special evening programming following Day 1 of the main conference · Times Square, New York",
       "details": "Continued discussions, networking, and curated sessions that build on the themes of the first conference day.",
       "featured": true
     },
@@ -82,7 +82,7 @@
       "time": "4pm–6pm summit, then Gala",
       "tag": "Closing Night · Investment · Flagship",
       "title": "Washington Elite Investment Summit & Gala",
-      "description": "Returning for the 4th year as the flagship event of Blockchain Week – UNGA Edition · Gallery MC",
+      "description": "Returning for the 4th year as the flagship event of Blockchain Week – UNGA Edition · Times Square",
       "details": "Washington Elite Investment Summit on the main stage, followed by the Gala. Opening performances by Santiago Cumplido Del Castillo; Brock Pierce opens the summit. See the full timed agenda above.",
       "featured": true
     },
@@ -100,17 +100,17 @@
   ],
   "conference": {
     "title": "Flagship Conference · September 16–17",
-    "summary": "Two full days on the Gallery MC main stage – from opening keynotes with President Vít Jedlička and Brock Pierce through policy, AI, stablecoins, RWAs, and the hand-off to BitcoinPalooza.",
+    "summary": "Two full days on the Times Square main stage – from opening keynotes with President Vít Jedlička and Brock Pierce through policy, AI, stablecoins, RWAs, and the hand-off to BitcoinPalooza.",
     "days": [
       {
         "label": "Day 1 – Wednesday, September 16 · 9am–5pm",
         "focusAreas": "Sovereignty, rules, and the trust layer – liberty & privacy, constitutional internet, AI agents, on-chain risk, and closing with energy & health sovereignty.",
-        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019. Full timed agenda above."
+        "description": "Main Stage · Times Square, New York. Full timed agenda above."
       },
       {
         "label": "Day 2 – Thursday, September 17 · 9am–5pm",
         "focusAreas": "Capital, the global dollar, and real-world assets – Bitcoin, stablecoin corridors, investor pitching, provenance, tokenization, and real estate on-chain.",
-        "description": "Main Stage · Gallery MC, 549 W 52nd St, New York, NY 10019. Then BitcoinPalooza from 7pm at Sugar Mouse NYC, 47 3rd Ave. Full timed agenda above."
+        "description": "Main Stage · Times Square, New York. Then BitcoinPalooza from 7pm at Sugar Mouse NYC, 47 3rd Ave. Full timed agenda above."
       }
     ]
   }

@@ -97,7 +97,6 @@ export function SiteFooter() {
           <p className="text-sm text-white/70">
             <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-un-blue">{CONTACT_EMAIL}</a>
           </p>
-          <p className="mt-2 text-sm text-white/70">26 Broadway, 3rd Floor, New York, NY 10004</p>
           <div className="mt-4 flex items-center gap-3">
             {SOCIAL_LINKS.map(({ href, label }) => (
               <a
