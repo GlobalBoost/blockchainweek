@@ -62,8 +62,9 @@ export const SESSIONIZE_SPEAKERS_URL = "https://sessionize.com/UN-Blockchain-Wee
 export const FIRESIDE_PATH = "/ai-peace-united-nations-2027";
 /** Fill in when the Luma event is published. Falls back to the public calendar. */
 export const FIRESIDE_LUMA_URL = "";
-/** Fill in when the YouTube live or replay ID is ready. */
-export const YOUTUBE_VIDEO_ID = "";
+/** YouTube live or replay. The fireside player embeds this id. */
+export const YOUTUBE_VIDEO_ID = "bOh3-vfSWbU";
+export const YOUTUBE_WATCH_URL = `https://www.youtube.com/watch?v=${YOUTUBE_VIDEO_ID}`;
 export const FIRESIDE_START_ISO = "2026-10-13T10:00:00-04:00";
 /** Live window ends two hours after the start, then the page switches to replay. */
 export const FIRESIDE_LIVE_END_ISO = "2026-10-13T12:00:00-04:00";

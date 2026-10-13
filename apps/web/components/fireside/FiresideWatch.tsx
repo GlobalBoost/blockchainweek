@@ -22,7 +22,7 @@ export function FiresideWatch({ initialPhase }: { initialPhase: FiresidePhase })
     return () => clearInterval(timer);
   }, []);
 
-  const showPlayer = phase !== "before" && YOUTUBE_VIDEO_ID.length > 0;
+  const showPlayer = YOUTUBE_VIDEO_ID.length > 0;
 
   return (
     <section id="watch" className="scroll-mt-28 bg-[#0a0a0f] px-4 pb-16 lg:px-8">

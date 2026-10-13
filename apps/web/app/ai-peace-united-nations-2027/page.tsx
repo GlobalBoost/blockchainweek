@@ -15,6 +15,7 @@ import {
   SOCIAL_PREVIEW_HEIGHT,
   SOCIAL_PREVIEW_WIDTH,
   TICKETS_ANCHOR,
+  YOUTUBE_WATCH_URL,
 } from "@/lib/brand-constants";
 import { getFiresidePhase } from "@/lib/fireside";
 import { LUMA_PUBLIC_URL } from "@/lib/luma";
@@ -284,7 +285,11 @@ export default function FiresidePage() {
               .
             </li>
             <li>
-              <span className="font-semibold text-ink">On social media:</span> live on X, YouTube, Facebook, Instagram and LinkedIn.
+              <span className="font-semibold text-ink">On YouTube:</span>{" "}
+              <a href={YOUTUBE_WATCH_URL} className="font-semibold text-un-blue hover:underline" target="_blank" rel="noopener noreferrer">
+                watch the stream
+              </a>
+              . Also live on X, Facebook, Instagram and LinkedIn.
             </li>
           </ul>
         </div>
